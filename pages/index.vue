@@ -5,7 +5,7 @@
       <!-- Video Background -->
       <div class="absolute inset-0 z-0">
         <video
-          src="https://electrocreative-cdn.b-cdn.net/doctors.oralign.co_case-details_461%20(1).webm"
+          src="/hero-video.webm"
           autoplay
           loop
           muted
