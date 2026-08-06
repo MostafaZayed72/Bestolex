@@ -6,6 +6,7 @@
       <div class="absolute inset-0 z-0">
         <video
           src="https://electrocreative-cdn.b-cdn.net/doctors.oralign.co_case-details_461%20(1).webm"
+          referrerpolicy="no-referrer"
           autoplay
           loop
           muted
