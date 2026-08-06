@@ -1,0 +1,209 @@
+[
+  {
+    "id": "industrial-doors",
+    "title": { "ar": "الأبواب الصناعية", "en": "Industrial Doors" },
+    "image": "/images/categories/industrial-doors.jpg",
+    "description": { "ar": "مجموعة متنوعة من الأبواب الصناعية السريعة وأبواب الرول للمصانع والمستودعات.", "en": "A variety of high speed industrial doors and roller shutters for factories and warehouses." },
+    "products": [
+      {
+        "id": "high-speed-doors",
+        "name": { "ar": "أبواب سريعة", "en": "High Speed Doors" },
+        "image": "/images/products/high-speed-doors.jpg",
+        "description": { "ar": "أبواب سريعة الفتح والإغلاق، مصممة لتحمل ضغط العمل العالي في المصانع.", "en": "Fast opening and closing doors, designed to withstand high workload in factories." }
+      },
+      {
+        "id": "roller-shutter-doors",
+        "name": { "ar": "أبواب رول (شتر)", "en": "Roller Shutter Doors" },
+        "image": "/images/products/roller-shutter-doors.jpg",
+        "description": { "ar": "أبواب رول قوية لحماية الممتلكات ومقاومة العوامل الجوية.", "en": "Strong roller shutter doors for property protection and weather resistance." }
+      },
+      {
+        "id": "sectional-doors",
+        "name": { "ar": "أبواب مقطعية", "en": "Sectional Doors" },
+        "image": "/images/products/sectional-doors.jpg",
+        "description": { "ar": "أبواب مقطعية عازلة للحرارة تناسب المستودعات والمرافق الصناعية.", "en": "Thermally insulated sectional doors suitable for warehouses and industrial facilities." }
+      }
+    ]
+  },
+  {
+    "id": "docking-systems",
+    "title": { "ar": "أنظمة التحميل", "en": "Docking Systems" },
+    "image": "/images/categories/docking-systems.jpg",
+    "description": { "ar": "معدات متكاملة لتسهيل وتسريع عمليات التحميل والتفريغ بأمان.", "en": "Integrated equipment to facilitate and accelerate safe loading and unloading operations." },
+    "products": [
+      {
+        "id": "dock-levelers",
+        "name": { "ar": "منصات تسوية التحميل (Dock Levelers)", "en": "Dock Levelers" },
+        "image": "/images/products/dock-levelers.jpg",
+        "description": { "ar": "منصات هيدروليكية لتسوية الارتفاع بين الشاحنة ورصيف التحميل.", "en": "Hydraulic platforms to level the height between the truck and the loading dock." }
+      },
+      {
+        "id": "dock-shelters",
+        "name": { "ar": "أغطية التحميل (Dock Shelters)", "en": "Dock Shelters" },
+        "image": "/images/products/dock-shelters.jpg",
+        "description": { "ar": "أغطية حماية لعزل منطقة التحميل عن العوامل الجوية الخارجية.", "en": "Protection shelters to isolate the loading area from external weather conditions." }
+      }
+    ]
+  },
+  {
+    "id": "perimeter-protection",
+    "title": { "ar": "أنظمة حماية المحيط", "en": "Perimeter Protection" },
+    "image": "/images/categories/perimeter-protection.jpg",
+    "description": { "ar": "أنظمة أمنية متطورة لحماية المنشآت والتحكم في دخول المركبات.", "en": "Advanced security systems to protect facilities and control vehicle access." },
+    "products": [
+      {
+        "id": "hydraulic-bollards",
+        "name": { "ar": "مصدات هيدروليكية (Bollards)", "en": "Hydraulic Bollards" },
+        "image": "/images/products/hydraulic-bollards.jpg",
+        "description": { "ar": "مصدات أسطوانية قوية للتحكم الأمني في مداخل المنشآت.", "en": "Strong cylindrical bollards for security control at facility entrances." }
+      },
+      {
+        "id": "road-blockers",
+        "name": { "ar": "حواجز طرق (Road Blockers)", "en": "Road Blockers" },
+        "image": "/images/products/road-blockers.jpg",
+        "description": { "ar": "حواجز أمنية شديدة التحمل لمنع الاقتحامات وتأمين البوابات الرئيسية.", "en": "Heavy-duty security barriers to prevent intrusions and secure main gates." }
+      },
+      {
+        "id": "boom-barriers",
+        "name": { "ar": "بوابات ذراعية (Boom Barriers)", "en": "Boom Barriers" },
+        "image": "/images/products/boom-barriers.jpg",
+        "description": { "ar": "بوابات إلكترونية لتنظيم حركة مرور السيارات في المواقف والمجمعات.", "en": "Electronic barriers to regulate traffic in parking lots and complexes." }
+      }
+    ]
+  },
+  {
+    "id": "waste-management",
+    "title": { "ar": "المخلفات وإعادة التدوير", "en": "Waste Management & Recycling" },
+    "image": "/images/categories/waste-management.jpg",
+    "description": { "ar": "مكابس وحلول ذكية للتعامل مع النفايات وتقليل حجمها بفعالية.", "en": "Compactors and smart solutions to handle waste and effectively reduce its volume." },
+    "subcategories": [
+      {
+        "id": "balers",
+        "title": { "ar": "مكابس", "en": "Balers" },
+        "products": [
+          {
+            "id": "cardboard-plastic-baler-100",
+            "name": { "ar": "مكبس الكرتون و البلاستيك 100", "en": "Cardboard & Plastic Baler 100" },
+            "description": {
+              "ar": "مكبس رأسي عالي الكفاءة مصمم لضغط الورق المقوى، الكرتون، والبلاستيك. يوفر مساحات التخزين ويقلل من تكاليف النقل بفضل قوة الضغط العالية التي تصل إلى 100 طن، مما يجعله الخيار الأمثل للمصانع ومراكز إعادة التدوير.",
+              "en": "High-efficiency vertical baler designed for compacting cardboard and plastics. It saves storage space and reduces transport costs with a powerful 100-ton pressing force, making it ideal for factories and recycling centers."
+            },
+            "features": {
+              "ar": [
+                "قوة ضغط هائلة تصل إلى 100 طن.",
+                "لوحة تحكم سهلة الاستخدام ومطابقة لمعايير الأمان العالمية.",
+                "نظام إخراج آلي لبالات النفايات المكبوسة.",
+                "محرك هيدروليكي قوي لضمان أداء مستمر وعمر افتراضي طويل."
+              ],
+              "en": [
+                "Massive 100-ton pressing force.",
+                "Easy-to-use control panel compliant with international safety standards.",
+                "Automatic ejection system for compacted bales.",
+                "Powerful hydraulic motor ensuring continuous performance and long lifespan."
+              ]
+            },
+            "featureImages": [
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/ball-chamber.png", "label": { "ar": "غرفة البالة", "en": "Ball Chamber" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/electric-control-pannel.png", "label": { "ar": "لوحة التحكم الكهربائي", "en": "Electric Control Panel" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/reduction-in-volume.png", "label": { "ar": "تقليل الحجم 1:10", "en": "Volume Reduction 1:10" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/mechanical-door-lock-1.png", "label": { "ar": "قفل الباب الميكانيكي", "en": "Mechanical Door Lock" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/hydrolick-power-pack.png", "label": { "ar": "وحدة الهايدروليك", "en": "Hydraulic Power Pack" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/material-chamber.png", "label": { "ar": "غرفة المواد", "en": "Material Chamber" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/ejectick-hook.png", "label": { "ar": "خطاف إخراج البالة", "en": "Ejection Hook" } }
+            ],
+            "specs": {
+              "ar": [
+                { "label": "قلبة الفتحة", "value": "580 طول × 480 ارتفاع" },
+                { "label": "حجم البالة", "value": "700 طول × 500 عرض × 700 ارتفاع" },
+                { "label": "وزن البالة", "value": "يختلف حسب نوعية المواد إلى 100 كجم" },
+                { "label": "فلتات الربط", "value": "3" },
+                { "label": "مقاسات المكينة", "value": "2900 طول × 1059 عرض × 650 ارتفاع" },
+                { "label": "قوة المحرك", "value": "1.5 kW" },
+                { "label": "الكهرباء", "value": "220V, 1Phase, 60Hz" }
+              ],
+              "en": [
+                { "label": "Opening Size", "value": "580L × 480H mm" },
+                { "label": "Bale Size", "value": "700L × 500W × 700H mm" },
+                { "label": "Bale Weight", "value": "Varies by material, up to 100 kg" },
+                { "label": "Binding Wires", "value": "3" },
+                { "label": "Machine Dimensions", "value": "2900L × 1059W × 650H mm" },
+                { "label": "Motor Power", "value": "1.5 kW" },
+                { "label": "Electricity", "value": "220V, 1Phase, 60Hz" }
+              ]
+            },
+            "specDrawings": [
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-front.jpg", "label": { "ar": "عرض من الأمام", "en": "Front View" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-side.jpg", "label": { "ar": "عرض من الجانب", "en": "Side View" } },
+              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-top.jpg", "label": { "ar": "عرض من الأعلى", "en": "Top View" } }
+            ],
+            "warrantyImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/sabtech2.png",
+            "images": [
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100.webp",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1.webp"
+            ],
+            "video": "https://electrocreative-cdn.b-cdn.net/doctors.oralign.co_case-details_461%20(1).webm",
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/VERTICAL-BALING-PRESS-10T.pdf",
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp"
+          },
+          {
+            "id": "cardboard-plastic-baler-200",
+            "name": { "ar": "مكبس الكرتون و البلاستيك 200", "en": "Cardboard & Plastic Baler 200" }
+          },
+          {
+            "id": "cardboard-plastic-baler-500",
+            "name": { "ar": "مكبس الكرتون و البلاستيك 500", "en": "Cardboard & Plastic Baler 500" }
+          },
+          {
+            "id": "can-bottle-baler-80",
+            "name": { "ar": "مكبس علب و قوارير بلاستيكية 80 طن", "en": "Plastic Bottles & Cans Baler 80 Ton" }
+          },
+          {
+            "id": "horizontal-plastic-baler-70",
+            "name": { "ar": "مكبس بلاستيك أفقي 70 طن", "en": "Horizontal Plastic Baler 70 Ton" }
+          },
+          {
+            "id": "auto-aluminum-baler-120",
+            "name": { "ar": "مكبس ألمنيوم أوتوماتيكي 120 طن", "en": "Automatic Aluminum Baler 120 Ton" }
+          },
+          {
+            "id": "textile-baler",
+            "name": { "ar": "مكبس الأقمشة", "en": "Textile Baler" }
+          }
+        ]
+      },
+      {
+        "id": "compactors",
+        "title": { "ar": "ضواغط", "en": "Compactors" },
+        "products": [
+          {
+            "id": "persi-compactor",
+            "name": { "ar": "ضاغط نفايات برسي", "en": "Persi Compactor" }
+          },
+          {
+            "id": "pringer-compactor",
+            "name": { "ar": "ضاغط نفايات برينجر", "en": "Pringer Compactor" }
+          },
+          {
+            "id": "solar-compactor",
+            "name": { "ar": "ضاغط نفايات بالطاقة الشمسية", "en": "Solar Compactor" }
+          }
+        ]
+      },
+      {
+        "id": "waste-balers",
+        "title": { "ar": "مكابس نفايات", "en": "Waste Balers" },
+        "products": [
+          {
+            "id": "auto-horizontal-baler",
+            "name": { "ar": "مكبس أفقي أوتوماتيكي", "en": "Automatic Horizontal Baler" }
+          },
+          {
+            "id": "vertical-waste-baler-2cy",
+            "name": { "ar": "مكبس النفايات الرأسي 2CY", "en": "Vertical Waste Baler 2CY" }
+          }
+        ]
+      }
+    ]
+  }
+]
