@@ -8,29 +8,41 @@
         <div class="bg-white dark:bg-secondary p-8 rounded-2xl shadow-lg" data-aos="fade-right">
           <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">{{ locale === 'ar' ? 'معلومات التواصل' : 'Contact Information' }}</h2>
           <div class="space-y-4 text-gray-600 dark:text-gray-300">
-            <p>{{ locale === 'ar' ? 'بانتظار تزويدنا بمعلومات التواصل (رقم الهاتف، البريد الإلكتروني، العنوان)...' : 'Waiting for contact details (Phone, Email, Address)...' }}</p>
+            <p><strong>{{ locale === 'ar' ? 'البريد الإلكتروني:' : 'Email:' }}</strong> bestolex.qa@gmail.com</p>
+            <p>{{ locale === 'ar' ? 'بانتظار تزويدنا بباقي معلومات التواصل (رقم الهاتف، العنوان)...' : 'Waiting for rest of contact details (Phone, Address)...' }}</p>
           </div>
         </div>
 
         <!-- Contact Form -->
         <div class="bg-white dark:bg-secondary p-8 rounded-2xl shadow-lg" data-aos="fade-left">
           <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">{{ locale === 'ar' ? 'أرسل لنا رسالة' : 'Send us a message' }}</h2>
-          <form class="space-y-4" @submit.prevent>
+          
+          <form class="space-y-4" @submit.prevent="submitForm">
             <div>
               <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'الاسم' : 'Name' }}</label>
-              <input type="text" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary outline-none dark:bg-gray-800 dark:border-gray-700">
+              <input v-model="form.name" type="text" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary outline-none dark:bg-gray-800 dark:border-gray-700">
             </div>
             <div>
               <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'البريد الإلكتروني' : 'Email' }}</label>
-              <input type="email" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary outline-none dark:bg-gray-800 dark:border-gray-700">
+              <input v-model="form.email" type="email" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary outline-none dark:bg-gray-800 dark:border-gray-700">
+            </div>
+            <div>
+              <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'رقم الهاتف (اختياري)' : 'Phone (Optional)' }}</label>
+              <input v-model="form.phone" type="text" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary outline-none dark:bg-gray-800 dark:border-gray-700">
             </div>
             <div>
               <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'الرسالة' : 'Message' }}</label>
-              <textarea rows="4" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary outline-none dark:bg-gray-800 dark:border-gray-700"></textarea>
+              <textarea v-model="form.message" rows="4" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary outline-none dark:bg-gray-800 dark:border-gray-700"></textarea>
             </div>
-            <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-orange-600 transition shadow">
-              {{ locale === 'ar' ? 'إرسال' : 'Send' }}
+            
+            <button type="submit" :disabled="loading" class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-orange-600 transition shadow disabled:opacity-50">
+              <span v-if="loading">{{ locale === 'ar' ? 'جاري الإرسال...' : 'Sending...' }}</span>
+              <span v-else>{{ locale === 'ar' ? 'إرسال' : 'Send' }}</span>
             </button>
+            
+            <p v-if="statusMessage" :class="statusType === 'success' ? 'text-green-600' : 'text-red-600'" class="mt-4 text-center font-bold">
+              {{ statusMessage }}
+            </p>
           </form>
         </div>
       </div>
@@ -40,4 +52,39 @@
 
 <script setup>
 const { locale } = useI18n()
+
+const form = ref({
+  name: '',
+  email: '',
+  phone: '',
+  message: ''
+})
+
+const loading = ref(false)
+const statusMessage = ref('')
+const statusType = ref('') // 'success' or 'error'
+
+const submitForm = async () => {
+  loading.value = true
+  statusMessage.value = ''
+  
+  try {
+    const response = await $fetch('/api/contact', {
+      method: 'POST',
+      body: form.value
+    })
+    
+    statusType.value = 'success'
+    statusMessage.value = locale.value === 'ar' ? 'تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.' : 'Your message has been sent successfully! We will contact you soon.'
+    
+    // Reset form
+    form.value = { name: '', email: '', phone: '', message: '' }
+  } catch (error) {
+    statusType.value = 'error'
+    statusMessage.value = locale.value === 'ar' ? 'حدث خطأ أثناء الإرسال. يرجى المحاولة مرة أخرى.' : 'An error occurred while sending. Please try again.'
+    console.error(error)
+  } finally {
+    loading.value = false
+  }
+}
 </script>

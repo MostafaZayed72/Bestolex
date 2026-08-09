@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/supabase'
   ],
+  runtimeConfig: {
+    gmailUser: process.env.GMAIL_USER,
+    gmailPass: process.env.GMAIL_PASS
+  },
   i18n: {
     locales: [
       { code: 'ar', iso: 'ar-SA', dir: 'rtl', name: 'العربية' },
