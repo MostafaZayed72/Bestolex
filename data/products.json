@@ -1,89 +1,29 @@
 [
   {
-    "id": "industrial-doors",
-    "title": { "ar": "الأبواب الصناعية", "en": "Industrial Doors" },
-    "image": "/images/categories/industrial-doors.jpg",
-    "description": { "ar": "مجموعة متنوعة من الأبواب الصناعية السريعة وأبواب الرول للمصانع والمستودعات.", "en": "A variety of high speed industrial doors and roller shutters for factories and warehouses." },
-    "products": [
-      {
-        "id": "high-speed-doors",
-        "name": { "ar": "أبواب سريعة", "en": "High Speed Doors" },
-        "image": "/images/products/high-speed-doors.jpg",
-        "description": { "ar": "أبواب سريعة الفتح والإغلاق، مصممة لتحمل ضغط العمل العالي في المصانع.", "en": "Fast opening and closing doors, designed to withstand high workload in factories." }
-      },
-      {
-        "id": "roller-shutter-doors",
-        "name": { "ar": "أبواب رول (شتر)", "en": "Roller Shutter Doors" },
-        "image": "/images/products/roller-shutter-doors.jpg",
-        "description": { "ar": "أبواب رول قوية لحماية الممتلكات ومقاومة العوامل الجوية.", "en": "Strong roller shutter doors for property protection and weather resistance." }
-      },
-      {
-        "id": "sectional-doors",
-        "name": { "ar": "أبواب مقطعية", "en": "Sectional Doors" },
-        "image": "/images/products/sectional-doors.jpg",
-        "description": { "ar": "أبواب مقطعية عازلة للحرارة تناسب المستودعات والمرافق الصناعية.", "en": "Thermally insulated sectional doors suitable for warehouses and industrial facilities." }
-      }
-    ]
-  },
-  {
-    "id": "docking-systems",
-    "title": { "ar": "أنظمة التحميل", "en": "Docking Systems" },
-    "image": "/images/categories/docking-systems.jpg",
-    "description": { "ar": "معدات متكاملة لتسهيل وتسريع عمليات التحميل والتفريغ بأمان.", "en": "Integrated equipment to facilitate and accelerate safe loading and unloading operations." },
-    "products": [
-      {
-        "id": "dock-levelers",
-        "name": { "ar": "منصات تسوية التحميل (Dock Levelers)", "en": "Dock Levelers" },
-        "image": "/images/products/dock-levelers.jpg",
-        "description": { "ar": "منصات هيدروليكية لتسوية الارتفاع بين الشاحنة ورصيف التحميل.", "en": "Hydraulic platforms to level the height between the truck and the loading dock." }
-      },
-      {
-        "id": "dock-shelters",
-        "name": { "ar": "أغطية التحميل (Dock Shelters)", "en": "Dock Shelters" },
-        "image": "/images/products/dock-shelters.jpg",
-        "description": { "ar": "أغطية حماية لعزل منطقة التحميل عن العوامل الجوية الخارجية.", "en": "Protection shelters to isolate the loading area from external weather conditions." }
-      }
-    ]
-  },
-  {
-    "id": "perimeter-protection",
-    "title": { "ar": "أنظمة حماية المحيط", "en": "Perimeter Protection" },
-    "image": "/images/categories/perimeter-protection.jpg",
-    "description": { "ar": "أنظمة أمنية متطورة لحماية المنشآت والتحكم في دخول المركبات.", "en": "Advanced security systems to protect facilities and control vehicle access." },
-    "products": [
-      {
-        "id": "hydraulic-bollards",
-        "name": { "ar": "مصدات هيدروليكية (Bollards)", "en": "Hydraulic Bollards" },
-        "image": "/images/products/hydraulic-bollards.jpg",
-        "description": { "ar": "مصدات أسطوانية قوية للتحكم الأمني في مداخل المنشآت.", "en": "Strong cylindrical bollards for security control at facility entrances." }
-      },
-      {
-        "id": "road-blockers",
-        "name": { "ar": "حواجز طرق (Road Blockers)", "en": "Road Blockers" },
-        "image": "/images/products/road-blockers.jpg",
-        "description": { "ar": "حواجز أمنية شديدة التحمل لمنع الاقتحامات وتأمين البوابات الرئيسية.", "en": "Heavy-duty security barriers to prevent intrusions and secure main gates." }
-      },
-      {
-        "id": "boom-barriers",
-        "name": { "ar": "بوابات ذراعية (Boom Barriers)", "en": "Boom Barriers" },
-        "image": "/images/products/boom-barriers.jpg",
-        "description": { "ar": "بوابات إلكترونية لتنظيم حركة مرور السيارات في المواقف والمجمعات.", "en": "Electronic barriers to regulate traffic in parking lots and complexes." }
-      }
-    ]
-  },
-  {
     "id": "waste-management",
-    "title": { "ar": "المخلفات وإعادة التدوير", "en": "Waste Management & Recycling" },
+    "title": {
+      "ar": "المخلفات وإعادة التدوير",
+      "en": "Waste Management & Recycling"
+    },
     "image": "/images/categories/waste-management.jpg",
-    "description": { "ar": "مكابس وحلول ذكية للتعامل مع النفايات وتقليل حجمها بفعالية.", "en": "Compactors and smart solutions to handle waste and effectively reduce its volume." },
+    "description": {
+      "ar": "مكابس وحلول ذكية للتعامل مع النفايات وتقليل حجمها بفعالية.",
+      "en": "Compactors and smart solutions to handle waste and effectively reduce its volume."
+    },
     "subcategories": [
       {
         "id": "balers",
-        "title": { "ar": "مكابس", "en": "Balers" },
+        "title": {
+          "ar": "مكابس",
+          "en": "Balers"
+        },
         "products": [
           {
             "id": "cardboard-plastic-baler-100",
-            "name": { "ar": "مكبس الكرتون و البلاستيك 100", "en": "Cardboard & Plastic Baler 100" },
+            "name": {
+              "ar": "مكبس الكرتون و البلاستيك 100",
+              "en": "Cardboard & Plastic Baler 100"
+            },
             "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Vertical-Baling-Press-50T-1.jpg",
             "description": {
               "ar": "مكبس رأسي عالي الكفاءة مصمم لضغط الورق المقوى، الكرتون، والبلاستيك. يوفر مساحات التخزين ويقلل من تكاليف النقل بفضل قوة الضغط العالية التي تصل إلى 100 طن، مما يجعله الخيار الأمثل للمصانع ومراكز إعادة التدوير.",
@@ -104,38 +44,140 @@
               ]
             },
             "featureImages": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/ball-chamber.png", "label": { "ar": "غرفة البالة", "en": "Ball Chamber" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/electric-control-pannel.png", "label": { "ar": "لوحة التحكم الكهربائي", "en": "Electric Control Panel" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/reduction-in-volume.png", "label": { "ar": "تقليل الحجم 1:10", "en": "Volume Reduction 1:10" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/mechanical-door-lock-1.png", "label": { "ar": "قفل الباب الميكانيكي", "en": "Mechanical Door Lock" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/hydrolick-power-pack.png", "label": { "ar": "وحدة الهايدروليك", "en": "Hydraulic Power Pack" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/material-chamber.png", "label": { "ar": "غرفة المواد", "en": "Material Chamber" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/ejectick-hook.png", "label": { "ar": "خطاف إخراج البالة", "en": "Ejection Hook" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/ball-chamber.png",
+                "label": {
+                  "ar": "غرفة البالة",
+                  "en": "Ball Chamber"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/electric-control-pannel.png",
+                "label": {
+                  "ar": "لوحة التحكم الكهربائي",
+                  "en": "Electric Control Panel"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/reduction-in-volume.png",
+                "label": {
+                  "ar": "تقليل الحجم 1:10",
+                  "en": "Volume Reduction 1:10"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/mechanical-door-lock-1.png",
+                "label": {
+                  "ar": "قفل الباب الميكانيكي",
+                  "en": "Mechanical Door Lock"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/hydrolick-power-pack.png",
+                "label": {
+                  "ar": "وحدة الهايدروليك",
+                  "en": "Hydraulic Power Pack"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/material-chamber.png",
+                "label": {
+                  "ar": "غرفة المواد",
+                  "en": "Material Chamber"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/ejectick-hook.png",
+                "label": {
+                  "ar": "خطاف إخراج البالة",
+                  "en": "Ejection Hook"
+                }
+              }
             ],
             "specs": {
               "ar": [
-                { "label": "قلبة الفتحة", "value": "580 طول × 480 ارتفاع" },
-                { "label": "حجم البالة", "value": "700 طول × 500 عرض × 700 ارتفاع" },
-                { "label": "وزن البالة", "value": "يختلف حسب نوعية المواد إلى 100 كجم" },
-                { "label": "فلتات الربط", "value": "3" },
-                { "label": "مقاسات المكينة", "value": "2900 طول × 1059 عرض × 650 ارتفاع" },
-                { "label": "قوة المحرك", "value": "1.5 kW" },
-                { "label": "الكهرباء", "value": "220V, 1Phase, 60Hz" }
+                {
+                  "label": "قلبة الفتحة",
+                  "value": "580 طول × 480 ارتفاع"
+                },
+                {
+                  "label": "حجم البالة",
+                  "value": "700 طول × 500 عرض × 700 ارتفاع"
+                },
+                {
+                  "label": "وزن البالة",
+                  "value": "يختلف حسب نوعية المواد إلى 100 كجم"
+                },
+                {
+                  "label": "فلتات الربط",
+                  "value": "3"
+                },
+                {
+                  "label": "مقاسات المكينة",
+                  "value": "2900 طول × 1059 عرض × 650 ارتفاع"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "1.5 kW"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220V, 1Phase, 60Hz"
+                }
               ],
               "en": [
-                { "label": "Opening Size", "value": "580L × 480H mm" },
-                { "label": "Bale Size", "value": "700L × 500W × 700H mm" },
-                { "label": "Bale Weight", "value": "Varies by material, up to 100 kg" },
-                { "label": "Binding Wires", "value": "3" },
-                { "label": "Machine Dimensions", "value": "2900L × 1059W × 650H mm" },
-                { "label": "Motor Power", "value": "1.5 kW" },
-                { "label": "Electricity", "value": "220V, 1Phase, 60Hz" }
+                {
+                  "label": "Opening Size",
+                  "value": "580L × 480H mm"
+                },
+                {
+                  "label": "Bale Size",
+                  "value": "700L × 500W × 700H mm"
+                },
+                {
+                  "label": "Bale Weight",
+                  "value": "Varies by material, up to 100 kg"
+                },
+                {
+                  "label": "Binding Wires",
+                  "value": "3"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "2900L × 1059W × 650H mm"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "1.5 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220V, 1Phase, 60Hz"
+                }
               ]
             },
             "specDrawings": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-front.jpg", "label": { "ar": "عرض من الأمام", "en": "Front View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-side.jpg", "label": { "ar": "عرض من الجانب", "en": "Side View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-top.jpg", "label": { "ar": "عرض من الأعلى", "en": "Top View" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-front.jpg",
+                "label": {
+                  "ar": "عرض من الأمام",
+                  "en": "Front View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-side.jpg",
+                "label": {
+                  "ar": "عرض من الجانب",
+                  "en": "Side View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-10T-top.jpg",
+                "label": {
+                  "ar": "عرض من الأعلى",
+                  "en": "Top View"
+                }
+              }
             ],
             "warrantyImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/sabtech2.png",
             "images": [
@@ -149,7 +191,10 @@
           },
           {
             "id": "cardboard-plastic-baler-200",
-            "name": { "ar": "مكبس الكرتون و البلاستيك 200", "en": "Cardboard & Plastic Baler 200" },
+            "name": {
+              "ar": "مكبس الكرتون و البلاستيك 200",
+              "en": "Cardboard & Plastic Baler 200"
+            },
             "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Vertical-Baling-Press-20T-.jpg",
             "description": {
               "ar": "تم تصميم مكبس الكرتون و البلاستك العمودي 200 الخاص بنا خصيصًا للعملاء الذين يديرون شركات متوسطة الحجم، بما في ذلك محلات السوبر ماركت والمطاعم. تم تصميم هذه الآلة للتعامل مع إعادة تدوير المواد المختلفة مثل الورق المقوى والكرتون وبراميل الألياف والبلاستيك بسهولة. سواء كنت تفضل راحة العمليات الآلية أو مرونة التحكم اليدوي، فإن مكبس البالات هذا يوفر الأداء الأمثل.\nارفع قدرات إعادة التدوير لديك وعزز الكفاءة التشغيلية، مثالي للشركات التي تهدف إلى إعادة التدوير وجني فوائد بيع البالات القياسية الدولية التي تنتجها أجهزتنا. الاستخدام الموصى به لـ: الفنادق، المستشفيات، المطاعم، محطات الخدمة، محلات البقالة، المصانع، المراكز اللوجستية، إلخ.",
@@ -172,39 +217,147 @@
               ]
             },
             "featureImages": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-6.png", "label": { "ar": "غرفة بالة", "en": "Bale Chamber" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-4.png", "label": { "ar": "قفل الباب الميكانيكي", "en": "Mechanical Door Lock" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-7.png", "label": { "ar": "صندوق التحكم الكهربائي", "en": "Electrical Control Box" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-9.png", "label": { "ar": "لوحة إخراج بالة متينة", "en": "Durable Bale Ejection Plate" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-8.png", "label": { "ar": "خطاف متين لإخراج البالة", "en": "Durable Ejection Hook" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-10.png", "label": { "ar": "وحدة الهايدروليك", "en": "Hydraulic Power Pack" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-3.png", "label": { "ar": "غرفة المواد", "en": "Material Chamber" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-5-1.png", "label": { "ar": "انخفاض في الحجم بنسبة 10:1", "en": "Volume Reduction 10:1" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-6.png",
+                "label": {
+                  "ar": "غرفة بالة",
+                  "en": "Bale Chamber"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-4.png",
+                "label": {
+                  "ar": "قفل الباب الميكانيكي",
+                  "en": "Mechanical Door Lock"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-7.png",
+                "label": {
+                  "ar": "صندوق التحكم الكهربائي",
+                  "en": "Electrical Control Box"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-9.png",
+                "label": {
+                  "ar": "لوحة إخراج بالة متينة",
+                  "en": "Durable Bale Ejection Plate"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-8.png",
+                "label": {
+                  "ar": "خطاف متين لإخراج البالة",
+                  "en": "Durable Ejection Hook"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-10.png",
+                "label": {
+                  "ar": "وحدة الهايدروليك",
+                  "en": "Hydraulic Power Pack"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-3.png",
+                "label": {
+                  "ar": "غرفة المواد",
+                  "en": "Material Chamber"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/image-5-1.png",
+                "label": {
+                  "ar": "انخفاض في الحجم بنسبة 10:1",
+                  "en": "Volume Reduction 10:1"
+                }
+              }
             ],
             "specs": {
               "ar": [
-                { "label": "فتحة التعبئة", "value": "420 طول × 970 إرتفاع" },
-                { "label": "حجم البالة", "value": "700 طول × 700 عرض × 1100 إرتفاع" },
-                { "label": "وزن البالة", "value": "يعتمد على نوعية المواد إلى 200 كجم أقصاه" },
-                { "label": "فتحات الربط", "value": "3" },
-                { "label": "مقاسات الماكينة", "value": "3000 إرتفاع × 900 طول × 1550 عرض" },
-                { "label": "قوة المحرك", "value": "5.5 kW" },
-                { "label": "الكهرباء", "value": "220/380V, 3Phase, 60Hz" }
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "420 طول × 970 إرتفاع"
+                },
+                {
+                  "label": "حجم البالة",
+                  "value": "700 طول × 700 عرض × 1100 إرتفاع"
+                },
+                {
+                  "label": "وزن البالة",
+                  "value": "يعتمد على نوعية المواد إلى 200 كجم أقصاه"
+                },
+                {
+                  "label": "فتحات الربط",
+                  "value": "3"
+                },
+                {
+                  "label": "مقاسات الماكينة",
+                  "value": "3000 إرتفاع × 900 طول × 1550 عرض"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "5.5 kW"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380V, 3Phase, 60Hz"
+                }
               ],
               "en": [
-                { "label": "Feeding Opening", "value": "420L × 970H mm" },
-                { "label": "Bale Size", "value": "700L × 700W × 1100H mm" },
-                { "label": "Bale Weight", "value": "Varies by material, up to 200 kg max" },
-                { "label": "Binding Wires", "value": "3" },
-                { "label": "Machine Dimensions", "value": "3000H × 900L × 1550W mm" },
-                { "label": "Motor Power", "value": "5.5 kW" },
-                { "label": "Electricity", "value": "220/380V, 3Phase, 60Hz" }
+                {
+                  "label": "Feeding Opening",
+                  "value": "420L × 970H mm"
+                },
+                {
+                  "label": "Bale Size",
+                  "value": "700L × 700W × 1100H mm"
+                },
+                {
+                  "label": "Bale Weight",
+                  "value": "Varies by material, up to 200 kg max"
+                },
+                {
+                  "label": "Binding Wires",
+                  "value": "3"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "3000H × 900L × 1550W mm"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "5.5 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220/380V, 3Phase, 60Hz"
+                }
               ]
             },
             "specDrawings": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-20T-front.jpg", "label": { "ar": "عرض من الأمام", "en": "Front View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-20T-side.jpg", "label": { "ar": "عرض من الجانب", "en": "Side View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-20T-top.jpg", "label": { "ar": "عرض من الأعلى", "en": "Top View" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-20T-front.jpg",
+                "label": {
+                  "ar": "عرض من الأمام",
+                  "en": "Front View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-20T-side.jpg",
+                "label": {
+                  "ar": "عرض من الجانب",
+                  "en": "Side View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-20T-top.jpg",
+                "label": {
+                  "ar": "عرض من الأعلى",
+                  "en": "Top View"
+                }
+              }
             ],
             "images": [
               "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP200-1-1.png",
@@ -216,7 +369,10 @@
           },
           {
             "id": "cardboard-plastic-baler-500",
-            "name": { "ar": "مكبس الكرتون و البلاستيك 500", "en": "Cardboard & Plastic Baler 500" },
+            "name": {
+              "ar": "مكبس الكرتون و البلاستيك 500",
+              "en": "Cardboard & Plastic Baler 500"
+            },
             "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP500banner-opti.webp",
             "description": {
               "ar": "تم تصميم مكبس الكراتين و البلاستك العمودي 500 الأفضل لدينا بشكل متين لتحمل متطلبات الشركات واسعة النطاق، بما في ذلك منافذ البيع بالتجزئة الموسعة والمصانع ومرافق إعادة التدوير. لقد تم تصميمه خصيصًا للتعامل مع كميات كبيرة من المواد مثل الورق المقوى والبلاستيك والمنسوجات دون عناء. ومن خلال ضغط هذه المواد وإدارتها بكفاءة، تعمل هذه الآلة على تبسيط عمليات إعادة التدوير، مما يضمن عمليات أكثر سلاسة.\nوبفضل بنيتها القوية وأدائها الموثوق، فإنها تجعلها حلاً ميدانيًا للشركات التي تهدف إلى إعادة التدوير، مما يؤدي إلى توليد إيرادات عالية من خلال بيع البالات ذات المعايير الدولية التي تنتجها أجهزتنا. الاستخدام الموصى به لـ: تجارة الجملة، مراكز التسوق، مصانع إعادة تدوير المنتجات المتعددة، المصانع، المراكز اللوجستية، إلخ.",
@@ -239,41 +395,161 @@
               ]
             },
             "featureImages": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-10.png", "label": { "ar": "إمكانية تعديل ارتفاع البالة", "en": "Bale Height Adjustment" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-9.png", "label": { "ar": "قفل الباب الميكانيكي", "en": "Mechanical Door Lock" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-12-1.png", "label": { "ar": "تقليل الحجم بمعدل 10:1", "en": "Volume Reduction 10:1" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-4.png", "label": { "ar": "صندوق التحكم الكهربائي", "en": "Electrical Control Box" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-11.png", "label": { "ar": "غرفة البالة", "en": "Bale Chamber" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-3.png", "label": { "ar": "لوحة إخراج بالة متينة وقوية", "en": "Durable Bale Ejection Plate" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-6-1.png", "label": { "ar": "خطاف متين لإخراج البالة", "en": "Durable Ejection Hook" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-5-1.png", "label": { "ar": "مثبتات للبالة", "en": "Bale Retainers" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-7.png", "label": { "ar": "وحدة الهايدروليك", "en": "Hydraulic Power Pack" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-8.png", "label": { "ar": "غرفة المواد", "en": "Material Chamber" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-10.png",
+                "label": {
+                  "ar": "إمكانية تعديل ارتفاع البالة",
+                  "en": "Bale Height Adjustment"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-9.png",
+                "label": {
+                  "ar": "قفل الباب الميكانيكي",
+                  "en": "Mechanical Door Lock"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-12-1.png",
+                "label": {
+                  "ar": "تقليل الحجم بمعدل 10:1",
+                  "en": "Volume Reduction 10:1"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-4.png",
+                "label": {
+                  "ar": "صندوق التحكم الكهربائي",
+                  "en": "Electrical Control Box"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-11.png",
+                "label": {
+                  "ar": "غرفة البالة",
+                  "en": "Bale Chamber"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-3.png",
+                "label": {
+                  "ar": "لوحة إخراج بالة متينة وقوية",
+                  "en": "Durable Bale Ejection Plate"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-6-1.png",
+                "label": {
+                  "ar": "خطاف متين لإخراج البالة",
+                  "en": "Durable Ejection Hook"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-5-1.png",
+                "label": {
+                  "ar": "مثبتات للبالة",
+                  "en": "Bale Retainers"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-7.png",
+                "label": {
+                  "ar": "وحدة الهايدروليك",
+                  "en": "Hydraulic Power Pack"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/image-8.png",
+                "label": {
+                  "ar": "غرفة المواد",
+                  "en": "Material Chamber"
+                }
+              }
             ],
             "specs": {
               "ar": [
-                { "label": "فتحة التعبئة", "value": "700 طول × 1400 إرتفاع" },
-                { "label": "حجم البالة", "value": "1100 طول × 735 عرض × 1580 إرتفاع" },
-                { "label": "وزن البالة", "value": "يعتمد على نوعية المواد إلى 500 كجم أقصاه" },
-                { "label": "فتحات الربط", "value": "6" },
-                { "label": "مقاسات الماكينة", "value": "3900 إرتفاع × 1050 طول × 2050 عرض" },
-                { "label": "قوة المحرك", "value": "7.5 kW" },
-                { "label": "الكهرباء", "value": "220/380V, 3Phase, 60Hz" }
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "700 طول × 1400 إرتفاع"
+                },
+                {
+                  "label": "حجم البالة",
+                  "value": "1100 طول × 735 عرض × 1580 إرتفاع"
+                },
+                {
+                  "label": "وزن البالة",
+                  "value": "يعتمد على نوعية المواد إلى 500 كجم أقصاه"
+                },
+                {
+                  "label": "فتحات الربط",
+                  "value": "6"
+                },
+                {
+                  "label": "مقاسات الماكينة",
+                  "value": "3900 إرتفاع × 1050 طول × 2050 عرض"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "7.5 kW"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380V, 3Phase, 60Hz"
+                }
               ],
               "en": [
-                { "label": "Feeding Opening", "value": "700L × 1400H mm" },
-                { "label": "Bale Size", "value": "1100L × 735W × 1580H mm" },
-                { "label": "Bale Weight", "value": "Varies by material, up to 500 kg max" },
-                { "label": "Binding Wires", "value": "6" },
-                { "label": "Machine Dimensions", "value": "3900H × 1050L × 2050W mm" },
-                { "label": "Motor Power", "value": "7.5 kW" },
-                { "label": "Electricity", "value": "220/380V, 3Phase, 60Hz" }
+                {
+                  "label": "Feeding Opening",
+                  "value": "700L × 1400H mm"
+                },
+                {
+                  "label": "Bale Size",
+                  "value": "1100L × 735W × 1580H mm"
+                },
+                {
+                  "label": "Bale Weight",
+                  "value": "Varies by material, up to 500 kg max"
+                },
+                {
+                  "label": "Binding Wires",
+                  "value": "6"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "3900H × 1050L × 2050W mm"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "7.5 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220/380V, 3Phase, 60Hz"
+                }
               ]
             },
             "specDrawings": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP-50T-front.jpg", "label": { "ar": "عرض من الأمام", "en": "Front View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP-50T-side.jpg", "label": { "ar": "عرض من الجانب", "en": "Side View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP-50T-top.jpg", "label": { "ar": "عرض من الأعلى", "en": "Top View" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP-50T-front.jpg",
+                "label": {
+                  "ar": "عرض من الأمام",
+                  "en": "Front View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP-50T-side.jpg",
+                "label": {
+                  "ar": "عرض من الجانب",
+                  "en": "Side View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP-50T-top.jpg",
+                "label": {
+                  "ar": "عرض من الأعلى",
+                  "en": "Top View"
+                }
+              }
             ],
             "images": [
               "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP500-1-1.png",
@@ -285,7 +561,10 @@
           },
           {
             "id": "can-bottle-baler-80",
-            "name": { "ar": "مكبس علب و قوارير بلاستيكية 80 طن", "en": "Plastic Bottles & Cans Baler 80 Ton" },
+            "name": {
+              "ar": "مكبس علب و قوارير بلاستيكية 80 طن",
+              "en": "Plastic Bottles & Cans Baler 80 Ton"
+            },
             "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/04/Vertical-PET-Baling-Press-80T-1.jpg",
             "description": {
               "ar": "تم تصميم مكبس العلب و القوارير البلاستيكة 80 طن عالي التحمل لتحويل كميات كبيرة من المواد المعاد تدويرها، مما يوفر قوة لا مثيل لها تبلغ 80 طنًا من قوة الحزم لضغط القوارير والعلب والكرتون/الورق المقوى ونفايات المكاتب لتحقيق الربح. تم تصميم هذه الآلة شديدة التحمل للتعامل مع كميات كبيرة من المواد القابلة لإعادة التدوير، مع التركيز بشكل خاص على العلب و القوارير (البولي إيثيلين تيريفثاليت).\nسواء كنت تعمل في مجال صناعة المشروبات أو إعادة التدوير على نطاق واسع أو البيع بالتجزئة، باستخدام هذه الماكينة، يمكنك تحقيق أقصى قدر من العائدات على حجم بالتك وتقليل تكاليف النقل لتحقيق أعلى إيرادات ممكنة لكل بالة. المواد المناسبة للضغط: القوارير، العلب، الورق المقوى المموج، البلاستيك، المنسوجات، إلخ.",
@@ -308,37 +587,139 @@
               ]
             },
             "featureImages": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Bale-Height-Adjustment-Switch.jpg", "label": { "ar": "مفتاح تعديل إرتفاع البالة", "en": "Bale height adjustment switch" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Control-Panel-Box.jpg", "label": { "ar": "لوحة التحكم", "en": "Control panel" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Ejecting-Chain.jpg", "label": { "ar": "سلسلة الإقفال", "en": "Ejecting chain" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Hydraulic-System.jpg", "label": { "ar": "نظام الهيدروليك", "en": "Hydraulic system" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Lock-Mechanism.jpg", "label": { "ar": "آلية القفل", "en": "Lock mechanism" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/PET-Bale.jpg", "label": { "ar": "نفايات القوارير و العلب", "en": "PET bale" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Sliding-Door.jpg", "label": { "ar": "باب منزلق", "en": "Sliding door" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Bale-Height-Adjustment-Switch.jpg",
+                "label": {
+                  "ar": "مفتاح تعديل إرتفاع البالة",
+                  "en": "Bale height adjustment switch"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Control-Panel-Box.jpg",
+                "label": {
+                  "ar": "لوحة التحكم",
+                  "en": "Control panel"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Ejecting-Chain.jpg",
+                "label": {
+                  "ar": "سلسلة الإقفال",
+                  "en": "Ejecting chain"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Hydraulic-System.jpg",
+                "label": {
+                  "ar": "نظام الهيدروليك",
+                  "en": "Hydraulic system"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Lock-Mechanism.jpg",
+                "label": {
+                  "ar": "آلية القفل",
+                  "en": "Lock mechanism"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/PET-Bale.jpg",
+                "label": {
+                  "ar": "نفايات القوارير و العلب",
+                  "en": "PET bale"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Sliding-Door.jpg",
+                "label": {
+                  "ar": "باب منزلق",
+                  "en": "Sliding door"
+                }
+              }
             ],
             "specs": {
               "ar": [
-                { "label": "فتحة التعبئة", "value": "550 طول × 1200 إرتفاع ملم" },
-                { "label": "حجم البالة", "value": "300-1200 طول × 800 عرض × 1200 إرتفاع ملم" },
-                { "label": "وزن البالة", "value": "يعتمد على نوعية المواد إلى 380 كجم أقصاه (بي إي تي)" },
-                { "label": "مقاسات الماكينة", "value": "3900 إرتفاع × 1200 طول × 1700 عرض ملم" },
-                { "label": "قوة المحرك", "value": "15.0 كيلوواط" },
-                { "label": "الكهرباء", "value": "220/380 فولت، 3 فاز، 60 هيرتز" }
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "550 طول × 1200 إرتفاع ملم"
+                },
+                {
+                  "label": "حجم البالة",
+                  "value": "300-1200 طول × 800 عرض × 1200 إرتفاع ملم"
+                },
+                {
+                  "label": "وزن البالة",
+                  "value": "يعتمد على نوعية المواد إلى 380 كجم أقصاه (بي إي تي)"
+                },
+                {
+                  "label": "مقاسات الماكينة",
+                  "value": "3900 إرتفاع × 1200 طول × 1700 عرض ملم"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "15.0 كيلوواط"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380 فولت، 3 فاز، 60 هيرتز"
+                }
               ],
               "en": [
-                { "label": "Feed Opening", "value": "1200L × 550H mm" },
-                { "label": "Bale Size", "value": "1200L × 800W × 300-1200H mm" },
-                { "label": "Bale Weight", "value": "Varies by material, up to 380 kg max (PET)" },
-                { "label": "Machine Dimensions", "value": "3900H × 1200L × 1700W mm" },
-                { "label": "Motor Power", "value": "15.0 kW" },
-                { "label": "Electricity", "value": "220/380V, 3Phase, 60Hz" }
+                {
+                  "label": "Feed Opening",
+                  "value": "1200L × 550H mm"
+                },
+                {
+                  "label": "Bale Size",
+                  "value": "1200L × 800W × 300-1200H mm"
+                },
+                {
+                  "label": "Bale Weight",
+                  "value": "Varies by material, up to 380 kg max (PET)"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "3900H × 1200L × 1700W mm"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "15.0 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220/380V, 3Phase, 60Hz"
+                }
               ]
             },
             "specDrawings": [
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-ST-IMAGE.png", "label": { "ar": "نموذج عرض من الأمام", "en": "Front View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-2ND-IMAGE.png", "label": { "ar": "نموذج عرض من الجانب", "en": "Side View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-3RD-IMAGE.png", "label": { "ar": "نموذج عرض من الأعلى", "en": "Top View" } },
-              { "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-4TH-IMAGE.png", "label": { "ar": "حجم البالة", "en": "Bale Size" } }
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-ST-IMAGE.png",
+                "label": {
+                  "ar": "نموذج عرض من الأمام",
+                  "en": "Front View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-2ND-IMAGE.png",
+                "label": {
+                  "ar": "نموذج عرض من الجانب",
+                  "en": "Side View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-3RD-IMAGE.png",
+                "label": {
+                  "ar": "نموذج عرض من الأعلى",
+                  "en": "Top View"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP-80-T-4TH-IMAGE.png",
+                "label": {
+                  "ar": "حجم البالة",
+                  "en": "Bale Size"
+                }
+              }
             ],
             "images": [
               "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/2Sideupdated.jpg",
@@ -349,7 +730,10 @@
           },
           {
             "id": "horizontal-plastic-baler-70",
-            "name": { "ar": "مكبس بلاستيك أفقي 70 طن", "en": "Horizontal Plastic Baler 70 Ton" },
+            "name": {
+              "ar": "مكبس بلاستيك أفقي 70 طن",
+              "en": "Horizontal Plastic Baler 70 Ton"
+            },
             "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/05/Horizontal-Baling-Press-100T-1.jpg",
             "description": {
               "ar": "يعتبر مكبس البالات الأفقية 70 طن من ساب تكـ بمثابة حل قوي تم تصميمه خصيصًا للتطبيقات الثقيلة، مما يلبي احتياجات الشركات الصناعية والمصنعين. مثالية للتعامل مع مجموعة واسعة من المواد بما في ذلك الورق والكرتون والبراميل.\nباستخدام الطاقة الهيدروليكية وقوة تصل إلى 70 طن، فإنها توفر الطاقة المطلوبة لضغط المواد بشكل فعال إلى بالات كثيفة للغاية. وهذا يضمن كفاءة التعامل مع المواد وتخزينها، وتحسين استخدام المساحة وتسهيل العمليات المبسطة للشركات التي تتعامل مع كميات كبيرة من المواد القابلة لإعادة التدوير أو النفايات. ضغط نفايات مادة بي إي تي وتحقيق أقصى قدر من الإيرادات.",
@@ -372,39 +756,147 @@
               ]
             },
             "featureImages": [
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Also-applicable-to-aluminum-cans.jpg", "label": { "ar": "متعدد الاستخدامات لعلب الألمنيوم أيضاً", "en": "Also applicable to aluminum cans" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Compacting-your-waste-cost.jpg", "label": { "ar": "تقليل منصرفات المخلفات", "en": "Compacting your waste cost" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Twin-Hydraulic-Cylinder.jpg", "label": { "ar": "اسطوانات مزدوجة للكبس", "en": "Twin hydraulic cylinder" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Heavy-duty-door-cylinder.jpg", "label": { "ar": "بستم قوي لقفل الباب", "en": "Heavy duty door cylinder" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Quick-and-easy-manual-tying-1.jpg", "label": { "ar": "ربط يدوي سريع وسهل", "en": "Quick and easy manual tying" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Reduces-waste-storage-area.jpg", "label": { "ar": "توفير مساحات تخزينية", "en": "Reduces waste storage area" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Robust-end-door-designed.jpg", "label": { "ar": "باب ذو تصميم قوي ومتين", "en": "Robust end door design" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Valve-for-liquid-outlet.jpg", "label": { "ar": "صمام لتفريغ السوائل", "en": "Valve for liquid outlet" } }
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Also-applicable-to-aluminum-cans.jpg",
+                "label": {
+                  "ar": "متعدد الاستخدامات لعلب الألمنيوم أيضاً",
+                  "en": "Also applicable to aluminum cans"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Compacting-your-waste-cost.jpg",
+                "label": {
+                  "ar": "تقليل منصرفات المخلفات",
+                  "en": "Compacting your waste cost"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Twin-Hydraulic-Cylinder.jpg",
+                "label": {
+                  "ar": "اسطوانات مزدوجة للكبس",
+                  "en": "Twin hydraulic cylinder"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Heavy-duty-door-cylinder.jpg",
+                "label": {
+                  "ar": "بستم قوي لقفل الباب",
+                  "en": "Heavy duty door cylinder"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Quick-and-easy-manual-tying-1.jpg",
+                "label": {
+                  "ar": "ربط يدوي سريع وسهل",
+                  "en": "Quick and easy manual tying"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Reduces-waste-storage-area.jpg",
+                "label": {
+                  "ar": "توفير مساحات تخزينية",
+                  "en": "Reduces waste storage area"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Robust-end-door-designed.jpg",
+                "label": {
+                  "ar": "باب ذو تصميم قوي ومتين",
+                  "en": "Robust end door design"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Valve-for-liquid-outlet.jpg",
+                "label": {
+                  "ar": "صمام لتفريغ السوائل",
+                  "en": "Valve for liquid outlet"
+                }
+              }
             ],
             "specs": {
               "ar": [
-                { "label": "فتحة التعبئة", "value": "1500 طول × 1020 عرض × 540 إرتفاع ملم" },
-                { "label": "حجم البالة", "value": "540 طول × 800 عرض × 1020 إرتفاع ملم" },
-                { "label": "وزن البالة", "value": "يعتمد على نوعية المواد إلى 300 كجم أقصاه" },
-                { "label": "قوة الضغط", "value": "70 طن" },
-                { "label": "مقاسات الماكينة", "value": "4000 إرتفاع × 1500 طول × 1500 عرض ملم" },
-                { "label": "قوة المحرك", "value": "22.0 كيلوواط" },
-                { "label": "الكهرباء", "value": "220/380 فولت، 3 فاز، 50/60 هرتز" }
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "1500 طول × 1020 عرض × 540 إرتفاع ملم"
+                },
+                {
+                  "label": "حجم البالة",
+                  "value": "540 طول × 800 عرض × 1020 إرتفاع ملم"
+                },
+                {
+                  "label": "وزن البالة",
+                  "value": "يعتمد على نوعية المواد إلى 300 كجم أقصاه"
+                },
+                {
+                  "label": "قوة الضغط",
+                  "value": "70 طن"
+                },
+                {
+                  "label": "مقاسات الماكينة",
+                  "value": "4000 إرتفاع × 1500 طول × 1500 عرض ملم"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "22.0 كيلوواط"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380 فولت، 3 فاز، 50/60 هرتز"
+                }
               ],
               "en": [
-                { "label": "Feeding Opening", "value": "1500L × 1020W × 540H mm" },
-                { "label": "Bale Size", "value": "540L × 800W × 1020H mm" },
-                { "label": "Bale Weight", "value": "Varies by material, up to 300 kg max" },
-                { "label": "Pressing Force", "value": "70 Tons" },
-                { "label": "Machine Dimensions", "value": "4000H × 1500L × 1500W mm" },
-                { "label": "Motor Power", "value": "22.0 kW" },
-                { "label": "Electricity", "value": "220/380V, 3Phase, 50/60Hz" }
+                {
+                  "label": "Feeding Opening",
+                  "value": "1500L × 1020W × 540H mm"
+                },
+                {
+                  "label": "Bale Size",
+                  "value": "540L × 800W × 1020H mm"
+                },
+                {
+                  "label": "Bale Weight",
+                  "value": "Varies by material, up to 300 kg max"
+                },
+                {
+                  "label": "Pressing Force",
+                  "value": "70 Tons"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "4000H × 1500L × 1500W mm"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "22.0 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220/380V, 3Phase, 50/60Hz"
+                }
               ]
             },
             "specDrawings": [
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/HBP-front.jpg", "label": { "ar": "عرض من الأمام", "en": "Front View" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/HBP-side.jpg", "label": { "ar": "عرض من الجانب", "en": "Side View" } },
-              { "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/HBP-top.jpg", "label": { "ar": "عرض من الأعلى", "en": "Top View" } }
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/HBP-front.jpg",
+                "label": {
+                  "ar": "عرض من الأمام",
+                  "en": "Front View"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/HBP-side.jpg",
+                "label": {
+                  "ar": "عرض من الجانب",
+                  "en": "Side View"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/HBP-top.jpg",
+                "label": {
+                  "ar": "عرض من الأعلى",
+                  "en": "Top View"
+                }
+              }
             ],
             "images": [
               "https://sabtech.com.sa/wp-content/uploads/2019/05/Rear-view-1.jpg",
@@ -416,46 +908,1200 @@
           },
           {
             "id": "auto-aluminum-baler-120",
-            "name": { "ar": "مكبس ألمنيوم أوتوماتيكي 120 طن", "en": "Automatic Aluminum Baler 120 Ton" }
+            "name": {
+              "ar": "مكبس ألمنيوم أوتوماتيكي 120 طن",
+              "en": "Automatic Aluminum Baler 120 Ton"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "إن المكبس الأوتوماتيكي للألمنيوم الأفقي هو مكبس أفقي أوتوماتيكي معروف عبر مصانع العلب ومخلفات علب الألمنيوم الخاصة بهم.\nإن التشغيل التلقائي لهذا المكبس يقلل بشكل كبير من العمالة المطلوبة لمعالجة المواد. ونتيجة لذلك، يخلق فرصًا رائعة لتقليل الوقت والتعامل مع المواد المتحركة في جميع أنحاء منشآتك وتناسب مجموعة من الصناعات المختلفة، مثل: التصنيع وإعادة التدوير.",
+              "en": "Our Automatic Horizontal Aluminum Baler is a widely recognized horizontal auto baler across can manufacturing plants and aluminum can scrap facilities.\nThe automatic operation of this baler significantly reduces the labor required for material handling, reducing processing time and streamlining operations across manufacturing and recycling industries."
+            },
+            "features": {
+              "ar": [
+                "من الجيد أن تكون واعياً للبيئة",
+                "تخفيض تكلفة العمالة",
+                "تقليل الوقت اللازم لنقل النفايات في المنشأة",
+                "توفير مساحة التخزين",
+                "ضمان لمدة سنة واحدة",
+                "سهولة الصيانة"
+              ],
+              "en": [
+                "Environmentally conscious solution",
+                "Labor cost reduction",
+                "Minimizes internal waste handling time",
+                "Saves storage space",
+                "1-year warranty",
+                "Easy maintenance"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Automatic-Conveyor-1.jpg",
+                "label": {
+                  "ar": "ناقل أوتوماتيكي",
+                  "en": "Automatic Conveyor"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Automatic-Eject-Door-1.jpg",
+                "label": {
+                  "ar": "باب للإخراج التلقائي",
+                  "en": "Automatic Eject Door"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Control-Panel-3.jpg",
+                "label": {
+                  "ar": "لوحة التحكم",
+                  "en": "Control Panel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Hydraulic-Cylinder.jpg",
+                "label": {
+                  "ar": "بستم هيدروليك رئيسي",
+                  "en": "Main Hydraulic Cylinder"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Power-Pack-1.jpg",
+                "label": {
+                  "ar": "وحدة الهيدروليك",
+                  "en": "Hydraulic Power Pack"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "وزن البالة",
+                  "value": "300 – 400 كجم"
+                },
+                {
+                  "label": "قوة الضغط",
+                  "value": "22 – 45 طن"
+                },
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "1030 × 750 حتى 10870 × 1100 مم"
+                },
+                {
+                  "label": "أحجام الماكينات",
+                  "value": "1860 – 2240(ارتفاع) × 1235 – 1590 (عرض) × 3300 – 3750 (طول) مم"
+                },
+                {
+                  "label": "مدة الدورة",
+                  "value": "24 – 34 ثانية"
+                },
+                {
+                  "label": "عدد الأشرطة/الأسلاك الملزمة",
+                  "value": "3 – 4 فتحات"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "7.5 – 15.0 kW"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "380V, 3Phase, 60Hz"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Bale Weight",
+                  "value": "300 – 400 kg"
+                },
+                {
+                  "label": "Pressing Force",
+                  "value": "22 – 45 Tons"
+                },
+                {
+                  "label": "Feed Opening",
+                  "value": "1030 × 750 up to 10870 × 1100 mm"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "1860 – 2240(H) × 1235 – 1590(W) × 3300 – 3750(L) mm"
+                },
+                {
+                  "label": "Cycle Time",
+                  "value": "24 – 34 s"
+                },
+                {
+                  "label": "Binding Slots",
+                  "value": "3 – 4 slots"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "7.5 – 15.0 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "380V, 3Phase, 60Hz"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1329.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1326.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1314.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1322.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/07/horizontal-AUTO-baler.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1329.jpg"
           },
           {
             "id": "textile-baler",
-            "name": { "ar": "مكبس الأقمشة", "en": "Textile Baler" }
+            "name": {
+              "ar": "مكبس الأقمشة",
+              "en": "Textile Baler"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "تم تصميم مكابس الأقمشة 30 طن الخاص بنا لحزم الملابس المستعملة، والصوف، والقطن. إنها مجهزة بنظام ربط شامل يعمل من جميع جوانب الحزمة، مما يسهل إنشاء بالات مضغوطة بإحكام. تساهم آلية الربط هذه في زيادة وزن البالات إلى أقصى حد بالنسبة لحجمها، وتحسين مساحة التخزين وكفاءة النقل.\nباستخدام الأنظمة الهيدروليكية المتقدمة، تقوم مكابس البالات هذه بتطبيق ضغط كبير على المواد النسيجية، مما ينتج عنه بالات معبأة بكثافة وموحدة في الحجم والوزن.\nهذه الأنواع من المكابس التي تتطلبها صناعات النسيج ومرافق إعادة تدوير الملابس وتصديرها إلى بلدان أخرى. تتميز هذه المكابس بسهولة التشغيل ومزودة بنظام ربط من جميع الجوانب للحصول على حزم مدمجة لتحقيق وزن أكبر فيما يتعلق بحجم الحزمة.",
+              "en": "Our 30 Ton Textile Baling Press is designed to pack used clothes, wool, and cotton. Equipped with an all-around tying system working from all sides of the bale, facilitating tightly compacted bales. Optimizes storage space and transport efficiency."
+            },
+            "features": {
+              "ar": [
+                "غرفة الرفع لأعلى",
+                "سهولة ربط البالة من جميع الجوانب",
+                "آمنة وسهلة التشغيل",
+                "خدمة ما بعد البيع مع قطع الغيار",
+                "ضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Lift-up chamber design",
+                "Easy all-around bale tying",
+                "Safe and easy to operate",
+                "After sales service with spare parts",
+                "1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Control-Push-Buttong.jpg",
+                "label": {
+                  "ar": "أزرار التحكم",
+                  "en": "Control Push Buttons"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Hydraulic-Cylinder-1.jpg",
+                "label": {
+                  "ar": "اسطوانات هيدروليكية",
+                  "en": "Hydraulic Cylinders"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Manual-Control-Valve.jpg",
+                "label": {
+                  "ar": "صمام يدوي للتحكم",
+                  "en": "Manual Control Valve"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Moveble-Chamber.jpg",
+                "label": {
+                  "ar": "غرفة متحركة",
+                  "en": "Movable Chamber"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Moveble.jpg",
+                "label": {
+                  "ar": "وحدة الهيدروليك",
+                  "en": "Hydraulic Unit"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Power-Pack-3.jpg",
+                "label": {
+                  "ar": "متحرك",
+                  "en": "Movable Unit"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "موديل الماكينة",
+                  "value": "TCB30T"
+                },
+                {
+                  "label": "طاقة هيدروليكية",
+                  "value": "30 طن"
+                },
+                {
+                  "label": "محرك كهربائي",
+                  "value": "5.5 كيلو واط"
+                },
+                {
+                  "label": "التشغيل",
+                  "value": "صمام يدوي للتحكم"
+                },
+                {
+                  "label": "مقاسات المعدة",
+                  "value": "800 × 500 مم (الطول × الإرتفاع)"
+                },
+                {
+                  "label": "مقاسات البالة",
+                  "value": "800 × 450 × 600 مم (الطول × العرض × الارتفاع)"
+                },
+                {
+                  "label": "وزن البالة",
+                  "value": "65 - 75 كجم"
+                },
+                {
+                  "label": "وزن الآلة",
+                  "value": "1000 كجم"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380V, 3Phase"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Model",
+                  "value": "TCB30T"
+                },
+                {
+                  "label": "Hydraulic Force",
+                  "value": "30 Tons"
+                },
+                {
+                  "label": "Electric Motor",
+                  "value": "5.5 kW"
+                },
+                {
+                  "label": "Operation",
+                  "value": "Manual Control Valve"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "800 × 500 mm (L × H)"
+                },
+                {
+                  "label": "Bale Dimensions",
+                  "value": "800 × 450 × 600 mm (L × W × H)"
+                },
+                {
+                  "label": "Bale Weight",
+                  "value": "65 - 75 kg"
+                },
+                {
+                  "label": "Machine Weight",
+                  "value": "1000 kg"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220/380V, 3Phase"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2020/07/Side-1.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2020/07/Front-1.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2020/07/Two-Side-2.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/07/Product-brochure-Textible-baling-press.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Side-1.jpg"
           }
         ]
       },
       {
         "id": "compactors",
-        "title": { "ar": "ضواغط", "en": "Compactors" },
+        "title": {
+          "ar": "ضواغط",
+          "en": "Compactors"
+        },
         "products": [
           {
             "id": "persi-compactor",
-            "name": { "ar": "ضاغط نفايات برسي", "en": "Persi Compactor" }
+            "name": {
+              "ar": "ضاغط نفايات برستو",
+              "en": "Presto Refuse Compactor"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "يعد ضاغط النفايات الصناعية أمرًا بالغ الأهمية لشركات إدارة النفايات. لقد تم تصميمه للتعامل مع كميات كبيرة من المواد القابلة لإعادة التدوير، والنفايات المتبقية، والنفايات التجارية، وبالتالي يساعد الضاغط في الحفاظ على مظهر منشأتك نظيفًا وآمنًا.\nباستخدام الأنظمة الهيدروليكية، يستخدم هذا الضاغط لوحة ضغط أفقية لتحقيق أقصى قدر من ضغط النفايات إلى حجم أصغر، مما يقلل من تكاليف النقل. يوصى به لأماكن مثل الفنادق والمستشفيات ومراكز التسوق ومحلات السوبر ماركت ومعالجات الطعام.",
+              "en": "Industrial refuse compactor is critical for waste management companies. Designed to handle large volumes of recyclable materials, residual waste, and commercial waste. Recommended for hotels, hospitals, shopping malls, supermarkets, food processors."
+            },
+            "features": {
+              "ar": [
+                "التخلص السهل والصحي من النفايات",
+                "منع الروائح والإفراط في التعبئة",
+                "تقليل تكاليف التجميع",
+                "انخفاض تكلفة الصيانة",
+                "خدمة ما بعد البيع مع قطع الغيار",
+                "ضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Easy and hygienic waste disposal",
+                "Prevents odors and overfilling",
+                "Reduces collection costs",
+                "Low maintenance cost",
+                "After sales service with spare parts",
+                "1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Retainer.jpg",
+                "label": {
+                  "ar": "مانع رجوع النفايات",
+                  "en": "Waste Retainer"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Removable-hooklift.jpg",
+                "label": {
+                  "ar": "هوك التحميل قابل للفك والتركيب",
+                  "en": "Removable Hooklift"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Ratchet-Lock.jpg",
+                "label": {
+                  "ar": "قفل راتشت",
+                  "en": "Ratchet Lock"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Liquid-drain-valve-3.jpg",
+                "label": {
+                  "ar": "صمام لقفل فتحة تصريف السوائل",
+                  "en": "Liquid Drain Valve"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Gas-lift-cylinder-door-support.jpg",
+                "label": {
+                  "ar": "بستم غاز لتسهيل فتح الباب العلوي",
+                  "en": "Gas Lift Cylinder Door Support"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Control-Panel.jpg",
+                "label": {
+                  "ar": "صندوق الكهرباء",
+                  "en": "Control Panel Box"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "أبعاد الضاغط",
+                  "value": "6400 مم (طول) × 2550 مم (عرض) × 2650 مم (ارتفاع)"
+                },
+                {
+                  "label": "وزن المعدة",
+                  "value": "4200 – 4600 كجم"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "4.0 كيلوواط (5.5 حصان)"
+                },
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "2500 مم × 2500 مم"
+                },
+                {
+                  "label": "معدل الضغط",
+                  "value": "5:1"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380V, 3Phase, 60Hz"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Compactor Dimensions",
+                  "value": "6400L × 2550W × 2650H mm"
+                },
+                {
+                  "label": "Machine Weight",
+                  "value": "4200 – 4600 kg"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "4.0 kW (5.5 HP)"
+                },
+                {
+                  "label": "Feed Opening",
+                  "value": "2500 mm × 2500 mm"
+                },
+                {
+                  "label": "Compaction Ratio",
+                  "value": "5:1"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220/380V, 3Phase, 60Hz"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/img_1.jpg",
+                "label": {
+                  "ar": "نموذج ضاغط نفايات برستو",
+                  "en": "Presto Compactor Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Front.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Back.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Twoside.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Side.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/refuse_compactor_20m.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front.jpg"
           },
           {
             "id": "pringer-compactor",
-            "name": { "ar": "ضاغط نفايات برينجر", "en": "Pringer Compactor" }
+            "name": {
+              "ar": "ضاغط نفايات برينجر",
+              "en": "Beringer Refuse Compactor"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "يعد ضاغط النفايات الصناعية أمرًا بالغ الأهمية لشركات إدارة النفايات. لقد تم تصميمه للتعامل مع كميات كبيرة من المواد القابلة لإعادة التدوير، والنفايات المتبقية، والنفايات التجارية، وبالتالي يساعد الضاغط في الحفاظ على مظهر منشأتك نظيفًا وآمنًا.\nباستخدام الأنظمة الهيدروليكية، يستخدم هذا الضاغط لوحة ضغط أفقية لتحقيق أقصى قدر من ضغط النفايات إلى حجم أصغر، مما يقلل من تكاليف النقل. يوصى به لأماكن مثل الفنادق والمستشفيات ومراكز التسوق ومحلات السوبر ماركت والتصنيع الغذائي.",
+              "en": "Industrial refuse compactor is critical for waste management companies. Designed to handle large volumes of recyclable materials, residual waste, and commercial waste. Recommended for hotels, hospitals, shopping malls, supermarkets, food processors."
+            },
+            "features": {
+              "ar": [
+                "التخلص السهل والصحي من النفايات",
+                "منع الروائح والإفراط في التعبئة",
+                "تقليل تكاليف التجميع",
+                "انخفاض تكلفة الصيانة",
+                "خدمة ما بعد البيع مع قطع الغيار",
+                "ضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Easy and hygienic waste disposal",
+                "Prevents odors and overfilling",
+                "Reduces collection costs",
+                "Low maintenance cost",
+                "After sales service with spare parts",
+                "1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Control-Panel.jpg",
+                "label": {
+                  "ar": "لوحة تحكم",
+                  "en": "Control Panel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Opposite-side-control.jpg",
+                "label": {
+                  "ar": "طبلون تحكم جانبي",
+                  "en": "Side Control Panel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Lifting-hook.jpg",
+                "label": {
+                  "ar": "حمالة هوك للتحميل",
+                  "en": "Lifting Hook"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Maneuvering-hook.jpg",
+                "label": {
+                  "ar": "حمالة هوك للمناولة",
+                  "en": "Maneuvering Hook"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Hopper-door-extra-bottom-lock.jpg",
+                "label": {
+                  "ar": "قفل إضافي لباب الرمي 1",
+                  "en": "Extra Bottom Lock"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Ratchet-lock.jpg",
+                "label": {
+                  "ar": "قفل إضافي لباب الرمي 2",
+                  "en": "Ratchet Lock"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Caster-wheel.jpg",
+                "label": {
+                  "ar": "عجلات كراس",
+                  "en": "Caster Wheel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Liquid-drain.jpg",
+                "label": {
+                  "ar": "تصريف السوائل",
+                  "en": "Liquid Drain Valve"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Retainer.jpg",
+                "label": {
+                  "ar": "صدادات",
+                  "en": "Waste Retainer"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "1380 ملم × 2090 ملم"
+                },
+                {
+                  "label": "إرتفاع فتحة التعبئة",
+                  "value": "1480 ملم"
+                },
+                {
+                  "label": "ضمان عدم تسرب السوائل",
+                  "value": "إلى 250 ملم"
+                },
+                {
+                  "label": "إشارة الامتلاء",
+                  "value": "عند 80%"
+                },
+                {
+                  "label": "الطلاء",
+                  "value": "طلاء أساسي ونهائي حسب طلبكم"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "400V, 3Phase, 50Hz"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Feed Opening",
+                  "value": "1380 mm × 2090 mm"
+                },
+                {
+                  "label": "Feed Opening Height",
+                  "value": "1480 mm"
+                },
+                {
+                  "label": "Liquid Leakage Proof",
+                  "value": "Up to 250 mm"
+                },
+                {
+                  "label": "Full Indicator",
+                  "value": "At 80%"
+                },
+                {
+                  "label": "Paint Finish",
+                  "value": "Primer & finish paint upon request"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "400V, 3Phase, 50Hz"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2014/08/BeringerGarbageCompactor-3.webp",
+              "https://sabtech.com.sa/wp-content/uploads/2014/08/BeringerGarbageCompactor-4.webp",
+              "https://sabtech.com.sa/wp-content/uploads/2019/09/Beringer-Garbage-Compactor-1.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2014/08/BeringerGarbageCompactor-1.webp"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/09/Refuse-compactor-2020.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Beringer-Garbage-Compactor-1.jpg"
           },
           {
             "id": "solar-compactor",
-            "name": { "ar": "ضاغط نفايات بالطاقة الشمسية", "en": "Solar Compactor" }
+            "name": {
+              "ar": "ضاغط نفايات بالطاقة الشمسية",
+              "en": "Solar Bin Waste Compactor"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "ضاغط نفايات ذكي يعمل بالكامل بالطاقة الشمسية، مصمم خصيصًا لتحسين إدارة وجمع النفايات في المناطق العامة ذات الازدحام الشديد (مثل الحدائق، ومحطات النقل، والمراكز التجارية).\nيعتمد على خلايا كهروضوئية مدمجة بقدرة 40 واط ومزود ببطارية احتياطية لضمان التشغيل المستمر في مختلف الظروف الجوية أو أثناء الليل (نظام تيار مستمر 12 فولت). يعتمد على محرك كهربائي يشغل ذراع كبس لتقليل حجم النفايات بشكل كبير، مما يزيد الطاقة الاستيعابية للحاوية بمعدل يصل إلى عدة أضاعف.",
+              "en": "Smart waste compactor powered entirely by solar energy, specially designed to optimize waste collection and management in high-traffic public areas (such as parks, transit stations, and shopping malls).\nEquipped with 40W PV solar panels and a 12V DC battery backup for continuous operation day and night. Utilizes an electric motor and compaction arm to significantly reduce waste volume and increase container capacity manifold."
+            },
+            "features": {
+              "ar": [
+                "تشغيل كامل بالطاقة الشمسية (خلايا 40 واط + بطارية 12V)",
+                "دواسة قدم لفتح فتحة الاستخدام بدون ملامسة اليدين",
+                "هيكل من فولاذ الزنك المقاوم للصدأ والتآكل والعوامل الجوية",
+                "نظام حماية ذكي وقفل أمان لمنع العبث أو الإصابات",
+                "مؤشر ضوئي لمستوى الامتلاء مع إمكانية المراقبة عن بعد",
+                "ضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Fully solar powered (40W PV cells + 12V battery)",
+                "Foot pedal for touchless hands-free operation",
+                "Weather and rust resistant zinc steel enclosure",
+                "Smart safety interlock system and security door lock",
+                "Fill level indicator light with remote monitoring support",
+                "1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/ball-chamber.png",
+                "label": {
+                  "ar": "خلايا كهرضوئية مدمجة 40W",
+                  "en": "Integrated 40W PV Panels"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/electric-control-pannel.png",
+                "label": {
+                  "ar": "دواسة قدم صحية بدون لمس",
+                  "en": "Hygienic Foot Pedal"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/reduction-in-volume.png",
+                "label": {
+                  "ar": "تقليل الحجم زيادة السعة الاستيعابية",
+                  "en": "Volume Reduction & Increased Capacity"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/mechanical-door-lock-1.png",
+                "label": {
+                  "ar": "مؤشر الامتلاء والمراقبة الذكية",
+                  "en": "Fill Level & Smart Monitoring"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "الارتفاع الكلي",
+                  "value": "1518 ملم"
+                },
+                {
+                  "label": "الطول الكلي",
+                  "value": "698 ملم"
+                },
+                {
+                  "label": "العرض الكلي",
+                  "value": "761 ملم"
+                },
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "169 ملم (ارتفاع) × 330 ملم (عرض)"
+                },
+                {
+                  "label": "ارتفاع فتحة الرمي",
+                  "value": "1183 ملم"
+                },
+                {
+                  "label": "الألواح الشمسية",
+                  "value": "40W PV Solar Panel"
+                },
+                {
+                  "label": "نظام التشغيل",
+                  "value": "12V DC Battery System"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Overall Height",
+                  "value": "1518 mm"
+                },
+                {
+                  "label": "Overall Length",
+                  "value": "698 mm"
+                },
+                {
+                  "label": "Overall Width",
+                  "value": "761 mm"
+                },
+                {
+                  "label": "Feed Opening",
+                  "value": "169 mm (H) × 330 mm (W)"
+                },
+                {
+                  "label": "Throwing Opening Height",
+                  "value": "1183 mm"
+                },
+                {
+                  "label": "Solar Panel",
+                  "value": "40W PV Solar Panel"
+                },
+                {
+                  "label": "Operating System",
+                  "value": "12V DC Battery System"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp",
+              "https://sabtech.com.sa/wp-content/uploads/2019/04/BP100.webp"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/Company-Profile-Brochure(Arabic).pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp"
           }
         ]
       },
       {
         "id": "waste-balers",
-        "title": { "ar": "مكابس نفايات", "en": "Waste Balers" },
+        "title": {
+          "ar": "مكابس نفايات",
+          "en": "Waste Balers"
+        },
         "products": [
           {
             "id": "auto-horizontal-baler",
-            "name": { "ar": "مكبس أفقي أوتوماتيكي", "en": "Automatic Horizontal Baler" }
+            "name": {
+              "ar": "مكبس أفقي أوتوماتيكي",
+              "en": "Automatic Horizontal Baler"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "مكبس أفقي أوتوماتيكي متطور يعمل بالطاقة الهيدروليكية لضغط النفايات برباط آلي بالكامل.\nالاستخدامات الموصى بها: مراكز التسوق، السوبر ماركت، المتاجر الكبرى، الصناعات التحويلية، صناعة الرسومات، الطابعات، المستودعات، المراكز اللوجستية، وشركات إعادة التدوير على نطاق واسع والبلديات.",
+              "en": "Advanced Automatic Horizontal Baler powered by hydraulics for high compaction force with fully automated bale tying.\nRecommended uses: Shopping malls, supermarkets, department stores, manufacturing, printing & graphic industries, warehouses, logistics centers, and large-scale recycling operations."
+            },
+            "features": {
+              "ar": [
+                "تعمل بالطاقة الهيدروليكية لقوة الضغط العالي",
+                "ربط البالات آلياً بالكامل",
+                "لوحة تحكم كهربائية متطورة",
+                "عملية آمنة وسهلة التشغيل",
+                "خدمة ما بعد البيع مع توفر قطع الغيار",
+                "ضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Hydraulically powered for high compaction force",
+                "Fully automated bale tying",
+                "Advanced electrical control panel",
+                "Safe and easy operation",
+                "After sales service with spare parts",
+                "1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Automatic-Horizontal-Strapping.jpg",
+                "label": {
+                  "ar": "تربيط أفقي أوتوماتيكي",
+                  "en": "Automatic Horizontal Strapping"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Fully-automated-control-panel.jpg",
+                "label": {
+                  "ar": "دائرة كهربائية أوتوماتيكية",
+                  "en": "Fully Automated Control Panel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Hydraulic-Colling-System.jpg",
+                "label": {
+                  "ar": "نظام تبريد للهيدروليك",
+                  "en": "Hydraulic Cooling System"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Optimize-for-Paper-Plastic-Metal-Wood.jpg",
+                "label": {
+                  "ar": "مناسب للبلاستيك والورق والخشب",
+                  "en": "Optimized for Paper, Plastic, Metal & Wood"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Bale-size-1000x800.jpg",
+                "label": {
+                  "ar": "مقاس البالة 800 ملم × 1000 ملم",
+                  "en": "Bale Size 1000x800 mm"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "وزن البالة",
+                  "value": "300 – 400 كجم"
+                },
+                {
+                  "label": "قوة الضغط",
+                  "value": "22 – 45 طن"
+                },
+                {
+                  "label": "فتحة التعبئة",
+                  "value": "1030 × 750 حتى 10870 × 1100 ملم"
+                },
+                {
+                  "label": "أحجام الماكينات",
+                  "value": "1860 – 2240 (ارتفاع) × 1235 – 1590 (عرض) × 3300 – 3750 (طول) ملم"
+                },
+                {
+                  "label": "مدة الدورة",
+                  "value": "24 – 34 ثانية"
+                },
+                {
+                  "label": "عدد الأشرطة/الأسلاك الملزمة",
+                  "value": "3 – 4 فتحات"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "7.5 – 15.0 كيلوواط"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "380 فولت، 3 فاز، 60 هرتز"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Bale Weight",
+                  "value": "300 – 400 kg"
+                },
+                {
+                  "label": "Pressing Force",
+                  "value": "22 – 45 Tons"
+                },
+                {
+                  "label": "Feed Opening",
+                  "value": "1030 × 750 up to 10870 × 1100 mm"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "1860 – 2240(H) × 1235 – 1590(W) × 3300 – 3750(L) mm"
+                },
+                {
+                  "label": "Cycle Time",
+                  "value": "24 – 34 s"
+                },
+                {
+                  "label": "Binding Slots",
+                  "value": "3 – 4 slots"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "7.5 – 15.0 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "380V, 3Phase, 60Hz"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2019/09/Autobaler-1.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/09/Autobaler3.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/09/Autobaler4.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/09/horizontal-AUTO-baler.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Autobaler-1.jpg"
           },
           {
             "id": "vertical-waste-baler-2cy",
-            "name": { "ar": "مكبس النفايات الرأسي 2CY", "en": "Vertical Waste Baler 2CY" }
+            "name": {
+              "ar": "مكبس النفايات الرأسي 2CY",
+              "en": "Vertical Garbage Compactor 2CY"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "مكبس النفايات الرأسي 2CY هو حل عالي الأداء لضغط النفايات مصمم للمنشآت التجارية والصناعية مثل الفنادق، المستشفيات، مراكز التسوق، السوبرماركت، ومصانع معالجة الأغذية. مع نسبة ضغط تبلغ 4 إلى 1، فإن تصميمه الرأسي المدمج يوفر مساحة الأرضية القيمة، مما يجعله مثاليًا للمواقع ذات الإنتاج اليومي العالي للنفايات ومتطلبات النظافة الصارمة. تم تصميمه لضمان المتانة والكفاءة، حيث يقلل حجم النفايات بشكل كبير ويقلل من تكاليف التشغيل.",
+              "en": "Vertical Garbage Compactor 2CY is a high-performance waste compaction solution designed for commercial and industrial facilities such as hotels, hospitals, shopping malls, supermarkets, and food processing plants. With a 4:1 compaction ratio, its compact vertical design saves floor space, making it ideal for sites with high daily waste production and strict hygiene requirements."
+            },
+            "features": {
+              "ar": [
+                "تقليل تكاليف جمع ونقل النفايات",
+                "وحدة مغلقة تمنع انتشار النفايات والروائح الكريهة",
+                "تكلفة صيانة منخفضة",
+                "خدمة ما بعد البيع مع توفر قطع الغيار",
+                "ضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Reduces waste collection and transport costs",
+                "Sealed unit prevents waste and odor spread",
+                "Low maintenance cost",
+                "After sales service with spare parts",
+                "1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/SteelBin2CY1.png",
+                "label": {
+                  "ar": "حاوية فولاذية 2CY",
+                  "en": "Steel Bin 2CY"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/FacilityForinLoading1.png",
+                "label": {
+                  "ar": "نظام تحميل الحاوية",
+                  "en": "Facility for in Loading"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/ControlPushButtons1.png",
+                "label": {
+                  "ar": "أزرار التحكم بالضغط",
+                  "en": "Control Push Buttons"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/FullLevelIndicatorLight1.png",
+                "label": {
+                  "ar": "مؤشر امتلاء ضوئي",
+                  "en": "Full Level Indicator Light"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/HydraulicPowerPack1.png",
+                "label": {
+                  "ar": "وحدة طاقة هيدروليكية",
+                  "en": "Hydraulic Power Pack"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/HydraulicPusher1.png",
+                "label": {
+                  "ar": "دافع هيدروليكي",
+                  "en": "Hydraulic Pusher"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "السعة",
+                  "value": "2 ياردة مكعبة (2CY)"
+                },
+                {
+                  "label": "قوة المحرك",
+                  "value": "2.2 كيلو واط"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380 فولت، 3 فاز، 50/60 هرتز"
+                },
+                {
+                  "label": "زمن الدورة",
+                  "value": "25 ثانية"
+                },
+                {
+                  "label": "نسبة الضغط",
+                  "value": "4 : 1"
+                },
+                {
+                  "label": "أبعاد الآلة",
+                  "value": "2205 (عرض) × 1325 (عمق) × 2280 (ارتفاع) مم"
+                },
+                {
+                  "label": "ارتفاع التعبئة",
+                  "value": "1410 مم"
+                },
+                {
+                  "label": "حجم فتحة التغذية",
+                  "value": "1220 (طول) × 768 (عرض) مم"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Capacity",
+                  "value": "2 Cubic Yards (2CY)"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "2.2 kW"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "220/380V, 3Phase, 50/60Hz"
+                },
+                {
+                  "label": "Cycle Time",
+                  "value": "25 s"
+                },
+                {
+                  "label": "Compaction Ratio",
+                  "value": "4:1"
+                },
+                {
+                  "label": "Machine Dimensions",
+                  "value": "2205(W) × 1325(D) × 2280(H) mm"
+                },
+                {
+                  "label": "Feed Height",
+                  "value": "1410 mm"
+                },
+                {
+                  "label": "Feed Opening Size",
+                  "value": "1220(L) × 768(W) mm"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2CY1.png",
+              "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2CY2.png",
+              "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2CY3.png"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/Company-Profile-Brochure(Arabic).pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2CY1.png"
           }
         ]
       }
     ]
+  },
+  {
+    "id": "docking-systems",
+    "title": {
+      "ar": "أنظمة التحميل",
+      "en": "Docking Systems"
+    },
+    "image": "/images/categories/docking-systems.jpg",
+    "description": {
+      "ar": "معدات متكاملة لتسهيل وتسريع عمليات التحميل والتفريغ بأمان.",
+      "en": "Integrated equipment to facilitate and accelerate safe loading and unloading operations."
+    },
+    "products": [
+      {
+        "id": "dock-levelers",
+        "name": {
+          "ar": "منصات تسوية التحميل (Dock Levelers)",
+          "en": "Dock Levelers"
+        },
+        "image": "/images/products/dock-levelers.jpg",
+        "description": {
+          "ar": "منصات هيدروليكية لتسوية الارتفاع بين الشاحنة ورصيف التحميل.",
+          "en": "Hydraulic platforms to level the height between the truck and the loading dock."
+        }
+      },
+      {
+        "id": "dock-shelters",
+        "name": {
+          "ar": "أغطية التحميل (Dock Shelters)",
+          "en": "Dock Shelters"
+        },
+        "image": "/images/products/dock-shelters.jpg",
+        "description": {
+          "ar": "أغطية حماية لعزل منطقة التحميل عن العوامل الجوية الخارجية.",
+          "en": "Protection shelters to isolate the loading area from external weather conditions."
+        }
+      }
+    ]
+  },
+  {
+    "id": "perimeter-protection",
+    "title": {
+      "ar": "أنظمة حماية المحيط",
+      "en": "Perimeter Protection"
+    },
+    "image": "/images/categories/perimeter-protection.jpg",
+    "description": {
+      "ar": "أنظمة أمنية متطورة لحماية المنشآت والتحكم في دخول المركبات.",
+      "en": "Advanced security systems to protect facilities and control vehicle access."
+    },
+    "products": [
+      {
+        "id": "hydraulic-bollards",
+        "name": {
+          "ar": "مصدات هيدروليكية (Bollards)",
+          "en": "Hydraulic Bollards"
+        },
+        "image": "/images/products/hydraulic-bollards.jpg",
+        "description": {
+          "ar": "مصدات أسطوانية قوية للتحكم الأمني في مداخل المنشآت.",
+          "en": "Strong cylindrical bollards for security control at facility entrances."
+        }
+      },
+      {
+        "id": "road-blockers",
+        "name": {
+          "ar": "حواجز طرق (Road Blockers)",
+          "en": "Road Blockers"
+        },
+        "image": "/images/products/road-blockers.jpg",
+        "description": {
+          "ar": "حواجز أمنية شديدة التحمل لمنع الاقتحامات وتأمين البوابات الرئيسية.",
+          "en": "Heavy-duty security barriers to prevent intrusions and secure main gates."
+        }
+      },
+      {
+        "id": "boom-barriers",
+        "name": {
+          "ar": "بوابات ذراعية (Boom Barriers)",
+          "en": "Boom Barriers"
+        },
+        "image": "/images/products/boom-barriers.jpg",
+        "description": {
+          "ar": "بوابات إلكترونية لتنظيم حركة مرور السيارات في المواقف والمجمعات.",
+          "en": "Electronic barriers to regulate traffic in parking lots and complexes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "industrial-doors",
+    "title": {
+      "ar": "الأبواب الصناعية",
+      "en": "Industrial Doors"
+    },
+    "image": "/images/categories/industrial-doors.jpg",
+    "description": {
+      "ar": "مجموعة متنوعة من الأبواب الصناعية السريعة وأبواب الرول للمصانع والمستودعات.",
+      "en": "A variety of high speed industrial doors and roller shutters for factories and warehouses."
+    },
+    "products": [
+      {
+        "id": "high-speed-doors",
+        "name": {
+          "ar": "أبواب سريعة",
+          "en": "High Speed Doors"
+        },
+        "image": "/images/products/high-speed-doors.jpg",
+        "description": {
+          "ar": "أبواب سريعة الفتح والإغلاق، مصممة لتحمل ضغط العمل العالي في المصانع.",
+          "en": "Fast opening and closing doors, designed to withstand high workload in factories."
+        }
+      },
+      {
+        "id": "roller-shutter-doors",
+        "name": {
+          "ar": "أبواب رول (شتر)",
+          "en": "Roller Shutter Doors"
+        },
+        "image": "/images/products/roller-shutter-doors.jpg",
+        "description": {
+          "ar": "أبواب رول قوية لحماية الممتلكات ومقاومة العوامل الجوية.",
+          "en": "Strong roller shutter doors for property protection and weather resistance."
+        }
+      },
+      {
+        "id": "sectional-doors",
+        "name": {
+          "ar": "أبواب مقطعية",
+          "en": "Sectional Doors"
+        },
+        "image": "/images/products/sectional-doors.jpg",
+        "description": {
+          "ar": "أبواب مقطعية عازلة للحرارة تناسب المستودعات والمرافق الصناعية.",
+          "en": "Thermally insulated sectional doors suitable for warehouses and industrial facilities."
+        }
+      }
+    ]
+  },
+  {
+    "id": "other-products",
+    "title": {
+      "ar": "منتجات أخرى",
+      "en": "Other Products"
+    },
+    "image": "/images/categories/other-products.jpg",
+    "description": {
+      "ar": "مجموعة متنوعة من المنتجات والمعدات الصناعية الأخرى.",
+      "en": "A variety of other industrial products and equipment."
+    },
+    "products": []
   }
 ]
