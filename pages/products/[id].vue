@@ -12,7 +12,7 @@
     <div v-else>
       <!-- General Hero Banner -->
       <section class="relative w-full h-[30vh] md:h-[40vh] flex items-center justify-center overflow-hidden bg-gray-900">
-        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1920" alt="Banner" class="absolute inset-0 w-full h-full object-cover opacity-40">
+        <img :src="product.coverImage || 'https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Vertical-Baling-Press-50T-1.jpg'" alt="Banner" class="absolute inset-0 w-full h-full object-cover opacity-40">
         <div class="absolute inset-0 bg-gradient-to-t from-[#121c2d]/80 via-[#121c2d]/40 to-transparent"></div>
         <div class="relative z-10 text-center px-4" data-aos="fade-up">
           <h1 class="text-3xl md:text-5xl font-black text-white drop-shadow-lg">
@@ -202,7 +202,7 @@
                   data-aos="zoom-in"
                   :data-aos-delay="idx * 100"
                 >
-                  <div class="aspect-square bg-gray-50 dark:bg-gray-900 p-3 md:p-4 flex items-center justify-center">
+                  <div class="aspect-square bg-white p-3 md:p-4 flex items-center justify-center">
                     <img :src="drawing.image" :alt="drawing.label[locale]" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                   </div>
                   <div class="p-3 md:p-4 text-center border-t border-gray-100 dark:border-gray-700">
