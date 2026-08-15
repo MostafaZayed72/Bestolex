@@ -8,7 +8,7 @@
         {{ locale === 'ar' ? 'تصفح تشكيلة واسعة من المعدات والأنظمة الصناعية لتلبية كافة متطلباتك.' : 'Browse a wide range of industrial equipment and systems to meet all your requirements.' }}
       </p>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div v-for="(category, index) in products" :key="category.id" class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition group border border-transparent hover:border-primary" :data-aos="'fade-up'" :data-aos-delay="index * 100">
           <NuxtLink :to="localePath(`/products/category/${category.id}`)" class="block h-56 overflow-hidden relative">
             <img :src="category.image" :alt="category.title[locale]" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">

@@ -348,16 +348,27 @@ const submitQuote = async () => {
   loading.value = true
   statusMessage.value = ''
   
-  const fullMessage = `Requesting quote for product: ${product.value.name.en} / ${product.value.name.ar}\n\nUser Message:\n${form.value.message}`
-  
+  const productNameAr = product.value?.name?.ar || ''
+  const productNameEn = product.value?.name?.en || ''
+  const catTitle = product.value?.categoryTitle?.[locale.value] || product.value?.categoryTitle?.ar || ''
+
   try {
     const response = await $fetch('/api/contact', {
       method: 'POST',
-      body: { ...form.value, message: fullMessage }
+      body: {
+        ...form.value,
+        productId: product.value?.id,
+        productName: `${productNameAr} - ${productNameEn}`,
+        productNameAr,
+        productNameEn,
+        categoryTitle: catTitle,
+        productUrl: typeof window !== 'undefined' ? window.location.href : '',
+        isQuoteRequest: true
+      }
     })
     
     statusType.value = 'success'
-    statusMessage.value = locale.value === 'ar' ? 'تم إرسال طلبك بنجاح! سنتواصل معك قريباً.' : 'Your request has been sent successfully! We will contact you soon.'
+    statusMessage.value = locale.value === 'ar' ? 'تم إرسال طلب عرض السعر بنجاح! سنتواصل معك قريباً.' : 'Your quote request has been sent successfully! We will contact you soon.'
     form.value = { name: '', email: '', phone: '', message: '' }
   } catch (error) {
     statusType.value = 'error'
