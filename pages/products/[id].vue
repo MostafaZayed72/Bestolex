@@ -148,31 +148,7 @@
           </div>
         </div>
 
-        <!-- Video Section -->
-        <div v-if="product.video" class="mt-16 md:mt-20" data-aos="fade-up">
-          <div class="text-center mb-8 md:mb-12">
-            <h2 class="text-2xl md:text-4xl font-bold text-gray-900 dark:text-white mb-3 md:mb-4">
-              {{ locale === 'ar' ? 'فيديو توضيحي' : 'Product Video' }}
-            </h2>
-            <div class="h-1 w-20 md:w-24 bg-primary mx-auto rounded-full"></div>
-          </div>
-          
-          <div class="max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl border border-gray-100 dark:border-gray-700 bg-black aspect-video relative">
-            <iframe 
-              v-if="product.video && (product.video.includes('youtube.com') || product.video.includes('youtu.be'))"
-              :src="getEmbedYoutubeUrl(product.video)"
-              class="absolute inset-0 w-full h-full border-0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <video 
-              v-else-if="product.video"
-              :src="product.video" 
-              controls
-              class="absolute inset-0 w-full h-full object-contain"
-            ></video>
-          </div>
-        </div>
+
 
         <!-- Technical Specs & Drawings -->
         <div v-if="(product.specs && product.specs[locale]) || (product.specDrawings && product.specDrawings.length)" class="mt-16 md:mt-20" data-aos="fade-up">

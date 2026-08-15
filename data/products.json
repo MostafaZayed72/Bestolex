@@ -185,7 +185,6 @@
               "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100.webp",
               "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1.webp"
             ],
-            "video": "https://electrocreative-cdn.b-cdn.net/test.webm",
             "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/VERTICAL-BALING-PRESS-10T.pdf",
             "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp"
           },
@@ -2334,6 +2333,216 @@
             ],
             "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/SCISSOR-LIFT-TABLE.pdf",
             "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/SL-1-1.png"
+          },
+          {
+            "id": "movable-scissors-lifts",
+            "name": {
+              "ar": "رافعة مقصية متحركة",
+              "en": "Movable Scissor Lift"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Scissor-Lift-1.jpg",
+            "description": {
+              "ar": "الرافعة المقصية الهيدروليكية المتحركة من ساب تكـ هي رافعة منصية شائعة تستخدم لأنواع مختلفة من أعمال الصيانة والمشاريع التي يصل ارتفاعها إلى 14 متر توفير سهولة المناورة في المساحات الضيقة للتطبيقات الداخلية والخارجية على الأسطح الثابتة والمستوية.\nفهي توفر الجودة والمتانة مع تحسين التكلفة الإجمالية للملكية والإنتاجية. توفر نظام محرك التيار المتردد الاختياري إنتاجية لا مثيل لها للتنقل في مواقع العمل الداخلية والخارجية بطريقة مدمجة وخفيفة الوزن ومتعددة الاستخدامات.",
+              "en": "SAB TECH’s Hydraulic Movable Scissor Lift is a popular aerial platform lift which is used for different kind of maintenance and projects jobs up to 14 meters working height. Providing easy maneuverability in tight spaces for indoor and outdoor applications on firm and level surfaces.\nIt delivers quality and durability while improving total cost of ownership and productivity. The optional AC drive system offers unmatched productivity for getting around at indoor and outdoor jobsites in a compact, lightweight, and versatile manner."
+            },
+            "features": {
+              "ar": [
+                "مثالية للأعمال الهوائية والصيانة الداخلية والخارجية حتى ارتفاع 14 متر",
+                "عناصر تحكم ومفاتيح تشغيل على مستوى الأرض والمنصة",
+                "منصة ممتدة توفر مساحة عمل أكبر للعمال والمعدات",
+                "أربع ركائز (أذرع ميكانيكية) لتشغيل مستقر وآمن تمامًا",
+                "حاجز أمان متين وشديد التحمل محيط بالمنصة",
+                "سهولة السحب والمناورة بين مواقع العمل بكل يسر",
+                "انخفاض تكلفة الصيانة واعتمادية عالية في العمل الشاق",
+                "خدمة ما بعد البيع مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Ideal for indoor and outdoor aerial work up to 14m working height",
+                "Controls at ground and platform level for maximum operation flexibility",
+                "Extended platform for larger working area and equipment",
+                "Four mechanical outriggers for stable and safe operation",
+                "Durable safety rail surrounding the platform",
+                "Easy to tow and maneuver from place to place",
+                "Low maintenance cost and heavy-duty reliability",
+                "After-sales service with spare parts and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Control-Panel-7.jpg",
+                "label": {
+                  "ar": "لوحة التحكم",
+                  "en": "Control Panel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Outrigger-1.jpg",
+                "label": {
+                  "ar": "أذرع ميكانيكية للتثبيت (ركائز)",
+                  "en": "Mechanical Outriggers"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Power-Pack-1.jpg",
+                "label": {
+                  "ar": "وحدة الهيدروليك المركزية",
+                  "en": "Hydraulic Power Pack"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Pull-lever.jpg",
+                "label": {
+                  "ar": "ذراع للسحب والمناورة",
+                  "en": "Pull Lever"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Remote-Control.jpg",
+                "label": {
+                  "ar": "جهاز التحكم عن بعد (ريموت)",
+                  "en": "Remote Control"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Safety-Rail.jpg",
+                "label": {
+                  "ar": "حاجز أمان المنصة",
+                  "en": "Safety Rail"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Solid-Tire.jpg",
+                "label": {
+                  "ar": "الإطارات الصلبة شديدة التحمل",
+                  "en": "Heavy-Duty Solid Tires"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Tool-Box.jpg",
+                "label": {
+                  "ar": "صندوق الأدوات والمعدات",
+                  "en": "Tool Box"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "الموديلات المتوفرة",
+                  "value": "MSL9M0.5t | MSL11M0.5t | MSL14M0.5t"
+                },
+                {
+                  "label": "قدرة التحميل",
+                  "value": "500 كجم"
+                },
+                {
+                  "label": "ارتفاع الرفع",
+                  "value": "9000 مم | 11000 مم | 14000 مم"
+                },
+                {
+                  "label": "أقل ارتفاع مغلق",
+                  "value": "1400 مم | 1600 مم | 1880 مم"
+                },
+                {
+                  "label": "زمن الرفع",
+                  "value": "70 ثانية | 80 ثانية | 132 ثانية"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "380 فولت / 60 هرتز / 3 فاز"
+                },
+                {
+                  "label": "قدرة المحرك",
+                  "value": "2.2 كيلوواط | 2.2 كيلوواط | 4.0 كيلوواط"
+                },
+                {
+                  "label": "الأبعاد الكلية",
+                  "value": "2000×1000 مم | 2150×1200 مم | 2600×1500 مم"
+                },
+                {
+                  "label": "الوزن الكلي",
+                  "value": "1500 كجم | 1420 كجم | 2500 كجم"
+                },
+                {
+                  "label": "التشغيل بالبطارية",
+                  "value": "اختياري (Optional)"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Available Models",
+                  "value": "MSL9M0.5t | MSL11M0.5t | MSL14M0.5t"
+                },
+                {
+                  "label": "Loading Capacity",
+                  "value": "500 kg"
+                },
+                {
+                  "label": "Raised Height",
+                  "value": "9000 mm | 11000 mm | 14000 mm"
+                },
+                {
+                  "label": "Lowest Height",
+                  "value": "1400 mm | 1600 mm | 1880 mm"
+                },
+                {
+                  "label": "Lifting Time",
+                  "value": "70s | 80s | 132s"
+                },
+                {
+                  "label": "Electricity",
+                  "value": "380V / 60Hz / 3Phase"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "2.2 kW | 2.2 kW | 4.0 kW"
+                },
+                {
+                  "label": "Overall Dimensions",
+                  "value": "2000×1000 mm | 2150×1200 mm | 2600×1500 mm"
+                },
+                {
+                  "label": "Total Weight",
+                  "value": "1500 kg | 1420 kg | 2500 kg"
+                },
+                {
+                  "label": "Battery Operated",
+                  "value": "Optional"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/MSCL-OPEN-1.jpg",
+                "label": {
+                  "ar": "نموذج عرض من الأعلي",
+                  "en": "Top View Drawing"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/MSCL-CLOSE.jpg",
+                "label": {
+                  "ar": "نموذج عرض من الجانب",
+                  "en": "Side View Drawing"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/MSCL-SIDE-1.jpg",
+                "label": {
+                  "ar": "نموذج منصة تحميل مغلقة",
+                  "en": "Closed Platform View Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Scissor-Lift-1.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-SL570x570.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-6.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Side-6.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Two-Side-1.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/MOVABLE-SCISSOR-LIFT.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Scissor-Lift-1.jpg"
           }
         ]
       },
@@ -2345,28 +2554,490 @@
         },
         "products": [
           {
-            "id": "dock-levelers",
+            "id": "dock-leveler-inkema",
             "name": {
-              "ar": "منصات تسوية التحميل (Dock Levelers)",
-              "en": "Dock Levelers"
+              "ar": "منصة تحميل إنكيما – دوك ليفيلير إنكيما",
+              "en": "Inkema Dock Leveler – RH1"
             },
-            "image": "/images/products/dock-levelers.jpg",
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
             "description": {
-              "ar": "منصات هيدروليكية لتسوية الارتفاع بين الشاحنة ورصيف التحميل.",
-              "en": "Hydraulic platforms to level the height between the truck and the loading dock."
-            }
+              "ar": "تعد منصة التحميل من انكيما حلاً لا غنى عنه لمحطات التحميل. مناسبة لاستيعاب ارتفاعات الشاحنات المختلفة ومناطق التحميل، مما يجعلها من المعدات الأساسية لجميع أنواع أماكن التحميل. تُعد منصة التحميل الطريقة الأكثر عملية لتغطية الفجوة والارتفاع بين مستودع التحميل والشاحنة، مما يسمح لها بالثبات بقوة على منصة التحميل.\nبفضل آلية الميلان الهيدروليكية والشفة المفصلية، يمكن لـ منصة التحميل سد المسافة والارتفاع بين منصة التحميل وجسم الشاحنة.\nتشتمل المنصة العلوية لمنصة التحميل على إطار قاعدة سفلي لدعم المكونات الإضافية، ويتم لصقها بالقاعدة، مما يحقق الميل اللازم لتبسيط أنشطة التحميل والتفريغ.",
+              "en": "Inkema’s RH1 Dock Leveler is an indispensable solution for loading bays. Suitable to accommodate different truck heights and loading bays making it an essential equipment for all types of loading bays. The dock leveler is the most practical way to cover the gap and height between a loading bay and truck, allowing it to rest firmly onto the loading bay.\nWith its hydraulic tilting mechanism and hinged lip, the RH1 Dock Leveler can bridge the distance and height between the loading bay and the truck’s body.\nComprising a lower base frame to support additional components, the dock leveler’s upper platform is affixed to the base, achieving the necessary incline to streamline loading and unloading activities."
+            },
+            "features": {
+              "ar": [
+                "التحميل والتفريغ الآمن للشاحنات والمركبات الخفيفة",
+                "تقليل الوقت والقوى العاملة اللازمة للتشغيل",
+                "سعات مختلفة متوفرة تلبي كافة الاحتياجات",
+                "سهولة التحميل والتركيب والتشغيل بأعلى مستويات الأمان",
+                "خدمة ما بعد البيع مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Safe loading and unloading of trucks & light vehicles",
+                "Reduction in operational time and required manpower",
+                "Different capacities available for various requirements",
+                "Easy to install and operate with maximum safety standards",
+                "After-sales service with spare parts availability and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Power-pack-2.jpg",
+                "label": {
+                  "ar": "وحدة الهيدروليك المركزية",
+                  "en": "Hydraulic Power Pack"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Control-Panel-6.jpg",
+                "label": {
+                  "ar": "طبلون ولوحة التحكم",
+                  "en": "Control Panel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Main-Cylinder.jpg",
+                "label": {
+                  "ar": "أسطوانة (بستم) الهيدروليك الرئيسي",
+                  "en": "Main Hydraulic Cylinder"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Retractable-or-hinged-lip.jpg",
+                "label": {
+                  "ar": "لسان مفصلي أو ارتدادي",
+                  "en": "Hinged or Retractable Lip"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Rubber-Fender.jpg",
+                "label": {
+                  "ar": "مصدة مطاطية لحماية الشاحنات والمنصة",
+                  "en": "Protective Rubber Fender / Bumper"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Safety-bar-for-maintenance-work.jpg",
+                "label": {
+                  "ar": "عمود أمان لتثبيت المنصة أثناء الصيانة",
+                  "en": "Safety Support Bar for Maintenance"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "أبعاد المنصة",
+                  "value": "2000 × 2500 مم"
+                },
+                {
+                  "label": "نطاق العمل أعلى مستوى المستودع",
+                  "value": "حتى 600 مم"
+                },
+                {
+                  "label": "نطاق العمل أسفل مستوى المستودع",
+                  "value": "حتى 300 مم"
+                },
+                {
+                  "label": "قدرة محرك الرفع",
+                  "value": "0.75 كيلوواط"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380 فولت، 3 فاز، 50/60 هرتز"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Platform Size",
+                  "value": "2000 × 2500 mm"
+                },
+                {
+                  "label": "Working Range Above Warehouse Level",
+                  "value": "Up to 600 mm"
+                },
+                {
+                  "label": "Working Range Below Warehouse Level",
+                  "value": "Up to 300 mm"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "0.75 kW"
+                },
+                {
+                  "label": "Power Supply",
+                  "value": "220/380V, 3Phase, 50/60Hz"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-Close.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Back-3.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-SIde-Open.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Hinged-lip.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-Side-Close.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Dock-Leveler-RH1.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-Close.jpg"
           },
           {
-            "id": "dock-shelters",
+            "id": "mobile-loading-dock",
             "name": {
-              "ar": "أغطية التحميل (Dock Shelters)",
-              "en": "Dock Shelters"
+              "ar": "منصة تحميل متحركة",
+              "en": "Mobile Loading Dock"
             },
-            "image": "/images/products/dock-shelters.jpg",
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
             "description": {
-              "ar": "أغطية حماية لعزل منطقة التحميل عن العوامل الجوية الخارجية.",
-              "en": "Protection shelters to isolate the loading area from external weather conditions."
-            }
+              "ar": "تقدم منصة التحميل الهيدروليكية المتحركة من ساب تكـ حلاً مثاليًا لنقل البضائع عموديًا وتسهيل التحميل والتفريغ في الأماكن الضيقة. منصة التحميل متوافقة مع الرافعات الشوكية، لا تقدر بثمن في المواقع التي تفتقر إلى منطقة التحميل والمنصات ذات الصلة. يمكن تعديل ارتفاع المنصة للتكيف بسهولة لتناسب أحجام الحاويات والشاحنات المختلفة، مما يسمح للرافعات الشوكية بالوصول إلى الأجزاء الداخلية للحاوية من أجل العمل بفعالية. يتم استخدامها على نطاق واسع في المستودعات والمصانع والمحطات والأرصفة والمرافق اللوجستية، وقد تم تصميم منصات التحميل المتحركة لتشغيل عامل واحد.",
+              "en": "SABTECH’s Hydraulic Mobile Loading Dock Lift presents an ideal solution for vertically moving goods and facilitating loading and unloading in confined spaces. This critical material handling equipment, compatible with forklifts, is invaluable in locations lacking a loading bay and its relevant platforms. Its adaptable working height can be effortlessly adjusted to accommodate various container and truck sizes, allowing forklifts to access the container interiors for efficient batch operations. Widely deployed in warehouses, factories, stations, docks, and logistics facilities, these Mobile Loading Dock Lifts are designed for single-worker operation."
+            },
+            "features": {
+              "ar": [
+                "مزود بلسان أمامي وخلفي قابل للطي لتسهيل حركة الرافعات الشوكية",
+                "لوحة تحكم كهربائية سهلة الاستخدام لعملية تشغيل سلسة",
+                "منصة تحكم وتوفير خيار التحكم عن بعد (ريموت سلكي)",
+                "مسامير وقواعد دعم جانبية قابلة للتعديل لمزيد من الثبات والأمان",
+                "مكونات هيدروليكية عالية الجودة والمتانة للعمل في الظروف الشاقة",
+                "توفير تكلفة العمالة وتصميم يتيح تشغيل المنصة بعامل واحد فقط",
+                "خدمة ما بعد البيع مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Equipped with foldable front and rear lips for easy forklift transition",
+                "User-friendly electric control panel for smooth operations",
+                "Platform control panel and remote control availability",
+                "Adjustable support outriggers and screws for maximum stability and safety",
+                "Heavy-duty hydraulic components built for long-term durability",
+                "Reduces labor costs and designed for single-worker operation",
+                "After-sales service with spare parts availability and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Anti-slip-checkered-plate-platform-and-lip.png",
+                "label": {
+                  "ar": "منصة من صفائح معدنية محببة مضادة للانزلاق",
+                  "en": "Anti-slip Checkered Plate Platform & Lip"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Caster-Wheel.jpg",
+                "label": {
+                  "ar": "عجلة دوارة للمناورة",
+                  "en": "Caster Wheel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Front-lip.jpg",
+                "label": {
+                  "ar": "لسان أمامي قابل للطي",
+                  "en": "Foldable Front Lip"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Hydraulic-cylinder.jpg",
+                "label": {
+                  "ar": "أسطوانة (بستم) هيدروليكية",
+                  "en": "Hydraulic Cylinder"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Power-pack-and-electric-panel-box.jpg",
+                "label": {
+                  "ar": "وحدة الطاقة وصندوق اللوحة الكهربائية",
+                  "en": "Power Pack & Electric Panel Box"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Rear-lip.jpg",
+                "label": {
+                  "ar": "لسان خلفي قابل للطي",
+                  "en": "Foldable Rear Lip"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Rubber-bumper.jpg",
+                "label": {
+                  "ar": "مصد مطاطي لحماية المنصة والشاحنات",
+                  "en": "Protective Rubber Bumper"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Steel-cabinet.jpg",
+                "label": {
+                  "ar": "خزنة فولاذية لوحدة التحكم",
+                  "en": "Steel Protection Cabinet"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Tested-lifting-capacity-2000kg.jpg",
+                "label": {
+                  "ar": "سعة رفع مجربة ومضمونة 2000 كجم",
+                  "en": "Tested Lifting Capacity 2000 kg"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Threaded-Outrigger.jpg",
+                "label": {
+                  "ar": "دعامة وركيزة جانبية للتثبيت",
+                  "en": "Threaded Support Outrigger"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/Wired-remote-control.jpg",
+                "label": {
+                  "ar": "جهاز تحكم سلكي (ريموت)",
+                  "en": "Wired Remote Control"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "أبعاد منصة التحميل",
+                  "value": "1600 × 2000 مم"
+                },
+                {
+                  "label": "مقاس المنحدر وزاويته",
+                  "value": "1500 × 550 مم ، 14 درجة"
+                },
+                {
+                  "label": "أقصى ارتفاع للرفع",
+                  "value": "1600 مم"
+                },
+                {
+                  "label": "قدرة محرك الرفع",
+                  "value": "2.2 كيلوواط"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "380 فولت، 3 فاز، 50/60 هرتز"
+                },
+                {
+                  "label": "حمولة الرفع القصوى",
+                  "value": "2000 كجم (2 طن)"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Platform Size",
+                  "value": "1600 × 2000 mm"
+                },
+                {
+                  "label": "Ramp Size & Angle",
+                  "value": "1500 × 550 mm, 14°"
+                },
+                {
+                  "label": "Max Lifting Height",
+                  "value": "1600 mm"
+                },
+                {
+                  "label": "Lifting Motor Power",
+                  "value": "2.2 kW"
+                },
+                {
+                  "label": "Power Supply",
+                  "value": "380V, 3Phase, 50/60Hz"
+                },
+                {
+                  "label": "Max Lifting Capacity",
+                  "value": "2000 kg (2 Tons)"
+                }
+              ]
+            },
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-4.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-5.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2021/09/MDL2T-1.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-2.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-3.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2021/09/MOBILE-LOADING-DOCK.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-4.jpg"
+          },
+          {
+            "id": "movable-dock-ramp",
+            "name": {
+              "ar": "رمبة/منصة تحميل متحركة",
+              "en": "Movable Dock Ramp"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Dock-Ramp-1.jpg",
+            "description": {
+              "ar": "توفر منصة التحميل المتحركة من ساب تك حلاً مرنًا ومريحًا للتحميل والتفريغ السريع للبضائع باستخدام الرافعات الشوكية ومعدات المناولة الأخرى. هذه المنصة ذاتية الدعم والقائمة بذاتها قابلة للتكيف مع الشاحنات ذات الارتفاعات المختلفة، وتستوعب المركبات التي يصل ارتفاع تحميلها إلى 1.8 متر.\nتعمل منصة التحميل المتحركة كمعدات لرصيف التحميل متعددة الاستخدامات، مما تحول بشكل فعال المساحات الخاملة إلى مراكز فعالة لمناولة الشحن. فهي تعزز قدرة الرصيف وتنشئ مرافق التحميل في المناطق التي تفتقر إلى الأرصفة التقليدية، مما يلغي الحاجة إلى إنشاءات إضافية.\nبفضل إمكانية الرفع الهيدروليكي الاختيارية، تضمن منصة التحميل المتحركة المبتكرة الخاصة بنا السلامة وتعدد الاستخدامات، وتلبي مجموعة واسعة من المتطلبات اللوجستية.",
+              "en": "SAB TECH’s Movable Dock Ramp provides a flexible and convenient solution for swift loading & unloading of goods using forklifts and other handling equipment onto trailer carriages. This self-supporting and freestanding ramp is adaptable to trucks of varying heights, accommodating vehicles up to 1.8 meters of loading height.\nOur movable dock ramp serves as a versatile loading dock equipment, effectively transforming idle spaces into efficient freight-handling centers. It enhances dock capacity and establishes loading facilities in areas lacking traditional docks, eliminating the need for additional construction."
+            },
+            "features": {
+              "ar": [
+                "توفر دخول من مستوى الأرض للرافعات الشوكية",
+                "إنشاء منصة تحميل حيث لا توجد منطقة تحميل",
+                "سهولة تحريكها ووضعها باستخدام الرافعة الشوكية",
+                "حل تنافسي لتركيب الخرسانة الدائمة",
+                "هيكل من قطعة واحدة لسهولة الحركة",
+                "سطح تحميل علوي شبكي مضاد للانزلاق",
+                "قابلة للتخصيص باستخدام المكونات الهيدروليكية لسهولة تعديل الارتفاع",
+                "خدمات ما بعد البيع مع قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Provides ground-level entry for forklifts",
+                "Create a loading facility where no loading bay exists",
+                "Easy to move and place using a forklift",
+                "A competitive solution to permanent concrete installation",
+                "One-piece structure for easy movement",
+                "Meshed anti-slip top loading surface",
+                "Customizable with hydraulics for easy height adjustment",
+                "After-sales service with spare parts and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Adjustable-screw-adding-more-support.jpg",
+                "label": {
+                  "ar": "مسمار تعديل الإرتفاعات يعمل كدعامة تقوية للتثبيت علي الارض",
+                  "en": "Adjustable Screw Adding More Support"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Easy-to-use-adjustable-landing-jack.jpg",
+                "label": {
+                  "ar": "سهولة تعديل الإرتفاعات عن طريق رافعة يدوية",
+                  "en": "Easy to Use Adjustable Landing Jack"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Heavy-duty-folding-lip-for-easy-exit-and-entry.jpg",
+                "label": {
+                  "ar": "لسان خلفى متين وقوى قابل للطئ للصعود والنزول من المنصة",
+                  "en": "Heavy Duty Folding Lip for Easy Exit and Entry"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Iron-chain-to-safely-secure-the-ramp-and-the-container.jpg",
+                "label": {
+                  "ar": "سلسلة من الحديد لتأمين المنصة مع الشاحنة",
+                  "en": "Iron Chain to Safely Secure Ramp and Container"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Serrated-platform-surface-provide-excellent-traction.jpg",
+                "label": {
+                  "ar": "سطح منصة خشن يوفر حركة ممتازة",
+                  "en": "Serrated Platform Surface Providing Excellent Traction"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Side-curb-for-maximum-run-off-protection.jpg",
+                "label": {
+                  "ar": "سور جانبي لأقصى قدر من الحماية",
+                  "en": "Side Curb for Maximum Run-off Protection"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Solid-tires-for-easy-movement-to-different-locaiton.jpg",
+                "label": {
+                  "ar": "الإطارات الصلبة لسهولة الحركة من موقع الي اخر",
+                  "en": "Solid Tires for Easy Movement to Different Locations"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Powered-by-a-heavy-duty-power-pack-and-sturdy-electrical-panel.jpg",
+                "label": {
+                  "ar": "مدعوم بوحدة طاقة هيدروليكية ولوحة كهربائية قوية",
+                  "en": "Powered by Heavy Duty Power Pack & Sturdy Electrical Panel"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Dual-heavy-lift-hydraulic-cylinders-with-outrigger-pads.jpg",
+                "label": {
+                  "ar": "أسطوانة هيدروليكية مزدوجة للرفع الثقيل مع بساتم جانبية ممتدة",
+                  "en": "Dual Heavy Lift Hydraulic Cylinders with Outrigger Pads"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "طول المنصة",
+                  "value": "11300 مم"
+                },
+                {
+                  "label": "عرض المنصة",
+                  "value": "2100 مم"
+                },
+                {
+                  "label": "أقصى ارتفاع",
+                  "value": "1800 مم"
+                },
+                {
+                  "label": "أقصى حمولة",
+                  "value": "10000 كجم (10 طن)"
+                },
+                {
+                  "label": "عدد الأذرع الترسية",
+                  "value": "2"
+                },
+                {
+                  "label": "الإطارات",
+                  "value": "صلب"
+                },
+                {
+                  "label": "اختياري",
+                  "value": "ذراع هيدروليكي لتعديل الارتفاعات"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Ramp Length",
+                  "value": "11300 mm"
+                },
+                {
+                  "label": "Ramp Width",
+                  "value": "2100 mm"
+                },
+                {
+                  "label": "Ramp Height",
+                  "value": "1800 mm"
+                },
+                {
+                  "label": "Loading Capacity",
+                  "value": "10000 kg (10 Tons)"
+                },
+                {
+                  "label": "Landing Gears",
+                  "value": "2"
+                },
+                {
+                  "label": "Tires",
+                  "value": "Solid"
+                },
+                {
+                  "label": "Optional",
+                  "value": "Hydraulic height adjustment mechanism"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/DRFRONT-1.jpg",
+                "label": {
+                  "ar": "نموذج عرض من الجانب",
+                  "en": "Side View Drawing"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/DRTOP-1.jpg",
+                "label": {
+                  "ar": "نموذج عرض من الأعلى",
+                  "en": "Top View Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-2.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/570-x-570.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Back-2.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/05/Side-2.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/MOVABLE-DOCK-RAMP.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-2.jpg"
           }
         ]
       },
@@ -2376,7 +3047,662 @@
           "ar": "إنكيما",
           "en": "Inkema Systems"
         },
-        "products": []
+        "products": [
+          {
+            "id": "minidock",
+            "name": {
+              "ar": "منصة تحميل صغيرة – ميني دوك ليفيلر",
+              "en": "Mini Dock Leveler"
+            },
+            "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/12/Mini-Dock-1.jpg",
+            "description": {
+              "ar": "لقد حققت منصة التحميل الصغيرة من انكيما، المعروفة أيضًا باسم ميني دوك ليفيلر، نجاحًا هائلاً منذ إطلاقها بسبب صغر حجمها وحقيقة أنه لا يتطلب أي حفرة للتركيب!\nتعد منصة التحميل الصغيرة خيارًا سريعًا وسهلاً للتثبيت في أي نوع من مستودعات التحميل. يدعم ما يصل إلى 6 طن حمولة في عمليات التحميل والتفريغ على الرغم من صغر حجمها.\nلإزالة منصة التحميل الصغيرة بعد التحميل/التفريغ لا تشكل أي صعوبة، ما عليك سوى سحب الرافعة إلى الخلف دون رفعها بالكامل ووضعها على محطة توقف منخفضة.\nعملية وسهلة وآمنة للتثبيت من خلال توفير قدر كبير من المساحة في أي منطقة تحميل.",
+              "en": "Inkema’s Mini Dock, also known as Mini Dock Leveler, has been an enormous success since its launch attributed to its small size and the fact that it requires no installation of pit!\nThe Mini Dock is a fast & easy option for installation at any type of loading bay. It supports up to 6 tons of dynamic load in loading & unloading operations despite its small size.\nTo remove the Mini Dock after loading/unloading poses no difficulty, simply pull the lever backwards without raising it entirely and place it on the lowering stops.\nIt is practical, easy, and safe to install by saving a considerable amount of space at any loading bay."
+            },
+            "features": {
+              "ar": [
+                "تحمل حمولة ديناميكية تصل إلى 6 طن على الرغم من حجمها المدمج",
+                "طلاء خاص مضاد للتآكل لحماية فائقة وطويلة الأمد",
+                "تركيب سريع وبسيط دون الحاجة لعمل حفرة خرسانية (No Pit)",
+                "صيانة مجانية وتصميم عملي للغاية لتوفير المساحة",
+                "خدمة ما بعد البيع متكاملة مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Supports up to 6 tons of dynamic load despite compact size",
+                "Special anti-corrosion coating for long-lasting protection",
+                "Fast and easy installation requiring no pit construction",
+                "Maintenance-free design saving considerable loading space",
+                "After-sales service with spare parts availability and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Checkered-lip-to-prevent-from-slipping.jpg",
+                "label": {
+                  "ar": "حديد مبزر يمنع الانزلاق",
+                  "en": "Checkered Lip to Prevent Slipping"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Easy-to-install.jpg",
+                "label": {
+                  "ar": "سهلة التركيب والتشبيت",
+                  "en": "Easy to Install"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Easy-to-operate.jpg",
+                "label": {
+                  "ar": "سهل التشغيل والاستخدام",
+                  "en": "Easy to Operate"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Pneumatic-cylinder-to-open-the-lip-with-almost-no-effort.jpg",
+                "label": {
+                  "ar": "أسطوانة هوائية لفتح الشفة بسهولة ودون مجهود",
+                  "en": "Pneumatic Cylinder to Open Lip"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Saving-considerable-amount-of-space.jpg",
+                "label": {
+                  "ar": "توفير مساحة كبيرة في منطقة التحميل",
+                  "en": "Saving Considerable Amount of Space"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Solid-rubber-fender.jpg",
+                "label": {
+                  "ar": "مصد مطاطي صلب لحماية المنصة والشاحنات",
+                  "en": "Solid Rubber Fender Bumper"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "الحمولة الديناميكية القصوى",
+                  "value": "6 طن (6000 كجم)"
+                },
+                {
+                  "label": "عرض الشفة المفصلية (LIP)",
+                  "value": "352 مم"
+                },
+                {
+                  "label": "الموديل 1800",
+                  "value": "الطول 310 مم | العرض 1800 مم | الارتفاع 535 مم"
+                },
+                {
+                  "label": "الموديل 2100",
+                  "value": "الطول 310 مم | العرض 2100 مم | الارتفاع 535 مم"
+                },
+                {
+                  "label": "نوع التركيب",
+                  "value": "خارجي بدون حفرة خرسانية (No Pit Required)"
+                },
+                {
+                  "label": "الطلاء الحافظ",
+                  "value": "طلاء خاص مضاد للتآكل والعوامل الجوية"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Max Dynamic Load",
+                  "value": "6 Tons (6000 kg)"
+                },
+                {
+                  "label": "Hinged Lip Width",
+                  "value": "352 mm"
+                },
+                {
+                  "label": "Model 1800",
+                  "value": "L: 310mm | W: 1800mm | H: 535mm"
+                },
+                {
+                  "label": "Model 2100",
+                  "value": "L: 310mm | W: 2100mm | H: 535mm"
+                },
+                {
+                  "label": "Installation Type",
+                  "value": "Surface Mounted (No Pit Required)"
+                },
+                {
+                  "label": "Protection Coating",
+                  "value": "Special Anti-Corrosion Coating"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Minidock-Copy-1.jpg",
+                "label": {
+                  "ar": "رسم هندسي - نموذج ميني دوك ليفيلر (عرض جانبي)",
+                  "en": "Side View Spec Drawing"
+                }
+              },
+              {
+                "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Untitled.jpg",
+                "label": {
+                  "ar": "رسم هندسي - نموذج ميني دوك ليفيلر (عرض علوي/أمامي)",
+                  "en": "Top/Front View Spec Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://sabtech.com.sa/wp-content/uploads/2019/12/Side.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/12/two-side.jpg",
+              "https://sabtech.com.sa/wp-content/uploads/2019/12/Front.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/12/MINI-DOCK.pdf",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Side.jpg"
+          },
+          {
+            "id": "hydraulic-dock-leveler",
+            "name": {
+              "ar": "منصة تحميل – دوك ليفيلير",
+              "en": "Hydraulic Dock Leveler"
+            },
+            "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Doors.webp",
+            "description": {
+              "ar": "تم تصميم منصات التحميل الهيدروليكية من ساب تكـ بدقة شديدة لسد الفجوة بين منصات تحميل المستودعات والشاحنات ذات مستويات الارتفاع المختلفة، مما يضمن عمليات التحميل والتفريغ الآمنة والفعالة.\nتتيح منصات التحميل الهيدروليكية التشغيل الفعال مع الحد الأدنى من متطلبات الصيانة، مما يؤدي إلى انخفاض كبير في تكاليف الملكية مقارنة بالوحدات الميكانيكية. ونتيجة لذلك، فإن منصة التحميل الهيدروليكية من ساب تكـ يمثل الخيار الأمثل لتعزيز الإنتاجية في أي منطقة تحميل.\nتوفر منصة التحميل لدينا الأولوية للسلامة، مما يوفر للمشغلين القدرة على إيقاف حركة المنصة في أي وقت أثناء سفرها. تم تصميمها خصيصًا لاستيعاب جميع أنواع الرافعات الشوكية، فهي تتميز بزاوية ميل قصوى تبلغ 13 درجة لمنع الانزلاق إلى القاع أثناء الاستخدام.",
+              "en": "SAB TECH’s Hydraulic Dock Levelers are meticulously engineered to bridge the gap between warehouse loading bays and trucks of varying height levels, ensuring safe and efficient loading and unloading operations.\nThe hydraulic dock system enables efficient operation with minimal maintenance requirements, leading to significantly reduced ownership costs compared to mechanical units. As a result, SAB TECH’s Hydraulic Dock Leveler stands as the ideal choice to boost productivity at any loading bay."
+            },
+            "features": {
+              "ar": [
+                "تحميل وتفريغ آمن وسهل وسريع للمستودعات والشاحنات",
+                "الحماية التلقائية من السقوط الحر لتجنب الهبوط السريع والوقاية من الحوادث",
+                "الحمولات القياسية 6 و8 طن مع إمكانية التخصيص حتى 45 طن",
+                "حواجز فرشاة مانعة للأتربة اختيارية أسفل وحول المنصة",
+                "طلاء إيبوكسي ثلاثي الطبقات لحماية فائقة مضادة للصدأ والتآكل",
+                "تكامل كهربائي مع الأبواب المقطعية ومصدات الأمان لتشغيل متكامل",
+                "خدمات ما بعد البيع مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Safe, easy, and fast loading and unloading operations",
+                "Automatic free-fall protection to avoid rapid leveler descent",
+                "Standard capacities of 6 & 8 tons, customizable up to 45 tons",
+                "Optional brush seals around and beneath the leveler for dust protection",
+                "Three layers of epoxy paint for long-lasting anti-corrosion protection",
+                "Electrical panel integration with sectional doors and vehicle restraints",
+                "After-sales service with spare parts availability and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Safety-Support.jpg",
+                "label": {
+                  "ar": "عمود تأمين وقفل الأمان",
+                  "en": "Safety Support"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Rubber-Fender-1.png",
+                "label": {
+                  "ar": "مصدات مطاطية لحماية المنصة والشاحنة",
+                  "en": "Rubber Fender"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Lip-Plate-1.png",
+                "label": {
+                  "ar": "قرص الشفة المفصلية",
+                  "en": "Lip Plate"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Electric-Control-Panel-1-1.png",
+                "label": {
+                  "ar": "صندوق التحكم الكهربائي",
+                  "en": "Electric Control Panel"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Lip-Cylinder-1.png",
+                "label": {
+                  "ar": "بستم اللسان الهيدروليكي",
+                  "en": "Lip Cylinder"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Customize-double-cylinder-for-heavy-capacity.jpg",
+                "label": {
+                  "ar": "تصنيع حسب الطلب بستمين للأحمال الثقيلة",
+                  "en": "Customized Double Cylinder"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Main-Cylinder-1.png",
+                "label": {
+                  "ar": "الأسطوانة الرئيسية الهيدروليكية",
+                  "en": "Main Cylinder"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Power-Pack-2.png",
+                "label": {
+                  "ar": "وحدة الهيدروليك المركزية",
+                  "en": "Hydraulic Power Pack"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "أبعاد المنصة القياسية",
+                  "value": "1830×2730 مم – 2000×2500 مم"
+                },
+                {
+                  "label": "أعلى ارتفاع فوق مستوى المستودع",
+                  "value": "600 مم"
+                },
+                {
+                  "label": "أقل ارتفاع تحت مستوى المستودع",
+                  "value": "300 مم"
+                },
+                {
+                  "label": "قدرة المحرك الكهربائي",
+                  "value": "0.75 كيلوواط (1 حصان)"
+                },
+                {
+                  "label": "الكهرباء",
+                  "value": "220/380 فولت، 3 فاز، 60 هرتز"
+                },
+                {
+                  "label": "الحمولة القياسية والتخصيص",
+                  "value": "6-8 طن قياسي (حتى 45 طن حسب الطلب)"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Standard Platform Sizes",
+                  "value": "1830×2730 mm – 2000×2500 mm"
+                },
+                {
+                  "label": "Max Height Above Warehouse Level",
+                  "value": "600 mm"
+                },
+                {
+                  "label": "Max Depth Below Warehouse Level",
+                  "value": "300 mm"
+                },
+                {
+                  "label": "Motor Power",
+                  "value": "0.75 kW (1 HP)"
+                },
+                {
+                  "label": "Power Supply",
+                  "value": "220/380V, 3Phase, 60Hz"
+                },
+                {
+                  "label": "Capacity",
+                  "value": "6-8 Tons Standard (Up to 45 Tons Custom)"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-CLOSE-3.jpg",
+                "label": {
+                  "ar": "نموذج منصة تحميل مغلقة",
+                  "en": "Closed Platform Drawing"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-PLATEFORMR.png",
+                "label": {
+                  "ar": "نموذج المنصة من الأعلى",
+                  "en": "Top View Platform Drawing"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-OPEN-2.jpg",
+                "label": {
+                  "ar": "نموذج منصة تحميل مفتوحة",
+                  "en": "Open Platform Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-1-1.png",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-2-1.png",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-3-1.png",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-4-1.png"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/Dock-Leveler.pdf",
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-1-1.png"
+          },
+          {
+            "id": "manual-loading-bridges",
+            "name": {
+              "ar": "جسر تحميل يدوي",
+              "en": "Manual Loading Bridge"
+            },
+            "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "تعد جسور التحميل اليدوية من انكيما حلاً سهلاً واقتصاديًا للغاية لتغطية الفجوات الصغيرة والمستويات المختلفة في أرصفة التحميل دون الحاجة لأي تمديدات كهربائية أو تركيبات معقدة.\nتُثبت جسور التحميل اليدوية على حافة رصيف التحميل وتتميز بسهولة التشغيل بفضل ذراع التشغيل الميكانيكي أو الأسطوانات الغازية المساعدة، مما يجعلها مثالية للعمل السريع في المستودعات والمراكز اللوجستية.",
+              "en": "Inkema’s Manual Loading Bridges offer a simple, practical, and highly economical solution to bridge small gaps and height differences between loading docks and trucks without requiring electrical power or complex installations.\nSurface-mounted at the dock edge, they feature effortless manual or gas-spring assisted operation, providing reliable freight handling for logistics centers and warehouses."
+            },
+            "features": {
+              "ar": [
+                "تشغيل يدوي ميكانيكي بسيط بدون كهرباء",
+                "سطح مقاوم للانزلاق مصنوع من الحديد المحبب لضمان السلامة",
+                "تركيب تثبيتي سهل على حافة حائط منطقة التحميل",
+                "مقاومة ممتازة للعوامل الجوية والتآكل لخدمة شاقة ودائمة",
+                "خدمات ما بعد البيع مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Simple manual operation requiring no electrical power",
+                "Anti-slip checkered steel surface for enhanced safety",
+                "Easy edge-mounted installation on loading bay walls",
+                "Excellent weather and corrosion resistance for heavy-duty service",
+                "After-sales service with spare parts and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Safe-and-easy-handling.jpg",
+                "label": {
+                  "ar": "مناولة آمنة وسهلة",
+                  "en": "Safe and Easy Handling"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Loading-made-easy.jpg",
+                "label": {
+                  "ar": "سهولة التحميل والتفريغ",
+                  "en": "Loading Made Easy"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Practical-economical-and-easy-to-handle-it-requires-no-installation-pit.jpg",
+                "label": {
+                  "ar": "عملية واقتصادية لا تحتاج حفرة تركيب",
+                  "en": "Practical & Economical (No Pit)"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Compensation-system-is-formed-by-spring.jpg",
+                "label": {
+                  "ar": "نظام نوابض ميكانيكية للارتداد",
+                  "en": "Spring Compensation System"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "سعة الحمل الديناميكي",
+                  "value": "حتى 4 طن (4000 كجم)"
+                },
+                {
+                  "label": "عرض الجسر",
+                  "value": "1750 مم – 2000 مم"
+                },
+                {
+                  "label": "طول الجسر",
+                  "value": "1250 مم – 1500 مم"
+                },
+                {
+                  "label": "مبدأ التشغيل",
+                  "value": "يدوي ميكانيكي بمساعد غازي (Gas-Spring)"
+                },
+                {
+                  "label": "التركيب",
+                  "value": "تثبيت سطحي على حافة الرصيف"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Max Dynamic Load",
+                  "value": "Up to 4 Tons (4000 kg)"
+                },
+                {
+                  "label": "Bridge Width",
+                  "value": "1750 mm – 2000 mm"
+                },
+                {
+                  "label": "Bridge Length",
+                  "value": "1250 mm – 1500 mm"
+                },
+                {
+                  "label": "Operation Mechanism",
+                  "value": "Manual with Gas-Spring assist"
+                },
+                {
+                  "label": "Mounting Type",
+                  "value": "Edge-of-Dock Wall Mounted"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/drawing.jpg",
+                "label": {
+                  "ar": "رسم هندسي - جسر تحميل يدوي",
+                  "en": "Manual Bridge Spec Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Top-1-2.jpg",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Top-1-4.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Manual-Loading-Bridges.pdf",
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Top-1-2.jpg"
+          },
+          {
+            "id": "inflatable-dock-shelter",
+            "name": {
+              "ar": "أغطية بوابات مطاطية قابلة للإنتفاخ",
+              "en": "Inflatable Dock Shelter"
+            },
+            "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "تضمن أغطية البوابات المطاطية القابلة للإنتفاخ من انكيما إحكام الإغلاق التام وحماية الحاويات والشاحنات أثناء عملية التحميل والتفريغ في المناطق ذات التحكم الحراري أو الغرف المبردة.\nتنتفخ الوسائد المطاطية حول الشاحنة فور توقفها لتغليف جسم الشاحنة من كافة الجوانب، مما يمنع تسرب الهواء البارد وحماية البضائع الحساسة من الأتربة والحشرات والعوامل الجوية الخارجية.",
+              "en": "Inkema’s Inflatable Dock Shelters provide an absolute hermetic seal around trucks and containers during loading and unloading, making them essential for cold storage and climate-controlled facilities.\nInflatable cushions expand around the vehicle’s body upon docking, completely sealing the perimeter to prevent thermal loss, dust ingress, and external contamination."
+            },
+            "features": {
+              "ar": [
+                "عزل حراري محكم ومثالي للمستودعات ومصانع الأغذية والأدوية المبردة",
+                "وسائد تنتفخ هيدروليكياً وتتكيف تلقائياً مع مختلف مقاسات الشاحنات",
+                "خامات من البوليستر المطاطي المتين المقاوم للتآكل والتمزق",
+                "تقليل استهلاك الطاقة وتكاليف التبريد بشكل ملحوظ",
+                "خدمات ما بعد البيع مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Perfect thermal insulation for refrigerated food and pharma warehouses",
+                "Electrically inflatable cushions adaptable to all truck sizes",
+                "High-durability tear-resistant polyester rubber material",
+                "Drastically reduces energy consumption and cooling costs",
+                "After-sales service with spare parts and 1-year warranty"
+              ]
+            },
+            "featureImages": [
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Inflatable-top-canvases.jpg",
+                "label": {
+                  "ar": "وسادة مطاطية بالأعلى قابلة للانتفاخ",
+                  "en": "Inflatable Top Canvas"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Inflatable-bottom-canvas.jpg",
+                "label": {
+                  "ar": "وسائد مطاطية على الجوانب قابلة للانتفاخ",
+                  "en": "Inflatable Side Canvas"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/High-flow-fan-drive-motor.jpg",
+                "label": {
+                  "ar": "مروحة ذات تدفق هواء عالي لتسريع الانتفاخ",
+                  "en": "High Flow Fan Drive Motor"
+                }
+              },
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Double-inner-re-inforced-polyester-fabric.jpg",
+                "label": {
+                  "ar": "نسيج بوليستر مزدوج مقوى ومدعم",
+                  "en": "Reinforced Polyester Fabric"
+                }
+              }
+            ],
+            "specs": {
+              "ar": [
+                {
+                  "label": "أبعاد الغطاء القياسية",
+                  "value": "3500 (عرض) × 3700 (ارتفاع) مم"
+                },
+                {
+                  "label": "عمق الغطاء",
+                  "value": "800 مم"
+                },
+                {
+                  "label": "قوة المنفاخ الكهربائي",
+                  "value": "0.55 كيلوواط"
+                },
+                {
+                  "label": "زمن الإنتفاخ التام",
+                  "value": "15 – 20 ثانية"
+                },
+                {
+                  "label": "درجة حرارة التشغيل",
+                  "value": "-30° م إلى +70° م"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Standard Shelter Size",
+                  "value": "3500 (W) × 3700 (H) mm"
+                },
+                {
+                  "label": "Shelter Depth",
+                  "value": "800 mm"
+                },
+                {
+                  "label": "Blower Motor Power",
+                  "value": "0.55 kW"
+                },
+                {
+                  "label": "Inflation Time",
+                  "value": "15 – 20 seconds"
+                },
+                {
+                  "label": "Operating Temperature",
+                  "value": "-30°C to +70°C"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/DS-9019B-Model.jpg",
+                "label": {
+                  "ar": "رسم هندسي - حماية مطاطية قابلة للإنتفاخ",
+                  "en": "Inflatable Dock Shelter Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigos-muelle-hinchables-002-1.jpg",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigos-muelle-hinchables-001.jpg",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigos-muelle-hinchables-002.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Inflatable-Dock-Shelter.pdf",
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigos-muelle-hinchables-002-1.jpg"
+          },
+          {
+            "id": "retractable-dock-shelter",
+            "name": {
+              "ar": "أغطية بوابات مطاطية قابلة للإرتداد",
+              "en": "Retractable Dock Shelter"
+            },
+            "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+            "description": {
+              "ar": "تتميز أغطية البوابات المطاطية القابلة للإرتداد من انكيما بهيكل مرن يمتص الصدمات الناتجة عن ركن الشاحنات غير الدقيق، حيث يرتد الهيكل الفولاذي للخلف لحماية البوابة من التلف ثم يعود لوضعه الأصلي.\nتوفر الستائر المطاطية حماية ممتازة لعزل حافة التحميل ومنع دخول مياه الأمطار والغبار والحرارة أثناء عمليات الشحن والتفريغ.",
+              "en": "Inkema’s Retractable Dock Shelters feature a flexible structure designed to absorb impact in case of improper truck positioning, retracting backward to prevent structural damage and automatically returning to its position.\nDurable PVC curtains provide an effective perimeter seal around the docked vehicle, protecting personnel and goods from rain, wind, heat, and dust."
+            },
+            "features": {
+              "ar": [
+                "هيكل ارتدادي يمتص صدمات الشاحنات ويحمي حوائط البوابة من التلف",
+                "ستائر مطاطية من البولي فينايل كلورايد (PVC) عالية المرونة والمتانة",
+                "إطار ألومنيوم/حديد مجلفن قوي ومقاوم للصدأ",
+                "تصريف ممتاز لمياه الأمطار وعزل العوامل الجوية",
+                "خدمات ما بعد البيع مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+              ],
+              "en": [
+                "Retractable frame structure absorbs vehicle impact to protect building walls",
+                "Flexible heavy-duty PVC curtains for tight perimeter sealing",
+                "Sturdy galvanized steel/aluminum frame structure",
+                "Effective rain drainage and weather insulation",
+                "After-sales service with spare parts and 1-year warranty"
+              ]
+            },
+            "specs": {
+              "ar": [
+                {
+                  "label": "أبعاد الغطاء القياسية",
+                  "value": "3400 (عرض) × 3400 (ارتفاع) مم"
+                },
+                {
+                  "label": "عمق الغطاء",
+                  "value": "600 مم"
+                },
+                {
+                  "label": "سمك الستارة الأمامية",
+                  "value": "3 مم PVC مضلع"
+                },
+                {
+                  "label": "سمك الستارة الجانبية",
+                  "value": "3 مم PVC"
+                },
+                {
+                  "label": "هيكل الإطار",
+                  "value": "حديد مجلفن ارتدادي بمساعد زنبركي"
+                }
+              ],
+              "en": [
+                {
+                  "label": "Standard Shelter Size",
+                  "value": "3400 (W) × 3400 (H) mm"
+                },
+                {
+                  "label": "Shelter Depth",
+                  "value": "600 mm"
+                },
+                {
+                  "label": "Front Curtain Thickness",
+                  "value": "3 mm Reinforced PVC"
+                },
+                {
+                  "label": "Side Curtain Thickness",
+                  "value": "3 mm PVC"
+                },
+                {
+                  "label": "Frame Structure",
+                  "value": "Spring-Assisted Retractable Galvanized Steel"
+                }
+              ]
+            },
+            "specDrawings": [
+              {
+                "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Dock-shelter.jpg",
+                "label": {
+                  "ar": "رسم هندسي - غطاء قابل للإرتداد",
+                  "en": "Retractable Dock Shelter Drawing"
+                }
+              }
+            ],
+            "images": [
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-003.jpg",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-001.jpg",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-002.jpg",
+              "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-004.jpg"
+            ],
+            "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Retractable-Dock-Shelter.pdf",
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-003.jpg"
+          }
+        ]
       }
     ]
   },
@@ -2393,40 +3719,1020 @@
     },
     "products": [
       {
-        "id": "hydraulic-bollards",
+        "id": "high-security-road-blocker-pas68",
         "name": {
-          "ar": "مصدات هيدروليكية (Bollards)",
-          "en": "Hydraulic Bollards"
+          "ar": "حاجز طريق عالي الأمان PAS68",
+          "en": "High Security Road Blocker PAS68"
         },
-        "image": "/images/products/hydraulic-bollards.jpg",
+        "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2063BG1.jpg",
         "description": {
-          "ar": "مصدات أسطوانية قوية للتحكم الأمني في مداخل المنشآت.",
-          "en": "Strong cylindrical bollards for security control at facility entrances."
-        }
+          "ar": "إن مصدة الطرق من ساب تكـ عبارة عن حاجز طريق هيدروليكي عالي الأمان تم اختباره وفقًا لمعايير PAS68: V/7500[N3]/80/90:-1.5/4.6 اختراق صفري (يعني M50-P1 “اختراق صفري” وفقًا لمعيار ASTM F2656) وما زال قيد التشغيل بعد التأثير.\nيوفر حاجز الطريق هذا أمانًا عالي المستوى لمحيطك، خاصة في المناطق المعرضة لهجمات المركبات. إنه يعمل باستخدام وحدة طاقة هيدروليكية (HPU)، قادرة على النشر خلال 3-5 ثوانٍ في ظل الظروف العادية وبسرعة تصل إلى 1.5 ثانية مع نظام الفتح السريع في حالات الطوارئ (EFO).\nفي حالة انقطاع التيار الكهربائي، يمكن تشغيل حاجز الطريق يدويًا باستخدام مضخة يدوية مُجهزة خصيصًا، مما يضمن استمرار الأمان حتى في الظروف المعاكسة.\nتسمح الإلكترونيات التي يتم التحكم فيها بواسطة PLC بالتكامل متعدد الاستخدامات مع أجهزة قراءة البطاقات، وأجهزة القياسات الحيوية، والتحكم في الراديو، والتعرف على لوحة الترخيص، وإشارات المرور.",
+          "en": "SABTECH’s RBXM1000CT is a high-security hydraulic road blocker tested according to PAS68: V/7500[N3]/80/90:-1.5/4.6 zero penetration (meaning M50-P1 zero penetration as per ASTM F2656 standard) and remaining operational after impact. This Road Blocker provides top-tier security for your perimeter, particularly in areas vulnerable to vehicle attacks.\nIt operates using a hydraulic power unit (HPU), capable of deploying within 3-5 seconds under normal conditions and as swiftly as 1.5 seconds with the emergency fast opening (EFO) system.\nIn the event of a power failure, the road blocker can be manually operated using a specially fitted hand pump, ensuring continued security even in adverse circumstances."
+        },
+        "features": {
+          "ar": [
+            "تم اختبار التصادم وفق معايير PAS68 و IWA14-1 العالمية",
+            "مكافئ لتصنيفات الكفاءة الأمنية الفائقة K12 و M50 و ASTM F2656",
+            "صفيحة فولاذية علوية مربعة الشكل بسماكة 10 ملم مانعة للانزلاق",
+            "هيكل عالي التحمل مصفح ومصنوع من الفولاذ الصلب S275JR",
+            "سرعة تشغيل فائقة (3-5 ثوانٍ) وفتح طوارئ سريع (1.5 ثانية)",
+            "تشغيل يدوي بمضخة يدوية مدمجة عند انقطاع التيار الكهربائي",
+            "خدمة ما بعد البيع متكاملة مع توفر قطع الغيار وضمان لمدة سنة واحدة"
+          ],
+          "en": [
+            "PAS68 and IWA14-1 crash tested for maximum perimeter security",
+            "Equivalent to K12, M50, and ASTM F2656 zero penetration standards",
+            "Checkered top steel plate at 10 mm thickness for slip resistance",
+            "Heavy-duty structure made out of high-grade S275JR steel",
+            "Fast deployment (3-5s) with Emergency Fast Opening (EFO) in 1.5s",
+            "Manual hand pump operation during total power failures",
+            "After-sales service with spare parts availability and 1-year warranty"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Control-Panel-5.jpg",
+            "label": {
+              "ar": "لوحة التحكم الكهربائية المتقدمة",
+              "en": "Electric Control Panel"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Control-Push-Button-1.jpg",
+            "label": {
+              "ar": "زر ضغط التحكم والتشغيل",
+              "en": "Control Push Button"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Optional-DC-motor-for-emergency-power-breakdown.jpg",
+            "label": {
+              "ar": "محرك DC اختياري لحالات انقطاع الطوارئ",
+              "en": "Optional Emergency DC Motor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/photocell.jpg",
+            "label": {
+              "ar": "حساس الخلية الضوئية للسلامة",
+              "en": "Safety Photo Cell Sensor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Power-pack-hand-pump.jpg",
+            "label": {
+              "ar": "مضخة يدوية للطوارئ بوحدة الهيدروليك",
+              "en": "Power Pack Manual Hand Pump"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/steelcabinet.jpg",
+            "label": {
+              "ar": "كابينة حديدية واقية لوحدة الطاقة",
+              "en": "Power Pack Steel Cabinet"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Powerpack.jpg",
+            "label": {
+              "ar": "وحدة طاقة هيدروليكية ذات إنتاج عالي",
+              "en": "High Output Hydraulic Power Pack"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/trafic-ightih.jpg",
+            "label": {
+              "ar": "إشارة مرور ضوئية لتنظيم الدخول",
+              "en": "Traffic Light Indicator"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Water-Pump.jpg",
+            "label": {
+              "ar": "مضخة سحب المياه من الحفرة",
+              "en": "Pit Water Submersible Pump"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "ارتفاع المصدة عند الرفع",
+              "value": "1000 مم"
+            },
+            {
+              "label": "طول المصدة الحاظرة",
+              "value": "2000 – 6000 مم"
+            },
+            {
+              "label": "الكهرباء والطاقة",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "3 – 5 ثوانٍ (1.5 ثانية في طوارئ EFO)"
+            },
+            {
+              "label": "قدرة وحدة الهيدروليك",
+              "value": "4.0 – 7.5 كيلوواط"
+            },
+            {
+              "label": "نظام التحكم PLC",
+              "value": "يدعم منافذ I/O متعددة للربط الأمني"
+            },
+            {
+              "label": "تحميل المحور المسموح",
+              "value": "50 طن لكل محور"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -15° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Raised Height",
+              "value": "1000 mm"
+            },
+            {
+              "label": "Blocking Width",
+              "value": "2000 – 6000 mm"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "Deployment Speed",
+              "value": "3 – 5 sec (1.5 sec Emergency EFO)"
+            },
+            {
+              "label": "Hydraulic Power Rating",
+              "value": "4.0 – 7.5 kW"
+            },
+            {
+              "label": "PLC Controller",
+              "value": "Multi-channel I/O access control ready"
+            },
+            {
+              "label": "Max Axle Load",
+              "value": "50 Tons per axle"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-15°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/modal-side-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية جانبية للموديل",
+              "en": "Side View Technical Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/modal-front-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية أمامية للموديل",
+              "en": "Front View Technical Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/modal-top-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية علوية للموديل",
+              "en": "Top View Technical Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2063BG1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2058BG1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2055BG1.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2014/08/HIGH-SECURITY-ROAD-BLOCKER-PAS68.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2063BG1.jpg"
       },
       {
-        "id": "road-blockers",
+        "id": "high-security-shallow-road-blocker-pas68",
         "name": {
-          "ar": "حواجز طرق (Road Blockers)",
-          "en": "Road Blockers"
+          "ar": "مصد سطحى طريق عالي الامان PAS68",
+          "en": "High Security Shallow Road Blocker PAS68"
         },
-        "image": "/images/products/road-blockers.jpg",
+        "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/product-1.jpg",
         "description": {
-          "ar": "حواجز أمنية شديدة التحمل لمنع الاقتحامات وتأمين البوابات الرئيسية.",
-          "en": "Heavy-duty security barriers to prevent intrusions and secure main gates."
-        }
+          "ar": "توفر مصدات الطرق السطحية الهيدروليكية عالية الأمان من ساب تك أمانًا لا مثيل له في محيط المنشآت الحساسة، مما يمنع بشكل فعال الوصول غير المصرح به للمركبات.\nمع عمق تركيب يبلغ 40 سم فقط، يعتبر مصد الطريق السطحي مثالياً للمواقع التي تكون فيها الأساسات الخرسانية العميقة غير عملية، مما يوفر مرونة ممتازة للتركيب.\nيعمل النظام بواسطة وحدة طاقة هيدروليكية (HPU) قادرة على الرفع والفتح خلال 3-5 ثوانٍ، وبسرعة تصل إلى 1.5 ثانية مع نظام الفتح السريع في حالات الطوارئ (EFO).\nتسمح لوحة التحكم الإلكترونية بي إل سي بالتكامل والتوافق مع أجهزة قراءة البطاقات، البصمة الحيوية، والتحكم بالراديو، وقارئ لوحات المركبات.",
+          "en": "SABTECH’s High Security Shallow Mount Hydraulic Road Blocker provides unmatched perimeter security, effectively preventing unauthorized vehicle access.\nWith an installation depth of just 40 cm, our shallow road blocker is ideal for sites where deep concrete foundations are impractical, offering enhanced installation flexibility.\nPowered by a Hydraulic Power Unit (HPU), it deploys within 3 to 5 seconds under standard operation, and as fast as 1.5 seconds with Emergency Fast Opening (EFO).\nThe PLC-controlled system supports integration with card readers, biometric readers, radio controls, and license plate recognition."
+        },
+        "features": {
+          "ar": [
+            "عمق أساسات سطحية منخفض جداً (40 سم فقط) مناسب للمناطق المحدودة",
+            "اختبارات تصادم واختراق صفري معتمدة عالمياً وفق معيار PAS68",
+            "سرعة تشغيل فائقة (3-5 ثوانٍ) وفتح طوارئ سريع خلال 1.5 ثانية (EFO)",
+            "هيكل عالي التحمل مصفح ومقاوم للاصطدامات الشديدة مع تشغيل يدوي للطوارئ",
+            "لوحة تحكم بي إل سي متطورة تدعم الربط مع جميع أنظمة التحكم في الدخول",
+            "صيانة منخفضة وخدمة ما بعد البيع مع ضمان لمدة سنة وتوفر قطع الغيار"
+          ],
+          "en": [
+            "Ultra-shallow foundation depth (just 40 cm) for sites with underground constraints",
+            "Crash tested and certified for zero penetration according to PAS68 standards",
+            "Fast deployment (3-5 sec) with Emergency Fast Opening (EFO) in 1.5 sec",
+            "Heavy-duty armoured structure with manual emergency hand pump operation",
+            "Advanced PLC controller supporting complete access control system integrations",
+            "Low maintenance cost, after-sales support, 1-year warranty, and spare parts"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Control-Panel-5.jpg",
+            "label": {
+              "ar": "لوحة التحكم الكهربائية المتقدمة",
+              "en": "Electric Control Panel"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Control-Push-Button-1.jpg",
+            "label": {
+              "ar": "زر ضغط التحكم والتشغيل",
+              "en": "Control Push Button"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Optional-DC-motor-for-emergency-power-breakdown.jpg",
+            "label": {
+              "ar": "محرك DC اختياري لحالات انقطاع الطوارئ",
+              "en": "Optional Emergency DC Motor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/photocell.jpg",
+            "label": {
+              "ar": "حساس الخلية الضوئية للسلامة",
+              "en": "Safety Photo Cell Sensor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Power-pack-hand-pump.jpg",
+            "label": {
+              "ar": "مضخة يدوية للطوارئ بوحدة الهيدروليك",
+              "en": "Power Pack Manual Hand Pump"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/steelcabinet.jpg",
+            "label": {
+              "ar": "كابينة حديدية واقية لوحدة الطاقة",
+              "en": "Power Pack Steel Cabinet"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/out-put-power-pack.jpg",
+            "label": {
+              "ar": "وحدة طاقة هيدروليكية ذات إنتاج عالي",
+              "en": "High Output Hydraulic Power Pack"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/trafic-ightih.jpg",
+            "label": {
+              "ar": "إشارة مرور ضوئية لتنظيم الدخول",
+              "en": "Traffic Light Indicator"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Water-Pump.jpg",
+            "label": {
+              "ar": "مضخة سحب المياه من الحفرة",
+              "en": "Pit Water Submersible Pump"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "عمق التركيب السطحي",
+              "value": "400 مم (40 سم فقط)"
+            },
+            {
+              "label": "ارتفاع المصدة عند الرفع",
+              "value": "1100 مم"
+            },
+            {
+              "label": "طول المصدة الحاظرة",
+              "value": "2000 – 6000 مم"
+            },
+            {
+              "label": "الطاقة والكهرباء",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "3 – 5 ثوانٍ (1.5 ثانية في طوارئ EFO)"
+            },
+            {
+              "label": "قدرة وحدة الهيدروليك",
+              "value": "4.0 – 7.5 كيلوواط"
+            },
+            {
+              "label": "نظام التحكم PLC",
+              "value": "يدعم منافذ I/O متعددة للربط الأمني"
+            },
+            {
+              "label": "تحميل المحور المسموح",
+              "value": "50 طن لكل محور"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -15° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Shallow Pit Depth",
+              "value": "400 mm (Just 40 cm)"
+            },
+            {
+              "label": "Raised Height",
+              "value": "1100 mm"
+            },
+            {
+              "label": "Blocking Width",
+              "value": "2000 – 6000 mm"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "Deployment Speed",
+              "value": "3 – 5 sec (1.5 sec Emergency EFO)"
+            },
+            {
+              "label": "Hydraulic Power Rating",
+              "value": "4.0 – 7.5 kW"
+            },
+            {
+              "label": "PLC Controller",
+              "value": "Multi-channel I/O access control ready"
+            },
+            {
+              "label": "Max Axle Load",
+              "value": "50 Tons per axle"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-15°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/front-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية أمامية للموديل السطحي",
+              "en": "Shallow Model Front View Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/side-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية جانبية للموديل السطحي",
+              "en": "Shallow Model Side View Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/top-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية علوية للموديل السطحي",
+              "en": "Shallow Model Top View Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/product-1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/2222.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2014/08/HIGH-SECURITY-SHALLOW-ROAD-BLOCKER-PAS68.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/product-1.jpg"
       },
       {
-        "id": "boom-barriers",
+        "id": "road-blocker",
         "name": {
-          "ar": "بوابات ذراعية (Boom Barriers)",
-          "en": "Boom Barriers"
+          "ar": "مصدة أمنية",
+          "en": "Security Road Blocker"
         },
-        "image": "/images/products/boom-barriers.jpg",
+        "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Road-Blocker-1-1.jpg",
         "description": {
-          "ar": "بوابات إلكترونية لتنظيم حركة مرور السيارات في المواقف والمجمعات.",
-          "en": "Electronic barriers to regulate traffic in parking lots and complexes."
-        }
+          "ar": "توفر مصدات الطرق الهيدروليكية من ساب تكـ حماية أمنية قوية وفعالة للمناطق الحساسة، مما يضمن دفاعًا لا مثيل له ضد هجمات الدخلاء غير المرغوب فيها.\nتوفر مصدات الطرق لدينا تدفقًا سلسًا لحركة المرور للمركبات المرخصة مع منع اقتحام المركبات غير المصرح به.\nمدعومة بوحدة الطاقة الهيدروليكية (HPU)، يمكن لمصدات الطرق الخاصة بنا أن ترفع وتنخفض بسرعة (خلال 4-6 ثواني)، مما يضمن التشغيل السريع.\nفي حالة انقطاع التيار الكهربائي، تسمح المضخة اليدوية المجهزة خصيصًا بالتشغيل اليدوي، مما يضمن الأمان المستمر حتى في ظل الظروف المعاكسة.",
+          "en": "SAB TECH’s Hydraulic Road blockers offer robust and effective security protection for sensitive areas, ensuring unparalleled defense against unwanted intruder attacks.\nOur road blockers provide seamless traffic flow for authorized vehicles while deterring unauthorized vehicular intrusion.\nPowered by a hydraulic power unit (HPU), our road blockers can rapidly lift and lower (in 4-6 seconds), ensuring swift operation.\nIn the event of a power failure, a specially fitted hand pump allows for manual operation, ensuring continuous security even under adverse conditions."
+        },
+        "features": {
+          "ar": [
+            "هيكل فولاذي عالي التحمل مصفح ومصمم لتحمل الصدمات",
+            "تشغيل يدوي بمضخة يدوية مدمجة عند انقطاع التيار الكهربائي",
+            "انخفاض تكلفة الصيانة والتشغيل السريع الهيدروليكي",
+            "خدمة ما بعد البيع المتكاملة وتوفر قطع الغيار الأصلية",
+            "ضمان شامل لمدة سنة كاملة"
+          ],
+          "en": [
+            "Heavy-duty armoured steel structure designed for maximum impact defense",
+            "Manual hand pump operation system during total power failures",
+            "Low maintenance cost with fast hydraulic deployment",
+            "Full after-sales support with genuine spare parts availability",
+            "1 Year comprehensive warranty"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Control-Panel-5.jpg",
+            "label": {
+              "ar": "صندوق التحكم الكهربائي",
+              "en": "Electric Control Panel"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Control-Push-Button-1.jpg",
+            "label": {
+              "ar": "أزرار التشغيل والتحكم",
+              "en": "Control Push Buttons"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Customize-nailed-design.jpg",
+            "label": {
+              "ar": "تصميم شوكات أمنية حسب الطلب",
+              "en": "Customized Nailed Design"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Optional-DC-motor-for-emergency-power-breakdown.jpg",
+            "label": {
+              "ar": "وحدة هيدروليك تعمل بالبطاريات للطوارئ",
+              "en": "Optional Emergency DC Motor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Photo-cell.jpg",
+            "label": {
+              "ar": "حساس الخلية الضوئية للسلامة (فوتوسيل)",
+              "en": "Safety Photo Cell Sensor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Power-pack-hand-pump.jpg",
+            "label": {
+              "ar": "وحدة هيدروليك مع مضخة يدوية للطوارئ",
+              "en": "Power Pack Manual Hand Pump"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Power-pack-steel-cabinet.jpg",
+            "label": {
+              "ar": "صندوق حماية صلب لوحدة الهيدروليك",
+              "en": "Power Pack Steel Cabinet"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Powerpack.jpg",
+            "label": {
+              "ar": "وحدة الهيدروليك القياسية عالية الأداء",
+              "en": "Standard High Output Power Pack"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Stop-ang-go-light-post.jpg",
+            "label": {
+              "ar": "إشارة مرور ضوئية مع عمود تثبيت",
+              "en": "Traffic Light Post"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Water-Pump.jpg",
+            "label": {
+              "ar": "مضخة سحب المياه من الحفرة",
+              "en": "Pit Water Submersible Pump"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "ارتفاع المصدة عند الرفع",
+              "value": "800 – 1100 مم"
+            },
+            {
+              "label": "طول المصدة الحاظرة",
+              "value": "2000 – 6000 مم"
+            },
+            {
+              "label": "مصدر الكهرباء والطاقة",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "قوة ووحدة الطاقة",
+              "value": "4.0 – 7.5 كيلوواط"
+            },
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "4 – 6 ثوانٍ"
+            },
+            {
+              "label": "ملحقات خزان الزيت",
+              "value": "مؤشر مستوى الزيت، منفس الفلتر، فتحة تصريف"
+            },
+            {
+              "label": "مضخة الطوارئ اليدوية",
+              "value": "نظام هيدروليكي يتضمن مضخة يدوية عند انقطاع الكهرباء"
+            },
+            {
+              "label": "عناصر السلامة",
+              "value": "خلايا ضوئية (فوتوسيل) وإشارة مرور لتنظيم الدخول"
+            }
+          ],
+          "en": [
+            {
+              "label": "Raised Height",
+              "value": "800 – 1100 mm"
+            },
+            {
+              "label": "Blocking Width",
+              "value": "2000 – 6000 mm"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "Hydraulic Power Pack",
+              "value": "4.0 – 7.5 kW"
+            },
+            {
+              "label": "Operating Speed",
+              "value": "4 – 6 Seconds"
+            },
+            {
+              "label": "Tank Accessories",
+              "value": "Oil level indicator, filter breather, drain port"
+            },
+            {
+              "label": "Emergency Hand Pump",
+              "value": "Hydraulic manual hand pump for power failures"
+            },
+            {
+              "label": "Safety & Traffic",
+              "value": "Photocell safety sensors & traffic light post"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/f2.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية أمامية للمصدة الأمنية",
+              "en": "Front View Technical Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/f3.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية جانبية للمصدة الأمنية",
+              "en": "Side View Technical Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/f1.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية علوية للمصدة الأمنية",
+              "en": "Top View Technical Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Type-Two-Side.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Type-Front.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Type-Side.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Nailed-Type-two-side.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Nailed-Type-Front.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Low-depth-type.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Low-depth-type-side.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Shallow-type-open.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Shallow-type-close.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Road-Blocker.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Type-Two-Side.jpg"
+      },
+      {
+        "id": "road-bollard",
+        "name": {
+          "ar": "مصدة عامودية أوتوماتيكية",
+          "en": "Automatic Hydraulic Road Bollard"
+        },
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+        "description": {
+          "ar": "مصدات الطرق العمودية الهيدروليكية الأوتوماتيكية من ساب تك هي الحل الأمثل والأنيق لتنظيم وإدارة حركة مرور المركبات وحماية المداخل الحساسة والمباني الهامة.\nمصنوعة من الفولاذ المقاوم للصدأ عالي الجودة والصلابة، وتتميز بحلقات إضاءة LED مدمجة توفر رؤية ووضوحاً ممتازين أثناء الليل والظروف الجوية المختلفة.\nتعمل بالنظام الهيدروليكي السريع للرفع والخفض تلقائياً، وتدعم التكامل الكامل مع كافة أنظمة التحكم في الدخول مثل البطاقات، الريموت كنترول، وقارئ اللوحات.",
+          "en": "SABTECH’s Automatic Hydraulic Road Bollards provide an elegant and effective solution for vehicle access control and high-security perimeter defense at critical entrances.\nManufactured from premium-grade stainless steel and heavy-duty materials, equipped with integrated LED light rings for high visibility during nighttime and harsh weather.\nPowered by a rapid hydraulic lifting mechanism, with full compatibility across all access control systems including card readers, remote controls, and ANPR license plate recognition."
+        },
+        "features": {
+          "ar": [
+            "هيكل متين للغاية مصنوع من فولاذ صلب ومقاوم للصدمات والعوامل الجوية",
+            "حلقة إضاءة LED علوية مدمجة لتحسين الرؤية والوضوح ليلاً وفي جميع الظروف",
+            "متاحة بمجموعة واسعة من الألوان والتصاميم لتناسب الديكور والبيئة المحيطة",
+            "تشغيل هيدروليكي أوتوماتيكي سريع وسلس مع إمكانية التشغيل اليدوي للطوارئ",
+            "خدمة ما بعد البيع متكاملة مع ضمان لمدة سنة وتوفر قطع الغيار الأصلية"
+          ],
+          "en": [
+            "Robust construction built with high-strength rigid steel for impact defense",
+            "Integrated LED lighting ring for enhanced visibility at night and harsh conditions",
+            "Available in a wide range of colors and designs to match location aesthetics",
+            "Fast, smooth automatic hydraulic operation with emergency manual override",
+            "Comprehensive after-sales service, genuine spare parts, and 1-year warranty"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Available-wide-range-of-colors-and-design-to-match-location.jpg",
+            "label": {
+              "ar": "خيارات متعددة للألوان والتصاميم",
+              "en": "Wide Range of Colors & Designs"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/LED-light-for-improved-visibility.jpg",
+            "label": {
+              "ar": "إضاءة LED تحذيرية مدمجة",
+              "en": "Integrated LED Light Ring"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Robust-construction-and-rigid-materials.jpg",
+            "label": {
+              "ar": "هيكل صلب عالي المتانة",
+              "en": "Robust Heavy-Duty Construction"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "قطر العمود (المصدة)",
+              "value": "220 – 275 مم"
+            },
+            {
+              "label": "ارتفاع المصدة عند الرفع",
+              "value": "600 – 800 مم"
+            },
+            {
+              "label": "سماكة الجدار الفولاذي",
+              "value": "6 – 10 مم"
+            },
+            {
+              "label": "مصدر الكهرباء والطاقة",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "3 – 5 ثوانٍ"
+            },
+            {
+              "label": "عناصر الرؤية والسلامة",
+              "value": "حلقة إضاءة LED مدمجة وحساسات فوتوسيل"
+            },
+            {
+              "label": "درجة حماية الطقس",
+              "value": "IP67 مقاومة للماء والأتربة"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -20° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Bollard Diameter",
+              "value": "220 – 275 mm"
+            },
+            {
+              "label": "Raised Height",
+              "value": "600 – 800 mm"
+            },
+            {
+              "label": "Steel Wall Thickness",
+              "value": "6 – 10 mm"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "Deployment Speed",
+              "value": "3 – 5 Seconds"
+            },
+            {
+              "label": "Visibility & Safety",
+              "value": "Integrated LED light ring & photocell sensors"
+            },
+            {
+              "label": "Protection Rating",
+              "value": "IP67 Water & Dustproof"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-20°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/BOLLARD-1.jpg",
+            "label": {
+              "ar": "رسم هندسي وتخطيطي للمصدة العمودية",
+              "en": "Automatic Road Bollard Technical Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Bollardwithsablogoyellow.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/crash-rated-bollard-632.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Automatic-rising-bollard.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/AUTOMATIC-ROAD-BOLLARD.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Bollardwithsablogoyellow.jpg"
+      },
+      {
+        "id": "tyre-killer",
+        "name": {
+          "ar": "مفجر اطارات",
+          "en": "Tyre Killer"
+        },
+        "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tire-Killer-1.jpg",
+        "description": {
+          "ar": "مفجر الإطارات من ساب تكـ هو نظام أمني صلب وشديد الفعالية مصمم لمنع وحظر حركة المركبات غير المصرح بها في الاتجاه الممنوع ومنع اقتحام المنشآت الحساسة.\nمصنوع من الفولاذ الصلب عالي التحمل ومزود بأشواك فولاذية حادة تضمن تدمير إطارات المركبات المعتدية فوراً لمنعها من التقدم.\nيتوفر بموديلات كهروميكانيكية هيدروليكية أو بميكانيكية الثقل التلقائي، وتدعم التكامل الكامل مع كافة أنظمة التحكم في الدخول وإشارات المرور.",
+          "en": "SABTECH’s Tyre Killer is a heavy-duty security barrier designed to strictly prevent unauthorized vehicle entry and block traffic in wrong-way directions at critical access control points.\nConstructed from high-tensile heavy steel equipped with sharp steel spikes that instantly disable vehicle tyres upon impact, preventing forced intrusion.\nAvailable in electromechanical hydraulic drive models or mechanical counterweight self-reset models, fully integrable with access control systems and traffic indicators."
+        },
+        "features": {
+          "ar": [
+            "أشواك فولاذية حادة مصممة خصيصاً لإتلاف إطارات المركبات المقتحمة فوراً",
+            "حركة الأشواك تعتمد على نظام الهيدروليك الكهروميكانيكي أو الثقل التلقائي",
+            "أطوال متغيرة وتصاميم مخصصة حسب متطلبات الموقع وعرض الطريق",
+            "هيكل مصفح عالي المتانة ومقاوم للأحمال الثقيلة والصدمات الشديدة",
+            "خدمة ما بعد البيع متكاملة وتوفر قطع الغيار الأصلية مع ضمان لمدة سنة"
+          ],
+          "en": [
+            "Heavy-duty sharp steel spikes specifically engineered for immediate tyre destruction",
+            "Spike operation available via electromechanical hydraulic or mechanical counterweight systems",
+            "Customizable lengths and spike arrangements to match exact site installation dimensions",
+            "Armoured heavy steel structure designed for high axle loads and impact resistance",
+            "Complete after-sales service, genuine spare parts availability, and 1-year warranty"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Customize-spike-for-optional-car-or-tire-size.jpg",
+            "label": {
+              "ar": "تصميم أشواك مخصص حسب مقاس الإطارات",
+              "en": "Customized Spikes for Tire Sizes"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Shallow-type.jpg",
+            "label": {
+              "ar": "نموذج سطحي لمنع اقتحام الإطارات",
+              "en": "Shallow Installation Type"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Sharp-spike-where-tyre-damage-is-required.jpg",
+            "label": {
+              "ar": "أشواك حادة لتدمير الإطارات فوراً",
+              "en": "Sharp Spikes for Instant Tyre Destruction"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Spike-movement-by-mechanical-counterweight.jpg",
+            "label": {
+              "ar": "حركة الأشواك بنظام الثقل الميكانيكي",
+              "en": "Mechanical Counterweight System"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Variable-length-for-custom-design.jpg",
+            "label": {
+              "ar": "أطوال متغيرة ومخصصة حسب الطريق",
+              "en": "Variable Custom Lengths"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "ارتفاع الأشواك الفولاذية",
+              "value": "150 – 250 مم"
+            },
+            {
+              "label": "طول المصدة الكلي",
+              "value": "2000 – 6000 مم"
+            },
+            {
+              "label": "سماكة الفولاذ والمصفحات",
+              "value": "10 – 12 مم"
+            },
+            {
+              "label": "مصدر الكهرباء والطاقة",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "1.5 – 3 ثوانٍ"
+            },
+            {
+              "label": "تحميل المحور المسموح",
+              "value": "50 طن لكل محور"
+            },
+            {
+              "label": "آلية التشغيل",
+              "value": "هيدروليكي كهروميكانيكي أو ميكانيكي بالثقل"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -15° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Spike Height",
+              "value": "150 – 250 mm"
+            },
+            {
+              "label": "Total Blocking Length",
+              "value": "2000 – 6000 mm"
+            },
+            {
+              "label": "Steel Plate Thickness",
+              "value": "10 – 12 mm"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "Operating Speed",
+              "value": "1.5 – 3 Seconds"
+            },
+            {
+              "label": "Max Axle Load",
+              "value": "50 Tons per axle"
+            },
+            {
+              "label": "Drive Mechanism",
+              "value": "Hydraulic electromechanical or mechanical counterweight"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-15°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tyre-killer-top-view.jpg",
+            "label": {
+              "ar": "رسم هندسي - رؤية علوية لمفجر الإطارات",
+              "en": "Tyre Killer Top View Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tyre-killer-side-view.jpg",
+            "label": {
+              "ar": "رسم هندسي - رؤية جانبية لمفجر الإطارات",
+              "en": "Tyre Killer Side View Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tyre-killer-front-view.jpg",
+            "label": {
+              "ar": "رسم هندسي - رؤية أمامية لمفجر الإطارات",
+              "en": "Tyre Killer Front View Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tire-Killer-1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/DSC_6340.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/DSC_6348.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Front-5.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/ABOVE-GROUND-TiRE-KILLER.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tire-Killer-1.jpg"
+      },
+      {
+        "id": "turnstiles",
+        "name": {
+          "ar": "بوابات دوارة أمنية",
+          "en": "Security Turnstiles"
+        },
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+        "description": {
+          "ar": "البوابات الدوارة الأمنية من ساب تك هي الحل الأمثل والموثوق لتنظيم حركة دخول وخروج الأفراد وإدارة حشود الزوار في المنشآت والمباني الحساسة.\nتتميز بتصميم ميكانيكي وكهرومغناطيسي قوي مصنوع من الفولاذ المقاوم للصدأ (الستانلس ستيل) لضمان المتانة العالية والعمل المستمر في مختلف الظروف البيئية.\nتدعم الربط الكامل مع أنظمة التحكم في الدخول مثل أجهزة قراءة البطاقات الذكية، البصمة الحيوية، والتعرف على الوجه، مع إمكانية الفتح التلقائي للطوارئ عند انقطاع التيار الكهربائي.",
+          "en": "SABTECH’s Security Turnstiles offer a highly reliable and robust solution for controlling pedestrian access and managing visitor flow in high-security facilities.\nEngineered with precision electromechanical mechanisms housed in durable stainless steel cabinets, ensuring long-term performance under heavy usage.\nFully compatible with all access control integrations including RFID card readers, biometric scanners, and facial recognition, with emergency automatic release upon power failure."
+        },
+        "features": {
+          "ar": [
+            "هيكل متين مصنوع من الفولاذ المقاوم للصدأ 304/316 المضاد للتآكل والخدش",
+            "دوران سلس باتجاه واحد أو باتجاهين مع قفل تلقائي وآمن للأذرع",
+            "نظام الفتح التلقائي وإفراغ الممر فوراً في حالات الطوارئ وانقطاع الكهرباء",
+            "تكامل كامل مع جميع لوحات التحكم في الدخول والبصمة والبطاقات الذكية",
+            "خدمة ما بعد البيع متكاملة وتوفر قطع الغيار الأصلية مع ضمان لمدة سنة"
+          ],
+          "en": [
+            "Durable housing crafted from corrosion-resistant 304/316 grade stainless steel",
+            "Smooth uni-directional or bi-directional rotation with secure automatic locking arms",
+            "Automatic fail-safe emergency release mechanism during power outages",
+            "Seamless integration with RFID, biometric, and facial recognition access control systems",
+            "Full after-sales support, genuine spare parts availability, and 1-year warranty"
+          ]
+        },
+        "featureImages": [],
+        "specs": {
+          "ar": [
+            {
+              "label": "مادة التصنيع والتغليف",
+              "value": "فولاذ مقاوم للصدأ Stainless Steel 304/316"
+            },
+            {
+              "label": "سعة المرور والدخول",
+              "value": "25 – 40 شخص في الدقيقة"
+            },
+            {
+              "label": "عرض الممر للدخول",
+              "value": "550 – 600 مم"
+            },
+            {
+              "label": "مصدر الكهرباء والطاقة",
+              "value": "110/220V AC, 50/60Hz"
+            },
+            {
+              "label": "جهد التشغيل الداخلي",
+              "value": "24V DC آمن للغاية"
+            },
+            {
+              "label": "زمن الفتح والإغلاق",
+              "value": "0.2 ثانية"
+            },
+            {
+              "label": "درجة حماية الطقس",
+              "value": "IP54 مقاوم للغبار والرطوبة"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -20° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Housing Material",
+              "value": "Stainless Steel 304 / 316 Grade"
+            },
+            {
+              "label": "Throughput Rate",
+              "value": "25 – 40 Persons per minute"
+            },
+            {
+              "label": "Passage Width",
+              "value": "550 – 600 mm"
+            },
+            {
+              "label": "Power Supply",
+              "value": "110/220V AC, 50/60Hz"
+            },
+            {
+              "label": "Internal Voltage",
+              "value": "24V DC Safe Low Voltage"
+            },
+            {
+              "label": "Opening/Closing Time",
+              "value": "0.2 Seconds"
+            },
+            {
+              "label": "Protection Rating",
+              "value": "IP54 Dust & Moisture Proof"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-20°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/03/Securitygate1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/Securitygate3.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/03/Securitygate2.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/Securitygate4.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/TURNSTILES.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/03/Securitygate1.jpg"
       }
     ]
   },
