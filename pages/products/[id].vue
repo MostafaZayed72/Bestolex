@@ -11,11 +11,17 @@
 
     <div v-else>
       <!-- General Hero Banner -->
-      <section class="relative w-full h-[30vh] md:h-[40vh] flex items-center justify-center overflow-hidden bg-gray-900">
-        <img :src="product.coverImage || 'https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Vertical-Baling-Press-50T-1.jpg'" alt="Banner" class="absolute inset-0 w-full h-full object-cover opacity-40">
-        <div class="absolute inset-0 bg-gradient-to-t from-[#121c2d]/80 via-[#121c2d]/40 to-transparent"></div>
+      <section class="relative w-full h-[35vh] sm:h-[45vh] md:h-[50vh] max-h-[550px] flex items-center justify-center overflow-hidden bg-black">
+        <img 
+          :src="product.coverImage || product.images?.[0] || product.image" 
+          alt="Banner" 
+          class="absolute inset-0 w-full h-full object-cover object-center opacity-90 transition-all duration-700"
+        >
+        <!-- Subtle dark gradient overlay for text readability -->
+        <div class="absolute inset-0 bg-gradient-to-t from-[#121c2d] via-black/30 to-black/40"></div>
+        
         <div class="relative z-10 text-center px-4" data-aos="fade-up">
-          <h1 class="text-3xl md:text-5xl font-black text-white drop-shadow-lg">
+          <h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] tracking-tight">
             {{ product.name[locale] }}
           </h1>
         </div>
@@ -152,7 +158,15 @@
           </div>
           
           <div class="max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl border border-gray-100 dark:border-gray-700 bg-black aspect-video relative">
+            <iframe 
+              v-if="product.video && (product.video.includes('youtube.com') || product.video.includes('youtu.be'))"
+              :src="getEmbedYoutubeUrl(product.video)"
+              class="absolute inset-0 w-full h-full border-0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <video 
+              v-else-if="product.video"
               :src="product.video" 
               controls
               class="absolute inset-0 w-full h-full object-contain"
@@ -300,6 +314,15 @@ const { locale } = useI18n()
 const localePath = useLocalePath()
 const route = useRoute()
 const product = ref(null)
+
+const getEmbedYoutubeUrl = (url) => {
+  if (!url) return ''
+  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/
+  const match = url.match(regExp)
+  return (match && match[2].length === 11)
+    ? `https://www.youtube.com/embed/${match[2]}`
+    : url
+}
 
 // For image gallery and autoplay
 const currentImageIndex = ref(0)

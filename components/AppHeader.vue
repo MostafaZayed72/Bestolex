@@ -44,7 +44,7 @@
             <!-- Right Side: Subcategories / Products -->
             <div class="w-2/3 p-6 bg-gray-50 dark:bg-gray-900 overflow-y-auto max-h-[400px]">
               <!-- If category has subcategories -->
-              <div v-if="activeCategory?.subcategories" class="grid grid-cols-2 gap-6">
+              <div v-if="activeCategory?.subcategories" class="grid grid-cols-2 lg:grid-cols-3 gap-6">
                 <div v-for="sub in activeCategory.subcategories" :key="sub.id">
                   <h4 class="font-bold text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary cursor-default transition-colors mb-3 border-b border-gray-200 dark:border-gray-700 pb-1">{{ sub.title[locale] }}</h4>
                   <ul class="space-y-2">
