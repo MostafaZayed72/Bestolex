@@ -4733,6 +4733,430 @@
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/TURNSTILES.pdf",
         "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/03/Securitygate1.jpg"
+      },
+      {
+        "id": "under-vehicle-surveillance-system",
+        "name": {
+          "ar": "نظام المراقبة تحت المركبة",
+          "en": "Under Vehicle Surveillance System (UVSS)"
+        },
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+        "description": {
+          "ar": "نظام المراقبة وفحص أسفل المركبات من ساب تكـ هو نظام أمني متطور مصمم خصيصاً للمسح الضوئي الرقمي الدقيق لأسفل المركبات والكشف عن الأجسام والغرباء والمواد الممنوعة في الوقت الفعلي.\nيتميز بكاميرات عالية الدقة والسرعة (Line-scan HD) وأنظمة إضاءة LED مدمجة قوية تلتقط صورة عالية الوضوح لأسفل المركبة فور مرورها عبر الماسح الضوئي.\nيتكامل النظام تلقائياً مع كاميرات التعرف على لوحات المركبات (ANPR) والأنظمة الأمنية المركزية، مما يضمن أقصى مستويات التفتيش والأمان عند المداخل الحساسة والمطارات والمنشآت العسكرية والحكومية.",
+          "en": "SABTECH’s Under Vehicle Surveillance System (UVSS) is an advanced digital screening solution designed for real-time inspection and threat detection underneath passing vehicles.\nEquipped with high-resolution line-scan HD cameras and powerful integrated LED illumination to instantly capture clear full-underbody images as vehicles drive over the scanner.\nSeamlessly integrates with Automatic Number Plate Recognition (ANPR) cameras and central security systems, providing top-tier security screening for critical infrastructure, airports, and government installations."
+        },
+        "features": {
+          "ar": [
+            "مسح ضوئي رقمي عالي الدقة (HD Line-scan) لالتقاط صورة كاملة وواضحة لأسفل المركبة",
+            "إضاءة LED مدمجة شديدة السطوع تضمن تصويراً نقياً في جميع الأوقات وليلاً",
+            "تكامل تلقائي ممتاز مع كاميرات التعرف على لوحات المركبات (ANPR) وقواعد البيانات",
+            "هيكل سطحي أو مدفون غاية في الصلابة ومقاوم للأحمال الثقيلة والظروف المناخية القاسية IP68",
+            "خدمة ما بعد البيع متكاملة وتوفر قطع الغيار الأصلية مع ضمان لمدة سنة كاملة"
+          ],
+          "en": [
+            "High-resolution digital HD line-scan imaging for full and clear underbody vehicle inspection",
+            "High-intensity integrated LED illumination for crystal-clear imaging day and night",
+            "Seamless integration with Automatic Number Plate Recognition (ANPR) and security databases",
+            "Heavy-duty surface-mount or pit-mount scanner casing built to withstand extreme loads IP68",
+            "Full after-sales support, genuine spare parts availability, and 1-year warranty"
+          ]
+        },
+        "featureImages": [],
+        "specs": {
+          "ar": [
+            {
+              "label": "دقة الكاميرا والمسح",
+              "value": "كاميرا HD Line-Scan عالية السرعة والدقة"
+            },
+            {
+              "label": "دقة الصورة الملتقطة",
+              "value": "4096 بكسل صورة كاملة لأسفل المركبة"
+            },
+            {
+              "label": "سرعة مرور المركبة",
+              "value": "1 – 60 كم/ساعة"
+            },
+            {
+              "label": "نظام الإضاءة",
+              "value": "وحدات إضاءة LED مدمجة عالية السطوع العمر 50,000 ساعة"
+            },
+            {
+              "label": "تحميل المحور المسموح",
+              "value": "50 طن لكل محور"
+            },
+            {
+              "label": "درجة حماية الطقس",
+              "value": "IP68 مقاومة تامة للماء والأتربة والظروف القاسية"
+            },
+            {
+              "label": "قواعد البيانات والربط",
+              "value": "يدعم الربط مع أنظمة ANPR والتحكم المركزي"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -20° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Camera Technology",
+              "value": "High-speed Digital HD Line-Scan Camera"
+            },
+            {
+              "label": "Image Resolution",
+              "value": "4096 Pixels Full Underbody Image"
+            },
+            {
+              "label": "Vehicle Drive Speed",
+              "value": "1 – 60 km/h"
+            },
+            {
+              "label": "Illumination Unit",
+              "value": "High-intensity LED lights (50,000 hrs lifetime)"
+            },
+            {
+              "label": "Max Axle Load",
+              "value": "50 Tons per axle"
+            },
+            {
+              "label": "Protection Rating",
+              "value": "IP68 Fully Waterproof & Dustproof"
+            },
+            {
+              "label": "Database & Integration",
+              "value": "ANPR plate recognition & central security integration"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-20°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/floor-security3.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/floorsecurity1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/floorsecurity2.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/UNDER-VEHICLE-SURVEILLANCE-SYSTEM.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/floor-security3.jpg"
+      },
+      {
+        "id": "above-ground-tyre-killer",
+        "name": {
+          "ar": "مفجر إطارات أعلى الأرض",
+          "en": "Surface Mount / Above Ground Tyre Killer"
+        },
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+        "description": {
+          "ar": "مفجر الإطارات المثبت على السطح فوق الأرض من ساب تكـ هو نظام أمني متطور يثبت مباشره على سطح الأسفلت أو الخرسانة دون الحاجة إلى أعمال أعمال حفر عميقة أو أساسات أرضية معقدة.\nمصمم بصفائح فولاذية منحنية مانعة للانزلاق وأشواك فولاذية حادة تبرز عند محاولة الدخول الخاطئ أو غير المصرح به لتدمير إطارات المركبات فوراً.\nيعتبر الخيار المثالي والأمثل للمواقع الحساسة والمؤقتة أو الطرق التي تحتوي على تمديدات تحت الأرض تحول دون الحفر العميق.",
+          "en": "SABTECH’s Surface Mount Above Ground Tyre Killer is an engineered high-security barrier installed directly onto asphalt or concrete surfaces without requiring deep pit excavation.\nDesigned with heavy-duty anti-slip ramps and sharp steel spikes that immediately puncture and destroy vehicle tyres attempting unauthorized entry or wrong-way driving.\nIdeal for sensitive facilities, temporary checkpoints, or sites with underground utilities where deep excavation is impossible."
+        },
+        "features": {
+          "ar": [
+            "تركيب سطحي مباشر على الطريق أعلى الأرض بدون حفر أو أعمال إنشائية عميقة",
+            "أشواك فولاذية صلبة وحادة مصممة خصيصاً لإتلاف إطارات المركبات المعتدية فوراً",
+            "منحدرات جانبية مانعة للانزلاق تضمن مروراً آمناً للمركبات المرخصة بالاتجاه المسموح",
+            "هيكل فولاذي مصفح شديد التحمل ومقاوم للأحمال الثقيلة والصدمات الشديدة",
+            "خدمة ما بعد البيع متكاملة وتوفر قطع الغيار الأصلية مع ضمان لمدة سنة كاملة"
+          ],
+          "en": [
+            "Direct surface-mount installation without requiring deep trenching or excavation",
+            "Heavy-duty sharp steel spikes engineered for immediate vehicle tyre destruction",
+            "Anti-slip side ramps ensuring smooth passage for authorized vehicles in permitted direction",
+            "Armoured steel construction built to withstand high axle loads and heavy traffic",
+            "Full after-sales support, genuine spare parts availability, and 1-year warranty"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/Above-ground-type.jpg",
+            "label": {
+              "ar": "تركيب سطحي مباشر أعلى الأرض بدون حفر",
+              "en": "Surface Installation Without Deep Trenching"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/Customize-spike-for-optional-car-or-tyre-size.jpg",
+            "label": {
+              "ar": "تصميم أشواك مخصص حسب مقاس الإطارات",
+              "en": "Customized Spikes for Tire Sizes"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/Sharp-spike-where-tyre-damage-is-required.jpg",
+            "label": {
+              "ar": "أشواك حادة لتدمير الإطارات فوراً",
+              "en": "Sharp Spikes for Instant Tyre Destruction"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/Spike-movement-by-mechanical-counterweight.jpg",
+            "label": {
+              "ar": "حركة الأشواك بنظام الثقل الميكانيكي",
+              "en": "Mechanical Counterweight System"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/Variable-length-for-custom-design.jpg",
+            "label": {
+              "ar": "أطوال متغيرة ومخصصة حسب عرض الطريق",
+              "en": "Variable Custom Lengths"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "ارتفاع المصدة السطحي",
+              "value": "100 – 120 مم فوق الأرض"
+            },
+            {
+              "label": "ارتفاع الأشواك الفولاذية",
+              "value": "150 – 200 مم"
+            },
+            {
+              "label": "عرض الطريق والمصدة",
+              "value": "2000 – 6000 مم"
+            },
+            {
+              "label": "سماكة الهيكل والفولاذ",
+              "value": "10 – 12 مم"
+            },
+            {
+              "label": "تحميل المحور المسموح",
+              "value": "50 طن لكل محور"
+            },
+            {
+              "label": "طريقة التركيب",
+              "value": "ثبيت سطحي مباشر ببراغي فولاذية خرسانية"
+            },
+            {
+              "label": "آلية التشغيل",
+              "value": "هيدروليكي كهروميكانيكي أو ميكانيكي بالثقل"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -20° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Surface Ramp Height",
+              "value": "100 – 120 mm above ground"
+            },
+            {
+              "label": "Spike Projection Height",
+              "value": "150 – 200 mm"
+            },
+            {
+              "label": "Total Barrier Length",
+              "value": "2000 – 6000 mm"
+            },
+            {
+              "label": "Steel Plate Thickness",
+              "value": "10 – 12 mm"
+            },
+            {
+              "label": "Max Axle Load",
+              "value": "50 Tons per axle"
+            },
+            {
+              "label": "Installation Method",
+              "value": "Direct surface mount via heavy-duty expansion bolts"
+            },
+            {
+              "label": "Drive System",
+              "value": "Electromechanical hydraulic or mechanical counterweight"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-20°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/09/top-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية علوية لمفجر الإطارات أعلى الأرض",
+              "en": "Top View Technical Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/09/side-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية جانبية لمفجر الإطارات أعلى الأرض",
+              "en": "Side View Technical Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/09/front-view.png",
+            "label": {
+              "ar": "رسم هندسي - رؤية أمامية لمفجر الإطارات أعلى الأرض",
+              "en": "Front View Technical Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/DSC3344.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/DSC3346.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/DSC_3240.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2021/09/ABOVE-GROUND-TiRE-KILLER.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/DSC3344.jpg"
+      },
+      {
+        "id": "surface-mount-hydraulic-road-blocker",
+        "name": {
+          "ar": "حاجز طريق مثبت على السطح",
+          "en": "Surface Mount Hydraulic Road Blocker"
+        },
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+        "description": {
+          "ar": "حاجز الطريق الهيدروليكي المثبت على السطح من ساب تكـ هو حل أمني متكامل يثبت مباشرة فوق سطح الطريق دون الحاجة إلى أي أعمال حفر أو حفر خرساني عميق.\nمصمم بصفائح صلبة مصفحة ومنحدرات جانبية تمكن المركبات من العبور السلس في الاتجاه المصرح به، بينما تمنع الاقتحام وتغلق الطريق فوراً عند الحاجة.\nيتميز بوحدة طاقة هيدروليكية قوية (HPU) تضمن رفع وخفض الحاجز بسرعة فائقة (خلال 3-5 ثواني)، مع إمكانية التشغيل اليدوي المدمج عند انقطاع التيار الكهربائي.",
+          "en": "SABTECH’s Surface Mount Hydraulic Road Blocker is a heavy-duty security solution installed directly onto the road surface without requiring pit excavation or deep concrete foundations.\nEngineered with armoured steel plates and integral side ramps, allowing smooth passage for authorized vehicles while immediately blocking unwanted intrusions.\nPowered by a high-output Hydraulic Power Unit (HPU) providing rapid lifting and lowering (within 3-5 seconds), featuring manual emergency override during power outages."
+        },
+        "features": {
+          "ar": [
+            "تثبيت سطحي مباشر فوق الطريق بدون أعمال حفر أو أساسات أرضية عميقة",
+            "منحدرات جانبية مانعة للانزلاق لضمان حركة مرور سلسة وآمنة للمركبات",
+            "سرعة تشغيل هيدروليكية فائقة للرفع والخفض (3 - 5 ثوانٍ)",
+            "هيكل فولاذي مصفح صلب ومقاوم للصدمات والأحمال الثقيلة 50 طن",
+            "خدمة ما بعد البيع متكاملة وتوفر قطع الغيار الأصلية مع ضمان لمدة سنة كاملة"
+          ],
+          "en": [
+            "Direct surface-mount installation requiring zero trenching or deep foundations",
+            "Integrated anti-slip side ramps ensuring smooth vehicle transition",
+            "Fast hydraulic deployment operating speed (3 – 5 seconds)",
+            "Armoured heavy-duty steel structure built for 50-ton axle load impact defense",
+            "Full after-sales support, genuine spare parts availability, and 1-year warranty"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/TF.jpg",
+            "label": {
+              "ar": "إشارة مرور تحذيرية لتنظيم الحركة",
+              "en": "Traffic Light Post"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Photocell.jpg",
+            "label": {
+              "ar": "حساس الخلية الضوئية للسلامة (فوتوسيل)",
+              "en": "Safety Photo Cell Sensor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Control-Push-Button.jpg",
+            "label": {
+              "ar": "زر ضغط التحكم والتشغيل",
+              "en": "Control Push Button"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Steel-Cabinet-Enclosure.jpg",
+            "label": {
+              "ar": "كابينة صلبة واقية لوحدة الهيدروليك",
+              "en": "Steel Cabinet Enclosure"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Standard-Powerpack.jpg",
+            "label": {
+              "ar": "وحدة طاقة هيدروليكية قياسية عالية الأداء",
+              "en": "Standard Hydraulic Power Pack"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Control-Panel.jpg",
+            "label": {
+              "ar": "لوحة التحكم الكهربائية المتقدمة",
+              "en": "Electric Control Panel"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "ارتفاع المنحدر السطحي",
+              "value": "100 – 150 مم فوق الأرض"
+            },
+            {
+              "label": "ارتفاع الحظر عند الرفع",
+              "value": "500 – 800 مم"
+            },
+            {
+              "label": "عرض الحاجز الكلي",
+              "value": "2000 – 6000 مم"
+            },
+            {
+              "label": "مصدر الكهرباء والطاقة",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "3 – 5 ثوانٍ"
+            },
+            {
+              "label": "قدرة وحدة الهيدروليك",
+              "value": "4.0 – 7.5 كيلوواط"
+            },
+            {
+              "label": "تحميل المحور المسموح",
+              "value": "50 طن لكل محور"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -15° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Ramp Height Above Ground",
+              "value": "100 – 150 mm"
+            },
+            {
+              "label": "Blocking Height Raised",
+              "value": "500 – 800 mm"
+            },
+            {
+              "label": "Total Barrier Width",
+              "value": "2000 – 6000 mm"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "Deployment Speed",
+              "value": "3 – 5 Seconds"
+            },
+            {
+              "label": "Hydraulic Power Rating",
+              "value": "4.0 – 7.5 kW"
+            },
+            {
+              "label": "Max Axle Load",
+              "value": "50 Tons per axle"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-15°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure2.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure3.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure4.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure5.jpg"
+        ],
+        "pdf": "",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure1.jpg"
       }
     ]
   },
@@ -4749,40 +5173,295 @@
     },
     "products": [
       {
+        "id": "industrial-sectional-doors",
+        "name": {
+          "ar": "أبواب صناعية شرائح",
+          "en": "Industrial Sectional Doors"
+        },
+        "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Industrial-Sectional-Door-1.jpg",
+        "description": {
+          "ar": "الأبواب الصناعية الشرائح من ساب تكـ هي الحل الأنسب والأنموذجي للمستودعات والمصانع ومراكز التوزيع والمستودعات المبردة لحفظ الطاقة والعزل الحراري والصوتي.\nمصنوعة من ألواح الساندوتش بانل (Sandwich Panels) عالية الجودة المحشوة بمادة البولي يوريثان العازلة بكثافة عالية، وتفتح عمودياً إلى الأعلى لتوفير أقصى مساحة ممكنة للمرور والاستخدام.\nمزودة بنظام توازن زنبركي حلزوني متين ومحرك كهربائي صناعي، مع أنظمة أمان متطورة تمنع سقوط الباب في حالة كسر الكيبل أو النوابض.",
+          "en": "SABTECH’s Industrial Sectional Doors offer the ideal solution for warehouses, factories, distribution centers, and cold storage facilities requiring superior thermal and acoustic insulation.\nConstructed with high-density polyurethane sandwich panels and rugged galvanized steel skins, opening vertically upwards to maximize clear passage height and space utilization.\nEquipped with heavy-duty spring counterbalancing mechanisms, industrial electric drives, and advanced anti-drop safety devices."
+        },
+        "features": {
+          "ar": [
+            "عزل حراري وصوتي عالي الكفاءة بفضل حشوة البولي يوريثان عالية الكثافة (40 كجم/م³)",
+            "ألواح ساندوتش بانل مصفحة ومقاومة للصدأ والتآكل والرياح القوية",
+            "أنظمة أمان مدمجة لحماية ضد كسر كابلات الرفع وكسر نوابض التوازن",
+            "إمكانية دمج باب مشاة جانبي أو نوافذ زجاجية شفافة للمعاينة والرؤية",
+            "تشغيل أوتوماتيكي محرك صناعي سلس مع إمكانية الفتح اليدوي للطوارئ",
+            "خدمة ما بعد البيع متكاملة وتوفر قطع الغيار الأصلية مع ضمان سنة كاملة"
+          ],
+          "en": [
+            "High-efficiency thermal and acoustic insulation with 40 kg/m³ density polyurethane core",
+            "Armoured galvanized steel sandwich panels resistant to wind load and corrosion",
+            "Integrated safety mechanisms against cable snapping and spring breakdown",
+            "Optional built-in pedestrian pass door or transparent vision windows",
+            "Smooth industrial electric motor operation with manual emergency chain release",
+            "Comprehensive after-sales service, genuine spare parts availability, and 1-year warranty"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/devices-against-cable-v0.1.jpg",
+            "label": {
+              "ar": "أجهزة أمان ضد كسر الكيابل والنوابض",
+              "en": "Anti-Drop Safety Devices"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/double-hardware-for-big-doors-v0.1.jpg",
+            "label": {
+              "ar": "تجهيزات فولاذية مزدوجة للأبواب الكبيرة",
+              "en": "Double Hardware for Heavy Doors"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/glassed-door-with-padestrian-door-v0.1.jpg",
+            "label": {
+              "ar": "شرائح زجاجية مع باب مشاة مدمج",
+              "en": "Glassed Panels with Pedestrian Door"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/safety-hook-which-locks-the-door-from-inside-v0.1.jpg",
+            "label": {
+              "ar": "خطاف أمان متطور لقفل الباب من الداخل",
+              "en": "Interior Safety Locking Hook"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/support-omega-for-big-doors-v0.1.jpg",
+            "label": {
+              "ar": "دعامة أوميغا الصلبة للأبواب العملاقة",
+              "en": "Omega Reinforcement Beam"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "سماكة ألواح الباب",
+              "value": "40 – 80 مم ساندوتش بانل"
+            },
+            {
+              "label": "كثافة عزل البولي يوريثان",
+              "value": "40 كجم / م³ CFC Free"
+            },
+            {
+              "label": "مقاومة الرياح",
+              "value": "Class 3 – 4 (حسب مقاس الباب)"
+            },
+            {
+              "label": "مصدر الكهرباء والطاقة",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "0.25 – 0.35 م / ثانية"
+            },
+            {
+              "label": "نظام السلامة والأمان",
+              "value": "حساس فوتوسيل سفلي ونظام أمان الكيابل"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -30° م إلى +65° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Panel Thickness",
+              "value": "40 – 80 mm Sandwich Panel"
+            },
+            {
+              "label": "Insulation Core Density",
+              "value": "40 kg/m³ CFC-Free Polyurethane"
+            },
+            {
+              "label": "Wind Resistance Class",
+              "value": "Class 3 – 4 (EN 12424 standard)"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60Hz"
+            },
+            {
+              "label": "Operating Speed",
+              "value": "0.25 – 0.35 m/s"
+            },
+            {
+              "label": "Safety Devices",
+              "value": "Bottom safety edge & cable break devices"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-30°C to +65°C"
+            }
+          ]
+        },
+        "specDrawings": [],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Industrial-Sectional-Door-1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Industrial-Door.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/DSC00199.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Seccional-acristalada.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Volvo-Granada-5-10-11-13.jpg"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/12/INDUSTRIAL-SECTIONAL-DOORS.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Industrial-Sectional-Door-1.jpg"
+      },
+      {
         "id": "high-speed-doors",
         "name": {
-          "ar": "أبواب سريعة",
-          "en": "High Speed Doors"
+          "ar": "الأبواب عالية السرعة",
+          "en": "High Speed Roll Up Doors"
         },
-        "image": "/images/products/high-speed-doors.jpg",
+        "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/High-Speed-Roll-Up-Doors-Banner-Final.webp",
         "description": {
-          "ar": "أبواب سريعة الفتح والإغلاق، مصممة لتحمل ضغط العمل العالي في المصانع.",
-          "en": "Fast opening and closing doors, designed to withstand high workload in factories."
-        }
-      },
-      {
-        "id": "roller-shutter-doors",
-        "name": {
-          "ar": "أبواب رول (شتر)",
-          "en": "Roller Shutter Doors"
+          "ar": "الأبواب عالية السرعة من ساب تكـ هي أبواب رول أوتوماتيكية سريعة الفتح والإغلاق مصممة لزيادة كفاءة العمليات اللوجستية وتقليل فترات الانتظار والحفاظ على الحرارة والتكييف الداخلي.\nتتميز بستائر قماشية مقواة بولي فينيل كلورايد (PVC) مرنة ومتينة تفتح بسرعة تصل إلى 2.0 متر في الثانية، مما يجعلها مثالية للرافعات الشوكية وحركة البضائع المكثفة والمستودعات الدوائية والأغذية.\nمزودة بشريط أمان كهرومغناطيسي سفلي وحساسات فوتوسيل تضمن أقصى أمان للعمال والآلات أثناء الحركة الفائقة.",
+          "en": "SABTECH’s High Speed Doors are automated fast-roll curtains engineered for heavy-duty industrial logistics, reducing wait times, and controlling indoor climates.\nFeaturing flexible high-tenacity PVC canvases opening at speeds up to 2.0 m/s, perfectly suited for forklift traffic, cleanrooms, food processing, and pharmaceutical cold storage.\nEquipped with electric safety edge bands and photocell sensors ensuring maximum worker and vehicle protection during high-speed operation."
         },
-        "image": "/images/products/roller-shutter-doors.jpg",
-        "description": {
-          "ar": "أبواب رول قوية لحماية الممتلكات ومقاومة العوامل الجوية.",
-          "en": "Strong roller shutter doors for property protection and weather resistance."
-        }
-      },
-      {
-        "id": "sectional-doors",
-        "name": {
-          "ar": "أبواب مقطعية",
-          "en": "Sectional Doors"
+        "features": {
+          "ar": [
+            "سرعة فتح فائقة تصل إلى 2.0 متر/ثانية لتقليل ضياع الطاقة والتكييف",
+            "ستائر PVC مقواة عالية التحمل مع خيارات نوافذ شفافة للرؤية والمعاينة",
+            "حافة أمان كهربائية سفلى وحساسات فوتوسيل تمنع الاصطدام بالكامل",
+            "محرك ترسي صناعي ذكي مع لوحة تحكم أوتوماتيكية متعددة السرعات",
+            "خدمة ما بعد البيع متكاملة وتوفر قطع الغيار الأصلية مع ضمان سنة كاملة"
+          ],
+          "en": [
+            "Ultra-fast opening speed up to 2.0 m/s minimizing energy and climate loss",
+            "Heavy-duty reinforced PVC curtain with optional transparent vision panels",
+            "Electric safety edge bottom band and photocell sensors for crash prevention",
+            "Intelligent industrial geared motor with multi-speed inverter control panel",
+            "Comprehensive after-sales service, genuine spare parts availability, and 1-year warranty"
+          ]
         },
-        "image": "/images/products/sectional-doors.jpg",
-        "description": {
-          "ar": "أبواب مقطعية عازلة للحرارة تناسب المستودعات والمرافق الصناعية.",
-          "en": "Thermally insulated sectional doors suitable for warehouses and industrial facilities."
-        }
+        "featureImages": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Completely-customised-canvases_v0.1.jpg",
+            "label": {
+              "ar": "ستائر PVC مخصصة بألوان ونوافذ متعددة",
+              "en": "Customized High-Speed PVC Canvases"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Electric-safety-band_v0.1.png",
+            "label": {
+              "ar": "شريط أمان حافة سفلي كهربائي حاسي",
+              "en": "Electric Safety Edge Band"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Geared-motor_v0.1.jpg",
+            "label": {
+              "ar": "محرك ترسي عالي السرعة والأداء",
+              "en": "High-Speed Geared Motor"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Photocell-safety_v0.5.png",
+            "label": {
+              "ar": "حساس الخلية الضوئية للسلامة (فوتوسيل)",
+              "en": "Safety Photocell Sensors"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Control-panel_v0.5.png",
+            "label": {
+              "ar": "لوحة تحكم إلكترونية أوتوماتيكية متطورة",
+              "en": "Automatic Control Panel"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "سرعة الفتح والرفع",
+              "value": "1.2 – 2.0 متر / ثانية"
+            },
+            {
+              "label": "مادة الستارة والقماش",
+              "value": "بولي فينيل كلورايد PVC مقوى 900 جم/م²"
+            },
+            {
+              "label": "مقاومة الرياح",
+              "value": "Class 2 – 3 (حسب مقاس الباب)"
+            },
+            {
+              "label": "مصدر الكهرباء والطاقة",
+              "value": "220V, Single Phase, 50/60Hz"
+            },
+            {
+              "label": "نوع المحرك",
+              "value": "محرك كهروميكانيكي صناعي مع مغير سرعة Inverter"
+            },
+            {
+              "label": "عناصر السلامة",
+              "value": "حافة سفلى حساسة + خلايا ضوئية Photocells"
+            },
+            {
+              "label": "درجة حرارة التشغيل",
+              "value": "من -15° م إلى +60° م"
+            }
+          ],
+          "en": [
+            {
+              "label": "Opening Speed",
+              "value": "1.2 – 2.0 m/s"
+            },
+            {
+              "label": "Curtain Material",
+              "value": "High-tenacity PVC 900 g/m²"
+            },
+            {
+              "label": "Wind Resistance Class",
+              "value": "Class 2 – 3 (EN 12424 standard)"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220V, Single Phase, 50/60Hz"
+            },
+            {
+              "label": "Drive Unit",
+              "value": "Industrial geared motor with frequency inverter"
+            },
+            {
+              "label": "Safety Devices",
+              "value": "Conductive safety edge & photocell barrier"
+            },
+            {
+              "label": "Operating Temp",
+              "value": "-15°C to +60°C"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Dimensions.jpg",
+            "label": {
+              "ar": "مخطط الأبعاد والمقاسات للأبواب عالية السرعة",
+              "en": "Dimensions & Clearances Drawing"
+            }
+          },
+          {
+            "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/HIGH-SPEED-ROLL-DOOR.jpg",
+            "label": {
+              "ar": "رسم هندسي - باب رول أوتوماتيكي سريع",
+              "en": "High Speed Roll Door Technical Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/High-Speed-Roll-Up-Doors-Banner-Final.webp",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/door-pic1_v0.1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/door-pic2_v0.1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/door-pic3_v0.1.jpg",
+          "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/High-Speed-Doors-1-Resized.png"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/12/HIGH-SPEED-ROLL-UP-DOORS.pdf",
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/High-Speed-Roll-Up-Doors-Banner-Final.webp"
       }
     ]
   },
