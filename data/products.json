@@ -5478,6 +5478,693 @@
       "ar": "مجموعة متنوعة من المنتجات والمعدات الصناعية الأخرى.",
       "en": "A variety of other industrial products and equipment."
     },
-    "products": []
+    "products": [
+      {
+        "id": "garsite-10000-gallon-truck-1",
+        "name": {
+          "ar": "شاحنة تزويد الطائرات بالوقود جارسيت 2011 سعة 10,000 جالون - شاحنة رقم 1",
+          "en": "2011 Garsite 10,000 US Gallon Aircraft Refueller Truck - Truck No. 1"
+        },
+        "coverImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/1.jpg",
+        "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/1.jpg",
+        "description": {
+          "ar": "تقدم بيستوليكس شاحنة تزويد الطائرات بالوقود المستعملة طراز جارسيت 2011 بسعة خزان اسمية تبلغ 10,000 جالون أمريكي (ما يعادل 37,854 لتر تقريباً).\n\nتم تشغيل الشاحنة سابقاً في مطار حمد الدولي في دولة قطر، وهي مصممة خصيصاً لعمليات ومناولة وقود الطيران والمطارات. تجمع الشاحنة بين نظام جارسيت لتزويد وقود الطائرات، ومحرك QSC240، وناقل حركة 3000HS، مع مكونات قياس وتحكم مخصصة لوقود الطيران.\n\nالشاحنة متواجدة حالياً في دولة قطر ومتاحة للمعاينة والفحص الفني والشراء التجاري.",
+          "en": "Bestolex offers this used 2011 Garsite aircraft refueller truck with a nominal tank capacity of 10,000 US gallons, equivalent to approximately 37,854 litres.\n\nThe unit was previously operated at Hamad International Airport in Qatar and is designed for airport and aviation fuel-handling applications. It combines a Garsite aviation refuelling system, a QSC240 engine, a 3000HS transmission and dedicated aviation-grade metering and fuel-control components.\n\nThe truck is currently located in Qatar and is available for buyer inspection, technical evaluation and commercial purchase."
+        },
+        "stats": {
+          "ar": [
+            { "label": "سعة الخزان", "value": "10,000 جالون" },
+            { "label": "سنة الصنع", "value": "2011" },
+            { "label": "ساعات التشغيل", "value": "4,644.5 ساعة" },
+            { "label": "المحرك", "value": "QSC240" },
+            { "label": "ناقل الحركة", "value": "3000HS" },
+            { "label": "الموقع", "value": "دولة قطر" }
+          ],
+          "en": [
+            { "label": "Tank Capacity", "value": "10,000 US Gal" },
+            { "label": "Year Built", "value": "2011" },
+            { "label": "Operating Hours", "value": "4,644.5 Hrs" },
+            { "label": "Engine", "value": "QSC240" },
+            { "label": "Transmission", "value": "3000HS" },
+            { "label": "Location", "value": "Qatar" }
+          ]
+        },
+        "features": {
+          "ar": [
+            "خزان وقود عالي السعة 10,000 جالون أمريكي (37,854 لتر تقريباً).",
+            "نظام قياس Liquid Controls بمعدل تدفق مقنن 300 جالون/دقيقة وضغط 150 رطل/بوصة مربعة.",
+            "محرك قوي وموثوق QSC240 مع ناقل حركة أوتوماتيكي 3000HS.",
+            "لوحة تحكم متكاملة تشمل مؤشرات الضغط، وصمامات التحكم، وأنظمة تفريغ الهواء، ومفتاح إيقاف الطوارئ.",
+            "سجل تشغيلي في مطار حمد الدولي بقطر مع ساعات تشغيل مسجلة تقارب 4,644.5 ساعة.",
+            "متوافقة مع عمليات وقود الطائرات Jet A-1 ومزودة بوعاء ترشيح وفحص عالي الكفاءة."
+          ],
+          "en": [
+            "High-capacity 10,000 US Gallon (approx. 37,854 Litres) fuel tank.",
+            "Liquid Controls aviation meter with 300 GPM rated flow and 150 PSI max pressure.",
+            "Reliable QSC240 engine paired with 3000HS transmission.",
+            "Integrated control panel with pressure gauges, valve controls, air eliminator, and emergency shutdown.",
+            "Operational history at Hamad International Airport, Qatar with approx. 4,644.5 recorded hours.",
+            "Suitable for Jet A-1 aviation fuel operations with heavy-duty filtration and pressure control."
+          ]
+        },
+        "specs": {
+          "ar": [
+            { "label": "نوع المعدة", "value": "شاحنة تزويد وقود الطائرات (Aircraft Refueller)" },
+            { "label": "رقم الوحدة", "value": "Truck No. 1" },
+            { "label": "الشركة المصنعة", "value": "Garsite LLC" },
+            { "label": "طراز جارسيت", "value": "10MS-800A-FL-AEDAS" },
+            { "label": "الرقم التسلسلي لجارسيت", "value": "6427" },
+            { "label": "تاريخ تصنيع جارسيت", "value": "فبراير 2011" },
+            { "label": "سعة الخزان", "value": "10,000 جالون أمريكي (~37,854 لتر)" },
+            { "label": "طراز المحرك", "value": "QSC240 (رقم تسلسلي: 73170984)" },
+            { "label": "طراز ناقل الحركة", "value": "3000HS (رقم تسلسلي: 6510984510)" },
+            { "label": "طراز الشاسيه", "value": "RF10RD-1-1C (رقم تسلسلي: 1223)" },
+            { "label": "الوزن الإجمالي المقنن (GVWR)", "value": "105,000 رطل" },
+            { "label": "ساعات التشغيل المسجلة", "value": "حوالي 4,644.5 ساعة" },
+            { "label": "العداد والقياس", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "مصنع الخزان", "value": "Walker Transport (رقم تسلسلي: 1F9PC2023T1011111)" },
+            { "label": "وعاء الضغط", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "الحالة والموقع", "value": "مستعملة - متواجدة في قطر (متاحة للمعاينة)" }
+          ],
+          "en": [
+            { "label": "Equipment Type", "value": "Aircraft Refueller Truck" },
+            { "label": "Unit Reference", "value": "Truck No. 1" },
+            { "label": "Manufacturer", "value": "Garsite LLC" },
+            { "label": "Garsite Model", "value": "10MS-800A-FL-AEDAS" },
+            { "label": "Garsite Serial Number", "value": "6427" },
+            { "label": "Manufacturing Date", "value": "February 2011" },
+            { "label": "Tank Capacity", "value": "10,000 US Gallons (~37,854 Litres)" },
+            { "label": "Engine Model", "value": "QSC240 (Serial: 73170984)" },
+            { "label": "Transmission Model", "value": "3000HS (Serial: 6510984510)" },
+            { "label": "Chassis Model", "value": "RF10RD-1-1C (Serial: 1223)" },
+            { "label": "GVWR", "value": "105,000 lb" },
+            { "label": "Recorded Operating Hours", "value": "Approx. 4,644.5 Hours" },
+            { "label": "Fuel Meter", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "Tank Manufacturer", "value": "Walker Transport (VIN: 1F9PC2023T1011111)" },
+            { "label": "Pressure Vessel", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "Condition & Location", "value": "Used - Located in Qatar (Inspection Available)" }
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/4.PNG",
+            "label": {
+              "ar": "وحدة الفلترة وتمديدات الأنابيب",
+              "en": "Filtration Vessel & Piping System"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/5.PNG",
+            "label": {
+              "ar": "المضخات ومحابس التحكم الهيدروليكية",
+              "en": "Pumps & Hydraulic Control Valves"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/7.PNG",
+            "label": {
+              "ar": "لوحة التحكم الرئيسية ومقاييس الضغط",
+              "en": "Main Control Panel & Pressure Gauges"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/10.PNG",
+            "label": {
+              "ar": "لوحة بيانات المصنع Garsite الرسمية",
+              "en": "Official Garsite Manufacturer ID Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/11.PNG",
+            "label": {
+              "ar": "عداد ساعات التشغيل (4,644.5 ساعة)",
+              "en": "Hour Meter Gauge (4,644.5 Hours)"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/12.PNG",
+            "label": {
+              "ar": "لوحة بيانات عداد الوقود Liquid Controls",
+              "en": "Liquid Controls Meter Nameplate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/13.PNG",
+            "label": {
+              "ar": "لوحة مواصفات خزان Walker Transport",
+              "en": "Walker Transport Tank Specification Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/14.PNG",
+            "label": {
+              "ar": "شهادة وعاء الضغط Superior Co.",
+              "en": "Superior Co. Pressure Vessel Nameplate"
+            }
+          }
+        ],
+        "images": [
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/1.jpg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/2.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/3.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/4.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/5.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/6.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/7.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/8.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/9.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/10.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/11.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/12.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/13.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/14.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/15.PNG"
+        ]
+      },
+      {
+        "id": "garsite-10000-gallon-truck-2",
+        "name": {
+          "ar": "شاحنة تزويد الطائرات بالوقود جارسيت 2011 سعة 10,000 جالون - شاحنة رقم 2",
+          "en": "2011 Garsite 10,000 US Gallon Aircraft Refueller Truck - Truck No. 2"
+        },
+        "coverImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/1.PNG",
+        "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/1.PNG",
+        "description": {
+          "ar": "تقدم بيستوليكس شاحنة تزويد الطائرات بالوقود المستعملة طراز جارسيت 2011 بسعة خزان اسمية تبلغ 10,000 جالون أمريكي (ما يعادل 37,854 لتر تقريباً).\n\nتم تشغيل الشاحنة سابقاً في مطار حمد الدولي في دولة قطر، وهي مصممة خصيصاً لعمليات ومناولة وقود الطيران والمطارات. تجمع الشاحنة بين نظام جارسيت لتزويد وقود الطائرات، ومحرك QSC240، وناقل حركة 3000HS، مع نظام فلترة وتنقية متطور من Parker Velcon ومكونات قياس وتحكم مخصصة لوقود الطيران.\n\nالشاحنة متواجدة حالياً في دولة قطر ومتاحة للمعاينة والفحص الفني والشراء التجاري.",
+          "en": "Bestolex offers this used 2011 Garsite aircraft refueller truck with a nominal tank capacity of 10,000 US gallons, equivalent to approximately 37,854 litres.\n\nThe unit was previously operated at Hamad International Airport in Qatar and is designed for airport and aviation fuel-handling applications. It combines a Garsite aviation refuelling package, a QSC240 engine, a 3000HS transmission, aviation-grade metering and Parker Velcon filtration components.\n\nThe truck is currently located in Qatar and is available for buyer inspection, technical evaluation and commercial purchase."
+        },
+        "stats": {
+          "ar": [
+            { "label": "سعة الخزان", "value": "10,000 جالون" },
+            { "label": "سنة الصنع", "value": "2011" },
+            { "label": "ساعات التشغيل", "value": "5,055.9 ساعة" },
+            { "label": "المحرك", "value": "QSC240" },
+            { "label": "ناقل الحركة", "value": "3000HS" },
+            { "label": "الموقع", "value": "دولة قطر" }
+          ],
+          "en": [
+            { "label": "Tank Capacity", "value": "10,000 US Gal" },
+            { "label": "Year Built", "value": "2011" },
+            { "label": "Operating Hours", "value": "5,055.9 Hrs" },
+            { "label": "Engine", "value": "QSC240" },
+            { "label": "Transmission", "value": "3000HS" },
+            { "label": "Location", "value": "Qatar" }
+          ]
+        },
+        "features": {
+          "ar": [
+            "خزان وقود عالي السعة 10,000 جالون أمريكي (37,854 لتر تقريباً).",
+            "نظام فلترة ومراقبة متطور Parker Velcon (طراز CDF-230P مع 27 عنصر ترشيح وتدفق تشغيلي حتى 810 جالون/دقيقة).",
+            "نظام قياس Liquid Controls بمعدل تدفق مقنن 300 جالون/دقيقة وضغط 150 رطل/بوصة مربعة.",
+            "محرك قوي وموثوق QSC240 مع ناقل حركة أوتوماتيكي 3000HS.",
+            "لوحة تحكم متكاملة تشمل مؤشرات الضغط، وصمامات التحكم، وأنظمة تفريغ الهواء، ومفتاح إيقاف الطوارئ.",
+            "سجل تشغيلي في مطار حمد الدولي بقطر مع ساعات تشغيل مسجلة تقارب 5,055.9 ساعة."
+          ],
+          "en": [
+            "High-capacity 10,000 US Gallon (approx. 37,854 Litres) fuel tank.",
+            "Advanced Parker Velcon filter monitor system (CDF-230P with 27 elements and up to 810 USGPM operating flow).",
+            "Liquid Controls aviation meter with 300 GPM rated flow and 150 PSI max pressure.",
+            "Reliable QSC240 engine paired with 3000HS transmission.",
+            "Integrated control panel with pressure gauges, valve controls, air eliminator, and emergency shutdown.",
+            "Operational history at Hamad International Airport, Qatar with approx. 5,055.9 recorded hours."
+          ]
+        },
+        "specs": {
+          "ar": [
+            { "label": "نوع المعدة", "value": "شاحنة تزويد وقود الطائرات (Aircraft Refueller)" },
+            { "label": "رقم الوحدة", "value": "Truck No. 2" },
+            { "label": "حزمة التزويد", "value": "Garsite Aviation Refuelling Equipment" },
+            { "label": "تاريخ تصنيع الشاسيه والخزان", "value": "يناير 2011" },
+            { "label": "سعة الخزان", "value": "10,000 جالون أمريكي (~37,854 لتر)" },
+            { "label": "طراز المحرك", "value": "QSC240 (رقم تسلسلي: 73165606)" },
+            { "label": "طراز ناقل الحركة", "value": "3000HS (رقم تسلسلي: 6510984509)" },
+            { "label": "طراز الشاسيه", "value": "RF10RD-1-1C (رقم تسلسلي: 1293)" },
+            { "label": "الوزن الإجمالي المقنن (GVWR)", "value": "105,000 رطل" },
+            { "label": "ساعات التشغيل المسجلة", "value": "حوالي 5,055.9 ساعة" },
+            { "label": "العداد والقياس", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "نظام الفلترة والترشيح", "value": "Parker Velcon CDF-230P (27 عنصر - 810 USGPM)" },
+            { "label": "مصنع الخزان", "value": "Walker Transport" },
+            { "label": "وعاء الضغط", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "الحالة والموقع", "value": "مستعملة - متواجدة في قطر (متاحة للمعاينة)" }
+          ],
+          "en": [
+            { "label": "Equipment Type", "value": "Aircraft Refueller Truck" },
+            { "label": "Unit Reference", "value": "Truck No. 2" },
+            { "label": "Refuelling Package", "value": "Garsite Aviation Refuelling Equipment" },
+            { "label": "Chassis & Tank Build Date", "value": "January 2011" },
+            { "label": "Tank Capacity", "value": "10,000 US Gallons (~37,854 Litres)" },
+            { "label": "Engine Model", "value": "QSC240 (Serial: 73165606)" },
+            { "label": "Transmission Model", "value": "3000HS (Serial: 6510984509)" },
+            { "label": "Chassis Model", "value": "RF10RD-1-1C (Serial: 1293)" },
+            { "label": "GVWR", "value": "105,000 lb" },
+            { "label": "Recorded Operating Hours", "value": "Approx. 5,055.9 Hours" },
+            { "label": "Fuel Meter", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "Filtration System", "value": "Parker Velcon CDF-230P (27 Elements - 810 USGPM)" },
+            { "label": "Tank Manufacturer", "value": "Walker Transport" },
+            { "label": "Pressure Vessel", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "Condition & Location", "value": "Used - Located in Qatar (Inspection Available)" }
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/5.PNG",
+            "label": {
+              "ar": "وحدة بكرات خراطيم التزويد والتمديدات",
+              "en": "Hose Reel & Refuelling Connections"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/6.PNG",
+            "label": {
+              "ar": "نظام فلترة وتنقية الوقود Parker Velcon",
+              "en": "Parker Velcon Aviation Fuel Filtration Vessel"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/7.PNG",
+            "label": {
+              "ar": "لوحة التحكم والمحابس ومقاييس الضغط",
+              "en": "Main Control Panel & Pressure Gauges"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/8.PNG",
+            "label": {
+              "ar": "مضخات الوقود ودوائر التحكم الهيدروليكية",
+              "en": "Fuel Pumps & Hydraulic Piping Circuits"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/9.PNG",
+            "label": {
+              "ar": "عداد ساعات التشغيل (5,055.9 ساعة)",
+              "en": "Hour Meter Gauge (5,055.9 Hours)"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/10.PNG",
+            "label": {
+              "ar": "لوحة بيانات عداد الوقود Liquid Controls",
+              "en": "Liquid Controls Meter Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/11.PNG",
+            "label": {
+              "ar": "شهادة وعاء الضغط Superior Co.",
+              "en": "Superior Co. Pressure Vessel Nameplate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/12.PNG",
+            "label": {
+              "ar": "لوحة مواصفات خزان Walker Transport",
+              "en": "Walker Transport Tank Specification Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/13.PNG",
+            "label": {
+              "ar": "لوحة بيانات نظام الفلترة Parker Velcon",
+              "en": "Parker Velcon Filter Monitor Data Plate"
+            }
+          }
+        ],
+        "images": [
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/1.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/2.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/3.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/4.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/5.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/6.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/7.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/8.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/9.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/10.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/11.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/12.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/13.PNG",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/14.PNG"
+        ]
+      },
+      {
+        "id": "garsite-10000-gallon-truck-3",
+        "name": {
+          "ar": "شاحنة تزويد الطائرات بالوقود جارسيت 2011 سعة 10,000 جالون - شاحنة رقم 3",
+          "en": "2011 Garsite 10,000 US Gallon Aircraft Refueller Truck - Truck No. 3"
+        },
+        "coverImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/1.jpeg",
+        "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/1.jpeg",
+        "description": {
+          "ar": "تقدم بيستوليكس شاحنة تزويد الطائرات بالوقود المستعملة طراز جارسيت 2011 بسعة خزان اسمية تبلغ 10,000 جالون أمريكي (ما يعادل 37,854 لتر تقريباً).\n\nتم تشغيل الشاحنة سابقاً في مطار حمد الدولي في دولة قطر، وهي مصممة خصيصاً لعمليات ومناولة وقود الطيران والمطارات. تجمع الشاحنة بين حزمة جارسيت 10MS-800A-FL-AEDAS لتزويد وقود الطائرات، ومحرك QSC240، وناقل حركة 3000HS، مع نظام فلترة وتنقية متطور من Parker Velcon ومكونات قياس وتحكم مخصصة لوقود الطيران.\n\nالشاحنة متواجدة حالياً في دولة قطر ومتاحة للمعاينة والفحص الفني والشراء التجاري.",
+          "en": "Bestolex offers this used 2011 Garsite aircraft refueller truck with a nominal tank capacity of 10,000 US gallons, equivalent to approximately 37,854 litres.\n\nThe unit was previously operated at Hamad International Airport in Qatar and is designed for airport and aviation fuel-handling applications. It combines a Garsite aviation refuelling package, a QSC240 engine, a 3000HS transmission, aviation-grade metering and Parker Velcon filtration components.\n\nThe truck is currently located in Qatar and is available for buyer inspection, technical evaluation and commercial purchase."
+        },
+        "stats": {
+          "ar": [
+            { "label": "سعة الخزان", "value": "10,000 جالون" },
+            { "label": "سنة الصنع", "value": "2011" },
+            { "label": "ساعات التشغيل", "value": "5,865 ساعة" },
+            { "label": "المحرك", "value": "QSC240" },
+            { "label": "ناقل الحركة", "value": "3000HS" },
+            { "label": "الموقع", "value": "دولة قطر" }
+          ],
+          "en": [
+            { "label": "Tank Capacity", "value": "10,000 US Gal" },
+            { "label": "Year Built", "value": "2011" },
+            { "label": "Operating Hours", "value": "5,865 Hrs" },
+            { "label": "Engine", "value": "QSC240" },
+            { "label": "Transmission", "value": "3000HS" },
+            { "label": "Location", "value": "Qatar" }
+          ]
+        },
+        "features": {
+          "ar": [
+            "خزان وقود عالي السعة 10,000 جالون أمريكي مصنوع من الستانلس ستيل المقاوم للصدأ SA-240 304.",
+            "نظام فلترة ومراقبة متطور Parker Velcon (طراز CDF-230P مع 27 عنصر ترشيح وتدفق تشغيلي حتى 810 جالون/دقيقة).",
+            "حزمة تزويد وقود معتمدة من Garsite طراز 10MS-800A-FL-AEDAS (رقم تسلسلي: 6428).",
+            "نظام قياس Liquid Controls بمعدل تدفق مقنن 300 جالون/دقيقة وضغط 150 رطل/بوصة مربعة.",
+            "محرك قوي وموثوق QSC240 مع ناقل حركة أوتوماتيكي 3000HS.",
+            "سجل تشغيلي في مطار حمد الدولي بقطر مع ساعات تشغيل مسجلة تقارب 5,865 ساعة."
+          ],
+          "en": [
+            "High-capacity 10,000 US Gallon fuel tank constructed with SA-240 304 stainless steel.",
+            "Advanced Parker Velcon filter monitor system (CDF-230P with 27 elements and up to 810 USGPM operating flow).",
+            "Garsite certified refuelling package model 10MS-800A-FL-AEDAS (Serial: 6428).",
+            "Liquid Controls aviation meter with 300 GPM rated flow and 150 PSI max pressure.",
+            "Reliable QSC240 engine paired with 3000HS transmission.",
+            "Operational history at Hamad International Airport, Qatar with approx. 5,865 recorded hours."
+          ]
+        },
+        "specs": {
+          "ar": [
+            { "label": "نوع المعدة", "value": "شاحنة تزويد وقود الطائرات (Aircraft Refueller)" },
+            { "label": "رقم الوحدة", "value": "Truck No. 3" },
+            { "label": "الشركة المصنعة", "value": "Garsite LLC" },
+            { "label": "طراز حزمة جارسيت", "value": "10MS-800A-FL-AEDAS (رقم تسلسلي: 6428)" },
+            { "label": "تاريخ التصنيع", "value": "فبراير 2011" },
+            { "label": "سعة الخزان", "value": "10,000 جالون أمريكي (~37,854 لتر)" },
+            { "label": "مادة الخزان", "value": "ستانلس ستيل SA-240 304" },
+            { "label": "طراز المحرك", "value": "QSC240 (رقم تسلسلي: 73170987)" },
+            { "label": "طراز ناقل الحركة", "value": "3000HS (رقم تسلسلي: 6510984511)" },
+            { "label": "طراز الشاسيه", "value": "RF10RD-1-1C (رقم تسلسلي: 1294)" },
+            { "label": "الوزن الإجمالي المقنن (GVWR)", "value": "105,000 رطل" },
+            { "label": "ساعات التشغيل المسجلة", "value": "حوالي 5,865 ساعة" },
+            { "label": "العداد والقياس", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "نظام الفلترة والترشيح", "value": "Parker Velcon CDF-230P (27 عنصر - 810 USGPM)" },
+            { "label": "مصنع الخزان", "value": "Walker Transport (يناير 2011)" },
+            { "label": "وعاء الضغط", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "الحالة والموقع", "value": "مستعملة - متواجدة في قطر (متاحة للمعاينة)" }
+          ],
+          "en": [
+            { "label": "Equipment Type", "value": "Aircraft Refueller Truck" },
+            { "label": "Unit Reference", "value": "Truck No. 3" },
+            { "label": "Manufacturer", "value": "Garsite LLC" },
+            { "label": "Garsite Package Model", "value": "10MS-800A-FL-AEDAS (Serial: 6428)" },
+            { "label": "Manufacturing Date", "value": "February 2011" },
+            { "label": "Tank Capacity", "value": "10,000 US Gallons (~37,854 Litres)" },
+            { "label": "Tank Material", "value": "SA-240 304 Stainless Steel" },
+            { "label": "Engine Model", "value": "QSC240 (Serial: 73170987)" },
+            { "label": "Transmission Model", "value": "3000HS (Serial: 6510984511)" },
+            { "label": "Chassis Model", "value": "RF10RD-1-1C (Serial: 1294)" },
+            { "label": "GVWR", "value": "105,000 lb" },
+            { "label": "Recorded Operating Hours", "value": "Approx. 5,865 Hours" },
+            { "label": "Fuel Meter", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "Filtration System", "value": "Parker Velcon CDF-230P (27 Elements - 810 USGPM)" },
+            { "label": "Tank Manufacturer", "value": "Walker Transport (Jan 2011)" },
+            { "label": "Pressure Vessel", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "Condition & Location", "value": "Used - Located in Qatar (Inspection Available)" }
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/3.jpeg",
+            "label": {
+              "ar": "عداد ساعات التشغيل (5,865 ساعة)",
+              "en": "Hour Meter Gauge (5,865 Hours)"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/4.jpeg",
+            "label": {
+              "ar": "لوحة بيانات نظام الفلترة Parker Velcon",
+              "en": "Parker Velcon Filter Monitor Data Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/5.jpeg",
+            "label": {
+              "ar": "نظام فلترة وتنقية الوقود Parker Velcon",
+              "en": "Parker Velcon Aviation Fuel Filtration Vessel"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/6.jpeg",
+            "label": {
+              "ar": "شهادة وعاء الضغط Superior Co.",
+              "en": "Superior Co. Pressure Vessel Nameplate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/7.jpeg",
+            "label": {
+              "ar": "لوحة مواصفات خزان Walker Transport",
+              "en": "Walker Transport Tank Specification Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/8.jpeg",
+            "label": {
+              "ar": "لوحة بيانات المصنع Garsite الرسمية",
+              "en": "Official Garsite Manufacturer ID Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/11.jpeg",
+            "label": {
+              "ar": "لوحة بيانات عداد الوقود Liquid Controls",
+              "en": "Liquid Controls Meter Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/12.jpeg",
+            "label": {
+              "ar": "لوحة التحكم والمحابس ومقاييس الضغط",
+              "en": "Main Control Panel & Pressure Gauges"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/13.jpeg",
+            "label": {
+              "ar": "وحدة بكرات خراطيم التزويد",
+              "en": "Hose Reel & Refuelling Connections"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/14.jpeg",
+            "label": {
+              "ar": "مضخات الوقود ودوائر التحكم الهيدروليكية",
+              "en": "Fuel Pumps & Hydraulic Piping Circuits"
+            }
+          }
+        ],
+        "images": [
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/1.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/2.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/3.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/4.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/5.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/6.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/7.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/8.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/9.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/10.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/11.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/12.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/13.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/14.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/15.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/16.jpeg"
+        ]
+      },
+      {
+        "id": "garsite-10000-gallon-truck-4",
+        "name": {
+          "ar": "شاحنة تزويد الطائرات بالوقود جارسيت 2011 سعة 10,000 جالون - شاحنة رقم 4",
+          "en": "2011 Garsite 10,000 US Gallon Aircraft Refueller Truck - Truck No. 4"
+        },
+        "coverImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/1.jpeg",
+        "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/1.jpeg",
+        "description": {
+          "ar": "تقدم بيستوليكس شاحنة تزويد الطائرات بالوقود المستعملة طراز جارسيت 2011 بسعة خزان اسمية تبلغ 10,000 جالون أمريكي (ما يعادل 37,854 لتر تقريباً).\n\nتم تشغيل الشاحنة سابقاً في مطار حمد الدولي في دولة قطر، وهي مصممة خصيصاً لعمليات ومناولة وقود الطيران والمطارات. تجمع الشاحنة بين حزمة جارسيت 10MS-800A-FL-AEDAS لتزويد وقود الطائرات، ومحرك QSC240، وتعيين ناقل الحركة HS3000، مع نظام فلترة وتنقية متطور من Parker Velcon ومكونات قياس وتحكم مخصصة لوقود الطيران.\n\nالشاحنة متواجدة حالياً في دولة قطر ومتاحة للمعاينة والفحص الفني والشراء التجاري.",
+          "en": "Bestolex offers this used 2011 Garsite aircraft refueller truck with a nominal tank capacity of 10,000 US gallons, equivalent to approximately 37,854 litres.\n\nThe unit was previously operated at Hamad International Airport in Qatar and is designed for airport and aviation fuel-handling applications. It combines a Garsite aviation refuelling package, a QSC240 engine, an HS3000 transmission designation, aviation-grade metering and Parker Velcon filtration components.\n\nThe truck is currently located in Qatar and is available for buyer inspection, technical evaluation and commercial purchase."
+        },
+        "stats": {
+          "ar": [
+            { "label": "سعة الخزان", "value": "10,000 جالون" },
+            { "label": "سنة الصنع", "value": "2011" },
+            { "label": "ساعات التشغيل", "value": "6,093 ساعة" },
+            { "label": "المحرك", "value": "QSC240" },
+            { "label": "ناقل الحركة", "value": "HS3000" },
+            { "label": "الموقع", "value": "دولة قطر" }
+          ],
+          "en": [
+            { "label": "Tank Capacity", "value": "10,000 US Gal" },
+            { "label": "Year Built", "value": "2011" },
+            { "label": "Operating Hours", "value": "6,093 Hrs" },
+            { "label": "Engine", "value": "QSC240" },
+            { "label": "Transmission", "value": "HS3000" },
+            { "label": "Location", "value": "Qatar" }
+          ]
+        },
+        "features": {
+          "ar": [
+            "خزان وقود عالي السعة 10,000 جالون أمريكي مصنوع من الستانلس ستيل المقاوم للصدأ SA-240 304.",
+            "نظام فلترة ومراقبة متطور Parker Velcon (طراز CDF-230P مع 27 عنصر ترشيح وتدفق تشغيلي حتى 810 جالون/دقيقة).",
+            "حزمة تزويد وقود معتمدة من Garsite طراز 10MS-800A-FL-AEDAS (رقم تسلسلي: 6429).",
+            "نظام قياس Liquid Controls بمعدل تدفق مقنن 300 جالون/دقيقة وضغط 150 رطل/بوصة مربعة.",
+            "محرك قوي وموثوق QSC240 مع ناقل حركة HS3000.",
+            "سجل تشغيلي في مطار حمد الدولي بقطر مع ساعات تشغيل مسجلة تقارب 6,093 ساعة."
+          ],
+          "en": [
+            "High-capacity 10,000 US Gallon fuel tank constructed with SA-240 304 stainless steel.",
+            "Advanced Parker Velcon filter monitor system (CDF-230P with 27 elements and up to 810 USGPM operating flow).",
+            "Garsite certified refuelling package model 10MS-800A-FL-AEDAS (Serial: 6429).",
+            "Liquid Controls aviation meter with 300 GPM rated flow and 150 PSI max pressure.",
+            "Reliable QSC240 engine paired with HS3000 transmission.",
+            "Operational history at Hamad International Airport, Qatar with approx. 6,093 recorded hours."
+          ]
+        },
+        "specs": {
+          "ar": [
+            { "label": "نوع المعدة", "value": "شاحنة تزويد وقود الطائرات (Aircraft Refueller)" },
+            { "label": "رقم الوحدة", "value": "Truck No. 4" },
+            { "label": "الشركة المصنعة", "value": "Garsite LLC" },
+            { "label": "طراز حزمة جارسيت", "value": "10MS-800A-FL-AEDAS (رقم تسلسلي: 6429)" },
+            { "label": "تاريخ التصنيع", "value": "فبراير 2011" },
+            { "label": "سعة الخزان", "value": "10,000 جالون أمريكي (~37,854 لتر)" },
+            { "label": "مادة الخزان", "value": "ستانلس ستيل SA-240 304" },
+            { "label": "طراز المحرك", "value": "QSC240" },
+            { "label": "طراز ناقل الحركة", "value": "HS3000 (رقم تسلسلي: 6510984512)" },
+            { "label": "طراز الشاسيه", "value": "RF10RD-1-1C (رقم تسلسلي: 1295)" },
+            { "label": "الوزن الإجمالي المقنن (GVWR)", "value": "105,000 رطل" },
+            { "label": "ساعات التشغيل المسجلة", "value": "حوالي 6,093 ساعة" },
+            { "label": "العداد والقياس", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "نظام الفلترة والترشيح", "value": "Parker Velcon CDF-230P (27 عنصر - 810 USGPM)" },
+            { "label": "مصنع الخزان", "value": "Walker Transport (فبراير 2011)" },
+            { "label": "وعاء الضغط", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "الحالة والموقع", "value": "مستعملة - متواجدة في قطر (متاحة للمعاينة)" }
+          ],
+          "en": [
+            { "label": "Equipment Type", "value": "Aircraft Refueller Truck" },
+            { "label": "Unit Reference", "value": "Truck No. 4" },
+            { "label": "Manufacturer", "value": "Garsite LLC" },
+            { "label": "Garsite Package Model", "value": "10MS-800A-FL-AEDAS (Serial: 6429)" },
+            { "label": "Manufacturing Date", "value": "February 2011" },
+            { "label": "Tank Capacity", "value": "10,000 US Gallons (~37,854 Litres)" },
+            { "label": "Tank Material", "value": "SA-240 304 Stainless Steel" },
+            { "label": "Engine Model", "value": "QSC240" },
+            { "label": "Transmission Model", "value": "HS3000 (Serial: 6510984512)" },
+            { "label": "Chassis Model", "value": "RF10RD-1-1C (Serial: 1295)" },
+            { "label": "GVWR", "value": "105,000 lb" },
+            { "label": "Recorded Operating Hours", "value": "Approx. 6,093 Hours" },
+            { "label": "Fuel Meter", "value": "Liquid Controls 10MSD-2 (300 GPM / 150 PSI)" },
+            { "label": "Filtration System", "value": "Parker Velcon CDF-230P (27 Elements - 810 USGPM)" },
+            { "label": "Tank Manufacturer", "value": "Walker Transport (Feb 2011)" },
+            { "label": "Pressure Vessel", "value": "Superior Co., Inc. (150 PSI @ 250°F)" },
+            { "label": "Condition & Location", "value": "Used - Located in Qatar (Inspection Available)" }
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/2.jpeg",
+            "label": {
+              "ar": "لوحة مواصفات خزان Walker Transport",
+              "en": "Walker Transport Tank Specification Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/3.jpeg",
+            "label": {
+              "ar": "مضخات الوقود ودوائر التحكم الهيدروليكية",
+              "en": "Fuel Pumps & Hydraulic Piping Circuits"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/4.jpeg",
+            "label": {
+              "ar": "نظام فلترة وتنقية الوقود Parker Velcon",
+              "en": "Parker Velcon Aviation Fuel Filtration Vessel"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/5.jpeg",
+            "label": {
+              "ar": "لوحة بيانات نظام الفلترة Parker Velcon",
+              "en": "Parker Velcon Filter Monitor Data Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/6.jpeg",
+            "label": {
+              "ar": "لوحة بيانات المصنع Garsite الرسمية",
+              "en": "Official Garsite Manufacturer ID Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/7.jpeg",
+            "label": {
+              "ar": "شهادة وعاء الضغط Superior Co.",
+              "en": "Superior Co. Pressure Vessel Nameplate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/11.jpeg",
+            "label": {
+              "ar": "لوحة بيانات عداد الوقود Liquid Controls",
+              "en": "Liquid Controls Meter Plate"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/12.jpeg",
+            "label": {
+              "ar": "وحدة بكرات خراطيم التزويد",
+              "en": "Hose Reel & Refuelling Connections"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/13.jpeg",
+            "label": {
+              "ar": "لوحة التحكم والمحابس ومقاييس الضغط",
+              "en": "Main Control Panel & Pressure Gauges"
+            }
+          },
+          {
+            "image": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/14.jpeg",
+            "label": {
+              "ar": "عداد ساعات التشغيل (6,093 ساعة)",
+              "en": "Hour Meter Gauge (6,093 Hours)"
+            }
+          }
+        ],
+        "images": [
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/1.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/2.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/3.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/4.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/5.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/6.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/7.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/8.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/9.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/10.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/11.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/12.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/13.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/14.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/15.jpeg",
+          "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/16.jpeg"
+        ]
+      }
+    ]
   }
 ]

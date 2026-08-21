@@ -55,11 +55,13 @@
             >
               <div>
                 <NuxtLink :to="localePath(`/products/${product.id}`)" class="block h-60 md:h-64 overflow-hidden relative bg-gray-100 dark:bg-gray-950 p-4">
-                  <img 
+                  <NuxtImg 
                     :src="product.coverImage || product.images?.[0] || product.image" 
                     :alt="product.name?.[locale]" 
                     class="w-full h-full object-contain group-hover:scale-105 transition duration-500"
-                  >
+                    format="webp"
+                    loading="lazy"
+                  />
                 </NuxtLink>
                 <div class="p-6">
                   <h3 class="font-bold text-xl md:text-2xl mb-3 text-gray-900 dark:text-white line-clamp-1">
@@ -98,11 +100,13 @@
         >
           <div>
             <NuxtLink :to="localePath(`/products/${product.id}`)" class="block h-60 md:h-64 overflow-hidden relative bg-gray-100 dark:bg-gray-950 p-4">
-              <img 
+              <NuxtImg 
                 :src="product.coverImage || product.images?.[0] || product.image" 
                 :alt="product.name?.[locale]" 
                 class="w-full h-full object-contain group-hover:scale-105 transition duration-500"
-              >
+                format="webp"
+                loading="lazy"
+              />
             </NuxtLink>
             <div class="p-6">
               <h3 class="font-bold text-xl md:text-2xl mb-3 text-gray-900 dark:text-white line-clamp-1">

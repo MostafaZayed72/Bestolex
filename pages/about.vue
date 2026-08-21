@@ -4,10 +4,12 @@
     <!-- Hero Banner Section -->
     <section class="relative py-24 md:py-32 bg-[#121c2d] text-white overflow-hidden">
       <!-- Background Image with Dark Gradient Overlay -->
-      <img 
+      <NuxtImg 
         src="https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg" 
         alt="Bestolex Heavy Machinery" 
         class="absolute inset-0 w-full h-full object-cover object-center opacity-25 scale-105 transform hover:scale-100 transition duration-1000"
+        format="webp"
+        loading="eager"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-[#121c2d] via-[#121c2d]/80 to-transparent"></div>
       
@@ -40,10 +42,12 @@
         <!-- Image Box -->
         <div class="lg:col-span-5 relative">
           <div class="bg-white dark:bg-gray-800 p-4 rounded-3xl shadow-2xl border border-gray-100 dark:border-gray-700 relative overflow-hidden group">
-            <img 
+            <NuxtImg 
               src="https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg" 
               alt="Bestolex Qatar" 
               class="w-full h-[400px] object-cover rounded-2xl group-hover:scale-105 transition duration-700"
+              format="webp"
+              loading="lazy"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-2xl"></div>
           </div>
@@ -177,7 +181,7 @@
 
           <div class="lg:col-span-4 flex justify-center">
             <div class="bg-white p-8 rounded-2xl shadow-2xl text-center w-full max-w-xs">
-              <img src="https://sabtech.com.sa/wp-content/uploads/2019/05/logo-03-1-1.png" alt="SAB TECH Logo" class="h-16 mx-auto object-contain mb-4" />
+              <NuxtImg src="https://sabtech.com.sa/wp-content/uploads/2019/05/logo-03-1-1.png" alt="SAB TECH Logo" class="h-16 mx-auto object-contain mb-4" format="webp" loading="lazy" />
               <div class="text-gray-900 font-bold text-sm mb-1">{{ locale === 'ar' ? 'شريك التقنية والتصنيع' : 'Manufacturing & Tech Partner' }}</div>
               <div class="text-gray-500 text-xs">{{ locale === 'ar' ? 'خبرة أكثر من 25 عاماً' : '+25 Years Engineering Excellence' }}</div>
             </div>

@@ -18,7 +18,7 @@
       </div>
       <div class="relative z-10 text-center px-4" data-aos="fade-up">
         <div class="flex justify-center mb-8">
-          <img src="/logo.png" alt="Bestolex Logo" class="h-20 md:h-32 object-contain drop-shadow-xl filter brightness-0 invert" />
+          <NuxtImg src="/logo.png" alt="Bestolex Logo" class="h-20 md:h-32 object-contain drop-shadow-xl filter brightness-0 invert" format="webp" loading="eager" />
         </div>
         <p class="text-xl md:text-3xl font-medium mb-8 text-gray-100 drop-shadow-md">
           {{ locale === 'ar' ? 'لتجارة الآلات والمعدات الثقيلة' : 'FOR TRADING OF HEAVY MACHINERY AND EQUIPMENT' }}
@@ -38,7 +38,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="(category, index) in products" :key="category.id" class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow hover:shadow-xl transition group" :data-aos="'fade-up'" :data-aos-delay="index * 100">
             <div class="h-48 overflow-hidden relative">
-              <img :src="category.image" :alt="category.title[locale]" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+              <NuxtImg :src="category.image" :alt="category.title[locale]" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" format="webp" loading="lazy" />
               <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition"></div>
             </div>
             <div class="p-6">
@@ -62,7 +62,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div v-for="(item, idx) in news" :key="item.id" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300" :data-aos="'fade-up'" :data-aos-delay="idx * 100">
             <div class="h-48 overflow-hidden">
-              <img :src="item.image" :alt="item.title" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <NuxtImg :src="item.image" :alt="item.title" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" format="webp" loading="lazy" />
             </div>
             <div class="p-6 text-center">
               <h3 class="font-bold text-lg text-gray-900 dark:text-white mb-3">{{ item.title }}</h3>
@@ -88,7 +88,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           <div v-for="(srv, idx) in services" :key="srv.id" class="border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden hover:shadow-xl transition-shadow bg-gray-50 dark:bg-gray-900 group" :data-aos="'fade-up'" :data-aos-delay="idx * 100">
             <div class="h-40 overflow-hidden bg-white dark:bg-black p-4 flex items-center justify-center">
-              <img :src="srv.image" :alt="srv.title" class="max-h-full object-contain group-hover:scale-105 transition-transform" />
+              <NuxtImg :src="srv.image" :alt="srv.title" class="max-h-full object-contain group-hover:scale-105 transition-transform" format="webp" loading="lazy" />
             </div>
             <div class="p-4 flex items-center justify-between text-primary font-bold">
               <span>{{ srv.title }}</span>

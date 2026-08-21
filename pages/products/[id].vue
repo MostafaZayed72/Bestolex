@@ -12,11 +12,13 @@
     <div v-else>
       <!-- General Hero Banner -->
       <section class="relative w-full h-[35vh] sm:h-[45vh] md:h-[50vh] max-h-[550px] flex items-center justify-center overflow-hidden bg-black">
-        <img 
+        <NuxtImg 
           :src="product.coverImage || product.images?.[0] || product.image" 
           alt="Banner" 
           class="absolute inset-0 w-full h-full object-cover object-center opacity-90 transition-all duration-700"
-        >
+          format="webp"
+          loading="eager"
+        />
         <!-- Subtle dark gradient overlay for text readability -->
         <div class="absolute inset-0 bg-gradient-to-t from-[#121c2d] via-black/30 to-black/40"></div>
         
@@ -90,12 +92,14 @@
               <div class="bg-white rounded-[2rem] p-4 md:p-8 shadow-2xl relative group product-3d-container">
                 <div class="h-[400px] md:h-[600px] flex items-center justify-center overflow-hidden relative">
                   <transition name="fade">
-                    <img 
+                    <NuxtImg 
                       :key="currentDisplayImage"
                       :src="currentDisplayImage" 
                       :alt="product.name[locale]" 
                       class="absolute inset-0 w-full h-full object-contain p-4 md:p-8 floating-3d-image drop-shadow-2xl"
-                    >
+                      format="webp"
+                      loading="eager"
+                    />
                   </transition>
                 </div>
               </div>
@@ -109,7 +113,7 @@
                   class="w-20 h-20 md:w-28 md:h-28 bg-white rounded-xl overflow-hidden border-2 transition-all p-2"
                   :class="currentImageIndex === idx ? 'border-[#E99E15] shadow-lg shadow-[#E99E15]/30 scale-110' : 'border-transparent opacity-60 hover:opacity-100 hover:scale-105'"
                 >
-                  <img :src="img" class="w-full h-full object-contain">
+                  <NuxtImg :src="img" class="w-full h-full object-contain" format="webp" loading="lazy" />
                 </button>
               </div>
             </div>
@@ -193,7 +197,7 @@
                   :data-aos-delay="idx * 100"
                 >
                   <div class="aspect-square bg-white p-3 md:p-4 flex items-center justify-center">
-                    <img :src="drawing.image" :alt="drawing.label[locale]" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
+                    <NuxtImg :src="drawing.image" :alt="drawing.label[locale]" class="w-full h-full object-contain group-hover:scale-110 transition duration-500" format="webp" loading="lazy" />
                   </div>
                   <div class="p-3 md:p-4 text-center border-t border-gray-100 dark:border-gray-700">
                     <p class="font-bold text-gray-800 dark:text-gray-200 text-sm md:text-base">{{ drawing.label[locale] }}</p>
@@ -222,7 +226,7 @@
               :data-aos-delay="idx * 100"
             >
               <div class="w-full aspect-[4/3] md:aspect-video overflow-hidden bg-gray-50 dark:bg-gray-900 flex items-center justify-center p-4">
-                <img :src="featImg.image" :alt="featImg.label[locale]" class="w-full h-full object-contain group-hover:scale-105 transition duration-500">
+                <NuxtImg :src="featImg.image" :alt="featImg.label[locale]" class="w-full h-full object-contain group-hover:scale-105 transition duration-500" format="webp" loading="lazy" />
               </div>
               <div class="p-4 md:p-6 text-center">
                 <h3 class="text-lg md:text-xl font-bold text-gray-900 dark:text-white">{{ featImg.label[locale] }}</h3>
@@ -290,6 +294,46 @@ const { locale } = useI18n()
 const localePath = useLocalePath()
 const route = useRoute()
 const product = ref(null)
+
+useHead(() => {
+  if (!product.value) return {}
+  const title = product.value.name?.[locale.value] || 'Bestolex Product'
+  const desc = product.value.description?.[locale.value]?.substring(0, 160) || ''
+  const img = product.value.coverImage || product.value.image || ''
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    'name': product.value.name?.en || title,
+    'description': product.value.description?.en || desc,
+    'image': img,
+    'offers': {
+      '@type': 'Offer',
+      'priceCurrency': 'USD',
+      'availability': 'https://schema.org/InStock',
+      'seller': {
+        '@type': 'Organization',
+        'name': 'Bestolex'
+      }
+    }
+  }
+
+  return {
+    title: `${title} | Bestolex Qatar`,
+    meta: [
+      { name: 'description', content: desc },
+      { property: 'og:title', content: `${title} | Bestolex` },
+      { property: 'og:description', content: desc },
+      { property: 'og:image', content: img }
+    ],
+    script: [
+      {
+        type: 'application/ld+json',
+        children: JSON.stringify(jsonLd)
+      }
+    ]
+  }
+})
 
 const getEmbedYoutubeUrl = (url) => {
   if (!url) return ''

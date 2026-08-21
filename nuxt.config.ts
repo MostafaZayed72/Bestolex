@@ -7,8 +7,18 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
     '@vueuse/nuxt',
-    '@nuxtjs/supabase'
+    '@nuxtjs/supabase',
+    '@nuxt/image'
   ],
+  image: {
+    format: ['webp', 'avif', 'jpeg', 'png'],
+    quality: 80,
+    domains: [
+      'electrocreative-cdn.b-cdn.net',
+      'sabtech.com.sa',
+      'cdn-bdndb.nitrocdn.com'
+    ]
+  },
   runtimeConfig: {
     gmailUser: process.env.GMAIL_USER,
     gmailPass: process.env.GMAIL_PASS
