@@ -8,8 +8,9 @@
         <div class="bg-white dark:bg-secondary p-8 rounded-2xl shadow-lg" data-aos="fade-right">
           <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">{{ locale === 'ar' ? 'معلومات التواصل' : 'Contact Information' }}</h2>
           <div class="space-y-4 text-gray-600 dark:text-gray-300">
-            <p><strong>{{ locale === 'ar' ? 'البريد الإلكتروني:' : 'Email:' }}</strong> bestolex.qa@gmail.com</p>
-            <p>{{ locale === 'ar' ? 'بانتظار تزويدنا بباقي معلومات التواصل (رقم الهاتف، العنوان)...' : 'Waiting for rest of contact details (Phone, Address)...' }}</p>
+            <p><strong>{{ locale === 'ar' ? 'البريد الإلكتروني:' : 'Email:' }}</strong> <a href="mailto:info@bestolex.com" class="text-primary hover:underline">info@bestolex.com</a></p>
+            <p><strong>{{ locale === 'ar' ? 'رقم الهاتف:' : 'Phone:' }}</strong> <span dir="ltr">+974 5070 8833</span> | <span dir="ltr">+974 5150 5014</span></p>
+            <p><strong>{{ locale === 'ar' ? 'العنوان:' : 'Address:' }}</strong> {{ locale === 'ar' ? 'الدوحة، المنتزه، مركز المنتزه التجاري، منطقة 24، شارع 830، مبنى 16، الطابق 7، مكتب 714، صندوق البريد: 37439، دولة قطر' : 'Doha, Al Muntazah, Al Muntazah Commercial Center, Zone 24, Street 830, Building 16, Floor 7, Office 714, P.O. Box 37439, State of Qatar' }}</p>
           </div>
         </div>
 

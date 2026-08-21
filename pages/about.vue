@@ -64,8 +64,8 @@
           </h2>
           <p class="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
             {{ locale === 'ar' 
-              ? 'بيستوليكس لتجارة الآلات والمعدات الثقيلة شركة قطرية متخصصة تأسست لتلبية الطلب المتنامي في السوق القطري على الآلات والمعدات الثقيلة، والحلول الصناعية المتطورة، وأنظمة البنية التحتية واللوجستيات، مستندةً إلى شراكات إقليمية راسخة مع كبرى الشركات المصنّعة المعتمدة عالميًا.'
-              : 'Bestolex for Trading of Heavy Machinery and Equipment is a specialized Qatari company established to meet the growing demand in the Qatari market for heavy machinery, advanced industrial solutions, infrastructure, and logistics systems, backed by established regional partnerships with leading globally certified manufacturers.'
+              ? 'بيستوليكس لتجارة الآلات والمعدات الثقيلة شركة قطرية متخصصة في توريد الحلول والمعدات الصناعية واللوجستية. نخدم قطاعات المقاولات والبنية التحتية والمصانع والمستودعات والموانئ والمنشآت التجارية والحكومية من خلال محفظة متكاملة تشمل أنظمة المستودعات ومناطق التحميل، ومعدات إدارة النفايات وإعادة التدوير، وأنظمة حماية المحيط والتحكم في الدخول، والأبواب الصناعية.'
+              : 'Bestolex for Trading of Heavy Machinery and Equipment is a Qatar-based company specializing in the supply of industrial and logistics equipment and solutions. We serve contractors, infrastructure projects, factories, warehouses, ports, commercial facilities, and government entities through an integrated portfolio covering warehouse and loading bay systems, waste management and recycling equipment, perimeter protection and access control systems, and industrial doors.'
             }}
           </p>
           <div class="grid grid-cols-2 gap-4 pt-4">
@@ -98,8 +98,8 @@
           </h3>
           <p class="text-gray-600 dark:text-gray-300 text-base md:text-lg leading-relaxed relative z-10">
             {{ locale === 'ar' 
-              ? 'أن نكون الخيار الأول والرائد في توريد الآلات والمعدات الثقيلة، وأنظمة المستودعات، والحلول الهندسية المتقدمة، وفق أعلى معايير الجودة والأمان العالمية في دولة قطر.'
-              : 'To be the premier and leading choice in supplying heavy machinery, warehouse systems, and advanced engineering solutions, adhering to the highest international quality and safety standards in the State of Qatar.'
+              ? 'أن نرسّخ مكانة بيستوليكس كشريك موثوق للمنشآت الصناعية واللوجستية في دولة قطر، من خلال توفير حلول هندسية وتجارية عالية الجودة تسهم في رفع الكفاءة التشغيلية وتعزيز السلامة والاستدامة.'
+              : 'To establish Bestolex as a trusted partner for industrial and logistics facilities in Qatar by providing high-quality engineering and commercial solutions that improve operational efficiency, safety, and sustainability.'
             }}
           </p>
         </div>
@@ -113,8 +113,8 @@
           </h3>
           <p class="text-gray-600 dark:text-gray-300 text-base md:text-lg leading-relaxed relative z-10">
             {{ locale === 'ar' 
-              ? 'تقديم حلول تجارية وتسويقية متكاملة وموثوقة لقطاعات المقاولات والصناعة والخدمات اللوجستية، مع توفير الدعم الفني وخدمات ما بعد البيع بأعلى المعايير الاحترافية.'
-              : 'Delivering comprehensive and reliable commercial and marketing solutions for contracting, industrial, and logistics sectors, while providing technical support and after-sales services to the highest professional standards.'
+              ? 'توفير حلول هندسية وتجارية متكاملة تلائم المتطلبات الفعلية لكل مشروع، بدءًا من الاستشارة الفنية واختيار المعدات، وصولًا إلى التوريد والتركيب والتشغيل والصيانة، مع الالتزام بالجودة والسلامة وموثوقية الخدمة.'
+              : 'To deliver integrated engineering and commercial solutions tailored to the actual requirements of each project — from technical consultation and equipment selection to supply, installation, commissioning, and maintenance — while maintaining quality, safety, and service reliability.'
             }}
           </p>
         </div>
@@ -345,60 +345,51 @@ const valuesList = [
   {
     icon: '✔️',
     title: { ar: 'الجودة', en: 'Quality' },
-    desc: { ar: 'الالتزام بتوريد معدات وحلول تحقق أعلى معايير الجودة والمطابقة العالمية.', en: 'Commitment to supplying equipment & solutions achieving highest global quality standards.' }
+    desc: { ar: 'اختيار وتوريد حلول ومعدات تلبي المتطلبات الفنية ومعايير الجودة ذات الصلة.', en: 'Selecting and supplying solutions and equipment that meet relevant technical and quality requirements.' }
   },
   {
     icon: '🤝',
     title: { ar: 'النزاهة', en: 'Integrity' },
-    desc: { ar: 'التعامل بشفافية وصدق مع العملاء والشركاء في كافة المعاملات.', en: 'Transparent and honest interactions with all clients and partners.' }
-  },
-  {
-    icon: '👔',
-    title: { ar: 'الاحترافية', en: 'Professionalism' },
-    desc: { ar: 'تقديم الخدمة بمعايير عمل مؤسسية دقيقة ودعم فني متميز.', en: 'Delivering services with precise corporate standards & technical support.' }
-  },
-  {
-    icon: '💡',
-    title: { ar: 'الابتكار', en: 'Innovation' },
-    desc: { ar: 'مواكبة أحدث التقنيات والحلول الصناعية المتطورة عالمياً.', en: 'Staying abreast of cutting-edge global industrial technologies.' }
-  },
-  {
-    icon: '🌱',
-    title: { ar: 'الشراكة', en: 'Partnership' },
-    desc: { ar: 'بناء علاقات طويلة الأمد قائمة على الثقة المتبادلة والنجاح المتبادل.', en: 'Building long-term relationships based on mutual trust and success.' }
+    desc: { ar: 'التعامل بشفافية ووضوح في المعلومات الفنية والتجارية.', en: 'Maintaining transparency and clarity in technical and commercial communication.' }
   },
   {
     icon: '🛡️',
     title: { ar: 'السلامة', en: 'Safety' },
-    desc: { ar: 'الالتزام التام بمعايير السلامة المهنية ومطابقة مواصفات الأمان العالمية.', en: 'Strict adherence to occupational health, safety, and security standards.' }
+    desc: { ar: 'مراعاة متطلبات السلامة في الحلول والمعدات والخدمات التي نقدمها.', en: 'Considering safety requirements across the solutions, equipment, and services we provide.' }
+  },
+  {
+    icon: '⏳',
+    title: { ar: 'الالتزام', en: 'Commitment' },
+    desc: { ar: 'احترام نطاق العمل والمتطلبات التعاقدية وجداول التوريد المتفق عليها.', en: 'Respecting the agreed scope of work, contractual requirements, and delivery schedules.' }
+  },
+  {
+    icon: '🌱',
+    title: { ar: 'الشراكة طويلة الأمد', en: 'Long-Term Partnership' },
+    desc: { ar: 'بناء علاقات مستدامة مع العملاء والمصنّعين والشركاء على أساس الثقة والقيمة المتبادلة.', en: 'Building lasting relationships with customers, manufacturers, and partners based on trust and mutual value.' }
   }
 ];
 
 // Advantage List (ما يميزنا)
 const advantageList = [
   {
-    title: { ar: 'شراكة استراتيجية موثوقة', en: 'Trusted Strategic Partnership' },
-    desc: { ar: 'الوكيل المعتمد لشركة SAB TECH في قطر (خبرة تصنيع منذ عام 1995).', en: 'Authorized SAB TECH distributor in Qatar with manufacturing legacy since 1995.' }
+    title: { ar: 'حضور محلي', en: 'Local Presence' },
+    desc: { ar: 'فهم مباشر لمتطلبات السوق القطري واحتياجات المنشآت والمشاريع المختلفة.', en: 'A direct understanding of Qatar’s market, facilities, and project requirements.' }
   },
   {
-    title: { ar: 'اعتمادات جودة عالمية', en: 'Global Quality Accreditations' },
-    desc: { ar: 'شهادات الجودة العالمية ISO 9001:2015 وعلامة المطابقة الأوروبية CE.', en: 'Certified ISO 9001:2015 and European CE compliance marks.' }
+    title: { ar: 'وكالة حصرية وشراكة صناعية', en: 'Exclusive Agency and Industrial Partnership' },
+    desc: { ar: 'وكالة حصرية وشراكة استراتيجية مع SAB TECH ضمن نطاق المنتجات والقطاعات المعتمدة.', en: 'An exclusive agency and strategic partnership with SAB TECH within the approved product and sector scope.' }
   },
   {
-    title: { ar: 'محفظة منتجات شاملة', en: 'Comprehensive Product Portfolio' },
-    desc: { ar: 'تغطية متكاملة لكل احتياجات القطاع الصناعي واللوجستي والبنية التحتية.', en: 'Complete coverage for industrial, logistics, and infrastructure requirements.' }
+    title: { ar: 'حلول متكاملة', en: 'Integrated Solutions' },
+    desc: { ar: 'محفظة مترابطة من الحلول الصناعية واللوجستية والأمنية لتلبية احتياجات المنشآت المختلفة.', en: 'A connected portfolio of industrial, logistics, and security solutions for different facility requirements.' }
   },
   {
-    title: { ar: 'دعم فني وقطع غيار', en: 'Technical Support & Spare Parts' },
-    desc: { ar: 'دعم فني متكامل وتوفر دائم لقطع الغيار الأصلية مع ضمان شامل.', en: 'Integrated technical support, genuine spare parts, and full warranty.' }
+    title: { ar: 'دعم فني وخدمات ما بعد البيع', en: 'Technical and After-Sales Support' },
+    desc: { ar: 'الدعم الفني وتوفير قطع الغيار وخدمات ما بعد البيع وفق طبيعة المنتج ونطاق المشروع.', en: 'Technical support, spare parts, and after-sales services according to the product and project scope.' }
   },
   {
-    title: { ar: 'فريق عمل متخصص', en: 'Specialized Expert Team' },
-    desc: { ar: 'كوادر هندسية وفنية بخبرة دولية عريقة لتقديم أفضل الحلول.', en: 'Experienced engineering & technical team delivering optimal solutions.' }
-  },
-  {
-    title: { ar: 'دعم رؤية قطر 2030', en: 'Supporting Qatar Vision 2030' },
-    desc: { ar: 'المساهمة الفاعلة في دعم مسيرة التنمية الصناعية والبنية التحتية في قطر.', en: 'Active contribution to industrial & infrastructure development under Qatar 2030.' }
+    title: { ar: 'منهجية عمل واضحة', en: 'A Structured Delivery Approach' },
+    desc: { ar: 'نبدأ بدراسة الاحتياج واختيار الحل، ونواصل حتى التوريد والتركيب والتشغيل والتسليم والدعم.', en: 'We begin with requirement assessment and solution selection and continue through supply, installation, commissioning, handover, and ongoing support.' }
   }
 ];
 
@@ -438,11 +429,12 @@ const portfolioList = [
 
 // Target Sectors
 const targetSectors = [
-  { icon: '🏗️', title: { ar: 'شركات المقاولات', en: 'Contracting Firms' } },
-  { icon: '🚢', title: { ar: 'المستودعات والموانئ', en: 'Warehouses & Ports' } },
-  { icon: '🏭', title: { ar: 'المصانع والمنشآت', en: 'Industrial Factories' } },
-  { icon: '🏛️', title: { ar: 'الجهات الحكومية', en: 'Government Entities' } },
-  { icon: '🏢', title: { ar: 'المراكز والفنادق', en: 'Malls & Hotels' } }
+  { icon: '🏗️', title: { ar: 'المقاولات والبنية التحتية', en: 'Construction & Infrastructure' } },
+  { icon: '🏭', title: { ar: 'المصانع والمنشآت الصناعية', en: 'Factories & Industrial Facilities' } },
+  { icon: '📦', title: { ar: 'المستودعات والخدمات اللوجستية', en: 'Warehouses & Logistics' } },
+  { icon: '🚢', title: { ar: 'الموانئ والمرافق والنقل', en: 'Ports, Utilities & Transport' } },
+  { icon: '🏛️', title: { ar: 'الجهات الحكومية والمنشآت الحساسة', en: 'Government & Critical Facilities' } },
+  { icon: '🏢', title: { ar: 'المراكز والفنادق والتجارية', en: 'Malls, Hotels & Commercial' } }
 ];
 
 // Principles List

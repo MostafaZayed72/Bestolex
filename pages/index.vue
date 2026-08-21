@@ -120,54 +120,7 @@
       </div>
     </section>
 
-    <!-- Clients Marquee -->
-    <section class="py-16 bg-white dark:bg-gray-800 overflow-hidden border-y border-gray-100 dark:border-gray-700">
-      <div class="container mx-auto px-4 mb-8">
-        <h2 class="text-3xl font-bold text-center text-primary" data-aos="fade-up">
-          {{ locale === 'ar' ? 'عملائنا' : 'Our Clients' }}
-        </h2>
-      </div>
-      <div class="flex space-x-12 animate-marquee whitespace-nowrap items-center opacity-70 hover:opacity-100 transition-opacity duration-300">
-        <!-- Mock client texts instead of logos for now -->
-        <span v-for="n in 10" :key="n" class="text-2xl font-black text-gray-400 dark:text-gray-500 mx-8">
-          LOGO {{ n }}
-        </span>
-        <span v-for="n in 10" :key="'dup'+n" class="text-2xl font-black text-gray-400 dark:text-gray-500 mx-8">
-          LOGO {{ n }}
-        </span>
-      </div>
-    </section>
 
-    <!-- Testimonials Section - Automated Carousel -->
-    <section class="py-24 bg-gradient-to-br from-primary/10 via-white to-primary/5 dark:from-gray-900 dark:via-black dark:to-gray-900 relative">
-      <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-16 text-gray-900 dark:text-white" data-aos="fade-up">
-          {{ locale === 'ar' ? 'آراء عملائنا' : 'Client Testimonials' }}
-        </h2>
-        <div class="max-w-4xl mx-auto relative h-64 flex items-center justify-center">
-          <transition-group name="fade-slide" tag="div" class="w-full relative h-full">
-            <div v-for="(t, idx) in testimonials" :key="t.id" v-show="activeTestimonial === idx" class="absolute inset-0 flex flex-col items-center justify-center w-full">
-              <span class="text-6xl text-primary opacity-30 absolute top-0 left-1/2 -translate-x-1/2 -mt-8 font-serif">"</span>
-              <p class="text-2xl md:text-3xl italic mb-8 text-gray-700 dark:text-gray-300 font-medium leading-relaxed relative z-10">
-                {{ t.text }}
-              </p>
-              <div class="flex flex-col items-center relative z-10">
-                <div class="w-12 h-1 bg-primary rounded-full mb-4"></div>
-                <div class="font-black text-lg text-gray-900 dark:text-white">{{ t.name }}</div>
-                <div class="text-sm text-primary font-bold">{{ t.company }}</div>
-              </div>
-            </div>
-          </transition-group>
-        </div>
-        
-        <!-- Indicators -->
-        <div class="flex justify-center gap-3 mt-8">
-          <button v-for="(_, idx) in testimonials" :key="idx" @click="activeTestimonial = idx"
-            :class="['w-3 h-3 rounded-full transition-all duration-300', activeTestimonial === idx ? 'bg-primary w-8' : 'bg-gray-300 dark:bg-gray-700 hover:bg-primary/50']">
-          </button>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 

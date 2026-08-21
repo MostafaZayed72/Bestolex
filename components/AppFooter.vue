@@ -14,14 +14,16 @@
         <ul class="space-y-2">
           <li><NuxtLink :to="localePath('/')" class="hover:text-primary transition">{{ locale === 'ar' ? 'الرئيسية' : 'Home' }}</NuxtLink></li>
           <li><NuxtLink :to="localePath('/about')" class="hover:text-primary transition">{{ locale === 'ar' ? 'من نحن' : 'About Us' }}</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/services')" class="hover:text-primary transition">{{ locale === 'ar' ? 'الخدمات' : 'Services' }}</NuxtLink></li>
           <li><NuxtLink :to="localePath('/products')" class="hover:text-primary transition">{{ locale === 'ar' ? 'المنتجات' : 'Products' }}</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/privacy')" class="hover:text-primary transition">{{ locale === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy' }}</NuxtLink></li>
           <li><NuxtLink :to="localePath('/contact')" class="hover:text-primary transition">{{ locale === 'ar' ? 'تواصل معنا' : 'Contact' }}</NuxtLink></li>
         </ul>
       </div>
       <div>
         <h3 class="text-xl font-bold text-white mb-4">{{ locale === 'ar' ? 'تواصل معنا' : 'Contact Us' }}</h3>
         <p>Email: info@bestolex.com</p>
-        <p>Phone: +966 12 345 6789</p>
+        <p>Phone: +974 5070 8833 / +974 5150 5014</p>
       </div>
     </div>
     <div class="text-center mt-12 pt-8 border-t border-gray-800 text-gray-500">
