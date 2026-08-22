@@ -25,7 +25,10 @@ export default defineEventHandler(async (event) => {
           image: item.image || '/images/news/news1.jpg',
           date: item.created_at ? item.created_at.split('T')[0] : '2026-08-15',
           readTime: { ar: item.read_time_ar || '5 دقائق قراءة', en: item.read_time_en || '5 min read' },
-          isPublished: item.is_published
+          read_time_ar: item.read_time_ar,
+          read_time_en: item.read_time_en,
+          isPublished: item.is_published,
+          is_featured: !!item.is_featured
         }))
       }
     } catch (e) {

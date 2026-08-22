@@ -16,6 +16,7 @@
       "en": "5 min read"
     },
     "image": "/images/news/news3.jpg",
+    "is_featured": true,
     "desc": {
       "ar": "تتعرض الأنظمة الهيدروليكية العاملة في المنشآت الصناعية لظروف تشغيل قاسية ودرجات حرارة مرتفعة. تعرف على معايير اختيار الزيت المناسب وطرق فحص اللزوجة للحفاظ على المضخات والصمامات.",
       "en": "Hydraulic systems operate under extreme conditions and high temperatures. Learn key criteria for oil selection and viscosity monitoring to protect pumps and valves."
@@ -42,6 +43,7 @@
       "en": "6 min read"
     },
     "image": "/images/news/news2.jpg",
+    "is_featured": true,
     "desc": {
       "ar": "يُعد التحكم في حركة المركبات عند نقاط الدخول والخروج أمراً أساسياً لحماية المنشآت الحيوية. نستعرض الفروق التشغيلية ومستويات الأمان لمساعدتك في اختيار النظام الأنسب لمنشأتك.",
       "en": "Vehicle access control is crucial for securing critical infrastructure. We compare operational mechanisms and crash ratings to help you choose the ideal system."
@@ -68,6 +70,7 @@
       "en": "4 min read"
     },
     "image": "/images/news/news1.jpg",
+    "is_featured": true,
     "desc": {
       "ar": "تشكل تسربات الزيت الهيدروليكي خطراً على السلامة والبيئة وتهدد كفاءة الآلات. اكتشف الخطوات العملية لتحديد مصادر التسريب وطرق الصيانة الصحيحة للأختام والخراطيم.",
       "en": "Hydraulic fluid leaks pose severe safety, environmental, and downtime risks. Discover practical diagnostic steps to identify and fix seal and hose failures."
@@ -94,6 +97,7 @@
       "en": "5 min read"
     },
     "image": "/images/categories/docking-systems.jpg",
+    "is_featured": true,
     "desc": {
       "ar": "تعتبر منصات التحميل الهيدروليكية عنصراً حيوياً في تسريع عمليات تفريغ وشحن الشاحنات وتقليل الحوادث الميدانية في المراكز اللوجستية والمستودعات الكبرى.",
       "en": "Hydraulic dock levelers are essential for accelerating truck loading and unloading operations while maximizing safety in modern logistics hubs."
@@ -120,6 +124,7 @@
       "en": "5 min read"
     },
     "image": "/images/categories/waste-management.jpg",
+    "is_featured": true,
     "desc": {
       "ar": "تعرف على كيف تسهم مكابس البالات الهيدروليكية في تقليل حجم النفايات بنسبة تصل إلى 90% وتحويل الورق والبلاستيك إلى عائد مالي مستدام للمصانع والمراكز التجارية.",
       "en": "Discover how hydraulic baling presses compress waste volume by up to 90%, turning loose cardboard and plastics into valuable recyclable commodities."
@@ -146,6 +151,7 @@
       "en": "6 min read"
     },
     "image": "/images/categories/industrial-doors.jpg",
+    "is_featured": true,
     "desc": {
       "ar": "دليل عملي لمديري الصيانة والمصانع حول بناء برامج صيانة وقائية منتظمة تعتمد على الفحص الدوري وتحليل الزيوت وتجنب التوقف المفاجئ لخطوط الإنتاج.",
       "en": "A practical roadmap for plant and maintenance managers to establish scheduled servicing routines, oil analysis, and zero-downtime operations."

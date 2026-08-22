@@ -20,6 +20,7 @@ export default defineEventHandler(async (event) => {
     read_time_ar: body.read_time_ar,
     read_time_en: body.read_time_en,
     is_published: body.is_published,
+    is_featured: body.is_featured,
     updated_at: new Date().toISOString()
   }
 

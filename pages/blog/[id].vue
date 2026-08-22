@@ -139,18 +139,59 @@ const relatedArticles = computed(() => {
   return mockArticles.filter(a => a.id !== article.value.id && a.slug !== article.value.id).slice(0, 2)
 })
 
-useHead(() => {
-  if (!article.value) return { title: 'Blog | Bestolex' }
-  const title = article.value.title?.[locale.value] || 'Bestolex Article'
-  const desc = article.value.desc?.[locale.value] || ''
-  return {
-    title: `${title} | Bestolex`,
-    meta: [
-      { name: 'description', content: desc },
-      { property: 'og:title', content: title },
-      { property: 'og:description', content: desc },
-      { property: 'og:image', content: article.value.image }
-    ]
-  }
+const isAr = computed(() => locale.value === 'ar')
+
+useSeoMeta({
+  title: () => {
+    if (!article.value) return isAr.value ? 'المقال | المدونة الهندسية بيستوليكس' : 'Article | Bestolex Blog'
+    const t = article.value.title?.[locale.value] || article.value.title?.ar || ''
+    return isAr.value ? `${t} | بيستوليكس قطر` : `${t} | Bestolex Qatar`
+  },
+  description: () => {
+    if (!article.value) return ''
+    return article.value.desc?.[locale.value] || article.value.desc?.ar || article.value.excerpt_ar || ''
+  },
+  keywords: () => {
+    if (!article.value) return ''
+    const t = article.value.title?.[locale.value] || ''
+    const cat = article.value.category?.[locale.value] || ''
+    return `${t}, ${cat}, صيانة وتشغيل المعدات في قطر, مقالات هندسية, بيستوليكس للمعدات`
+  },
+  ogTitle: () => article.value?.title?.[locale.value] || 'Bestolex Article',
+  ogDescription: () => article.value?.desc?.[locale.value] || article.value?.desc?.ar || '',
+  ogImage: () => article.value?.image || '/images/hero/hero-bg.jpg',
+  ogType: 'article'
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: computed(() => JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        'headline': article.value?.title?.[locale.value] || 'Engineering Article',
+        'description': article.value?.desc?.[locale.value] || article.value?.desc?.ar || '',
+        'image': article.value?.image ? [article.value.image] : [],
+        'datePublished': article.value?.date || '2026-08-15',
+        'author': {
+          '@type': 'Organization',
+          'name': 'Bestolex Engineering Team | فريق بيستوليكس الهندسي'
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'Bestolex Trading & Contracting',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://bestolex.qa/logo.png'
+          }
+        },
+        'mainEntityOfPage': {
+          '@type': 'WebPage',
+          '@id': `https://bestolex.qa/blog/${articleId.value}`
+        }
+      }))
+    }
+  ]
 })
 </script>

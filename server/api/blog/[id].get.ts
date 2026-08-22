@@ -35,7 +35,8 @@ export default defineEventHandler(async (event) => {
           readTime: { ar: data.read_time_ar || '5 دقائق قراءة', en: data.read_time_en || '5 min read' },
           read_time_ar: data.read_time_ar,
           read_time_en: data.read_time_en,
-          isPublished: data.is_published
+          isPublished: data.is_published,
+          is_featured: !!data.is_featured
         }
       }
     } catch (e) {}

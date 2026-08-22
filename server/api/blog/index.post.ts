@@ -21,7 +21,8 @@ export default defineEventHandler(async (event) => {
     image: body.image || '/images/news/news1.jpg',
     read_time_ar: body.read_time_ar || '5 دقائق قراءة',
     read_time_en: body.read_time_en || '5 min read',
-    is_published: body.is_published !== false
+    is_published: body.is_published !== false,
+    is_featured: !!body.is_featured
   }
 
   // 1. If Supabase configured, insert to Supabase

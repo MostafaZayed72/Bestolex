@@ -255,14 +255,70 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import mockProducts from '@/data/products.json'
 import mockArticles from '@/data/articles.json'
 
 const { locale } = useI18n()
 const localePath = useLocalePath()
 const products = ref(mockProducts)
-const articles = ref(mockArticles)
+
+// Advanced SEO & High Ranking Keywords
+const isAr = computed(() => locale.value === 'ar')
+
+useSeoMeta({
+  title: isAr.value 
+    ? 'بيستوليكس قطر | رواد الأنظمة الهيدروليكية، حماية المحيط، منصات التحميل ومكابس التدوير'
+    : 'Bestolex Qatar | Hydraulic Systems, Perimeter Protection, Dock Levelers & Balers',
+  description: isAr.value
+    ? 'الشركة الرائدة في قطر لتوريد وتركيب وصيانة الأنظمة الهيدروليكية الصناعية، المصدات الأمنية الغاطسة، حواجز مفجر الإطارات، منصات التحميل اللوجستية، ومكابس تدوير الكرتون والبلاستيك.'
+    : 'Leading industrial supplier in Qatar for hydraulic machinery, crash-rated bollards, tyre killers, hydraulic dock levelers, industrial doors, and waste baling presses.',
+  keywords: isAr.value
+    ? 'أنظمة هيدروليكية قطر, منصات تحميل هيدروليكية الدوحة, مصدات أمنية غاطسة قطر, حواجز مفجر الإطارات, مكابس كرتون وبلاستيك قطر, أبواب صناعية رول, صيانة هيدروليك الدوحة, معدات لوجستية قطر, شركة بيستوليكس'
+    : 'hydraulic systems Qatar, dock levelers Doha, security bollards Qatar, tyre killers Doha, waste balers Qatar, industrial doors, hydraulic maintenance Qatar, Bestolex Trading',
+  ogTitle: isAr.value ? 'بيستوليكس | الحلول الهندسية والصناعية المتكاملة - قطر' : 'Bestolex | Integrated Engineering & Industrial Solutions - Qatar',
+  ogDescription: isAr.value ? 'توريد وتركيب وصيانة المعدات الهيدروليكية والأنظمة الأمنية واللوجستية وفق أعلى المعايير الدولية في دولة قطر.' : 'Supply, installation, and maintenance of hydraulic and industrial equipment in Qatar.',
+  ogImage: '/images/hero/hero-bg.jpg'
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'IndustrialBusiness',
+        'name': 'Bestolex Trading & Contracting - بيستوليكس',
+        'description': 'Leading supplier and contractor for hydraulic systems, perimeter security, dock levelers, and waste recycling machinery in Qatar.',
+        'url': 'https://bestolex.qa',
+        'telephone': '+974 5555 1234',
+        'email': 'bestolex.qa@gmail.com',
+        'address': {
+          '@type': 'PostalAddress',
+          'addressLocality': 'Doha',
+          'addressCountry': 'QA'
+        },
+        'taxID': '5009022658',
+        'identifier': 'CR: 248416'
+      })
+    }
+  ]
+})
+
+// Fetch live articles and display the 6 pinned articles
+const { data: blogData } = await useFetch('/api/blog')
+const articles = computed(() => {
+  const all = blogData.value || mockArticles
+  const featured = all.filter((a) => a.is_featured || a.isFeatured)
+  
+  if (featured.length >= 6) {
+    return featured.slice(0, 6)
+  }
+  
+  // Fill remaining slots from the latest articles if fewer than 6 are pinned
+  const nonFeatured = all.filter((a) => !(a.is_featured || a.isFeatured))
+  return [...featured, ...nonFeatured].slice(0, 6)
+})
 
 const homeServices = [
   {

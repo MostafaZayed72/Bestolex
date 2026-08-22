@@ -180,11 +180,23 @@ const loadCategory = () => {
   category.value = mockProducts.find(c => c.id === idStr) || null
 }
 
-onMounted(() => {
-  loadCategory()
-})
+onMounted(loadCategory)
+watch(() => route.params.id, loadCategory)
 
-watch(() => route.params.id, () => {
-  loadCategory()
+const isAr = computed(() => locale.value === 'ar')
+
+useSeoMeta({
+  title: () => {
+    if (!category.value) return isAr.value ? 'أقسام المنتجات | بيستوليكس' : 'Product Categories | Bestolex'
+    const catTitle = category.value.title?.[locale.value] || category.value.title?.ar || ''
+    return isAr.value ? `${catTitle} | منتجات بيستوليكس قطر` : `${catTitle} | Bestolex Qatar Products`
+  },
+  description: () => {
+    if (!category.value) return ''
+    return category.value.description?.[locale.value] || category.value.description?.ar || ''
+  },
+  ogTitle: () => category.value?.title?.[locale.value] || 'Bestolex Qatar Products',
+  ogDescription: () => category.value?.description?.[locale.value] || '',
+  ogImage: () => category.value?.image || '/images/hero/hero-bg.jpg'
 })
 </script>

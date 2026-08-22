@@ -31,6 +31,7 @@ CREATE TABLE IF NOT EXISTS articles (
   read_time_ar TEXT DEFAULT '5 دقائق قراءة',
   read_time_en TEXT DEFAULT '5 min read',
   is_published BOOLEAN DEFAULT true,
+  is_featured BOOLEAN DEFAULT false,
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW()
 );

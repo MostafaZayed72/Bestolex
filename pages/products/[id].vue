@@ -468,6 +468,55 @@ onMounted(() => {
   }
 })
 
+useSeoMeta({
+  title: () => {
+    if (!product.value) return 'المنتجات | بيستوليكس قطر'
+    const name = product.value.name?.[locale.value] || product.value.name?.ar || ''
+    return `${name} | بيستوليكس للمعدات الصناعية قطر`
+  },
+  description: () => {
+    if (!product.value) return ''
+    return product.value.description?.[locale.value] || product.value.description?.ar || ''
+  },
+  keywords: () => {
+    if (!product.value) return ''
+    const name = product.value.name?.[locale.value] || ''
+    const cat = product.value.categoryTitle?.[locale.value] || ''
+    return `${name}, ${cat}, سعر ${name} في قطر, مواصفات ${name}, توريد ${name} الدوحة, بيستوليكس قطر`
+  },
+  ogTitle: () => product.value?.name?.[locale.value] || 'Bestolex Product',
+  ogDescription: () => product.value?.description?.[locale.value] || '',
+  ogImage: () => product.value?.images?.[0] || '/images/hero/hero-bg.jpg'
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        'name': product.value?.name?.[locale.value] || 'Bestolex Equipment',
+        'image': product.value?.images || [],
+        'description': product.value?.description?.[locale.value] || '',
+        'brand': {
+          '@type': 'Brand',
+          'name': 'Bestolex / SAB TECH'
+        },
+        'offers': {
+          '@type': 'Offer',
+          'priceCurrency': 'QAR',
+          'availability': 'https://schema.org/InStock',
+          'seller': {
+            '@type': 'Organization',
+            'name': 'Bestolex Trading & Contracting'
+          }
+        }
+      })
+    }
+  ]
+})
+
 onUnmounted(() => {
   if (carouselInterval) clearInterval(carouselInterval)
 })

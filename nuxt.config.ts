@@ -48,10 +48,30 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'ar',
+        dir: 'rtl'
+      },
+      title: 'بيستوليكس | Bestolex Qatar - الأنظمة الهيدروليكية وحلول حماية المحيط والمعدات الصناعية',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+        { name: 'author', content: 'بيستوليكس للتجارة والمقاولات | Bestolex' },
+        { name: 'theme-color', content: '#E99E15' },
+        { name: 'geo.region', content: 'QA' },
+        { name: 'geo.placename', content: 'Doha, Qatar' },
+        { property: 'og:site_name', content: 'Bestolex Qatar | بيستوليكس قطر' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:locale', content: 'ar_QA' },
+        { property: 'og:locale:alternate', content: 'en_US' },
+        { name: 'twitter:card', content: 'summary_large_image' }
+      ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap' }
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap' },
+        { rel: 'icon', type: 'image/png', href: '/logo.png' }
       ]
     }
   }

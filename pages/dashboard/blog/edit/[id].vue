@@ -241,6 +241,26 @@
               >
             </div>
           </div>
+
+          <!-- Featured on Homepage Checkbox -->
+          <div class="pt-4 border-t border-gray-100 dark:border-gray-750">
+            <label class="flex items-center gap-3 cursor-pointer p-4 bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/80 dark:border-amber-900/40 rounded-2xl hover:bg-amber-50 dark:hover:bg-amber-950/40 transition">
+              <input 
+                v-model="form.is_featured" 
+                type="checkbox" 
+                class="w-5 h-5 rounded text-amber-500 focus:ring-amber-400 cursor-pointer"
+              >
+              <div>
+                <div class="text-sm font-bold text-gray-900 dark:text-white flex items-center gap-1.5">
+                  <span>⭐</span>
+                  <span>تثبيت هذا المقال في الصفحة الرئيسية (الهوم بيدج)</span>
+                </div>
+                <div class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
+                  سيظهر هذا المقال ضمن المقالات الـ 6 المثبتة في واجهة الموقع الرئيسية
+                </div>
+              </div>
+            </label>
+          </div>
         </div>
 
         <!-- Submit Buttons -->
@@ -297,7 +317,8 @@ const form = ref({
   excerpt_en: '',
   content_ar: '',
   content_en: '',
-  image: ''
+  image: '',
+  is_featured: false
 })
 
 const onCategorySelect = (selectedNameAr) => {
@@ -357,7 +378,8 @@ onMounted(async () => {
         excerpt_en: data.excerpt_en || data.desc?.en || '',
         content_ar: data.content_ar || data.content?.ar || '',
         content_en: data.content_en || data.content?.en || '',
-        image: data.image || ''
+        image: data.image || '',
+        is_featured: !!data.is_featured
       }
     }
   } catch (err) {

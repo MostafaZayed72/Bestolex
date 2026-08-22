@@ -125,11 +125,18 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n()
 
-useHead({
-  title: locale.value === 'ar' ? 'سياسة الخصوصية | بيستوليكس' : 'Privacy Policy | Bestolex'
+const isAr = computed(() => locale.value === 'ar')
+
+useSeoMeta({
+  title: isAr.value ? 'سياسة الخصوصية وشروط الاستخدام | بيستوليكس قطر' : 'Privacy Policy & Terms of Service | Bestolex Qatar',
+  description: isAr.value 
+    ? 'سياسة الخصوصية وحماية بيانات العملاء لشركة بيستوليكس لتجارة الآلات والمعدات الثقيلة في دولة قطر.'
+    : 'Privacy policy and client data protection practices of Bestolex for Heavy Machinery & Equipment Trading in Qatar.',
+  robots: 'index, follow'
 })
 </script>

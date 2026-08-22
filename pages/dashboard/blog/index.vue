@@ -6,7 +6,7 @@
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4 bg-white dark:bg-gray-800 p-6 rounded-3xl border border-gray-100 dark:border-gray-700 shadow-sm">
         <!-- Search & Filter -->
         <div class="flex flex-wrap items-center gap-3 w-full sm:w-auto">
-          <div class="relative w-full sm:w-72">
+          <div class="relative w-full sm:w-64">
             <input 
               v-model="searchQuery" 
               type="text" 
@@ -25,11 +25,18 @@
           </select>
         </div>
 
-        <!-- Action Buttons: Manage Categories + Add Article -->
-        <div class="flex items-center gap-3 w-full sm:w-auto">
+        <!-- Featured Counter & Action Buttons -->
+        <div class="flex flex-wrap items-center gap-3 w-full sm:w-auto justify-end">
+          <!-- Featured Count Badge -->
+          <div class="px-4 py-2.5 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900/60 rounded-xl text-xs font-black text-amber-700 dark:text-amber-400 flex items-center gap-1.5 shadow-sm">
+            <span>⭐</span>
+            <span>المثبت في الرئيسية:</span>
+            <span class="font-mono text-sm underline">{{ featuredCount }} / 6</span>
+          </div>
+
           <button 
             @click="openCategoryModal = true" 
-            class="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 font-bold px-5 py-3.5 rounded-xl transition text-sm shadow-sm"
+            class="flex items-center justify-center gap-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 font-bold px-4 py-3 rounded-xl transition text-xs shadow-sm"
           >
             <span>🏷️</span>
             <span>إدارة الأقسام</span>
@@ -37,7 +44,7 @@
 
           <NuxtLink 
             to="/dashboard/blog/create" 
-            class="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-primary hover:bg-orange-600 text-white font-bold px-6 py-3.5 rounded-xl transition shadow-lg shadow-primary/20 text-sm"
+            class="flex items-center justify-center gap-2 bg-primary hover:bg-orange-600 text-white font-bold px-5 py-3 rounded-xl transition shadow-lg shadow-primary/20 text-xs"
           >
             <span>➕</span>
             <span>إضافة مقال جديد</span>
@@ -53,6 +60,7 @@
               <tr>
                 <th class="p-4 text-start">المقال</th>
                 <th class="p-4 text-start">القسم</th>
+                <th class="p-4 text-center">تثبيت في الرئيسية (الهوم بيدج)</th>
                 <th class="p-4 text-start">تاريخ النشر</th>
                 <th class="p-4 text-start">وقت القراءة</th>
                 <th class="p-4 text-center">الإجراءات</th>
@@ -60,13 +68,13 @@
             </thead>
             <tbody class="divide-y divide-gray-100 dark:divide-gray-700/60 font-medium">
               <tr v-if="loading">
-                <td colspan="5" class="p-12 text-center text-gray-400">
+                <td colspan="6" class="p-12 text-center text-gray-400">
                   <div class="inline-block animate-spin text-2xl mb-2">⏳</div>
                   <div>جاري تحميل المقالات...</div>
                 </td>
               </tr>
               <tr v-else-if="paginatedArticles.length === 0">
-                <td colspan="5" class="p-12 text-center text-gray-400">
+                <td colspan="6" class="p-12 text-center text-gray-400">
                   لا توجد مقالات مطابقة لبحثك.
                 </td>
               </tr>
@@ -95,6 +103,20 @@
                   <span class="bg-primary/10 text-primary font-bold text-xs px-3 py-1.5 rounded-full whitespace-nowrap">
                     {{ article.category?.ar || article.category_ar || 'عام' }}
                   </span>
+                </td>
+
+                <!-- Homepage Featured Toggle Switch -->
+                <td class="p-4 text-center">
+                  <button 
+                    @click="toggleFeatured(article)"
+                    class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all shadow-sm"
+                    :class="article.is_featured 
+                      ? 'bg-amber-500 text-white shadow-amber-500/30 ring-2 ring-amber-400/40 hover:bg-amber-600' 
+                      : 'bg-gray-100 dark:bg-gray-700 text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'"
+                    :title="article.is_featured ? 'مُثبت في الهوم بيدج (اضغط للإلغاء)' : 'اضغط للتثبيت في الهوم بيدج'"
+                  >
+                    <span>{{ article.is_featured ? '⭐ مثبت في الرئيسية' : '☆ غير مثبت' }}</span>
+                  </button>
                 </td>
 
                 <!-- Date -->
@@ -346,6 +368,38 @@ const fetchCategories = async () => {
     if (res) categoryList.value = res
   } catch (err) {
     console.error('Error fetching categories:', err)
+  }
+}
+
+const featuredCount = computed(() => {
+  return articles.value.filter(a => a.is_featured || a.isFeatured).length
+})
+
+const toggleFeatured = async (article) => {
+  const currentStatus = article.is_featured || article.isFeatured || false
+  
+  if (!currentStatus && featuredCount.value >= 6) {
+    alert('لقد قمت بتحديد 6 مقالات بالفعل للظهور في الصفحة الرئيسية.\nيرجى إلغاء تثبيت مقال آخر أولاً.')
+    return
+  }
+
+  const nextStatus = !currentStatus
+  article.is_featured = nextStatus
+  article.isFeatured = nextStatus
+
+  try {
+    await $fetch('/api/blog/toggle-featured', {
+      method: 'POST',
+      body: {
+        id: article.id || article.slug,
+        is_featured: nextStatus
+      }
+    })
+  } catch (err) {
+    // Revert on error
+    article.is_featured = currentStatus
+    article.isFeatured = currentStatus
+    alert('حدث خطأ أثناء تحديث حالة التثبيت')
   }
 }
 

@@ -170,7 +170,50 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
+
 const { locale } = useI18n()
+
+const isAr = computed(() => locale.value === 'ar')
+
+useSeoMeta({
+  title: isAr.value
+    ? 'تواصل معنا | طلب عروض الأسعار والاستشارات الهندسية - بيستوليكس قطر'
+    : 'Contact Us | Request Quotes & Engineering Consultations - Bestolex Qatar',
+  description: isAr.value
+    ? 'تواصل مباشرة مع فريق بيستوليكس في الدوحة، قطر لطلب عروض الأسعار، المعاينة الميدانية، والاستشارات الهندسية للمعدات الهيدروليكية وحلول حماية المحيط والمستودعات.'
+    : 'Contact Bestolex Trading in Doha, Qatar for quotes, site survey requests, and technical consultations on hydraulic and industrial systems.',
+  keywords: isAr.value
+    ? 'تواصل مع بيستوليكس, رقم هاتف بيستوليكس قطر, طلب عرض سعر معدات صناعية قطر, حجز موعد استشارة هندسية الدوحة, عنوان شركة بيستوليكس'
+    : 'contact Bestolex Qatar, Bestolex phone number, industrial quote request Doha, engineering consultation booking Qatar',
+  ogTitle: isAr.value ? 'تواصل مع شركة بيستوليكس للتجارة والمقاولات قطر' : 'Contact Bestolex Trading & Contracting Qatar',
+  ogDescription: isAr.value ? 'فريقنا الهندسي جاهز للإجابة على استفساراتكم وتقديم العروض الفنية.' : 'Our engineering team is ready to assist with technical proposals and inquiries.',
+  ogImage: '/images/hero/hero-bg.jpg'
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'ContactPage',
+        'name': 'تواصل معنا | Bestolex Qatar',
+        'mainEntity': {
+          '@type': 'LocalBusiness',
+          'name': 'Bestolex Trading & Contracting',
+          'email': 'bestolex.qa@gmail.com',
+          'telephone': '+974 5555 1234',
+          'address': {
+            '@type': 'PostalAddress',
+            'addressLocality': 'Doha',
+            'addressCountry': 'QA'
+          }
+        }
+      })
+    }
+  ]
+})
 
 const form = ref({
   name: '',

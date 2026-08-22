@@ -250,8 +250,52 @@ const { locale } = useI18n()
 const localePath = useLocalePath()
 const isBookingOpen = ref(false)
 
+const isAr = computed(() => locale.value === 'ar')
+
+useSeoMeta({
+  title: isAr.value
+    ? 'خدماتنا الهندسية واللوجستية | دراسة الاحتياج، التوريد، التركيب والصيانة - بيستوليكس قطر'
+    : 'Engineering & Logistics Services | Site Survey, Supply, Installation & Maintenance - Bestolex Qatar',
+  description: isAr.value
+    ? 'خدمات متكاملة من 8 مراحل تغطي دورة حياة المشاريع الصناعية: دراسة الموقع، التصميم الهندسي، التوريد المعتمد، التركيب الميداني، التدريب على التشغيل، وعقود الصيانة الدورية في قطر.'
+    : 'Comprehensive 8-stage industrial services lifecycle in Qatar: site assessment, engineering design, certified supply, field installation, commissioning, and preventive maintenance.',
+  keywords: isAr.value
+    ? 'خدمات صيانة هيدروليك قطر, تركيب مصدات أمنية الدوحة, تركيب منصات تحميل قطر, عقود صيانة سنوية معدات صناعية, تدريب تشغيل مكابس, فحص ميداني واستشارات هندسية قطر'
+    : 'hydraulic maintenance Qatar, security bollard installation Doha, dock leveler maintenance, industrial maintenance contracts Qatar, engineering survey Doha',
+  ogTitle: isAr.value ? 'خدمات بيستوليكس الهندسية والصناعية المتكاملة - قطر' : 'Bestolex Integrated Engineering Services - Qatar',
+  ogDescription: isAr.value ? 'من دراسة الاحتياج إلى التركيب والتشغيل والدعم الفني المستمر.' : 'From site assessment to installation, commissioning, and continuous technical support.',
+  ogImage: '/images/categories/docking-systems.jpg'
+})
+
 useHead({
-  title: locale.value === 'ar' ? 'خدماتنا | بيستوليكس' : 'Our Services | Bestolex'
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        'serviceType': 'Industrial & Hydraulic Engineering Services',
+        'provider': {
+          '@type': 'Organization',
+          'name': 'Bestolex Trading & Contracting'
+        },
+        'areaServed': {
+          '@type': 'Country',
+          'name': 'Qatar'
+        },
+        'hasOfferCatalog': {
+          '@type': 'OfferCatalog',
+          'name': 'Engineering & After-Sales Services',
+          'itemListElement': [
+            { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'دراسة الاحتياج والمعاينة الميدانية' } },
+            { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'التركيب والإشراف الهندسي' } },
+            { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'التشغيل التجريبي والتدريب' } },
+            { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'الصيانة الوقائية وقطع الغيار الأصلية' } }
+          ]
+        }
+      })
+    }
+  ]
 })
 
 // Hero Carousel Slides

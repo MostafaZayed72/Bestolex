@@ -337,12 +337,48 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n()
 const localePath = useLocalePath()
 const activeTab = ref('principles')
+
+const isAr = computed(() => locale.value === 'ar')
+
+useSeoMeta({
+  title: isAr.value
+    ? 'من نحن | بيستوليكس للتجارة والمقاولات - رواد الحلول الهندسية والصناعية قطر'
+    : 'About Us | Bestolex Trading & Contracting - Industrial Engineering Solutions Qatar',
+  description: isAr.value
+    ? 'تعرف على شركة بيستوليكس القطرية، الوكيل الحصري والشريك الصناعي المعتمد لساب تك، والمتخصصة في توريد وتجهيز المنشآت بالأنظمة الهيدروليكية وحلول حماية المحيط ومعدات المستودعات.'
+    : 'Learn about Bestolex Trading & Contracting in Qatar, exclusive partner for SAB TECH, specializing in industrial hydraulics, security systems, and logistics solutions.',
+  keywords: isAr.value
+    ? 'عن شركة بيستوليكس, بيستوليكس قطر, وكيل ساب تك قطر, سجل تجاري 248416, شركات معدات صناعية الدوحة, مقاولات هيدروليكية قطر, توريد معدات أمنية الدوحة'
+    : 'about Bestolex Qatar, Bestolex Trading, SAB TECH Qatar partner, CR 248416, industrial equipment suppliers Doha, hydraulic contracting Qatar',
+  ogTitle: isAr.value ? 'من نحن | بيستوليكس للتجارة والمقاولات قطر' : 'About Us | Bestolex Trading Qatar',
+  ogDescription: isAr.value ? 'شراكة هندسية وصناعية رائدة تلبي احتياجات المشاريع الكبرى في دولة قطر.' : 'Leading engineering & industrial partnership serving major projects in Qatar.',
+  ogImage: '/images/hero/hero-bg.jpg'
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        'name': 'من نحن | Bestolex Qatar',
+        'description': 'Company profile and industrial engineering capabilities of Bestolex in Qatar.',
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'Bestolex Trading & Contracting',
+          'url': 'https://bestolex.qa'
+        }
+      })
+    }
+  ]
+})
 
 // Values List
 const valuesList = [
