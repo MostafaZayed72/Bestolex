@@ -64,12 +64,12 @@
             {{ locale === 'ar' ? 'من نحن' : 'About Us' }}
           </div>
           <h2 class="text-3xl md:text-4xl font-black text-gray-900 dark:text-white leading-tight">
-            {{ locale === 'ar' ? 'شركة قطرية متخصصة في حلول المعدات الثقيلة واللوجستيات' : 'A Specialized Qatari Leader in Heavy Machinery & Logistics Solutions' }}
+            {{ locale === 'ar' ? 'الشركة القطرية الرائدة في حلول وتجارة الآلات والمعدات الثقيلة المتقدمة والأنظمة اللوجستية' : 'The Leading Qatari Enterprise in Advanced Heavy Machinery & Logistics Solutions' }}
           </h2>
           <p class="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
             {{ locale === 'ar' 
-              ? 'بيستوليكس لتجارة الآلات والمعدات الثقيلة شركة قطرية متخصصة في توريد الحلول والمعدات الصناعية واللوجستية. نخدم قطاعات المقاولات والبنية التحتية والمصانع والمستودعات والموانئ والمنشآت التجارية والحكومية من خلال محفظة متكاملة تشمل أنظمة المستودعات ومناطق التحميل، ومعدات إدارة النفايات وإعادة التدوير، وأنظمة حماية المحيط والتحكم في الدخول، والأبواب الصناعية.'
-              : 'Bestolex for Trading of Heavy Machinery and Equipment is a Qatar-based company specializing in the supply of industrial and logistics equipment and solutions. We serve contractors, infrastructure projects, factories, warehouses, ports, commercial facilities, and government entities through an integrated portfolio covering warehouse and loading bay systems, waste management and recycling equipment, perimeter protection and access control systems, and industrial doors.'
+              ? 'بيستوليكس لتجارة الآلات والمعدات الثقيلة هي الخيار الأول والشريك الهندسي الموثوق في قطر لتوريد وتركيب أحدث المعدات الصناعية والنظم الهيدروليكية واللوجستية. نحن ندعم قطاعات المقاولات الكبرى، البنية التحتية، المصانع، المستودعات، والموانئ بحلول متكاملة وعالية الكفاءة. تشمل محفظتنا الاستثنائية منصات التحميل الهيدروليكية، مكابس النفايات وإعادة التدوير، المصدات الأمنية الغاطسة وحماية المحيط، والأبواب الصناعية المتينة والمصممة لتحمل شتى الظروف.'
+              : 'Bestolex for Trading of Heavy Machinery and Equipment is the premier choice and trusted engineering partner in Qatar for the supply, installation, and maintenance of cutting-edge industrial equipment and hydraulic systems. We empower major contracting, infrastructure, factories, warehouses, and ports sectors with highly efficient, integrated solutions. Our exceptional portfolio includes hydraulic dock levelers, waste recycling compactors, crash-rated security bollards, and heavy-duty industrial doors designed for extreme conditions.'
             }}
           </p>
           <div class="grid grid-cols-2 gap-4 pt-4">
@@ -102,8 +102,8 @@
           </h3>
           <p class="text-gray-600 dark:text-gray-300 text-base md:text-lg leading-relaxed relative z-10">
             {{ locale === 'ar' 
-              ? 'أن نرسّخ مكانة بيستوليكس كشريك موثوق للمنشآت الصناعية واللوجستية في دولة قطر، من خلال توفير حلول هندسية وتجارية عالية الجودة تسهم في رفع الكفاءة التشغيلية وتعزيز السلامة والاستدامة.'
-              : 'To establish Bestolex as a trusted partner for industrial and logistics facilities in Qatar by providing high-quality engineering and commercial solutions that improve operational efficiency, safety, and sustainability.'
+              ? 'أن نعزز ريادة بيستوليكس كأفضل شريك موثوق للمنشآت الصناعية واللوجستية في دولة قطر والمنطقة، من خلال توفير أقوى الحلول الهندسية في المعدات الثقيلة والنظم الهيدروليكية، لنساهم بقوة في رفع الكفاءة التشغيلية، وتعزيز أعلى مستويات السلامة، وضمان الاستدامة.'
+              : 'To establish Bestolex as the premier, trusted partner for industrial and logistics facilities in Qatar by providing top-tier engineering solutions in heavy machinery and hydraulic systems, thereby significantly boosting operational efficiency, ensuring paramount safety, and driving sustainability.'
             }}
           </p>
         </div>

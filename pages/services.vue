@@ -36,7 +36,7 @@
         </div>
 
         <h1 class="text-3xl sm:text-5xl md:text-6xl font-black mb-6 text-white leading-tight tracking-tight max-w-4xl mx-auto drop-shadow-lg">
-          {{ locale === 'ar' ? 'خدمات تلبي تطلعات أعمالكم باحترافية' : 'Services That Meet Your Business Aspirations' }}
+          {{ locale === 'ar' ? 'أفضل خدمات المعدات الثقيلة والنظم الهيدروليكية لتلبي تطلعات أعمالكم باحترافية' : 'Premium Heavy Machinery & Hydraulic Services That Meet Your Business Aspirations' }}
         </h1>
 
         <div class="w-24 h-1.5 bg-[#E99E15] mx-auto mb-6 rounded-full shadow-md shadow-[#E99E15]/50"></div>
@@ -92,7 +92,7 @@
           {{ locale === 'ar' ? 'رحلة الخدمة المتكاملة' : 'Integrated Service Journey' }}
         </div>
         <h2 class="text-3xl md:text-5xl font-black text-gray-900 dark:text-white mb-6">
-          {{ locale === 'ar' ? 'منهجية عمل هندسية من البداية حتى التسليم' : 'Engineering Methodology from Survey to Handover' }}
+          {{ locale === 'ar' ? 'منهجية عمل هندسية متكاملة لتركيب وصيانة المعدات الثقيلة' : 'Integrated Engineering Methodology for Heavy Machinery Installation & Maintenance' }}
         </h2>
         <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
           {{ locale === 'ar' 
@@ -170,8 +170,8 @@
             </h2>
             <p class="text-gray-300 text-base md:text-lg leading-relaxed">
               {{ locale === 'ar' 
-                ? 'نحن لا نكتفي بتوريد المعدات، بل نوفر حلولاً هندسية مصممة خصيصاً لتناسب منشأتكم، مع توفير عقود الصيانة الدورية وقطع الغيار الأصلية لضمان استمرارية أعمالكم دون انقطاع.' 
-                : 'We do not just supply equipment; we provide engineered solutions tailored to your facility, supported by maintenance contracts and genuine spare parts.' 
+                ? 'نحن في بيستوليكس لا نكتفي بتوريد المعدات الثقيلة، بل نوفر أقوى الحلول الهندسية في النظم الهيدروليكية وحماية المحيط المصممة خصيصاً لمنشأتكم، مع عقود صيانة دورية شاملة وقطع غيار أصلية لضمان استمرارية عمل معداتكم بأقصى طاقة دون انقطاع.' 
+                : 'At Bestolex, we go beyond supplying heavy machinery; we provide the most robust engineering solutions in hydraulic systems and perimeter security tailored to your facility, supported by comprehensive maintenance contracts and genuine spare parts to ensure continuous peak performance.' 
               }}
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">

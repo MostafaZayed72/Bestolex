@@ -21,7 +21,7 @@
           <NuxtImg src="/logo.png" alt="Bestolex Logo" class="h-20 md:h-32 object-contain drop-shadow-xl filter brightness-0 invert" format="webp" loading="eager" />
         </div>
         <p class="text-xl md:text-3xl font-medium mb-8 text-gray-100 drop-shadow-md">
-          {{ locale === 'ar' ? 'لتجارة الآلات والمعدات الثقيلة' : 'FOR TRADING OF HEAVY MACHINERY AND EQUIPMENT' }}
+          {{ locale === 'ar' ? 'الخيار الأول لتجارة الآلات والمعدات الثقيلة والنظم الهيدروليكية المتقدمة' : 'YOUR PREMIER PARTNER FOR HEAVY MACHINERY & ADVANCED HYDRAULIC SYSTEMS' }}
         </p>
         <NuxtLink :to="localePath('/products')" class="inline-block bg-primary text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition shadow-lg shadow-primary/30 hover:scale-105">
           {{ locale === 'ar' ? 'اكتشف منتجاتنا' : 'Explore Our Products' }}
@@ -33,7 +33,7 @@
     <section class="py-20 bg-white dark:bg-secondary">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
-          {{ locale === 'ar' ? 'أبرز الأقسام' : 'Featured Categories' }}
+          {{ locale === 'ar' ? 'أبرز أنظمة المعدات والحلول الصناعية' : 'Our Core Industrial & Engineering Solutions' }}
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="(category, index) in products" :key="category.id" class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow hover:shadow-xl transition group" :data-aos="'fade-up'" :data-aos-delay="index * 100">
@@ -58,15 +58,15 @@
       <div class="container mx-auto px-4 md:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
           <div class="inline-block bg-primary/10 text-primary font-extrabold px-4 py-1.5 rounded-lg text-sm mb-4">
-            {{ locale === 'ar' ? 'المدونة الهندسية' : 'Engineering Blog' }}
+            {{ locale === 'ar' ? 'المدونة الهندسية المتخصصة في المعدات الثقيلة' : 'Heavy Machinery Engineering Blog' }}
           </div>
           <h2 class="text-3xl md:text-5xl font-black text-gray-900 dark:text-white mb-6">
             {{ locale === 'ar' ? 'المقالات' : 'Articles' }}
           </h2>
           <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
             {{ locale === 'ar' 
-              ? 'أحدث الرؤى الفنية، وأدلة الصيانة، والحلول الهندسية في مجال المعدات الثقيلة والأنظمة اللوجستية.' 
-              : 'Latest technical insights, maintenance guides, and industrial equipment solutions.' 
+              ? 'اكتشف أحدث الرؤى الفنية، وأدلة الصيانة المتكاملة، والحلول الهندسية المبتكرة في مجالات المعدات الثقيلة، النظم الهيدروليكية، والأنظمة اللوجستية الحديثة.' 
+              : 'Discover the latest technical insights, comprehensive maintenance guides, and innovative engineering solutions for heavy machinery and advanced hydraulic systems.' 
             }}
           </p>
         </div>
@@ -150,15 +150,15 @@
       <div class="container mx-auto px-4 md:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
           <div class="inline-block bg-primary/10 text-primary font-extrabold px-4 py-1.5 rounded-lg text-sm mb-4">
-            {{ locale === 'ar' ? 'رحلة الخدمة المتكاملة' : 'Integrated Service Journey' }}
+            {{ locale === 'ar' ? 'خدماتنا الهندسية والصناعية المتكاملة' : 'Comprehensive Engineering & Industrial Services' }}
           </div>
           <h2 class="text-3xl md:text-5xl font-black text-gray-900 dark:text-white mb-6">
             {{ locale === 'ar' ? 'خدماتنا الهندسية واللوجستية' : 'Our Engineering & Logistics Services' }}
           </h2>
           <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
             {{ locale === 'ar' 
-              ? 'نرافقكم من دراسة الاحتياج والتصميم، حتى التوريد والتركيب والتشغيل وخدمات الصيانة والدعم الفني.' 
-              : 'Accompanying you from requirement assessment to supply, installation, commissioning, and maintenance.' 
+              ? 'نقدم حلولاً متكاملة تبدأ من التصميم الدقيق وتوريد المعدات الثقيلة، مروراً بالتركيب الاحترافي للنظم الهيدروليكية، وصولاً إلى خدمات الصيانة والدعم الفني المتميز لضمان أعلى درجات الكفاءة.' 
+              : 'We provide end-to-end industrial solutions: from the precise engineering design of heavy machinery, through expert installation of hydraulic systems, to unparalleled maintenance and technical support for maximum operational efficiency.' 
             }}
           </p>
         </div>

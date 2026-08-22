@@ -70,7 +70,13 @@
 
             <!-- Google Map -->
             <div class="mt-8 pt-6 border-t border-gray-100 dark:border-gray-800 w-full">
-              <h4 class="font-bold text-gray-800 dark:text-white text-lg mb-4">{{ locale === 'ar' ? 'موقعنا على الخريطة' : 'Our Location' }}</h4>
+              <div class="flex items-center justify-between mb-4">
+                <h4 class="font-bold text-gray-800 dark:text-white text-lg">{{ locale === 'ar' ? 'موقعنا على الخريطة' : 'Our Location' }}</h4>
+                <a href="https://maps.app.goo.gl/dsPskLm4xnu1zEmy7?g_st=ipc" target="_blank" class="text-sm text-primary hover:underline font-bold flex items-center gap-1">
+                  {{ locale === 'ar' ? 'فتح في خرائط جوجل' : 'Open in Google Maps' }}
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 rtl:rotate-180" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                </a>
+              </div>
               <div class="w-full rounded-2xl overflow-hidden shadow-inner border border-gray-100 dark:border-gray-700 h-64">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2045155609355!2d51.5222045!3d25.2636952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x221711200b21a37c!2sAl%20Muntazah%2C%20Doha%2C%20Qatar!5e0!3m2!1sen!2sus!4v1714902000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
