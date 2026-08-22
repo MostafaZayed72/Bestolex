@@ -78,7 +78,7 @@
                 </a>
               </div>
               <div class="w-full rounded-2xl overflow-hidden shadow-inner border border-gray-100 dark:border-gray-700 h-64">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2045155609355!2d51.5222045!3d25.2636952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x221711200b21a37c!2sAl%20Muntazah%2C%20Doha%2C%20Qatar!5e0!3m2!1sen!2sus!4v1714902000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.9500227173944!2d51.52479239999999!3d25.272266600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45dbb66a9a29a7%3A0xaadff3c5d989f8b9!2sBestolex%20for%20Trading%20of%20Heavy%20Machinery%20and%20Equipment!5e0!3m2!1sar!2seg!4v1787438240199!5m2!1sar!2seg" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
               </div>
             </div>
           </div>
