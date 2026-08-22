@@ -53,25 +53,94 @@
       </div>
     </section>
 
-    <!-- News Section -->
-    <section class="py-20 bg-gray-50 dark:bg-gray-900">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-aos="fade-up">
-          {{ locale === 'ar' ? 'الأخبار والأحداث' : 'News & Events' }}
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div v-for="(item, idx) in news" :key="item.id" class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300" :data-aos="'fade-up'" :data-aos-delay="idx * 100">
-            <div class="h-48 overflow-hidden">
-              <NuxtImg :src="item.image" :alt="item.title" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500" format="webp" loading="lazy" />
-            </div>
-            <div class="p-6 text-center">
-              <h3 class="font-bold text-lg text-gray-900 dark:text-white mb-3">{{ item.title }}</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-sm mb-6">{{ item.desc }}</p>
-              <button class="bg-primary hover:bg-orange-600 text-white px-6 py-2 rounded-lg font-bold transition-colors">
-                {{ locale === 'ar' ? 'عرض التفاصيل' : 'View Details' }}
-              </button>
-            </div>
+    <!-- Articles / Blog Section -->
+    <section class="py-24 bg-gray-50 dark:bg-gray-900">
+      <div class="container mx-auto px-4 md:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+          <div class="inline-block bg-primary/10 text-primary font-extrabold px-4 py-1.5 rounded-lg text-sm mb-4">
+            {{ locale === 'ar' ? 'المدونة الهندسية' : 'Engineering Blog' }}
           </div>
+          <h2 class="text-3xl md:text-5xl font-black text-gray-900 dark:text-white mb-6">
+            {{ locale === 'ar' ? 'المقالات' : 'Articles' }}
+          </h2>
+          <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+            {{ locale === 'ar' 
+              ? 'أحدث الرؤى الفنية، وأدلة الصيانة، والحلول الهندسية في مجال المعدات الثقيلة والأنظمة اللوجستية.' 
+              : 'Latest technical insights, maintenance guides, and industrial equipment solutions.' 
+            }}
+          </p>
+        </div>
+
+        <!-- 6 Articles Grid (2 Rows of 3) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <article 
+            v-for="(article, idx) in articles" 
+            :key="article.id" 
+            class="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg border border-gray-100 dark:border-gray-700 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 flex flex-col group"
+            data-aos="fade-up"
+            :data-aos-delay="(idx % 3) * 100"
+          >
+            <!-- Article Image -->
+            <div class="relative h-52 overflow-hidden bg-gray-100 dark:bg-gray-700">
+              <NuxtImg 
+                :src="article.image" 
+                :alt="article.title[locale]" 
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700" 
+                format="webp" 
+                loading="lazy" 
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              
+              <!-- Category Tag -->
+              <span class="absolute top-4 rtl:right-4 ltr:left-4 bg-[#121c2d]/90 backdrop-blur-md text-[#E99E15] font-black text-xs px-3.5 py-1.5 rounded-full border border-[#E99E15]/30">
+                {{ article.category[locale] }}
+              </span>
+            </div>
+
+            <!-- Article Content -->
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <!-- Date & Read Time -->
+                <div class="flex items-center gap-3 text-xs font-bold text-gray-400 mb-3">
+                  <span>📅 {{ article.date }}</span>
+                  <span>•</span>
+                  <span>⏱️ {{ article.readTime[locale] }}</span>
+                </div>
+
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-primary transition-colors leading-tight line-clamp-2">
+                  <NuxtLink :to="localePath(`/blog/${article.id}`)">
+                    {{ article.title[locale] }}
+                  </NuxtLink>
+                </h3>
+
+                <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-6 line-clamp-3">
+                  {{ article.desc[locale] }}
+                </p>
+              </div>
+
+              <!-- Read Article Link -->
+              <div class="pt-4 border-t border-gray-100 dark:border-gray-700/60 mt-auto">
+                <NuxtLink 
+                  :to="localePath(`/blog/${article.id}`)" 
+                  class="inline-flex items-center gap-2 text-primary hover:text-orange-600 font-black text-sm group-hover:underline transition"
+                >
+                  <span>{{ locale === 'ar' ? 'قراءة المقال' : 'Read Article' }}</span>
+                  <span class="rtl:rotate-180 text-base">&rarr;</span>
+                </NuxtLink>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- View More Button -->
+        <div class="text-center" data-aos="fade-up">
+          <NuxtLink 
+            :to="localePath('/blog')" 
+            class="inline-flex items-center gap-3 bg-gradient-to-r from-primary to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white font-bold px-8 py-4 rounded-xl transition shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-1 text-lg"
+          >
+            <span>{{ locale === 'ar' ? 'عرض المزيد من المقالات' : 'Explore All Articles' }}</span>
+            <span class="rtl:rotate-180 text-xl">&rarr;</span>
+          </NuxtLink>
         </div>
       </div>
     </section>
@@ -188,17 +257,12 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import mockProducts from '@/data/products.json'
+import mockArticles from '@/data/articles.json'
 
 const { locale } = useI18n()
 const localePath = useLocalePath()
 const products = ref(mockProducts)
-
-// Mock Data for new sections
-const news = [
-  { id: 1, title: 'استكشاف أعطال تسربات الهيدروليك', image: '/images/news/news1.jpg', desc: 'تشكل الأنظمة الهيدروليكية عمليات حيوية في مصانع التصنيع ومعدات مناولة المواد...' },
-  { id: 2, title: 'مقارنة بين حواجز مفجر الإطارات وحواجز المسامير', image: '/images/news/news2.jpg', desc: 'يُعد التحكم في حركة المركبات عند نقاط الدخول والخروج أمراً أساسياً للمرافق...' },
-  { id: 3, title: 'دليل اختيار الزيوت الهيدروليكية', image: '/images/news/news3.jpg', desc: 'تتعرض الأنظمة الهيدروليكية العاملة في المملكة لبعض من أقسى الظروف البيئية...' }
-]
+const articles = ref(mockArticles)
 
 const homeServices = [
   {
