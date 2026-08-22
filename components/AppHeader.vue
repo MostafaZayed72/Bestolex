@@ -3,7 +3,8 @@
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <!-- Logo -->
       <NuxtLink :to="localePath('/')" class="flex items-center gap-2">
-        <NuxtImg src="/logo.png" alt="Bestolex Logo" class="h-10 md:h-12 object-contain" format="webp" loading="eager" />
+        <NuxtImg src="/logo.png" alt="Bestolex Logo" class="h-10 md:h-12 object-contain dark:hidden" format="webp" loading="eager" />
+        <NuxtImg src="/logo-dark-transparent.png" alt="Bestolex Logo" class="h-10 md:h-12 object-contain hidden dark:block" format="webp" loading="eager" />
       </NuxtLink>
 
       <!-- Navigation -->

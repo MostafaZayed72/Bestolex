@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
         <div class="mb-4">
-          <NuxtImg src="/logo.png" alt="Bestolex Logo" class="h-12 object-contain" format="webp" loading="lazy" />
+          <NuxtImg src="/logo-dark-transparent.png" alt="Bestolex Logo" class="h-12 object-contain" format="webp" loading="lazy" />
         </div>
         <p class="mb-4">
           {{ locale === 'ar' ? 'نحن متخصصون في توفير أفضل المعدات الصناعية وأبواب التحميل لعملائنا.' : 'We specialize in providing the best industrial equipment and loading doors to our clients.' }}
