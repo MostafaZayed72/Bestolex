@@ -16,7 +16,8 @@ export default defineNuxtConfig({
     domains: [
       'electrocreative-cdn.b-cdn.net',
       'sabtech.com.sa',
-      'cdn-bdndb.nitrocdn.com'
+      'cdn-bdndb.nitrocdn.com',
+      'images.unsplash.com'
     ]
   },
   runtimeConfig: {

@@ -27,7 +27,8 @@ export default defineEventHandler(async (event) => {
 رابط المنتج (Product Link): ${body.productUrl || 'N/A'}
 
 بيانات العميل (Client Information):
-- الاسم (Name): ${body.name}
+- اسم الشركة (Company Name): ${body.name}
+- المسمى الوظيفي (Job Title): ${body.jobTitle || 'غير محدد'}
 - البريد الإلكتروني (Email): ${body.email}
 - رقم الهاتف (Phone): ${body.phone || 'غير محدد'}
 
@@ -71,8 +72,12 @@ ${body.message || ''}
           <h3 style="color: #121c2d; border-bottom: 2px solid #f0f0f0; padding-bottom: 8px; margin-top: 0;">بيانات العميل:</h3>
           <table style="width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 15px;">
             <tr>
-              <td style="padding: 10px 0; color: #777; width: 130px; font-weight: bold;">الاسم:</td>
+              <td style="padding: 10px 0; color: #777; width: 130px; font-weight: bold;">اسم الشركة:</td>
               <td style="padding: 10px 0; color: #111; font-weight: 600;">${body.name}</td>
+            </tr>
+            <tr style="border-top: 1px solid #f5f5f5;">
+              <td style="padding: 10px 0; color: #777; font-weight: bold;">المسمى الوظيفي:</td>
+              <td style="padding: 10px 0; color: #111; font-weight: 600;">${body.jobTitle || 'غير محدد'}</td>
             </tr>
             <tr style="border-top: 1px solid #f5f5f5;">
               <td style="padding: 10px 0; color: #777; font-weight: bold;">البريد الإلكتروني:</td>

@@ -249,18 +249,24 @@
           <form @submit.prevent="submitQuote" class="space-y-4 md:space-y-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
-                <label class="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'الاسم بالكامل*' : 'Full Name*' }}</label>
+                <label class="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'اسم الشركة*' : 'Company Name*' }}</label>
                 <input v-model="form.name" type="text" required class="w-full px-4 py-3 md:px-5 md:py-4 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary outline-none text-gray-900 dark:text-white transition">
               </div>
+              <div>
+                <label class="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'المسمى الوظيفي*' : 'Job Title*' }}</label>
+                <input v-model="form.jobTitle" type="text" required class="w-full px-4 py-3 md:px-5 md:py-4 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary outline-none text-gray-900 dark:text-white transition">
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-4 md:mt-6">
               <div>
                 <label class="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'البريد الإلكتروني*' : 'Email*' }}</label>
                 <input v-model="form.email" type="email" required class="w-full px-4 py-3 md:px-5 md:py-4 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary outline-none text-gray-900 dark:text-white transition">
               </div>
-            </div>
-            
-            <div>
-              <label class="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'رقم الهاتف*' : 'Phone Number*' }}</label>
-              <input v-model="form.phone" type="text" required class="w-full px-4 py-3 md:px-5 md:py-4 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary outline-none text-gray-900 dark:text-white transition">
+              <div>
+                <label class="block mb-2 text-sm font-bold text-gray-700 dark:text-gray-300">{{ locale === 'ar' ? 'رقم الهاتف*' : 'Phone Number*' }}</label>
+                <input v-model="form.phone" type="text" required class="w-full px-4 py-3 md:px-5 md:py-4 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-primary outline-none text-gray-900 dark:text-white transition">
+              </div>
             </div>
             
             <div>
@@ -378,7 +384,7 @@ const resetCarousel = () => {
 }
 
 // Form State
-const form = ref({ name: '', email: '', phone: '', message: '' })
+const form = ref({ name: '', jobTitle: '', email: '', phone: '', message: '' })
 const loading = ref(false)
 const statusMessage = ref('')
 const statusType = ref('')

@@ -74,11 +74,19 @@
           </div>
         </div>
 
+        <NuxtLink :to="localePath('/services')" class="hover:text-primary dark:hover:text-primary transition font-medium" active-class="text-primary">{{ locale === 'ar' ? 'الخدمات' : 'Services' }}</NuxtLink>
+        <NuxtLink :to="localePath('/blog')" class="hover:text-primary dark:hover:text-primary transition font-medium" active-class="text-primary">{{ locale === 'ar' ? 'المدونة' : 'Blog' }}</NuxtLink>
         <NuxtLink :to="localePath('/contact')" class="hover:text-primary dark:hover:text-primary transition font-medium" active-class="text-primary">{{ t('contact') }}</NuxtLink>
       </nav>
 
       <!-- Desktop Actions (Language & Theme) -->
       <div class="hidden md:flex items-center gap-4">
+        <button @click="isBookingModalOpen = true" class="group flex items-center gap-2 bg-gradient-to-r from-primary to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white font-bold py-2 px-5 rounded-xl transition-all duration-300 shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-0.5">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-hover:scale-110 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <span>{{ locale === 'ar' ? 'حجز موعد' : 'Book Appointment' }}</span>
+        </button>
         <button @click="toggleLanguage" class="hover:text-primary transition font-medium border border-gray-300 dark:border-gray-600 px-3 py-1 rounded">
           {{ locale === 'ar' ? 'English' : 'العربية' }}
         </button>
@@ -127,36 +135,58 @@
             </svg>
           </div>
           
-          <div v-show="isMobileProductsOpen" class="mt-4 space-y-4 ltr:pl-4 rtl:pr-4 border-l-2 rtl:border-l-0 rtl:border-r-2 border-primary/30">
-            <div v-for="category in productsData" :key="category.id" class="space-y-2">
-              <NuxtLink @click="isMobileMenuOpen = false" :to="localePath(`/products/category/${category.id}`)" class="block font-bold text-gray-800 dark:text-gray-200">
-                {{ category.title[locale] }}
-              </NuxtLink>
+          <div v-show="isMobileProductsOpen" class="mt-4 space-y-2 ltr:pl-4 rtl:pr-4 border-l-2 rtl:border-l-0 rtl:border-r-2 border-primary/30">
+            <div v-for="category in productsData" :key="category.id" class="border-b border-gray-100 dark:border-gray-800 last:border-0 pb-2 last:pb-0">
+              <div 
+                class="flex items-center justify-between cursor-pointer py-2 font-bold text-gray-800 dark:text-gray-200"
+                @click="expandedMobileCategoryId = expandedMobileCategoryId === category.id ? null : category.id"
+              >
+                <span :class="{'text-primary': expandedMobileCategoryId === category.id}">{{ category.title[locale] }}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" :class="{'rotate-180': expandedMobileCategoryId === category.id}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
               
-              <div v-if="category.subcategories" class="ltr:pl-4 rtl:pr-4 space-y-2">
-                <div v-for="sub in category.subcategories" :key="sub.id">
-                  <div class="text-sm font-semibold text-gray-500 mb-1">{{ sub.title[locale] }}</div>
-                  <div class="space-y-1 ltr:pl-2 rtl:pr-2">
-                    <NuxtLink @click="isMobileMenuOpen = false" v-for="prod in sub.products" :key="prod.id" :to="localePath(`/products/${prod.id}`)" class="block text-sm text-gray-600 dark:text-gray-400 hover:text-primary">
-                      {{ prod.name[locale] }}
-                    </NuxtLink>
+              <!-- Subcategories / Products (Nested Accordion Content) -->
+              <div v-show="expandedMobileCategoryId === category.id" class="pt-2 pb-3 space-y-4">
+                <div v-if="category.subcategories" class="ltr:pl-4 rtl:pr-4 space-y-4 border-l-2 rtl:border-l-0 rtl:border-r-2 border-gray-200 dark:border-gray-700">
+                  <div v-for="sub in category.subcategories" :key="sub.id">
+                    <div class="text-sm font-bold text-primary mb-2">{{ sub.title[locale] }}</div>
+                    <div class="space-y-2 ltr:pl-2 rtl:pr-2">
+                      <NuxtLink @click="isMobileMenuOpen = false" v-for="prod in sub.products" :key="prod.id" :to="localePath(`/products/${prod.id}`)" class="block text-sm text-gray-600 dark:text-gray-400 hover:text-primary">
+                        {{ prod.name[locale] }}
+                      </NuxtLink>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div v-else-if="category.products" class="ltr:pl-4 rtl:pr-4 space-y-1">
-                <NuxtLink @click="isMobileMenuOpen = false" v-for="prod in category.products" :key="prod.id" :to="localePath(`/products/${prod.id}`)" class="block text-sm text-gray-600 dark:text-gray-400 hover:text-primary">
-                  {{ prod.name[locale] }}
+                <div v-else-if="category.products" class="ltr:pl-4 rtl:pr-4 space-y-2 border-l-2 rtl:border-l-0 rtl:border-r-2 border-gray-200 dark:border-gray-700">
+                  <NuxtLink @click="isMobileMenuOpen = false" v-for="prod in category.products" :key="prod.id" :to="localePath(`/products/${prod.id}`)" class="block text-sm text-gray-600 dark:text-gray-400 hover:text-primary">
+                    {{ prod.name[locale] }}
+                  </NuxtLink>
+                </div>
+                
+                <NuxtLink @click="isMobileMenuOpen = false" :to="localePath(`/products/category/${category.id}`)" class="block ltr:pl-4 rtl:pr-4 text-sm font-bold text-primary hover:underline mt-2">
+                  {{ locale === 'ar' ? 'عرض كل منتجات القسم' : 'View all category products' }}
                 </NuxtLink>
               </div>
             </div>
           </div>
         </div>
 
+        <NuxtLink @click="isMobileMenuOpen = false" :to="localePath('/services')" class="hover:text-primary transition" active-class="text-primary">{{ locale === 'ar' ? 'الخدمات' : 'Services' }}</NuxtLink>
+        <NuxtLink @click="isMobileMenuOpen = false" :to="localePath('/blog')" class="hover:text-primary transition" active-class="text-primary">{{ locale === 'ar' ? 'المدونة' : 'Blog' }}</NuxtLink>
         <NuxtLink @click="isMobileMenuOpen = false" :to="localePath('/contact')" class="hover:text-primary transition" active-class="text-primary">{{ t('contact') }}</NuxtLink>
       </nav>
 
       <!-- Mobile Actions (Language & Theme) -->
       <div class="flex flex-col gap-4 mt-auto">
+        <button @click="openBookingModalMobile" class="group w-full flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white py-3 rounded-xl font-bold transition-all duration-300 shadow-lg shadow-primary/30 hover:shadow-primary/50">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-hover:scale-110 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <span>{{ locale === 'ar' ? 'حجز موعد' : 'Book Appointment' }}</span>
+        </button>
+        
         <button @click="toggleLanguage" class="w-full flex items-center justify-center gap-2 border border-gray-200 dark:border-gray-700 py-3 rounded-xl font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
@@ -185,6 +215,9 @@
         </ClientOnly>
       </div>
     </div>
+
+    <!-- Booking Modal -->
+    <BookAppointmentModal :is-open="isBookingModalOpen" @close="isBookingModalOpen = false" />
   </header>
 </template>
 
@@ -208,6 +241,15 @@ const activeCategory = ref(mockProducts[0] || null)
 // Mobile Menu State
 const isMobileMenuOpen = ref(false)
 const isMobileProductsOpen = ref(false)
+const expandedMobileCategoryId = ref(null)
+
+// Booking Modal State
+const isBookingModalOpen = ref(false)
+
+const openBookingModalMobile = () => {
+  isBookingModalOpen.value = true
+  isMobileMenuOpen.value = false
+}
 
 // Close mobile menu on route change
 router.afterEach(() => {
