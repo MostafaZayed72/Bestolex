@@ -127,11 +127,16 @@ const localePath = useLocalePath()
 const route = useRoute()
 
 const articleId = computed(() => route.params.id)
-const article = computed(() => mockArticles.find(a => a.id === articleId.value || a.slug === articleId.value))
+const { data: dynamicArticle } = await useFetch(() => `/api/blog/${route.params.id}`)
+
+const article = computed(() => {
+  if (dynamicArticle.value) return dynamicArticle.value
+  return mockArticles.find(a => a.id === articleId.value || a.slug === articleId.value)
+})
 
 const relatedArticles = computed(() => {
   if (!article.value) return []
-  return mockArticles.filter(a => a.id !== article.value.id).slice(0, 2)
+  return mockArticles.filter(a => a.id !== article.value.id && a.slug !== article.value.id).slice(0, 2)
 })
 
 useHead(() => {

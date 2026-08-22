@@ -114,7 +114,9 @@ import mockArticles from '@/data/articles.json'
 
 const { locale } = useI18n()
 const localePath = useLocalePath()
-const articles = ref(mockArticles)
+
+const { data: blogData } = await useFetch('/api/blog')
+const articles = computed(() => blogData.value || mockArticles)
 const selectedCategory = ref('all')
 
 useHead({

@@ -1,14 +1,37 @@
 import nodemailer from 'nodemailer'
+import { useServerSupabase } from '~~/server/utils/supabase'
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
   const config = useRuntimeConfig()
+  const supabase = useServerSupabase()
 
   if (!body.name || !body.email) {
     throw createError({
       statusCode: 400,
       statusMessage: 'Name and email are required fields',
     })
+  }
+
+  // Insert to Supabase quote_requests table if connected
+  if (supabase) {
+    try {
+      await supabase.from('quote_requests').insert([{
+        company_name: body.name,
+        job_title: body.jobTitle || 'غير محدد',
+        email: body.email,
+        phone: body.phone || 'غير محدد',
+        product_id: body.productId,
+        product_name: body.productName,
+        category_title: body.categoryTitle,
+        product_url: body.productUrl,
+        message: body.message || '',
+        is_quote_request: !!body.isQuoteRequest || !!body.productName,
+        status: 'new'
+      }])
+    } catch (dbErr) {
+      console.warn('Supabase quote insertion error:', dbErr)
+    }
   }
 
   const isQuote = body.isQuoteRequest || !!body.productName

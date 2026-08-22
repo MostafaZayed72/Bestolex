@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cat-1",
+    "name_ar": "النظم الهيدروليكية",
+    "name_en": "Hydraulic Systems",
+    "slug": "hydraulic-systems"
+  },
+  {
+    "id": "cat-2",
+    "name_ar": "أنظمة حماية المحيط",
+    "name_en": "Perimeter Security",
+    "slug": "perimeter-security"
+  },
+  {
+    "id": "cat-3",
+    "name_ar": "الصيانة والدعم الفني",
+    "name_en": "Maintenance & Support",
+    "slug": "maintenance-support"
+  },
+  {
+    "id": "cat-4",
+    "name_ar": "أنظمة التحميل",
+    "name_en": "Loading Systems",
+    "slug": "loading-systems"
+  },
+  {
+    "id": "cat-5",
+    "name_ar": "المخلفات والتدوير",
+    "name_en": "Waste & Recycling",
+    "slug": "waste-recycling"
+  }
+]

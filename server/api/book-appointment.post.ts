@@ -1,8 +1,10 @@
 import nodemailer from 'nodemailer'
+import { useServerSupabase } from '~~/server/utils/supabase'
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
   const config = useRuntimeConfig()
+  const supabase = useServerSupabase()
 
   if (!body.name || !body.email || !body.phone || !body.date || !body.time) {
     throw createError({
@@ -13,6 +15,23 @@ export default defineEventHandler(async (event) => {
 
   const { name, email, phone, date, time, locale } = body
   const isArabic = locale === 'ar'
+
+  // Insert to Supabase appointments table
+  if (supabase) {
+    try {
+      await supabase.from('appointments').insert([{
+        name,
+        email,
+        phone,
+        date,
+        time,
+        locale: locale || 'ar',
+        status: 'new'
+      }])
+    } catch (dbErr) {
+      console.warn('Supabase appointment insertion error:', dbErr)
+    }
+  }
 
   // Transporter
   const transporter = nodemailer.createTransport({

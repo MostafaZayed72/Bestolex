@@ -22,7 +22,13 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     gmailUser: process.env.GMAIL_USER,
-    gmailPass: process.env.GMAIL_PASS
+    gmailPass: process.env.GMAIL_PASS,
+    bunnyStorageZoneName: process.env.BUNNY_STORAGE_ZONE_NAME || 'electrocreative-zone',
+    bunnyStorageAccessKey: process.env.BUNNY_STORAGE_ACCESS_KEY || 'fdbaf174-b9f2-4453-93bbfa08f649-6912-41c6',
+    bunnyStorageBaseUrl: process.env.BUNNY_STORAGE_BASE_URL || 'https://storage.bunnycdn.com',
+    public: {
+      bunnyPullZoneUrl: process.env.BUNNY_PULL_ZONE_URL ? (process.env.BUNNY_PULL_ZONE_URL.startsWith('http') ? process.env.BUNNY_PULL_ZONE_URL : `https://${process.env.BUNNY_PULL_ZONE_URL}`) : 'https://electrocreative-cdn.b-cdn.net'
+    }
   },
   i18n: {
     locales: [

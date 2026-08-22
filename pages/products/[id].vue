@@ -80,7 +80,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
                   {{ locale === 'ar' ? 'طلب عرض سعر' : 'Request a Quote' }}
                 </button>
-                <a v-if="product.pdf" :href="product.pdf" target="_blank" class="bg-transparent border-2 border-gray-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:border-white transition flex items-center justify-center gap-3">
+                <a v-if="product.pdf" :href="product.pdf" target="_blank" @click="trackBrochureDownload" class="bg-transparent border-2 border-gray-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:border-white transition flex items-center justify-center gap-3">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
                   {{ locale === 'ar' ? 'تحميل الكتيب' : 'Download Brochure' }}
                 </a>
@@ -392,6 +392,18 @@ const statusType = ref('')
 const scrollToQuote = () => {
   const el = document.getElementById('quote-form')
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+const trackBrochureDownload = () => {
+  try {
+    $fetch('/api/analytics/track', {
+      method: 'POST',
+      body: {
+        event_type: 'brochure_download',
+        target_name: `كتيب ${product.value?.name?.ar || product.value?.name?.en || 'منتج'}`
+      }
+    })
+  } catch (e) {}
 }
 
 const submitQuote = async () => {
