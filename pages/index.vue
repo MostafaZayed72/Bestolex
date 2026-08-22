@@ -77,24 +77,85 @@
     </section>
 
     <!-- Services Section -->
-    <section class="py-20 bg-white dark:bg-[#0d0d0d]">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-900 dark:text-white" data-aos="fade-up">
-          {{ locale === 'ar' ? 'خدماتنا' : 'Our Services' }}
-        </h2>
-        <p class="text-center text-gray-500 dark:text-gray-400 max-w-3xl mx-auto mb-12" data-aos="fade-up" data-aos-delay="100">
-          {{ locale === 'ar' ? 'تقوم بيستوليكس بتصميم وإصلاح جميع أنواع النظم الهيدروليكية (وحدات الطاقة) لاستخدامات مختلفة وفقاً لمتطلبات العملاء باستخدام الأجزاء ذات العلامات التجارية الحاصلة على أعلى شهادات الاختيار.' : 'Bestolex designs and repairs all types of hydraulic systems according to customer requirements using top branded parts.' }}
-        </p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          <div v-for="(srv, idx) in services" :key="srv.id" class="border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden hover:shadow-xl transition-shadow bg-gray-50 dark:bg-gray-900 group" :data-aos="'fade-up'" :data-aos-delay="idx * 100">
-            <div class="h-40 overflow-hidden bg-white dark:bg-black p-4 flex items-center justify-center">
-              <NuxtImg :src="srv.image" :alt="srv.title" class="max-h-full object-contain group-hover:scale-105 transition-transform" format="webp" loading="lazy" />
+    <section class="py-24 bg-gray-50 dark:bg-[#0b0f17]">
+      <div class="container mx-auto px-4 md:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+          <div class="inline-block bg-primary/10 text-primary font-extrabold px-4 py-1.5 rounded-lg text-sm mb-4">
+            {{ locale === 'ar' ? 'رحلة الخدمة المتكاملة' : 'Integrated Service Journey' }}
+          </div>
+          <h2 class="text-3xl md:text-5xl font-black text-gray-900 dark:text-white mb-6">
+            {{ locale === 'ar' ? 'خدماتنا الهندسية واللوجستية' : 'Our Engineering & Logistics Services' }}
+          </h2>
+          <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+            {{ locale === 'ar' 
+              ? 'نرافقكم من دراسة الاحتياج والتصميم، حتى التوريد والتركيب والتشغيل وخدمات الصيانة والدعم الفني.' 
+              : 'Accompanying you from requirement assessment to supply, installation, commissioning, and maintenance.' 
+            }}
+          </p>
+        </div>
+
+        <!-- 4 Services Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div 
+            v-for="(service, idx) in homeServices" 
+            :key="idx" 
+            class="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-xl border border-gray-100 dark:border-gray-700 hover:-translate-y-2 hover:shadow-2xl transition-all duration-500 flex flex-col group"
+            data-aos="fade-up"
+            :data-aos-delay="idx * 100"
+          >
+            <!-- Card Image Header -->
+            <div class="relative h-48 overflow-hidden bg-gray-100 dark:bg-gray-700">
+              <NuxtImg 
+                :src="service.image" 
+                :alt="service.title[locale]" 
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                format="webp"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+              
+              <!-- Step Badge -->
+              <div class="absolute top-4 rtl:right-4 ltr:left-4 bg-[#121c2d]/90 backdrop-blur-md text-[#E99E15] font-black text-xs px-3 py-1.5 rounded-full border border-[#E99E15]/30">
+                {{ service.stage[locale] }}
+              </div>
+
+              <!-- Icon Overlay -->
+              <div class="absolute bottom-3 rtl:right-4 ltr:left-4 text-3xl drop-shadow-md">
+                {{ service.icon }}
+              </div>
             </div>
-            <div class="p-4 flex items-center justify-between text-primary font-bold">
-              <span>{{ srv.title }}</span>
-              <span class="text-xl">&larr;</span>
+
+            <!-- Card Body -->
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-primary transition-colors leading-tight">
+                  {{ service.title[locale] }}
+                </h3>
+                <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">
+                  {{ service.desc[locale] }}
+                </p>
+              </div>
+
+              <!-- Features Mini Bullet Points -->
+              <div class="pt-4 border-t border-gray-100 dark:border-gray-700/60 mt-auto">
+                <div class="flex items-center gap-2 text-xs font-bold text-[#E99E15]">
+                  <span>✓</span>
+                  <span>{{ service.highlight[locale] }}</span>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+
+        <!-- View More Services Button -->
+        <div class="text-center" data-aos="fade-up">
+          <NuxtLink 
+            :to="localePath('/services')" 
+            class="inline-flex items-center gap-3 bg-gradient-to-r from-primary to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white font-bold px-8 py-4 rounded-xl transition shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-1 text-lg"
+          >
+            <span>{{ locale === 'ar' ? 'عرض المزيد من الخدمات' : 'Explore All Services' }}</span>
+            <span class="rtl:rotate-180 text-xl">&rarr;</span>
+          </NuxtLink>
         </div>
       </div>
     </section>
@@ -139,11 +200,39 @@ const news = [
   { id: 3, title: 'دليل اختيار الزيوت الهيدروليكية', image: '/images/news/news3.jpg', desc: 'تتعرض الأنظمة الهيدروليكية العاملة في المملكة لبعض من أقسى الظروف البيئية...' }
 ]
 
-const services = [
-  { id: 1, title: 'مضخات، محركات وصمامات', image: '/images/services/srv1.png' },
-  { id: 2, title: 'مركز صيانة للتدريب الهيدروليكي', image: '/images/services/srv2.png' },
-  { id: 3, title: 'طلاء الكروم وتنعيم مواسير البستم', image: '/images/services/srv3.png' },
-  { id: 4, title: 'نظم الهيدروليك', image: '/images/services/srv4.png' },
+const homeServices = [
+  {
+    icon: '📋',
+    stage: { ar: 'المرحلة 01', en: 'Stage 01' },
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80',
+    title: { ar: 'دراسة الاحتياج والمعاينة', en: 'Requirement Assessment & Site Survey' },
+    desc: { ar: 'دراسة دقيقة لاحتياجات العميل ومعاينة ميدانية للموقع لفهم ظروف التشغيل والمتطلبات الفنية.', en: 'Comprehensive assessment of customer needs and site survey to understand operating conditions.' },
+    highlight: { ar: 'معاينة ميدانية وتقارير فنية', en: 'Site survey & technical reporting' }
+  },
+  {
+    icon: '💡',
+    stage: { ar: 'المرحلة 02', en: 'Stage 02' },
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80',
+    title: { ar: 'المقترح الفني والتجاري', en: 'Technical & Commercial Proposal' },
+    desc: { ar: 'اختيار الحل الهندسي الأنسب وإعداد عروض فنية ومالية شفافة ومطابقة للمواصفات.', en: 'Selecting optimal engineering solutions and preparing transparent technical proposals.' },
+    highlight: { ar: 'عروض أسعار ودراسات متكاملة', en: 'Complete proposals & studies' }
+  },
+  {
+    icon: '🛠️',
+    stage: { ar: 'المرحلة 04', en: 'Stage 04' },
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80',
+    title: { ar: 'التركيب والإشراف الفني', en: 'Installation & Technical Supervision' },
+    desc: { ar: 'تنفيذ أعمال التركيب الميداني بأيدي مهندسين وفنيين معتمدين وفق معايير السلامة المهنية.', en: 'Executing site installations by certified engineers following strict safety standards.' },
+    highlight: { ar: 'إشراف هندسي معتمد', en: 'Certified engineering supervision' }
+  },
+  {
+    icon: '🔧',
+    stage: { ar: 'المرحلة 07', en: 'Stage 07' },
+    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=600&q=80',
+    title: { ar: 'الصيانة الوقائية والتصحيحية', en: 'Preventive & Corrective Maintenance' },
+    desc: { ar: 'عقود صيانة دورية مرنة واستجابة سريعة للأعطال للحفاظ على استمرارية الإنتاج.', en: 'Flexible routine maintenance contracts and rapid fault response to ensure uptime.' },
+    highlight: { ar: 'عقود صيانة دورية ومرنة', en: 'Flexible maintenance contracts' }
+  }
 ]
 
 const features = [
