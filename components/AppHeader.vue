@@ -54,10 +54,11 @@
                   </ul>
                 </div>
               </div>
-              <div v-else-if="activeProductCategory?.products" class="grid grid-cols-2 gap-4">
-                <div v-for="prod in activeProductCategory.products" :key="prod.id" class="p-3 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700">
-                  <NuxtLink :to="localePath(`/products/${prod.id}`)" class="text-xs font-bold text-gray-800 dark:text-gray-200 hover:text-primary transition block">
-                    {{ prod.name[locale] }}
+              <div v-else-if="activeProductCategory?.products" class="grid grid-cols-2 gap-2.5">
+                <div v-for="prod in activeProductCategory.products" :key="prod.id" class="p-2.5 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 hover:border-primary/50 transition group/p shadow-sm hover:shadow">
+                  <NuxtLink :to="localePath(`/products/${prod.id}`)" class="text-xs font-bold text-gray-800 dark:text-gray-200 group-hover/p:text-primary transition flex items-center gap-2">
+                    <span class="text-primary text-xs flex-shrink-0">▪</span>
+                    <span class="line-clamp-1">{{ prod.name[locale] }}</span>
                   </NuxtLink>
                 </div>
               </div>
@@ -207,6 +208,7 @@
           </div>
         </div>
 
+        <NuxtLink :to="localePath('/training')" class="hover:text-primary dark:hover:text-primary transition font-medium" active-class="text-primary">{{ locale === 'ar' ? 'التدريب' : 'Training' }}</NuxtLink>
         <NuxtLink :to="localePath('/contact')" class="hover:text-primary dark:hover:text-primary transition font-medium" active-class="text-primary">{{ t('contact') }}</NuxtLink>
       </nav>
 
@@ -367,6 +369,7 @@
           </div>
         </div>
 
+        <NuxtLink @click="isMobileMenuOpen = false" :to="localePath('/training')" class="hover:text-primary transition" active-class="text-primary">{{ locale === 'ar' ? 'التدريب' : 'Training' }}</NuxtLink>
         <NuxtLink @click="isMobileMenuOpen = false" :to="localePath('/contact')" class="hover:text-primary transition" active-class="text-primary">{{ t('contact') }}</NuxtLink>
       </nav>
 
