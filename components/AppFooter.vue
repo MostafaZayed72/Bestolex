@@ -107,7 +107,7 @@
           </p>
           <p class="flex items-center gap-2">
             <span class="text-green-500 font-bold">💬</span>
-            <a href="https://wa.me/97451505015" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition font-mono text-xs text-gray-300 flex items-center gap-1.5">
+            <a href="https://wa.me/97451505014" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition font-mono text-xs text-gray-300 flex items-center gap-1.5">
               <span>+974 5150 5015</span>
               <span class="text-[10px] bg-green-500/20 text-green-400 px-1.5 py-0.5 rounded">{{ locale === 'ar' ? 'واتساب' : 'WhatsApp' }}</span>
             </a>
@@ -122,7 +122,7 @@
           <div class="flex items-center gap-3">
             <!-- WhatsApp -->
             <a 
-              href="https://wa.me/97451505015" 
+              href="https://wa.me/97451505014" 
               target="_blank" 
               rel="noopener noreferrer"
               class="w-10 h-10 rounded-xl bg-gray-800 hover:bg-[#25D366] text-gray-300 hover:text-white flex items-center justify-center transition-all duration-300 shadow-md hover:scale-110 hover:shadow-green-500/30 group"

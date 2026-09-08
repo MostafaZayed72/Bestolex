@@ -60,7 +60,7 @@
                 </div>
                 <div>
                   <h4 class="font-bold text-gray-800 dark:text-white text-lg mb-1">{{ locale === 'ar' ? 'واتساب مباشر' : 'Direct WhatsApp' }}</h4>
-                  <a href="https://wa.me/97451505015" target="_blank" rel="noopener noreferrer" class="text-green-600 dark:text-green-400 hover:underline font-mono font-bold flex items-center gap-1.5">
+                  <a href="https://wa.me/97451505014" target="_blank" rel="noopener noreferrer" class="text-green-600 dark:text-green-400 hover:underline font-mono font-bold flex items-center gap-1.5">
                     <span dir="ltr">+974 5150 5015</span>
                     <span class="text-xs">💬</span>
                   </a>
@@ -91,7 +91,7 @@
                 <div class="flex items-center gap-3">
                   <!-- WhatsApp -->
                   <a 
-                    href="https://wa.me/97451505015" 
+                    href="https://wa.me/97451505014" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-green-500/10 text-green-600 hover:bg-green-500 hover:text-white transition font-bold text-xs shadow-sm"
