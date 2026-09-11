@@ -1614,132 +1614,423 @@
         "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Beringer-Garbage-Compactor-1.jpg"
       },
       {
-        "id": "solar-compactor",
+        "id": "solar-bin-waste-compactor",
         "name": {
           "ar": "ضاغط نفايات بالطاقة الشمسية",
           "en": "Solar Bin Waste Compactor"
         },
         "coverImage": "https://sabtech.com.sa/wp-content/uploads/2023/12/BAnner1.png",
         "description": {
-          "ar": "ضاغط نفايات ذكي يعمل بالكامل بالطاقة الشمسية، مصمم خصيصًا لتحسين إدارة وجمع النفايات في المناطق العامة ذات الازدحام الشديد (مثل الحدائق، ومحطات النقل، والمراكز التجارية).\nيعتمد على خلايا كهروضوئية مدمجة بقدرة 40 واط ومزود ببطارية احتياطية لضمان التشغيل المستمر في مختلف الظروف الجوية أو أثناء الليل (نظام متطور تيار مستمر 12 فولت). يعتمد على محرك كهربائي يشغل ذراع كبس لتقليل حجم النفايات بشكل كبير، مما يزيد الطاقة الاستيعابية للحاوية بمعدل يصل إلى عدة أضاعف.",
-          "en": "Smart waste compactor powered entirely by solar energy, specially designed to optimize waste collection and management in Superior Quality-traffic public areas (such as parks, transit stations, and shopping malls).\nEquipped with 40W PV solar panels and a 12V DC battery backup for continuous operation day and night. Utilizes an electric motor and compaction arm to significantly reduce waste volume and increase container capacity manifold."
+          "ar": "يمثل ضاغط النفايات الذي يعمل بالطاقة الشمسية حلاً هندسياً وبيئياً ذكياً ومبتكراً لتحسين إدارة وجمع نفايات إعادة التدوير في المناطق الحضرية والعامة.\nتم تصميمه لتحقيق أقصى درجات الكفاءة عبر ضغط النفايات وتقليل حجمها بنسبة كبيرة، مما يقلل تكرار عمليات الجمع وتكاليف النقل، ويحد من انبعاثات الكربون. يعمل الصندوق بالكامل بالطاقة الشمسية بالاعتماد على خلايا كهروضوئية مدمجة بقدرة 40 واط مدعومة ببطارية احتياطية 12 فولت لضمان الاستقلالية التامة واستمرارية التشغيل ليلاً ونهاراً، ومزود بمحرك ودافع كهربائي مع دواسة قدم لفتح فتحة الاستخدام بدون تلامس، مما يوفر بيئة نظيفة وصحية وآمنة في الحدائق والمراكز التجارية ومحطات النقل والأماكن العامة.",
+          "en": "The solar-powered waste bin compactor represents an advanced, eco-friendly smart solution for optimizing municipal and urban waste collection and recycling management.\nEngineered for high efficiency, it compacts waste on-site, drastically reducing collection frequency, operational logistics costs, and carbon emissions. Powered completely by an integrated 40W photovoltaic solar panel backed by an internal 12V DC battery system for full energy autonomy day and night. Equipped with an electric actuator and compaction pusher, touch-free foot pedal opening, and real-time fill-level monitoring, ensuring a safer, cleaner, and more attractive environment for parks, shopping centers, transit stations, and public spaces."
+        },
+        "stats": {
+          "ar": [
+            {
+              "label": "الطاقة الشمسية",
+              "value": "40 واط"
+            },
+            {
+              "label": "نظام التشغيل",
+              "value": "12V تيار مستمر"
+            },
+            {
+              "label": "ارتفاع الحاوية",
+              "value": "1518 ملم"
+            }
+          ],
+          "en": [
+            {
+              "label": "Solar Panel",
+              "value": "40 Watt"
+            },
+            {
+              "label": "System Voltage",
+              "value": "12V DC"
+            },
+            {
+              "label": "Total Height",
+              "value": "1518 mm"
+            }
+          ]
         },
         "features": {
           "ar": [
-            "تشغيل كامل بالطاقة الشمسية (خلايا 40 واط + بطارية 12V)",
-            "دواسة قدم لفتح فتحة الاستخدام بدون ملامسة اليدين",
-            "هيكل من فولاذ الزنك المقاوم للصدأ والتآكل والعوامل الجوية",
-            "نظام متطور حماية ذكي وقفل أمان لمنع العبث أو الإصابات",
-            "مؤشر ضوئي لمستوى الامتلاء مع إمكانية المراقبة عن بعد",
-            "ضمان لمدة سنة واحدة"
+            "تشغيل ذاتي مستقل بالكامل بالطاقة الشمسية (لوح كهروضوئي مدمج بقدرة 40 واط مع بطارية احتياطية 12 فولت)",
+            "مكبس ودافع كهربائي عالي الكفاءة لتقليل حجم النفايات ومضاعفة سعة الاستيعاب عدة مرات",
+            "دواسة قدم ميكانيكية لفتح فتحة الرمي بكل سهولة وبدون الحاجة لملامسة اليدين",
+            "مستشعرات امتلاء ذكية لمراقبة مستوى النفايات وإرسال تقارير وبيانات فورية",
+            "مؤشر ضوئي إل إي دي يوضح حالة الصندوق ومستوى الامتلاء بوضوح",
+            "هيكل خارجي من فولاذ الزنك المقاوم للصدأ مع قاعدة ومجرى تعبئة مجلفن لتحمل أقسى الظروف الجوية",
+            "نظام أمان متكامل يشمل آلية تشابك ميكانيكية وقفل بمفتاح لمنطقة خدمة الحاوية",
+            "وحدة تشغيل بجهد منخفض آمن تماماً، مع ضمان شامل لمدة سنة ودعم فني متكامل"
           ],
           "en": [
-            "Fully solar powered (40W PV cells + 12V battery)",
-            "Foot pedal for touchless hands-free operation",
-            "Weather and rust resistant zinc steel enclosure",
-            "Smart safety interlock Advanced System and security door lock",
-            "Fill level indicator light with remote monitoring support",
-            "1-year warranty"
+            "Fully autonomous solar-powered operation (integrated 40W PV panel with 12V backup battery)",
+            "High-efficiency electric actuator compactor reducing waste volume and multiplying bin capacity",
+            "Hygienic hands-free foot pedal for seamless and touchless lid opening",
+            "Intelligent compaction sensors for automated monitoring and real-time fill-level reporting",
+            "Clear multi-color LED indicator displaying bin status and fill level",
+            "Heavy-duty Zintec steel housing with galvanized base and feed chute for extreme weather resilience",
+            "Comprehensive safety system including mechanical interlock and keyed service access door lock",
+            "Safe low-voltage electrical unit backed by a full 1-year warranty and spare parts support"
           ]
         },
         "featureImages": [
           {
-            "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/ball-chamber.png",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/Powered-by-on-board-solar-panel.png",
             "label": {
-              "ar": "خلايا كهرضوئية مدمجة 40W",
-              "en": "Integrated 40W PV Panels"
+              "ar": "لوح شمسي مدمج عالي الكفاءة 40W",
+              "en": "Integrated 40W Solar PV Panel"
             }
           },
           {
-            "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/electric-control-pannel.png",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/Electric-compactor.png",
             "label": {
-              "ar": "دواسة قدم صحية بدون لمس",
-              "en": "Hygienic Foot Pedal"
+              "ar": "مكبس ودافع كهربائي متطور",
+              "en": "Electric Compactor Actuator"
             }
           },
           {
-            "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/reduction-in-volume.png",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/Compactor-sensor.png",
             "label": {
-              "ar": "تقليل الحجم زيادة السعة الاستيعابية",
-              "en": "Volume Reduction & Increased Capacity"
+              "ar": "مستشعر ذكي لضغط ومراقبة النفايات",
+              "en": "Intelligent Compaction Sensor"
             }
           },
           {
-            "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/mechanical-door-lock-1.png",
+            "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/Foot-pedal-operated-opening.png",
             "label": {
-              "ar": "مؤشر الامتلاء والمراقبة الذكية",
-              "en": "Fill Level & Smart Monitoring"
+              "ar": "دواسة قدم لفتح الغطاء بدون لمس",
+              "en": "Touchless Foot Pedal Opening"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/Integrated-real-time-reporting.png",
+            "label": {
+              "ar": "نظام تقارير فورية ومراقبة ذكية",
+              "en": "Real-Time Telemetry & Reporting"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/LED-light-indicator-1.png",
+            "label": {
+              "ar": "مؤشر ضوئي إل إي دي لمستوى الامتلاء",
+              "en": "LED Fill-Level Status Indicator"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/Battery-to-store-energy-for-operational-use.png",
+            "label": {
+              "ar": "بطارية تخزين الطاقة للتشغيل الليلي",
+              "en": "12V Energy Storage Battery"
             }
           }
         ],
         "specs": {
           "ar": [
             {
-              "label": "الارتفاع الكلي",
-              "value": "1518 ملم"
+              "label": "الأبعاد الكلية (ارتفاع × طول × عرض)",
+              "value": "1518 ملم (ارتفاع) × 698 ملم (طول) × 761 ملم (عرض)"
             },
             {
-              "label": "الطول الكلي",
-              "value": "698 ملم"
-            },
-            {
-              "label": "العرض الكلي",
-              "value": "761 ملم"
-            },
-            {
-              "label": "فتحة التعبئة",
+              "label": "أبعاد فتحة التعبئة",
               "value": "169 ملم (ارتفاع) × 330 ملم (عرض)"
             },
             {
-              "label": "ارتفاع فتحة الرمي",
+              "label": "ارتفاع فتحة رمي النفايات",
               "value": "1183 ملم"
             },
             {
-              "label": "الألواح الشمسية",
-              "value": "40W PV Solar Panel"
+              "label": "اللوح الشمسي الكهروضوئي",
+              "value": "40 واط (40W Photovoltaic Panel)"
             },
             {
-              "label": "نظام التشغيل",
-              "value": "12V DC Battery System"
+              "label": "نظام التغذية والبطارية",
+              "value": "نظام تيار مستمر 12 فولت (12V DC System)"
+            },
+            {
+              "label": "نوع المحرك والمكبس",
+              "value": "مكبس دفع كهربائي (Electric Actuator)"
+            },
+            {
+              "label": "مادة الهيكل الخارجي",
+              "value": "فولاذ زينك مقاوم للتآكل (Zintec Steel)"
+            },
+            {
+              "label": "القاعدة ومجرى التعبئة",
+              "value": "حديد مجلفن ومقاوم للصدأ والعوامل الجوية"
+            },
+            {
+              "label": "أنظمة الأمان والتشغيل",
+              "value": "تشابك ميكانيكي، قفل بمفتاح لمنطقة الصيانة، دواسة قدم، وحدة جهد منخفض"
             }
           ],
           "en": [
             {
-              "label": "Overall Height",
-              "value": "1518 mm"
+              "label": "Overall Dimensions (H × L × W)",
+              "value": "1518 mm (H) × 698 mm (L) × 761 mm (W)"
             },
             {
-              "label": "Overall Length",
-              "value": "698 mm"
-            },
-            {
-              "label": "Overall Width",
-              "value": "761 mm"
-            },
-            {
-              "label": "Feed Opening",
+              "label": "Feed Opening Dimensions",
               "value": "169 mm (H) × 330 mm (W)"
             },
             {
-              "label": "Throwing Opening Height",
+              "label": "Bin Opening Height",
               "value": "1183 mm"
             },
             {
               "label": "Solar Panel",
-              "value": "40W PV Solar Panel"
+              "value": "40 Watt Photovoltaic Panel"
             },
             {
-              "label": "Operating System",
+              "label": "Power & Battery System",
               "value": "12V DC Battery System"
+            },
+            {
+              "label": "Drive Mechanism",
+              "value": "Electric Actuator Compactor"
+            },
+            {
+              "label": "Housing Material",
+              "value": "Heavy-Duty Zintec Steel"
+            },
+            {
+              "label": "Base & Chute Finish",
+              "value": "Galvanized Base & Feed Chute"
+            },
+            {
+              "label": "Safety Features",
+              "value": "Mechanical interlock, keyed service door lock, foot pedal, low voltage unit"
             }
           ]
         },
         "images": [
-          "https://sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp",
-          "https://sabtech.com.sa/wp-content/uploads/2019/04/BP100.webp"
+          "https://sabtech.com.sa/wp-content/uploads/2023/12/PEL3.jpg",
+          "https://sabtech.com.sa/wp-content/uploads/2023/12/001.png",
+          "https://sabtech.com.sa/wp-content/uploads/2023/12/002.png",
+          "https://sabtech.com.sa/wp-content/uploads/2023/12/BAnner1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/Company-Profile-Brochure(Arabic).pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/PEL3.jpg"
+      },
+      {
+        "id": "vertical-garbage-compactor-2cy",
+        "name": {
+          "ar": "مكبس النفايات الرأسي 2CY",
+          "en": "Vertical Garbage Compactor 2CY"
+        },
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2-1.webp",
+        "description": {
+          "ar": "يوفر مكبس النفايات الرأسي بسعة 2 ياردة مكعبة حلاً صناعياً وهندسياً متكاملاً لإدارة وضغط النفايات بكفاءة وقوة عالية للمنشآت والمراكز التجارية والمجمعات السكنية والمستشفيات والفنادق.\nيتميز بمعدل ضغط فائق يصل إلى 4:1 مع دورة تشغيل سريعة لا تتجاوز 25 ثانية، مما يقلل حجم النفايات إلى الربع ويوفر تكاليف النقل والتخزين. تم تزويد المكبس بوحدة طاقة هيدروليكية متطورة ومكبس دفع عالي الكفاءة، وحاوية فولاذية قوية ومقاومة للتآكل مع تجهيزات لتحميل وتفريغ الحاوية بسهولة، إلى جانب أزرار تحكم مريحة ومؤشر ضوئي للامتلاء، ومفتاح أمان للباب العلوي لضمان حماية المشغلين، مع خيار التغذية بالطاقة الشمسية وضمان شامل لمدة عام.",
+          "en": "The 2 Cubic Yard Vertical Garbage Compactor provides a heavy-duty, highly efficient waste compaction solution for commercial facilities, residential complexes, shopping centers, hotels, and hospitals.\nFeaturing an impressive 4:1 compaction ratio with a rapid 25-second cycle time, it reduces refuse volume by up to 75%, substantially cutting transport frequencies and disposal costs. Equipped with a high-performance hydraulic power pack and heavy-duty pusher ram, a reinforced 2 cu. yd steel container with loading attachments, push-button controls, full container warning light, and upper door safety interlocks. Offers optional solar power operation, low maintenance requirements, and full 1-year warranty with spare parts availability."
+        },
+        "stats": {
+          "ar": [
+            {
+              "label": "سعة الحاوية",
+              "value": "2 ياردة³"
+            },
+            {
+              "label": "معدل الضغط",
+              "value": "4:1"
+            },
+            {
+              "label": "زمن الدورة",
+              "value": "25 ثانية"
+            }
+          ],
+          "en": [
+            {
+              "label": "Bin Capacity",
+              "value": "2 Cu. Yds"
+            },
+            {
+              "label": "Compaction Ratio",
+              "value": "4:1"
+            },
+            {
+              "label": "Cycle Time",
+              "value": "25 Sec"
+            }
+          ]
+        },
+        "features": {
+          "ar": [
+            "حاوية فولاذية شديدة التحمل بسعة 2 ياردة مكعبة مصممة للخدمة الشاقة",
+            "تجهيزات متكاملة لتحميل وتفريغ ونقل الحاوية بكل سهولة وأمان",
+            "نظام تحكم بأزرار ضغط سهلة التشغيل وعالية الاعتمادية",
+            "مؤشر ضوئي ينبه المشغل فور امتلاء الحاوية وجاهزيتها للتفريغ",
+            "وحدة طاقة هيدروليكية متطورة توفر أداءً قوياً ومستقراً وموفراً للطاقة",
+            "مكبس دفع هيدروليكي عالي الكفاءة يحقق نسبة ضغط 4:1 في 25 ثانية فقط",
+            "خيار إضافي متاح للتشغيل وتوليد الطاقة عبر الألواح الشمسية",
+            "مفتاح أمان مدمج على الباب العلوي يوقف التشغيل تلقائياً لسلامة الأفراد",
+            "تشطيب داخلي بطلاء بودرة لسهولة التنظيف وخارجي معالج بالسفع الرملي لمقاومة الصدأ"
+          ],
+          "en": [
+            "Heavy-duty 2 cubic yard steel container engineered for demanding commercial use",
+            "Integrated attachments for seamless, safe container loading and handling",
+            "User-friendly and robust push-button control station",
+            "Full container indicator light alerting operators when bin is ready for service",
+            "Advanced hydraulic power pack providing robust, stable, and energy-efficient performance",
+            "High-efficiency hydraulic pusher achieving a 4:1 compaction ratio in just 25 seconds",
+            "Optional solar power setup for sustainable and eco-friendly operation",
+            "Upper door safety limit switch automatically stopping operation upon opening",
+            "Internal powder coating for effortless cleaning and sandblasted exterior finish"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/SteelBin2CY1.png",
+            "label": {
+              "ar": "حاوية فولاذية متينة بسعة 2 ياردة مكعبة",
+              "en": "2 Cubic Yard Heavy-Duty Steel Bin"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/FacilityForinLoading1.png",
+            "label": {
+              "ar": "تجهيزات مخصصة لتحميل وتفريغ الحاوية",
+              "en": "Bin Loading & Handling Facility"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/ControlpushButton1.png",
+            "label": {
+              "ar": "محطة وأزرار التحكم بالتشغيل",
+              "en": "Push-Button Control Station"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/Fulllightindicator1.png",
+            "label": {
+              "ar": "مؤشر ضوئي عند امتلاء الحاوية",
+              "en": "Full Light Container Indicator"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/HydraulicPowerPack1.png",
+            "label": {
+              "ar": "وحدة الطاقة الهيدروليكية المركزية",
+              "en": "Central Hydraulic Power Pack"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/Hydraulicpusher1.png",
+            "label": {
+              "ar": "مكبس دفع هيدروليكي عالي الكفاءة",
+              "en": "High-Efficiency Hydraulic Pusher Ram"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/Optionalsolarpower1.png",
+            "label": {
+              "ar": "خيار التشغيل النظيف بالطاقة الشمسية",
+              "en": "Optional Solar Power Operation"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/UpperDoorSafetySwithc1.png",
+            "label": {
+              "ar": "مفتاح أمان للباب العلوي لمنع الحوادث",
+              "en": "Upper Door Safety Interlock Switch"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "السعة الاستيعابية",
+              "value": "2 ياردة مكعبة (2 Cubic Yards)"
+            },
+            {
+              "label": "قدرة الموتور الكهربائي",
+              "value": "2.2 كيلوواط (kW)"
+            },
+            {
+              "label": "الكهرباء ومصدر التغذية",
+              "value": "220/380 فولت، 3 فاز، 50/60 هرتز"
+            },
+            {
+              "label": "زمن دورة التشغيل والضغط",
+              "value": "25 ثانية"
+            },
+            {
+              "label": "معدل ونسبة الضغط",
+              "value": "4:1"
+            },
+            {
+              "label": "أبعاد ومقاسات الماكينة",
+              "value": "عرض 2205 × عمق 1325 × ارتفاع 2280 ملم"
+            },
+            {
+              "label": "ارتفاع فتحة التعبئة",
+              "value": "1410 ملم"
+            },
+            {
+              "label": "أبعاد فتحة التعبئة",
+              "value": "طول 1220 × عرض 768 ملم"
+            },
+            {
+              "label": "التشطيب الداخلي",
+              "value": "طلاء بودرة ملساء سهلة التنظيف والغسيل"
+            },
+            {
+              "label": "التشطيب الخارجي",
+              "value": "طلاء عالي المتانة بعد السفع الرملي لمقاومة الصدأ"
+            }
+          ],
+          "en": [
+            {
+              "label": "Capacity",
+              "value": "2 Cubic Yards"
+            },
+            {
+              "label": "Motor Power",
+              "value": "2.2 kW"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220/380V, 3Phase, 50/60 Hz"
+            },
+            {
+              "label": "Cycle Time",
+              "value": "25 seconds"
+            },
+            {
+              "label": "Compaction Ratio",
+              "value": "4:1"
+            },
+            {
+              "label": "Machine Dimensions",
+              "value": "W 2205 × D 1325 × H 2280 mm"
+            },
+            {
+              "label": "Filling Height",
+              "value": "1410 mm"
+            },
+            {
+              "label": "Feed Opening Size",
+              "value": "L 1220 × W 768 mm"
+            },
+            {
+              "label": "Internal Finishing",
+              "value": "Smooth powder coated for easy cleaning"
+            },
+            {
+              "label": "External Finishing",
+              "value": "Sandblasted heavy-duty protective coating"
+            }
+          ]
+        },
+        "images": [
+          "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2-1.webp",
+          "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC1.webp",
+          "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC3.webp",
+          "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC5.webp"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/Company-Profile-Brochure(Arabic).pdf",
+        "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2-1.webp"
       }
     ]
   },
@@ -1937,7 +2228,7 @@
           "ar": "رافعة مقصية",
           "en": "Scissor Lift Table"
         },
-        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/04/Scissor-Lift-Table.jpg",
+        "coverImage": "/images/3.jpg",
         "description": {
           "ar": "الرافعة المقصية الهيدروليكية من ساب تكـ خيار موثوق للغاية لمهام مناولة البضائع والمواد، وتتميز ببناء قوي ونظام متطور طاقة هيدروليكي عالي الأداء.\nتم تصميم هندسي مبتكر هذه الطاولات بدقة مع وضع السلامة كأولوية قصوى، وتتضمن صمام تخفيف هيدروليكي لمنع الحوادث وضمان حماية الموظفين والمنشآت. تضمن الرافعة المقصية النقل العمودي الفعال للمواد، وتعمل على تقليل الانحراف حتى عند التعامل مع حمولات تصل إلى 3 طن، مما يسهل العمليات في المستودعات ومرافق التصنيع ومراكز التوزيع.",
           "en": "Sabtech hydraulic scissor lift table provides a dependable solution for heavy-duty material handling. Featuring a rugged construction and Superior Quality-performance hydraulic Advanced System, it is designed with safety as top priority.\nIncludes hydraulic relief valves to protect personnel and structures. It minimizes deflection when handling loads up to 3 tons and provides smooth vertical transport of goods across warehouses, manufacturing plants, and logistics hubs."
@@ -2110,13 +2401,14 @@
           }
         ],
         "images": [
+          "/images/3.jpg",
           "https://sabtech.com.sa/wp-content/uploads/2019/04/SL-1-1.png",
           "https://sabtech.com.sa/wp-content/uploads/2019/04/SL-2-1.png",
           "https://sabtech.com.sa/wp-content/uploads/2019/04/SL-3-1.png",
           "https://sabtech.com.sa/wp-content/uploads/2019/04/SL-4-1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/SCISSOR-LIFT-TABLE.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/04/SL-1-1.png"
+        "image": "/images/3.jpg"
       },
       {
         "id": "movable-scissors-lifts",
@@ -2124,7 +2416,7 @@
           "ar": "رافعة مقصية متحركة",
           "en": "Movable Scissor Lift"
         },
-        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Scissor-Lift-1.jpg",
+        "coverImage": "/images/2.jpg",
         "description": {
           "ar": "الرافعة المقصية الهيدروليكية المتحركة من ساب تكـ هي رافعة منصية شائعة تستخدم لأنواع مختلفة من أعمال الصيانة دورية متقدمة والمشاريع التي يصل ارتفاعها إلى 14 متر توفير سهولة المناورة في المساحات الضيقة للتطبيقات الداخلية والخارجية على الأسطح الثابتة والمستوية.\nفهي توفر الجودة والمتانة مع تحسين التكلفة الإجمالية للملكية والإنتاجية. توفر نظام متطور محرك التيار المتردد الاختياري إنتاجية لا مثيل لها للتنقل في مواقع العمل الداخلية والخارجية بطريقة مدمجة وخفيفة الوزن ومتعددة الاستخدامات.",
           "en": "SAB TECH’s Hydraulic Movable Scissor Lift is a popular aerial platform lift which is used for different kind of Comprehensive Maintenance and projects jobs up to 14 meters working height. Providing easy maneuverability in tight spaces for indoor and outdoor applications on firm and level surfaces.\nIt delivers quality and durability while improving total cost of ownership and productivity. The optional AC drive Advanced System offers unmatched productivity for getting around at indoor and outdoor jobsites in a compact, lightweight, and versatile manner."
@@ -2319,6 +2611,7 @@
           }
         ],
         "images": [
+          "/images/2.jpg",
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Scissor-Lift-1.jpg",
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-SL570x570.jpg",
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-6.jpg",
@@ -2326,7 +2619,233 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Two-Side-1.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/MOVABLE-SCISSOR-LIFT.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Scissor-Lift-1.jpg"
+        "image": "/images/2.jpg"
+      },
+      {
+        "id": "wheelchair-lift",
+        "name": {
+          "ar": "رافعة ومصعد ذوي الاحتياجات الخاصة",
+          "en": "Wheelchair Hydraulic Lift"
+        },
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/07/Wheelchair-Lift-Banner-Final.webp",
+        "description": {
+          "ar": "توفر مصاعد ورافعات الكراسي المتحركة الهيدروليكية حلاً هندسياً متطوراً ومريحاً وموثوقاً لنقل ذوي الاحتياجات الخاصة بأمان واستقلالية تامة بين المستويات والارتفاعات المختلفة، سواء في الأماكن الداخلية أو الخارجية كالمرائب، والطوابق السفلية، والميزانين، والمنشآت التجارية كالبنوك والفنادق والمستشفيات ومراكز التسوق.\nتتميز الرافعة بهيكل متناسق مدمج يناسب المساحات الصغيرة والضيقة، وتعمل بنظام طاقة هيدروليكي عالي الكفاءة يضمن الصعود والنزول السلس والآمن. كما يمكن تشغيلها والتحكم بها بسهولة فائقة عبر لوحة التحكم المدمجة على العمود أو أجهزة التحكم عن بعد لمزيد من المرونة مع توفر تحكم طوارئ يدوي متكامل، ومصممة حسب الطلب لتناسب الارتفاعات المطلوبة حتى 6 أمتار مع ضمان لمدة عام ودعم فني وقطع غيار أصلية.",
+          "en": "Sabtech hydraulic-powered wheelchair lifts provide an advanced, dependable, and convenient solution for transferring individuals with mobility needs safely and independently between different levels, both indoors and outdoors. Perfect for residential garages, basements, exterior decks, and commercial venues such as banks, hotels, hospitals, and shopping centers.\nFeaturing a compact, streamlined structure ideal for tight spaces, the lift operates via a high-efficiency hydraulic power pack ensuring smooth, secure ascent and descent. Operated effortlessly through column-mounted push buttons or wireless remote control with built-in emergency lowering controls. Fully customizable up to a lifting height of 6 meters and backed by a 1-year warranty, comprehensive maintenance, and genuine spare parts."
+        },
+        "stats": {
+          "ar": [
+            {
+              "label": "سعة الحمولة",
+              "value": "250 كجم"
+            },
+            {
+              "label": "أقصى ارتفاع",
+              "value": "6 أمتار"
+            },
+            {
+              "label": "جهد التحكم",
+              "value": "24V DC"
+            }
+          ],
+          "en": [
+            {
+              "label": "Load Capacity",
+              "value": "250 kg"
+            },
+            {
+              "label": "Max Height",
+              "value": "6 Meters"
+            },
+            {
+              "label": "Control Voltage",
+              "value": "24V DC"
+            }
+          ]
+        },
+        "features": {
+          "ar": [
+            "هيكل هندسي متناسق وصغير الحجم مصمم بعناية للمساحات الضيقة والمحدودة",
+            "ارتفاع رفع قابل للتخصيص حسب طلب العميل ومواصفات الموقع من 0.6 متر وحتى 6 أمتار",
+            "مناسب للتركيب والاستخدام في الأماكن الداخلية والخارجية بكفاءة ومقاومة عالية",
+            "سهل الاستخدام والتشغيل والتركيب مع إمكانية الفك والنقل عند الحاجة",
+            "تكلفة صيانة منخفضة مع نظام هيدروليكي متين وموثوق طويل الأمد",
+            "قدرة تحميل وسعة رفع تصل إلى 250 كجم مع أرضية مانعة للانزلاق",
+            "نظام تحكم مرن عبر أزرار العمود أو جهاز التحكم عن بُعد لراحة المستخدمين",
+            "مجهز بصمامات أمان وتحكم طوارئ للنزول الآمن في حالات انقطاع التيار الكهربائي",
+            "ضمان شامل لمدة عام مع توافر قطع الغيار الأصلية والدعم الفني المتخصص"
+          ],
+          "en": [
+            "Compact, precision-engineered structure ideal for tight and small spaces",
+            "Customizable lifting height tailored from 0.6 m up to 6 m based on site requirements",
+            "Suitable for both indoor and outdoor installations with high environmental resilience",
+            "Simple and user-friendly operation, rapid installation, and easy relocation",
+            "Low maintenance cost with a heavy-duty, dependable hydraulic power system",
+            "Substantial load capacity of up to 250 kg featuring skid-proof checkered platform plate",
+            "Flexible operation through column push-button control panel or wireless remote",
+            "Equipped with emergency lowering control and safety valves in case of power failure",
+            "Comprehensive 1-year warranty with genuine spare parts and technical support"
+          ]
+        },
+        "featureImages": [
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/fitu-wheel2.png",
+            "label": {
+              "ar": "أزرار التحكم بالمنصة",
+              "en": "Control Push Buttons"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/06/Electrical-Panel-Box.jpg",
+            "label": {
+              "ar": "صندوق التحكم الكهربائي المدمج",
+              "en": "Electrical Control Panel Box"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/fitu-wheel1.png",
+            "label": {
+              "ar": "أزرار التحكم الخارجية",
+              "en": "External Call Push Buttons"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/06/Hydraulic-System.jpg",
+            "label": {
+              "ar": "النظام الهيدروليكي المتقدم",
+              "en": "Advanced Hydraulic Power Pack"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/06/PLC-System.jpg",
+            "label": {
+              "ar": "نظام التحكم الذكي PLC",
+              "en": "Intelligent PLC Control System"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/fitu-wheel-3.png",
+            "label": {
+              "ar": "منحدر الصعود التلقائي (رمبة المنصة)",
+              "en": "Automatic Platform Ramp"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/fitu-wheel-4.png",
+            "label": {
+              "ar": "نظام تحكم وهبوط الطوارئ اليدوي",
+              "en": "Manual Emergency Lowering Control"
+            }
+          }
+        ],
+        "specs": {
+          "ar": [
+            {
+              "label": "مقاسات وأبعاد المنصة",
+              "value": "1430 × 1000 مم (صاج منقوش مانع للانزلاق)"
+            },
+            {
+              "label": "أقصى ارتفاع للمنصة",
+              "value": "6000 مم (6 أمتار)"
+            },
+            {
+              "label": "الحد الأدنى لارتفاع المنصة",
+              "value": "60 مم"
+            },
+            {
+              "label": "سرعة الرفع والنزول",
+              "value": "0.06 ~ 0.1 م / ثانية"
+            },
+            {
+              "label": "الكهرباء ومصدر التغذية",
+              "value": "220V, 1Phase, 60Hz"
+            },
+            {
+              "label": "قدرة موتور الرفع",
+              "value": "1.1 ~ 2.2 كيلوواط"
+            },
+            {
+              "label": "سعة وحمولة الرفع",
+              "value": "250 كجم"
+            },
+            {
+              "label": "جهد دائرة التحكم",
+              "value": "24 فولت تيار مستمر (24 VDC)"
+            },
+            {
+              "label": "المواد والتشطيب",
+              "value": "قضبان ألومنيوم وحواجز حماية بلاستيكية معالجة بالرش"
+            }
+          ],
+          "en": [
+            {
+              "label": "Platform Size",
+              "value": "1430 × 1000 mm (skid-proof checkered plate)"
+            },
+            {
+              "label": "Maximum Platform Height",
+              "value": "6000 mm (6 m)"
+            },
+            {
+              "label": "Minimum Platform Height",
+              "value": "60 mm"
+            },
+            {
+              "label": "Lifting / Lowering Speed",
+              "value": "0.06 ~ 0.1 m/s"
+            },
+            {
+              "label": "Power Supply",
+              "value": "220V, 1Phase, 60Hz"
+            },
+            {
+              "label": "Motor Power",
+              "value": "1.1 ~ 2.2 kW"
+            },
+            {
+              "label": "Load Capacity",
+              "value": "250 kg"
+            },
+            {
+              "label": "Control Voltage",
+              "value": "24 VDC"
+            },
+            {
+              "label": "Material & Finish",
+              "value": "Aluminum rails and protective guard with sprayed plastic"
+            }
+          ]
+        },
+        "specDrawings": [
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/s1.png",
+            "label": {
+              "ar": "نموذج عرض من الجانب",
+              "en": "Model Side View Drawing"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/s3.png",
+            "label": {
+              "ar": "نموذج عرض من الأعلى",
+              "en": "Model Top View Drawing"
+            }
+          },
+          {
+            "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/s2.png",
+            "label": {
+              "ar": "نموذج عرض من الأمام",
+              "en": "Model Front View Drawing"
+            }
+          }
+        ],
+        "images": [
+          "https://sabtech.com.sa/wp-content/uploads/2020/06/Two-Sides-.jpg",
+          "https://sabtech.com.sa/wp-content/uploads/2020/06/Front-view.jpg",
+          "https://sabtech.com.sa/wp-content/uploads/2020/06/Side-View.jpg",
+          "https://sabtech.com.sa/wp-content/uploads/2020/07/Wheelchair-Lift-Banner-Final.webp"
+        ],
+        "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/07/WheelChair-Lift.pdf",
+        "image": "https://sabtech.com.sa/wp-content/uploads/2020/06/Two-Sides-.jpg"
       },
       {
         "id": "hydraulic-dock-leveler",
@@ -2509,7 +3028,7 @@
           "ar": "منصة تحميل إنكيما – دوك ليفيلر",
           "en": "Inkema Dock Leveler – RH1"
         },
-        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2020/12/neuer-slider-HighTech2.jpg",
+        "coverImage": "/images/1.jpg",
         "description": {
           "ar": "تعد منصة التحميل من انكيما حلاً لا غنى عنه لمحطات التحميل. مناسبة لاستيعاب ارتفاعات الشاحنات المختلفة ومناطق التحميل، مما يجعلها من المعدات الأساسية لجميع أنواع أماكن التحميل. تُعد منصة التحميل الطريقة الأكثر عملية لتغطية الفجوة والارتفاع بين مستودع التحميل والشاحنة، مما يسمح لها بالثبات بقوة على منصة التحميل.\nبفضل آلية الميلان الهيدروليكية والشفة المفصلية، يمكن لـ منصة التحميل سد المسافة والارتفاع بين منصة التحميل وجسم الشاحنة.\nتشتمل المنصة العلوية لمنصة التحميل على إطار قاعدة سفلي لدعم المكونات الإضافية، ويتم لصقها بالقاعدة، مما يحقق الميل اللازم لتبسيط أنشطة التحميل والتفريغ.",
           "en": "Inkema’s RH1 Dock Leveler is an indispensable solution for loading bays. Suitable to accommodate different truck heights and loading bays making it an essential equipment for all types of loading bays. The dock leveler is the most practical way to cover the gap and height between a loading bay and truck, allowing it to rest firmly onto the loading bay.\nWith its hydraulic tilting mechanism and hinged lip, the RH1 Dock Leveler can bridge the distance and height between the loading bay and the truck’s body.\nComprising a lower base frame to support additional components, the dock leveler’s upper platform is affixed to the base, achieving the necessary incline to streamline loading and unloading activities."
@@ -2621,6 +3140,7 @@
           ]
         },
         "images": [
+          "/images/1.jpg",
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-Close.jpg",
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Back-3.jpg",
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-SIde-Open.jpg",
@@ -2628,7 +3148,7 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-Side-Close.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Dock-Leveler-RH1.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-Close.jpg"
+        "image": "/images/1.jpg"
       },
       {
         "id": "manual-loading-bridges",

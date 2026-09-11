@@ -32,7 +32,7 @@
       <div v-if="category.subcategories && category.subcategories.length" class="space-y-16">
         <div 
           v-for="sub in category.subcategories" 
-          :key="sub.id"
+          :key="sub.id" 
           class="space-y-6"
           data-aos="fade-up"
         >
@@ -54,11 +54,11 @@
               :data-aos-delay="index * 80"
             >
               <div>
-                <NuxtLink :to="localePath(`/products/${product.id}`)" class="block h-60 md:h-64 overflow-hidden relative bg-gray-100 dark:bg-gray-950 p-4">
+                <NuxtLink :to="localePath(`/products/${product.id}`)" class="block w-full aspect-square overflow-hidden relative bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
                   <NuxtImg 
                     :src="product.coverImage || product.images?.[0] || product.image" 
                     :alt="product.name?.[locale]" 
-                    class="w-full h-full object-contain group-hover:scale-105 transition duration-500"
+                    class="w-full h-full object-contain transition duration-500 group-hover:scale-[1.03]"
                     format="webp"
                     loading="lazy"
                   />
@@ -99,11 +99,11 @@
           :data-aos-delay="index * 80"
         >
           <div>
-            <NuxtLink :to="localePath(`/products/${product.id}`)" class="block h-60 md:h-64 overflow-hidden relative bg-gray-100 dark:bg-gray-950 p-4">
+            <NuxtLink :to="localePath(`/products/${product.id}`)" class="block w-full aspect-square overflow-hidden relative bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
               <NuxtImg 
                 :src="product.coverImage || product.images?.[0] || product.image" 
                 :alt="product.name?.[locale]" 
-                class="w-full h-full object-contain group-hover:scale-105 transition duration-500"
+                class="w-full h-full object-contain transition duration-500 group-hover:scale-[1.03]"
                 format="webp"
                 loading="lazy"
               />
