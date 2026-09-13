@@ -44,7 +44,7 @@
             </div>
             <div class="w-24 h-11 bg-white rounded-lg p-1 flex items-center justify-center flex-shrink-0 shadow-inner">
               <img 
-                src="https://electrocreative-cdn.b-cdn.net/24b4dcd0-51bf-4cf5-877e-27af4553d650.jpg" 
+                src="https://electrocreative-cdn.b-cdn.net/bestolex/dhareeba-logo.png" 
                 alt="General Tax Authority" 
                 class="max-h-full max-w-full object-contain"
                 loading="lazy"
@@ -108,7 +108,7 @@
           <p class="flex items-center gap-2">
             <span class="text-green-500 font-bold">💬</span>
             <a href="https://wa.me/97451505014" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition font-mono text-xs text-gray-300 flex items-center gap-1.5">
-              <span>+974 5150 5015</span>
+              <span>+974 5150 5014</span>
               <span class="text-[10px] bg-green-500/20 text-green-400 px-1.5 py-0.5 rounded">{{ locale === 'ar' ? 'واتساب' : 'WhatsApp' }}</span>
             </a>
           </p>

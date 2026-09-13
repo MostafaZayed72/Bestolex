@@ -61,7 +61,7 @@
                 <div>
                   <h4 class="font-bold text-gray-800 dark:text-white text-lg mb-1">{{ locale === 'ar' ? 'واتساب مباشر' : 'Direct WhatsApp' }}</h4>
                   <a href="https://wa.me/97451505014" target="_blank" rel="noopener noreferrer" class="text-green-600 dark:text-green-400 hover:underline font-mono font-bold flex items-center gap-1.5">
-                    <span dir="ltr">+974 5150 5015</span>
+                    <span dir="ltr">+974 5150 5014</span>
                     <span class="text-xs">💬</span>
                   </a>
                 </div>
