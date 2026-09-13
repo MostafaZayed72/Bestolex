@@ -301,44 +301,40 @@ const localePath = useLocalePath()
 const route = useRoute()
 const product = ref(null)
 
-useHead(() => {
-  if (!product.value) return {}
-  const title = product.value.name?.[locale.value] || 'Bestolex Product'
-  const desc = product.value.description?.[locale.value]?.substring(0, 160) || ''
-  const img = product.value.coverImage || product.value.image || ''
+const initProduct = () => {
+  const idStr = route.params.id
+  let foundProduct = null
+  let foundCatTitle = null
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': product.value.name?.en || title,
-    'description': product.value.description?.en || desc,
-    'image': img,
-    'offers': {
-      '@type': 'Offer',
-      'priceCurrency': 'USD',
-      'availability': 'https://schema.org/InStock',
-      'seller': {
-        '@type': 'Organization',
-        'name': 'Bestolex'
+  for (const category of mockProducts) {
+    if (category.products && Array.isArray(category.products)) {
+      const prod = category.products.find(p => p.id === idStr)
+      if (prod) { foundProduct = prod; foundCatTitle = category.title; break }
+    }
+    if (category.subcategories && Array.isArray(category.subcategories)) {
+      for (const sub of category.subcategories) {
+        if (sub.products && Array.isArray(sub.products)) {
+          const prod = sub.products.find(p => p.id === idStr)
+          if (prod) { foundProduct = prod; foundCatTitle = category.title; break }
+        }
       }
+      if (foundProduct) break
     }
   }
 
-  return {
-    title: `${title} | Bestolex Qatar`,
-    meta: [
-      { name: 'description', content: desc },
-      { property: 'og:title', content: `${title} | Bestolex` },
-      { property: 'og:description', content: desc },
-      { property: 'og:image', content: img }
-    ],
-    script: [
-      {
-        type: 'application/ld+json',
-        children: JSON.stringify(jsonLd)
-      }
-    ]
+  if (foundProduct) {
+    product.value = { ...foundProduct, categoryTitle: foundCatTitle }
   }
+}
+
+initProduct()
+
+const shareImage = computed(() => {
+  if (!product.value) return 'https://www.bestolex.com/logo.png'
+  const raw = product.value.cardImage || product.value.image || product.value.images?.[0] || product.value.coverImage || ''
+  if (!raw) return 'https://www.bestolex.com/logo.png'
+  if (raw.startsWith('http://') || raw.startsWith('https://')) return raw
+  return `https://www.bestolex.com${raw.startsWith('/') ? '' : '/'}${raw}`
 })
 
 const getEmbedYoutubeUrl = (url) => {
@@ -442,54 +438,58 @@ const submitQuote = async () => {
 }
 
 onMounted(() => {
-  const idStr = route.params.id
-  let foundProduct = null
-  let foundCatTitle = null
-
-  for (const category of mockProducts) {
-    if (category.products && Array.isArray(category.products)) {
-      const prod = category.products.find(p => p.id === idStr)
-      if (prod) { foundProduct = prod; foundCatTitle = category.title; break }
-    }
-    if (category.subcategories && Array.isArray(category.subcategories)) {
-      for (const sub of category.subcategories) {
-        if (sub.products && Array.isArray(sub.products)) {
-          const prod = sub.products.find(p => p.id === idStr)
-          if (prod) { foundProduct = prod; foundCatTitle = category.title; break }
-        }
-      }
-      if (foundProduct) break
-    }
-  }
-
-  if (foundProduct) {
-    product.value = { ...foundProduct, categoryTitle: foundCatTitle }
+  if (!product.value) initProduct()
+  if (product.value) {
     startCarousel()
   }
 })
 
+const pageTitle = computed(() => {
+  if (!product.value) return 'المنتجات | بيستوليكس قطر'
+  const name = product.value.name?.[locale.value] || product.value.name?.ar || 'منتج بيستوليكس'
+  return `${name} | بيستوليكس قطر`
+})
+
+const pageDesc = computed(() => {
+  if (!product.value) return 'معدات وأنظمة صناعية وهيدروليكية معتمدة في قطر من شركة بيستوليكس.'
+  const desc = product.value.description?.[locale.value] || product.value.description?.ar || ''
+  return desc.substring(0, 180).replace(/\r?\n|\r/g, ' ')
+})
+
+const pageUrl = computed(() => {
+  return `https://www.bestolex.com/products/${route.params.id}`
+})
+
 useSeoMeta({
-  title: () => {
-    if (!product.value) return 'المنتجات | بيستوليكس قطر'
-    const name = product.value.name?.[locale.value] || product.value.name?.ar || ''
-    return `${name} | بيستوليكس للمعدات الصناعية قطر`
-  },
-  description: () => {
-    if (!product.value) return ''
-    return product.value.description?.[locale.value] || product.value.description?.ar || ''
-  },
+  title: pageTitle,
+  description: pageDesc,
   keywords: () => {
     if (!product.value) return ''
     const name = product.value.name?.[locale.value] || ''
     const cat = product.value.categoryTitle?.[locale.value] || ''
     return `${name}, ${cat}, سعر ${name} في قطر, مواصفات ${name}, توريد ${name} الدوحة, بيستوليكس قطر`
   },
-  ogTitle: () => product.value?.name?.[locale.value] || 'Bestolex Product',
-  ogDescription: () => product.value?.description?.[locale.value] || '',
-  ogImage: () => product.value?.images?.[0] || '/images/hero/hero-bg.jpg'
+  // Open Graph for WhatsApp, Facebook, LinkedIn
+  ogSiteName: 'Bestolex Qatar | بيستوليكس قطر',
+  ogType: 'website',
+  ogTitle: pageTitle,
+  ogDescription: pageDesc,
+  ogUrl: pageUrl,
+  ogImage: shareImage,
+  ogImageSecureUrl: shareImage,
+  ogImageAlt: () => product.value?.name?.[locale.value] || 'Bestolex Product',
+  ogImageType: () => (shareImage.value.endsWith('.png') ? 'image/png' : 'image/jpeg'),
+  // Twitter Card
+  twitterCard: 'summary_large_image',
+  twitterTitle: pageTitle,
+  twitterDescription: pageDesc,
+  twitterImage: shareImage
 })
 
-useHead({
+useHead(() => ({
+  link: [
+    { rel: 'canonical', href: pageUrl.value }
+  ],
   script: [
     {
       type: 'application/ld+json',
@@ -497,8 +497,8 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': product.value?.name?.[locale.value] || 'Bestolex Equipment',
-        'image': product.value?.images || [],
-        'description': product.value?.description?.[locale.value] || '',
+        'image': [shareImage.value, ...(product.value?.images || [])],
+        'description': pageDesc.value,
         'brand': {
           '@type': 'Brand',
           'name': 'Bestolex / SAB TECH'
@@ -515,7 +515,7 @@ useHead({
       })
     }
   ]
-})
+}))
 
 onUnmounted(() => {
   if (carouselInterval) clearInterval(carouselInterval)

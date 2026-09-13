@@ -154,7 +154,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Side.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/refuse_compactor_20m.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/persi-compactor/card.png"
       },
       {
         "id": "auto-horizontal-baler",
@@ -298,7 +299,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/09/Autobaler4.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/09/horizontal-AUTO-baler.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Autobaler-1.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Autobaler-1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/auto-horizontal-baler/card.jpg"
       },
       {
         "id": "horizontal-plastic-baler-70",
@@ -476,7 +478,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Side-5.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/HORIZONTAL-BALING-PRESS-100T.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-View.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-View.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/horizontal-plastic-baler-70/card.png"
       },
       {
         "id": "steel-press-50t",
@@ -588,7 +591,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1314.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/07/horizontal-AUTO-baler.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1329.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/SAB_1329.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/steel-press-50t/cover.png"
       },
       {
         "id": "cardboard-plastic-baler-100",
@@ -758,7 +762,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1.webp"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/VERTICAL-BALING-PRESS-10T.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP100-2-1-1.webp",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/cardboard-plastic-baler-100/card.png"
       },
       {
         "id": "cardboard-plastic-baler-200",
@@ -936,7 +941,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP200-3-1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/VERTICAL-BALING-PRESS-20T.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP200-1-1.png"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/BP200-1-1.png",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/cardboard-plastic-baler-200/card.png"
       },
       {
         "id": "cardboard-plastic-baler-500",
@@ -1128,7 +1134,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP500-3-1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/02/VERTICAL-BALING-PRESS-50T.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP500-1-1.png"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/02/BP500-1-1.png",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/cardboard-plastic-baler-500/card.jpg"
       },
       {
         "id": "can-bottle-baler-80",
@@ -1297,7 +1304,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Sideupdated.jpg",
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Frontupdated.jpg"
         ],
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Sideupdated.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Sideupdated.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/can-bottle-baler-80/card.png"
       },
       {
         "id": "textile-baler",
@@ -1454,7 +1462,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2020/07/Two-Side-2.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/07/Product-brochure-Textible-baling-press.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Side-1.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2020/07/Side-1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/textile-baler/card.png"
       },
       {
         "id": "pringer-compactor",
@@ -1611,7 +1620,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2014/08/BeringerGarbageCompactor-1.webp"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/09/Refuse-compactor-2020.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Beringer-Garbage-Compactor-1.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2019/09/Beringer-Garbage-Compactor-1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/pringer-compactor/card.png"
       },
       {
         "id": "solar-bin-waste-compactor",
@@ -1812,7 +1822,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2023/12/BAnner1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/Company-Profile-Brochure(Arabic).pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/PEL3.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2023/12/PEL3.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/solar-bin-waste-compactor/card.png"
       },
       {
         "id": "vertical-garbage-compactor-2cy",
@@ -2030,7 +2041,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC5.webp"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/Company-Profile-Brochure(Arabic).pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2-1.webp"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2026/02/VGC2-1.webp",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/vertical-garbage-compactor-2cy/card.png"
       }
     ]
   },
@@ -2220,7 +2232,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/MLC-4-1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/MAST-CARGO-HYDRAULIC-LIFT.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/MLC-5-1.png"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/MLC-5-1.png",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/mast-cargo-lift/card.png"
       },
       {
         "id": "scissors-lift",
@@ -2228,7 +2241,7 @@
           "ar": "رافعة مقصية",
           "en": "Scissor Lift Table"
         },
-        "coverImage": "/images/3.jpg",
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/05/Scissor-Lift-Table-1.jpg",
         "description": {
           "ar": "الرافعة المقصية الهيدروليكية من ساب تكـ خيار موثوق للغاية لمهام مناولة البضائع والمواد، وتتميز ببناء قوي ونظام متطور طاقة هيدروليكي عالي الأداء.\nتم تصميم هندسي مبتكر هذه الطاولات بدقة مع وضع السلامة كأولوية قصوى، وتتضمن صمام تخفيف هيدروليكي لمنع الحوادث وضمان حماية الموظفين والمنشآت. تضمن الرافعة المقصية النقل العمودي الفعال للمواد، وتعمل على تقليل الانحراف حتى عند التعامل مع حمولات تصل إلى 3 طن، مما يسهل العمليات في المستودعات ومرافق التصنيع ومراكز التوزيع.",
           "en": "Sabtech hydraulic scissor lift table provides a dependable solution for heavy-duty material handling. Featuring a rugged construction and Superior Quality-performance hydraulic Advanced System, it is designed with safety as top priority.\nIncludes hydraulic relief valves to protect personnel and structures. It minimizes deflection when handling loads up to 3 tons and provides smooth vertical transport of goods across warehouses, manufacturing plants, and logistics hubs."
@@ -2408,7 +2421,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/04/SL-4-1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/SCISSOR-LIFT-TABLE.pdf",
-        "image": "/images/3.jpg"
+        "image": "/images/3.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/scissors-lift/card.jpg"
       },
       {
         "id": "movable-scissors-lifts",
@@ -2416,7 +2430,7 @@
           "ar": "رافعة مقصية متحركة",
           "en": "Movable Scissor Lift"
         },
-        "coverImage": "/images/2.jpg",
+        "coverImage": "https://sabtech.com.sa/wp-content/uploads/2019/05/Movable-Scissor-Lift-.jpg",
         "description": {
           "ar": "الرافعة المقصية الهيدروليكية المتحركة من ساب تكـ هي رافعة منصية شائعة تستخدم لأنواع مختلفة من أعمال الصيانة دورية متقدمة والمشاريع التي يصل ارتفاعها إلى 14 متر توفير سهولة المناورة في المساحات الضيقة للتطبيقات الداخلية والخارجية على الأسطح الثابتة والمستوية.\nفهي توفر الجودة والمتانة مع تحسين التكلفة الإجمالية للملكية والإنتاجية. توفر نظام متطور محرك التيار المتردد الاختياري إنتاجية لا مثيل لها للتنقل في مواقع العمل الداخلية والخارجية بطريقة مدمجة وخفيفة الوزن ومتعددة الاستخدامات.",
           "en": "SAB TECH’s Hydraulic Movable Scissor Lift is a popular aerial platform lift which is used for different kind of Comprehensive Maintenance and projects jobs up to 14 meters working height. Providing easy maneuverability in tight spaces for indoor and outdoor applications on firm and level surfaces.\nIt delivers quality and durability while improving total cost of ownership and productivity. The optional AC drive Advanced System offers unmatched productivity for getting around at indoor and outdoor jobsites in a compact, lightweight, and versatile manner."
@@ -2619,7 +2633,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Two-Side-1.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/MOVABLE-SCISSOR-LIFT.pdf",
-        "image": "/images/2.jpg"
+        "image": "/images/2.jpg",
+        "cardImage": "/images/2.jpg"
       },
       {
         "id": "wheelchair-lift",
@@ -2845,7 +2860,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2020/07/Wheelchair-Lift-Banner-Final.webp"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/07/WheelChair-Lift.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2020/06/Two-Sides-.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2020/06/Two-Sides-.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/wheelchair-lift/card.png"
       },
       {
         "id": "hydraulic-dock-leveler",
@@ -3020,7 +3036,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-4-1.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/04/Dock-Leveler.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-1-1.png"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/DL-1-1.png",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/hydraulic-dock-leveler/card.png"
       },
       {
         "id": "dock-leveler-inkema",
@@ -3028,7 +3045,7 @@
           "ar": "منصة تحميل إنكيما – دوك ليفيلر",
           "en": "Inkema Dock Leveler – RH1"
         },
-        "coverImage": "/images/1.jpg",
+        "coverImage": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/04/Doors.webp",
         "description": {
           "ar": "تعد منصة التحميل من انكيما حلاً لا غنى عنه لمحطات التحميل. مناسبة لاستيعاب ارتفاعات الشاحنات المختلفة ومناطق التحميل، مما يجعلها من المعدات الأساسية لجميع أنواع أماكن التحميل. تُعد منصة التحميل الطريقة الأكثر عملية لتغطية الفجوة والارتفاع بين مستودع التحميل والشاحنة، مما يسمح لها بالثبات بقوة على منصة التحميل.\nبفضل آلية الميلان الهيدروليكية والشفة المفصلية، يمكن لـ منصة التحميل سد المسافة والارتفاع بين منصة التحميل وجسم الشاحنة.\nتشتمل المنصة العلوية لمنصة التحميل على إطار قاعدة سفلي لدعم المكونات الإضافية، ويتم لصقها بالقاعدة، مما يحقق الميل اللازم لتبسيط أنشطة التحميل والتفريغ.",
           "en": "Inkema’s RH1 Dock Leveler is an indispensable solution for loading bays. Suitable to accommodate different truck heights and loading bays making it an essential equipment for all types of loading bays. The dock leveler is the most practical way to cover the gap and height between a loading bay and truck, allowing it to rest firmly onto the loading bay.\nWith its hydraulic tilting mechanism and hinged lip, the RH1 Dock Leveler can bridge the distance and height between the loading bay and the truck’s body.\nComprising a lower base frame to support additional components, the dock leveler’s upper platform is affixed to the base, achieving the necessary incline to streamline loading and unloading activities."
@@ -3148,7 +3165,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-Side-Close.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Dock-Leveler-RH1.pdf",
-        "image": "/images/1.jpg"
+        "image": "/images/1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/dock-leveler-inkema/card.png"
       },
       {
         "id": "manual-loading-bridges",
@@ -3267,7 +3285,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Top-1-4.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Manual-Loading-Bridges.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Top-1-2.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Top-1-2.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/manual-loading-bridges/card.png"
       },
       {
         "id": "inflatable-dock-shelter",
@@ -3387,7 +3406,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigos-muelle-hinchables-002.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Inflatable-Dock-Shelter.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigos-muelle-hinchables-002-1.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigos-muelle-hinchables-002-1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/inflatable-dock-shelter/card.png"
       },
       {
         "id": "retractable-dock-shelter",
@@ -3478,7 +3498,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-004.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Retractable-Dock-Shelter.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-003.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/abrigo-muelle-retractil-003.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/retractable-dock-shelter/card.png"
       },
       {
         "id": "movable-dock-ramp",
@@ -3663,7 +3684,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/05/Side-2.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/MOVABLE-DOCK-RAMP.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-2.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2019/05/Front-2.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/movable-dock-ramp/card.png"
       },
       {
         "id": "minidock",
@@ -3812,7 +3834,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2019/12/Front.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/12/MINI-DOCK.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Side.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2019/12/Side.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/minidock/card.png"
       },
       {
         "id": "mobile-loading-dock",
@@ -3986,7 +4009,8 @@
           "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-3.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2021/09/MOBILE-LOADING-DOCK.pdf",
-        "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-4.jpg"
+        "image": "https://sabtech.com.sa/wp-content/uploads/2021/09/MLD2T-4.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/mobile-loading-dock/card.png"
       }
     ]
   },
@@ -4165,7 +4189,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/DSC_3240.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2021/09/ABOVE-GROUND-TiRE-KILLER.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/DSC3344.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2021/08/DSC3344.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/above-ground-tyre-killer/card.jpg"
       },
       {
         "id": "high-security-road-blocker-pas68",
@@ -4362,7 +4387,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2055BG1.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2014/08/HIGH-SECURITY-ROAD-BLOCKER-PAS68.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2063BG1.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/12/SAB_2063BG1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/high-security-road-blocker-pas68/card.png"
       },
       {
         "id": "high-security-shallow-road-blocker-pas68",
@@ -4564,7 +4590,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/2222.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2014/08/HIGH-SECURITY-SHALLOW-ROAD-BLOCKER-PAS68.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/product-1.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2023/09/product-1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/high-security-shallow-road-blocker-pas68/card.png"
       },
       {
         "id": "road-blocker",
@@ -4770,7 +4797,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Shallow-type-close.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/Road-Blocker.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Type-Two-Side.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Standard-Type-Two-Side.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/road-blocker/card.png"
       },
       {
         "id": "surface-mount-hydraulic-road-blocker",
@@ -4922,7 +4950,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure5.jpg"
         ],
         "pdf": "",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure1.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2024/07/Structure1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/surface-mount-hydraulic-road-blocker/card.png"
       },
       {
         "id": "road-bollard",
@@ -5059,7 +5088,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Automatic-rising-bollard.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/AUTOMATIC-ROAD-BOLLARD.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Bollardwithsablogoyellow.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Bollardwithsablogoyellow.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/road-bollard/card.png"
       },
       {
         "id": "turnstiles",
@@ -5167,7 +5197,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/Securitygate4.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/TURNSTILES.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/03/Securitygate1.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/03/Securitygate1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/turnstiles/card.png"
       },
       {
         "id": "under-vehicle-surveillance-system",
@@ -5274,7 +5305,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/floorsecurity2.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2020/02/UNDER-VEHICLE-SURVEILLANCE-SYSTEM.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/floor-security3.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2020/02/floor-security3.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/under-vehicle-surveillance-system/card.png"
       },
       {
         "id": "tyre-killer",
@@ -5440,7 +5472,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Front-5.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/05/ABOVE-GROUND-TiRE-KILLER.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tire-Killer-1.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/05/Tire-Killer-1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/tyre-killer/card.jpg"
       }
     ]
   },
@@ -5593,7 +5626,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Volvo-Granada-5-10-11-13.jpg"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/12/INDUSTRIAL-SECTIONAL-DOORS.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Industrial-Sectional-Door-1.jpg"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Industrial-Sectional-Door-1.jpg",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/industrial-sectional-doors/card.jpg"
       },
       {
         "id": "high-speed-doors",
@@ -5745,7 +5779,8 @@
           "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/Superior Quality-Speed-Doors-1-Resized.png"
         ],
         "pdf": "https://sabtech.com.sa/wp-content/uploads/2019/12/HIGH-SPEED-ROLL-UP-DOORS.pdf",
-        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/High-Speed-Roll-Up-Doors-Banner-Final.webp"
+        "image": "https://cdn-bdndb.nitrocdn.com/eIrOlccsLlNnvyQrPazdcVenFMvRQVpc/assets/images/optimized/rev-62ed56e/sabtech.com.sa/wp-content/uploads/2019/12/High-Speed-Roll-Up-Doors-Banner-Final.webp",
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/high-speed-doors/card.jpg"
       }
     ]
   },
@@ -6053,7 +6088,8 @@
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/13.PNG",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/14.PNG",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/15.PNG"
-        ]
+        ],
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-1/card.png"
       },
       {
         "id": "garsite-10000-gallon-truck-2",
@@ -6345,7 +6381,8 @@
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/12.PNG",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/13.PNG",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/14.PNG"
-        ]
+        ],
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-2/card.png"
       },
       {
         "id": "garsite-10000-gallon-truck-3",
@@ -6662,7 +6699,8 @@
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/14.jpeg",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/15.jpeg",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/16.jpeg"
-        ]
+        ],
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-3/card.png"
       },
       {
         "id": "garsite-10000-gallon-truck-4",
@@ -6979,7 +7017,8 @@
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/14.jpeg",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/15.jpeg",
           "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/16.jpeg"
-        ]
+        ],
+        "cardImage": "https://electrocreative-cdn.b-cdn.net/bestolex/products/garsite-10000-gallon-truck-4/card.png"
       }
     ]
   }

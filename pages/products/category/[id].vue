@@ -56,7 +56,7 @@
               <div>
                 <NuxtLink :to="localePath(`/products/${product.id}`)" class="block w-full aspect-square overflow-hidden relative bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
                   <NuxtImg 
-                    :src="product.coverImage || product.images?.[0] || product.image" 
+                    :src="product.cardImage || product.coverImage || product.images?.[0] || product.image" 
                     :alt="product.name?.[locale]" 
                     class="w-full h-full object-contain transition duration-500 group-hover:scale-[1.03]"
                     format="webp"
@@ -101,7 +101,7 @@
           <div>
             <NuxtLink :to="localePath(`/products/${product.id}`)" class="block w-full aspect-square overflow-hidden relative bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
               <NuxtImg 
-                :src="product.coverImage || product.images?.[0] || product.image" 
+                :src="product.cardImage || product.coverImage || product.images?.[0] || product.image" 
                 :alt="product.name?.[locale]" 
                 class="w-full h-full object-contain transition duration-500 group-hover:scale-[1.03]"
                 format="webp"
@@ -180,6 +180,7 @@ const loadCategory = () => {
   category.value = mockProducts.find(c => c.id === idStr) || null
 }
 
+loadCategory()
 onMounted(loadCategory)
 watch(() => route.params.id, loadCategory)
 
