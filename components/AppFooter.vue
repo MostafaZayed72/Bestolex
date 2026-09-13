@@ -83,6 +83,12 @@
           <li><NuxtLink :to="localePath('/products')" class="hover:text-primary transition">{{ locale === 'ar' ? 'المنتجات' : 'Products' }}</NuxtLink></li>
           <li><NuxtLink :to="localePath('/training')" class="hover:text-primary transition">{{ locale === 'ar' ? 'التدريب' : 'Training' }}</NuxtLink></li>
           <li><NuxtLink :to="localePath('/privacy')" class="hover:text-primary transition">{{ locale === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy' }}</NuxtLink></li>
+          <li>
+            <button @click="openCookieSettings" type="button" class="hover:text-primary transition text-left rtl:text-right flex items-center gap-1.5 text-gray-400 hover:text-amber-400">
+              <span>🍪</span>
+              <span>{{ locale === 'ar' ? 'إعدادات ملفات الارتباط' : 'Cookie Settings' }}</span>
+            </button>
+          </li>
           <li><NuxtLink :to="localePath('/contact')" class="hover:text-primary transition">{{ locale === 'ar' ? 'تواصل معنا' : 'Contact' }}</NuxtLink></li>
         </ul>
       </div>
@@ -178,4 +184,10 @@ const { locale } = useI18n()
 const localePath = useLocalePath()
 
 const categories = mockProducts.slice(0, 5)
+
+const openCookieSettings = () => {
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('open-cookie-settings'))
+  }
+}
 </script>
