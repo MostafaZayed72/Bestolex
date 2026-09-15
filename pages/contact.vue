@@ -241,8 +241,8 @@ const isAr = computed(() => locale.value === 'ar')
 
 useSeoMeta({
   title: isAr.value
-    ? 'تواصل معنا | طلب عروض الأسعار والاستشارات الهندسية - بيستوليكس قطر'
-    : 'Contact Us | Request Quotes & Engineering Consultations - Bestolex Qatar',
+    ? 'تواصل معنا | طلب عروض الأسعار والاستشارات - بيستوليكس قطر'
+    : 'Contact Us | Quotes & Technical Consultations - Bestolex',
   description: isAr.value
     ? 'تواصل مباشرة مع فريق بيستوليكس في الدوحة، قطر لطلب عروض الأسعار، المعاينة الميدانية، والاستشارات الهندسية للمعدات الهيدروليكية وحلول حماية المحيط والمستودعات.'
     : 'Contact Bestolex Trading in Doha, Qatar for quotes, site survey requests, and technical consultations on hydraulic and industrial systems.',

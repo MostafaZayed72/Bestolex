@@ -348,8 +348,8 @@ const isAr = computed(() => locale.value === 'ar')
 
 useSeoMeta({
   title: isAr.value
-    ? 'من نحن | بيستوليكس للتجارة والمقاولات - رواد الحلول الهندسية والصناعية قطر'
-    : 'About Us | Bestolex Trading & Contracting - Industrial Engineering Solutions Qatar',
+    ? 'من نحن | شركة بيستوليكس للحلول الهندسية والصناعية في قطر'
+    : 'About Us | Bestolex Engineering Solutions Qatar',
   description: isAr.value
     ? 'تعرف على شركة بيستوليكس القطرية، الوكيل الحصري والشريك الصناعي المعتمد لساب تك، والمتخصصة في توريد وتجهيز المنشآت بالأنظمة الهيدروليكية وحلول حماية المحيط ومعدات المستودعات.'
     : 'Learn about Bestolex Trading & Contracting in Qatar, exclusive partner for SAB TECH, specializing in industrial hydraulics, security systems, and logistics solutions.',

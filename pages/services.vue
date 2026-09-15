@@ -254,8 +254,8 @@ const isAr = computed(() => locale.value === 'ar')
 
 useSeoMeta({
   title: isAr.value
-    ? 'خدماتنا الهندسية واللوجستية | دراسة الاحتياج، التوريد، التركيب والصيانة - بيستوليكس قطر'
-    : 'Engineering & Logistics Services | Site Survey, Supply, Installation & Maintenance - Bestolex Qatar',
+    ? 'خدماتنا الهندسية | توريد وتركيب وصيانة المعدات - بيستوليكس'
+    : 'Engineering Services | Supply, Install & Maintain - Bestolex',
   description: isAr.value
     ? 'خدمات متكاملة من 8 مراحل تغطي دورة حياة المشاريع الصناعية: دراسة الموقع، التصميم الهندسي، التوريد المعتمد، التركيب الميداني، التدريب على التشغيل، وعقود الصيانة الدورية في قطر.'
     : 'Comprehensive 8-stage industrial services lifecycle in Qatar: site assessment, engineering design, certified supply, field installation, commissioning, and preventive maintenance.',

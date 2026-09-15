@@ -145,7 +145,10 @@ useSeoMeta({
   title: () => {
     if (!article.value) return isAr.value ? 'المقال | المدونة الهندسية بيستوليكس' : 'Article | Bestolex Blog'
     const t = article.value.title?.[locale.value] || article.value.title?.ar || ''
-    return isAr.value ? `${t} | بيستوليكس قطر` : `${t} | Bestolex Qatar`
+    const suffix = isAr.value ? ' | بيستوليكس' : ' | Bestolex'
+    const maxLen = 60 - suffix.length
+    const cleanT = t.length > maxLen ? t.substring(0, maxLen - 1) + '…' : t
+    return `${cleanT}${suffix}`
   },
   description: () => {
     if (!article.value) return ''

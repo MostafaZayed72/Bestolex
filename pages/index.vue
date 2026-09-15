@@ -20,9 +20,9 @@
         <div class="flex justify-center mb-8">
           <NuxtImg src="/logo.png" alt="Bestolex Logo" class="h-20 md:h-32 object-contain drop-shadow-xl filter brightness-0 invert" format="webp" loading="eager" />
         </div>
-        <p class="text-xl md:text-3xl font-medium mb-8 text-gray-100 drop-shadow-md">
+        <h1 class="text-xl md:text-3xl font-medium mb-8 text-gray-100 drop-shadow-md">
           {{ locale === 'ar' ? 'الخيار الأول لتجارة الآلات والمعدات الثقيلة والنظم الهيدروليكية المتقدمة' : 'YOUR PREMIER PARTNER FOR HEAVY MACHINERY & ADVANCED HYDRAULIC SYSTEMS' }}
-        </p>
+        </h1>
         <NuxtLink :to="localePath('/products')" class="inline-block bg-primary text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition shadow-lg shadow-primary/30 hover:scale-105">
           {{ locale === 'ar' ? 'اكتشف منتجاتنا' : 'Explore Our Products' }}
         </NuxtLink>
@@ -276,8 +276,8 @@ const isAr = computed(() => locale.value === 'ar')
 
 useSeoMeta({
   title: isAr.value 
-    ? 'بيستوليكس قطر | رواد الأنظمة الهيدروليكية، حماية المحيط، منصات التحميل ومكابس التدوير'
-    : 'Bestolex Qatar | Hydraulic Systems, Perimeter Protection, Dock Levelers & Balers',
+    ? 'بيستوليكس قطر | حلول الأنظمة الهيدروليكية والمعدات الصناعية'
+    : 'Bestolex Qatar | Industrial Hydraulics & Security Systems',
   description: isAr.value
     ? 'الشركة الرائدة في قطر لتوريد وتركيب وصيانة الأنظمة الهيدروليكية الصناعية، المصدات الأمنية الغاطسة، حواجز مفجر الإطارات، منصات التحميل اللوجستية، ومكابس تدوير الكرتون والبلاستيك.'
     : 'Leading industrial supplier in Qatar for hydraulic machinery, crash-rated bollards, tyre killers, hydraulic dock levelers, industrial doors, and waste baling presses.',

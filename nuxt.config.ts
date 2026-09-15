@@ -52,7 +52,7 @@ export default defineNuxtConfig({
         lang: 'ar',
         dir: 'rtl'
       },
-      title: 'بيستوليكس | Bestolex Qatar - الأنظمة الهيدروليكية وحلول حماية المحيط والمعدات الصناعية',
+      title: 'بيستوليكس قطر | الأنظمة الهيدروليكية والمعدات الصناعية',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

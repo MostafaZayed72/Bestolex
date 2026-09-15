@@ -186,6 +186,7 @@
                   >
                     <img 
                       :src="art.image" 
+                      :alt="art.title?.[locale] || art.title_ar || (locale === 'ar' ? 'صورة المقال' : 'Article Image')"
                       class="w-12 h-12 rounded-lg object-cover flex-shrink-0 bg-gray-100 dark:bg-gray-700 group-hover/art:scale-105 transition"
                     >
                     <div class="flex-1 min-w-0">

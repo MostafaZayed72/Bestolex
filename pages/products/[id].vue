@@ -23,9 +23,9 @@
         <div class="absolute inset-0 bg-gradient-to-t from-[#121c2d] via-black/30 to-black/40"></div>
         
         <div class="relative z-10 text-center px-4" data-aos="fade-up">
-          <h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] tracking-tight">
+          <p class="text-3xl md:text-5xl lg:text-6xl font-black text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] tracking-tight">
             {{ product.name[locale] }}
-          </h1>
+          </p>
         </div>
       </section>
 
@@ -113,7 +113,7 @@
                   class="w-20 h-20 md:w-28 md:h-28 bg-white rounded-xl overflow-hidden border-2 transition-all p-2"
                   :class="currentImageIndex === idx ? 'border-[#E99E15] shadow-lg shadow-[#E99E15]/30 scale-110' : 'border-transparent opacity-60 hover:opacity-100 hover:scale-105'"
                 >
-                  <NuxtImg :src="img" class="w-full h-full object-contain" format="webp" loading="lazy" />
+                  <NuxtImg :src="img" :alt="`${product.name?.[locale] || 'Bestolex'} - ${idx + 1}`" class="w-full h-full object-contain" format="webp" loading="lazy" />
                 </button>
               </div>
             </div>
@@ -445,9 +445,12 @@ onMounted(() => {
 })
 
 const pageTitle = computed(() => {
-  if (!product.value) return 'المنتجات | بيستوليكس قطر'
+  if (!product.value) return locale.value === 'ar' ? 'المنتجات | بيستوليكس قطر' : 'Products | Bestolex Qatar'
   const name = product.value.name?.[locale.value] || product.value.name?.ar || 'منتج بيستوليكس'
-  return `${name} | بيستوليكس قطر`
+  const suffix = locale.value === 'ar' ? ' | بيستوليكس قطر' : ' | Bestolex Qatar'
+  const maxLen = 60 - suffix.length
+  const cleanName = name.length > maxLen ? name.substring(0, maxLen - 1) + '…' : name
+  return `${cleanName}${suffix}`
 })
 
 const pageDesc = computed(() => {
